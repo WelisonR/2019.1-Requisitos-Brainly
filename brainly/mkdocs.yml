@@ -1,4 +1,8 @@
 site_name: REQUISITOS — Brainly
+pages:
+  - PRÉ-RASTREABILIDADE:
+    - Argumentação: argumentacao.md
+    - RichPicture: rich_picture.md
 theme:
   language: 'pt'
   name: 'material'
