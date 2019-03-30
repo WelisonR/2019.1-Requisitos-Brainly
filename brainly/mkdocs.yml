@@ -1,0 +1,12 @@
+site_name: REQUISITOS — Brainly
+theme:
+  language: 'pt'
+  name: 'material'
+  logo: 'images/brainly/icon.png'
+  favicon: 'images/brainly/icon.png'
+  palette:
+    primary: 'light blue'
+    accent: 'white'
+
+repo_name: 'Brainly'
+repo_url: 'https://github.com/WelisonR/2019.1-Requisitos-Brainly'
