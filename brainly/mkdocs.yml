@@ -7,7 +7,6 @@ pages:
     - Não ao Twich.TV: nao_twich.md
     - Votação para escolha do tema: votacao_tema.md
     - Confirmação do tema: confirmacao_tema.md
-  
 theme:
   language: 'pt'
   name: 'material'

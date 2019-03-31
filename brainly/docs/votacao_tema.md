@@ -1,1 +1,1 @@
-<img src="images/argumentacao/votacao_tema.jpg"/>
+![](images/argumentacao/votacao_tema.jpg)

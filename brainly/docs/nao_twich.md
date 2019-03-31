@@ -1,1 +1,1 @@
-<img src="images/argumentacao/nao_twich.jpg"/>
+![](images/argumentacao/nao_twich.jpg)
