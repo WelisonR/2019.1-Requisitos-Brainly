@@ -1,0 +1,1 @@
+<img src="images/argumentacao/sim_brainly.jpg"/>
