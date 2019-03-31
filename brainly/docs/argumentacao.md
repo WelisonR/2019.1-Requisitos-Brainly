@@ -31,3 +31,5 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 |  :------: | :------: | :------: |
 | Professores | _P1_ | Por imposição o grupo teve que escolher outro tema. |
 | Grupo | _P2_ | [Por meio de votação foi escolhido o brainly.](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_tema/) |
+
+[versão anterior](https://welisonr.github.io/2019.1-Requisitos-Brainly/argumentacao_versoes/)
