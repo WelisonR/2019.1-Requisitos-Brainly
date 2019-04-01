@@ -18,7 +18,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 ![Argumentação sobre o tema](images/argumentacao/argumentacao_tema.png)
 
-| Autor | Proposição | Inferência |
+| Autor | Proposição | |
 |  :------: | :------: | :------: |
 | grupo | _i(p1)_ | Escolhemos twich TV. |
 | professores | _i(p2)_ | [O grupo não pode escolher twich TV pois já foi tema em semestres anteriores.](https://welisonr.github.io/2019.1-Requisitos-Brainly/nao_twich/) |
@@ -29,7 +29,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 | Welison | _i(p7)_ | Minha sugestão é o brainly, site voltado para estudo, não acho que seja bom pegar algo tão grande.|
 | professores | _i(p8)_ |[Tema ok.](https://welisonr.github.io/2019.1-Requisitos-Brainly/confirmacao_tema/) |
 
-| Autor | Preferência | Inferência |
+| Autor | Preferência | |
 |  :------: | :------: | :------: |
 | Professores | _P1_ | Por imposição o grupo teve que escolher outro tema. |
 | Grupo | _P2_ | [Por meio de votação foi escolhido o brainly.](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_tema/) |
@@ -40,7 +40,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 ![Argumentação sobre mensagens](images/argumentacao/argumentacao_mensagens.png)
 
-| Autor | Inferência | Inferência |
+| Autor | Inferência | |
 |  :------: | :------: | :------: |
 | Leonardo | i(p1) | Todos os usuários devem dispor do 'chat' para aumentar o entrosamento e discussão das questões apresentadas na plataforma. |
 | Ivan | I(p2) | O Brainly, como um serviço prestado em território nacional, deve fornecer o 'chat' e resguardar as diretrizes constitucionais de forma a assegurar a integridade física, moral e intelectual de seus usuários ao utilizar o serviço. |
@@ -49,7 +49,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 
 
-| Autor | Preferência | Inferência |
+| Autor | Preferência | |
 |  :------: | :------: | :------: |
 | [Votação](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_mensagem/) | _P1_ |Por votação, decidiu-se que o ‘Brainly’ deve retirar o ‘chat’ devido a complicações legais e éticas. |
 | [Votação](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_mensagem/) | _P2_ | Por votação, decidiu-se que o Brianly deve fornecer uma ferramenta de comunicação entre a administração, moderadores e usuários, além de possibilitar o uso do recurso por bons usuários. |
@@ -59,7 +59,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 ![Argumento sobre os níveis do Brainly](images/argumentacao/argumentacao_niveis.png)
 
-| Autor | Proposição | Inferência |
+| Autor | Proposição | |
 |  :------: | :------: | :------: |
 |Leonardo | i(p1) | O nível do usuário deve ser dinâmico e incentivar aqueles usuários mais ativos na plataforma. Logo, usuários inativos devem perder níveis de experiência ao se tornarem inativos. |
 | André | i(p2) | Os usuários devem ser incentivados a continuar usando o sistema e a continuar ajudando os outros, podendo perder experiência todo mês. |
@@ -69,6 +69,6 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 
 
-| Autor | Preferência | Inferência |
+| Autor | Preferência | |
 |  :------: | :------: | :------: |
 | Votação | _P1_ | O fato de perder experiência desmotiva o usuário a continuar colaborando para a plataforma, então deve-se manter o nível do usuário.|
