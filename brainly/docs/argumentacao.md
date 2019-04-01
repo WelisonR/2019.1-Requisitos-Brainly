@@ -7,7 +7,6 @@
 | 1.0 | 31/03/2019 | Argumentação sobre o tema | Lieverton |
 | 1.1 | 01/04/2019 | Argumentação sobre os níveis | André Pinto, Leonardo Medeiros, Welison Regis |
 
-
 ## Argumentação
 
 A argumentação pode ser definida como uma organização discursiva que inclui a negociação de argumentos a favor e contrários a um ponto de vista, objetivando chegar a uma conclusão.
