@@ -22,6 +22,10 @@ Um modelo completamente informal, normalmente criado sem um rigor muito técnico
 
 ![Visão geral Brainly v1](images/rich_picture/rich_picture_macro_vision_v1.jpg)
 
+## Rich Picture Visão Geral Brainly v2
+
+![Visão geral Brainly v2](images/rich_picture/rich_picture_macro_vision_v2.png)
+
 ## RichPicture Gamificação 
 
 ![Rich picture gamification](images/rich_picture/rich_picture_gamification.jpg)
