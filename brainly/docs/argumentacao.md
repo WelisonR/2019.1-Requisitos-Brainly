@@ -5,7 +5,8 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 31/03/2019 | Argumentação sobre o tema | Lieverton |
-| 1.1 | 01/04/2019 | Argumentação sobre os níveis | André Pinto, Leonardo Medeiros, Welison Regis |
+| 1.0 | 31/03/2019 | Argumentação sobre o sistema de mensagens | Welison |
+| 1.0 | 01/04/2019 | Argumentação sobre os níveis | André Pinto, Leonardo Medeiros, Welison Regis |
 
 ## Argumentação
 
@@ -34,6 +35,25 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 | Grupo | _P2_ | [Por meio de votação foi escolhido o brainly.](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_tema/) |
 
 [versão anterior](https://welisonr.github.io/2019.1-Requisitos-Brainly/argumentacao_versoes/)
+
+## Argumentação sobre o sistema de mensagens
+
+![Argumentação sobre mensagens](images/argumentacao/argumentacao_mensagens.png)
+
+| Autor | Inferência | Inferência |
+|  :------: | :------: | :------: |
+| Leonardo | i(p1) | Todos os usuários devem dispor do 'chat' para aumentar o entrosamento e discussão das questões apresentadas na plataforma. |
+| Ivan | I(p2) | O Brainly, como um serviço prestado em território nacional, deve fornecer o 'chat' e resguardar as diretrizes constitucionais de forma a assegurar a integridade física, moral e intelectual de seus usuários ao utilizar o serviço. |
+| Paulo | i(p3) | O 'chat' é utilizado de maneira indevida por alguns usuários, o que ocasiona xingamentos, solicitação de dados pessoais, assédio, etc. Logo, deve ser retirado da plataforma. |
+| Welison| i(p4) | O usuário dispor de um 'chat' básico de modo a possibilitar os usuários a conversarem com moderadores e administradores para retirar dúvidas, além de liberar a ferramenta para usuários com boa reputação no site. |
+
+
+
+| Autor | Preferência | Inferência |
+|  :------: | :------: | :------: |
+| [Votação](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_mensagem/) | _P1_ |Por votação, decidiu-se que o ‘Brainly’ deve retirar o ‘chat’ devido a complicações legais e éticas. |
+| [Votação](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_mensagem/) | _P2_ | Por votação, decidiu-se que o Brianly deve fornecer uma ferramenta de comunicação entre a administração, moderadores e usuários, além de possibilitar o uso do recurso por bons usuários. |
+
 
 ## Argumentação sobre os níveis do Brainly
 
