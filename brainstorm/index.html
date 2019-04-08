@@ -36,7 +36,7 @@
     
     
       
-        <title>QUESTIONÁRIO - REQUISITOS — Brainly</title>
+        <title>Brainstorming - REQUISITOS — Brainly</title>
       
     
     
@@ -102,10 +102,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#questionario" tabindex="1" class="md-skip">
-        Ir para o conteúdo
-      </a>
-    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -127,7 +123,7 @@
               REQUISITOS — Brainly
             </span>
             <span class="md-header-nav__topic">
-              QUESTIONÁRIO
+              Brainstorming
             </span>
           
         </div>
@@ -379,10 +375,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       ELICITAÇÃO
@@ -434,11 +432,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../brainstorm/" title="Brainstorming" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Brainstorming" class="md-nav__link md-nav__link--active">
       Brainstorming
     </a>
+    
   </li>
 
         
@@ -454,90 +459,224 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Índice</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#perfil-alvo-usuarios-gerais" title="Perfil alvo - Usuários gerais" class="md-nav__link">
-    Perfil alvo - Usuários gerais
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/edit/master/docs/questionario.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/edit/master/docs/brainstorm.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="questionario">QUESTIONÁRIO</h1>
-<h2 id="perfil-alvo-usuarios-gerais">Perfil alvo - Usuários gerais</h2>
-<ul>
-<li>
-<p>Quais desses sites de perguntas e respostas você conhece?</br>
-( ) Yahoo Respostas </br>
-( ) Brainly </br>
-( ) StackOverflow </br>
-( ) Outro: <strong><em>_</em></strong>_____</br></p>
-</li>
-<li>
-<p>Você costuma acessar esses sites para:
-( ) Responder Perguntas de outros usuários </br>
-( ) Esclarecer suas dúvidas </br>
-( ) Não costumo acessar esses sites </br></p>
-</li>
-<li>
-<p>Dentre as motivações que esses sistemas podem oferecer para responder perguntas, dê uma nota de 1 a 3 para cada uma. Sendo 1 indiferente e 3 motivador.</br>
-( ) Sistema de pontos </br>
-( ) Sistema de níveis </br>
-( ) Sistema de ranking </br>
-( ) Sistema de conquistas </br>
-( ) Concluir desafios </br>
-( ) Reforçar seu conhecimento </br>
-( ) O prazer em ajudar outros usuários.</br></p>
-</li>
-<li>
-<p>Você adicionaria alguma outra funcionalidade para motivar os usuários dessas plataformas a responder perguntas? Se sim qual/quais?</p>
-</li>
-<li>
-<p>Existe alguma característica dessas plataformas que te desmotiva a ultilizá-las? Se sim, quais e qual sua sugestão para resolução desse problema?</p>
-</li>
-<li>
-<p>Um sistema de escolaridade é bem dividido em ensino fundamental, médio e superior? Dê uma nota de 1 a 3 sendo, 1 mal dividido, e 3 bem dividido.</p>
-</li>
-<li>
-<p>Você adicionaria mais áreas de conhecimento para essas plataformas, se sim, quais?</p>
-</li>
-<li>
-<p>De acordo com o objetivo do brainly, que é esclarecer suas dúvidas e ajudar outros usuários, dê uma nota de 1 a 7 correspondendo ao objetivo do app. 1 caso o objetivo não tenha sido cumprido e 7 se foi perfeitamente cumprido.</p>
-</li>
-<li>
-<p>Você ultilizaria o brainly  para esclarecer dúvidas escolares e acadêmicas?</p>
-</li>
-</ul>
+                  <h1>Brainstorming</h1>
+                
+                <table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th align="center">Requisito funcional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">Moderar usuários</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Adicionar amigos</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Seguir usuários</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Realizar perguntas</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Responder perguntas em forma de texto, imagem e/ou TeX</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Escolher melhor respostas</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Reportar perguntas</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Avaliar resposta</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Aceitar e completar desafios</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">Conquistar emblemas</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">Contatar moderador</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Criar conta</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">Gerenciar e personalizar contas</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Recuperação de senha</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">Suspender conta</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">Cancelar conta</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Usuário deve ter a capacidade de se tornar moderador</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">O sistema deve se comunicar com o usuário</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">Permitir ao usuário indicar o sistema para amigos em redes sociais</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">Usuário deve ter acesso ao seu progresso no sistema de pontuacao e niveis</td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td align="center">Usuário deve ter acesso as perguntas populares</td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td align="center">Uma pergunta só pode ter até duas respostas</td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td align="center">Ranking diário, semanal, mensal, trimestral</td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td align="center">Compartilhar perguntas em redes sociais</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td align="center">O usuário deve conseguir alterar a sua região</td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td align="center">Filtrar perguntas</td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">Avaliar plataforma</td>
+</tr>
+<tr>
+<td align="center">28</td>
+<td align="center">Receber notificações</td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td align="center">Visualizar suas perguntas e respostas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th align="center">Requisito não funcional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">Crianças menores de 13 anos não podem se registrar na plataforma</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">O sistema brainly tem que ser multiplataformas</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Deve haver consistência entre as diversas plataformas</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Necessidade de cadastro para uso da plataforma no site</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Não necessidade de cadastro para perguntar no app</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Apenas usuários registrados podem responder em ambas plataformas</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Informações de pessoas menores de 16 anos não podem ser usadas para fins de marketing sem autorizacão</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Os termos de uso e politicas de privacidade devem ser consistentes entre plataformas</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Necessidade de conexão a Internet para uso do aplicativo</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">Medida de segurança para protecão de dados (não especificada pelo site)</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">O sistema pode monitorar e registrar atividades nos serviços da brainly sem autorização prévia</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">O usuário ao se registrar concede permissão total sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Assinatura pode ser revogada</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">Perguntas sem respostas por muito tempo devem ser apagadas</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">O sistema preve atualização automática do software móvel</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">As informações pessoais dos usuários não podem ser utilizadas para fins comerciais</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">O sistema preve pagamento para assinatura de serviços</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -554,6 +693,27 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../entrevista/" title="Entrevista" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Entrevista
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
