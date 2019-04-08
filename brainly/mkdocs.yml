@@ -14,6 +14,7 @@ pages:
     - Plano de elicitação: plano_elicitacao.md
     - Introspecção: introspeccao.md
     - Entrevista: entrevista.md
+    - Brainstorming: brainstorm.md
     
 theme:
   language: 'pt'
