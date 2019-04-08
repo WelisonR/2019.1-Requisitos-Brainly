@@ -8,6 +8,8 @@ pages:
     - Confirmação do tema: confirmacao_tema.md
     - Não ao Twich.TV: nao_twich.md
     - Votação para escolha do tema: votacao_tema.md
+  - ELICITAÇÃO:
+    - Plano de elicitação: plano_elicitacao.md
 theme:
   language: 'pt'
   name: 'material'
