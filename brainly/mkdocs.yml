@@ -12,6 +12,7 @@ pages:
     - Votação sistema de mensagem: votacao_mensagem.md
   - ELICITAÇÃO:
     - Plano de elicitação: plano_elicitacao.md
+    - Introspecção: introspeccao.md
     
 theme:
   language: 'pt'
