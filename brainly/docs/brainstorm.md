@@ -27,12 +27,12 @@
 | 25 | O usuário deve conseguir alterar a sua região |
 | 26 | Filtrar perguntas |
 | 27 | Avaliar plataforma |
-| 28 | Receber notificacoes |
+| 28 | Receber notificações |
 | 29 | Visualizar suas perguntas e respostas |
 
 |  Número | Requisito não funcional |
 |  :------: | :------: |
-| 1 | Criancas menores de 13 anos não podem se registrar na plataforma |
+| 1 | Crianças menores de 13 anos não podem se registrar na plataforma |
 | 2 | O sistema brainly tem que ser multiplataformas |
 | 3 | Deve haver consistência entre as diversas plataformas |
 | 4 | Necessidade de cadastro para uso da plataforma no site |
@@ -43,11 +43,10 @@
 | 9 | Necessidade de conexão a Internet para uso do aplicativo |
 | 10 | Medida de segurança para protecão de dados (não especificada pelo site) |
 | 11 | O sistema pode monitorar e registrar atividades nos serviços da brainly sem autorização prévia |
-| 12 | O usuário deve ser alfabetizado |
-| 13 | O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços |
-| 14 | O usuário ao se registrar concede permissão total sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing |
-| 15 | Assinatura pode ser revogada |
-| 16 | Perguntas sem respostas por muito tempo devem ser apagadas |
-| 17 | O sistema preve atualizacao automatica do software movel |
-| 18 | As informações pessoais dos usuários não podem ser utilizadas para fins comerciais |
-| 19 | O sistema preve pagamento para assinatura de serviços |
+| 12 | O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços |
+| 13 | O usuário ao se registrar concede permissão total sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing |
+| 14 | Assinatura pode ser revogada |
+| 15 | Perguntas sem respostas por muito tempo devem ser apagadas |
+| 16 | O sistema preve atualização automática do software móvel |
+| 17 | As informações pessoais dos usuários não podem ser utilizadas para fins comerciais |
+| 18 | O sistema preve pagamento para assinatura de serviços |
