@@ -4,6 +4,8 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
+| 1.0 | 27/03/2019 | Primeira versão RichPicture de visão geral | Welison Regis |
+| 2.0 | 31/03/2019 | Segunda versão RichPicture de visão geral | Welison Regis |
 | 1.0 | 31/03/2019 | Primeira versão RichPicture de gamificação | João Gabriel Rossi, Paulo Vitor, Ivan Diniz |
 | 1.1 | 31/03/2019 | Primeira versão RichPicture de plataformas | João Rodrigues, Lieverton Santos, Gustavo Marques |
 | 1.2 | 01/04/2019 | Primeira versão RichPicture de perguntas e respostas | André Pinto, Leonardo Medeiros, Welison Regis |
@@ -16,6 +18,11 @@ Rich picture é uma ferramenta/modelagem para análise de problemas e apresenta�
 
 Um modelo completamente informal, normalmente criado sem um rigor muito técnico, visando poder ser criado junto com o próprio cliente, normalmente desenhado baseado em um problema central no meio de uma página em branco e criando tópicos relacionados com esse problema e as suas ramificações.
 
+
+## Rich Picture Visão Geral Brainly
+
+![Visão geral Brainly](images/rich_picture/rich_picture_macro_vision_v2.png)
+
 ## RichPicture Gamificação 
 
 ![Rich picture gamification](images/rich_picture/rich_picture_gamification.jpg)
@@ -27,3 +34,5 @@ Um modelo completamente informal, normalmente criado sem um rigor muito técnico
 ## RichPicture Perguntas e Respostas 
 
 ![Rich picture perguntas e respostas](images/rich_picture/rich_picture_questions_answers.png)
+
+[Versões anteriores](https://welisonr.github.io/2019.1-Requisitos-Brainly/rich_picture_versoes/)

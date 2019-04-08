@@ -5,11 +5,14 @@ pages:
     - RichPicture: rich_picture.md
   - RASTREABILIDADE-PRINTS:
     - Versões da argumentação: argumentacao_versoes.md
+    - Versões de Rich Picture: rich_picture_versoes.md
     - Confirmação do tema: confirmacao_tema.md
     - Não ao Twich.TV: nao_twich.md
     - Votação para escolha do tema: votacao_tema.md
+    - Votação sistema de mensagem: votacao_mensagem.md
   - ELICITAÇÃO:
     - Plano de elicitação: plano_elicitacao.md
+    
 theme:
   language: 'pt'
   name: 'material'
