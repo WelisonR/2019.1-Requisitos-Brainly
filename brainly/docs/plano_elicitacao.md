@@ -5,6 +5,7 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 07/04/2019 | Plano de elicitação inicial | João Gabriel Rossi |
+| 1.1 | 08/04/2019 | Adicionando o campo de entrevista | João Gabriel Rossi |
 
 
 ## Objetivo
