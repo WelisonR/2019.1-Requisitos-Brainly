@@ -16,6 +16,8 @@ a o usuário em relação ao software.
 acaba sendo muito frutífera, com resultado bruto pronto para ser polido. Consiste de uma reunião composta por especialistas de diferentes áreas 
 que envolvem o objeto de estudo em que os mesmos geram novas ideias e estimulam os outros participantes a fazer o mesmo, visando a resolução do problema em questão. O objetivo procurado do grupo ao utilizar dessa técnica é obter uma visão superficial do software em questão, pronta para ser polida.
 
-- **Introspecção**: Técnica rica e profunda, que consiste em entender as propriedades do sistema por um especialista. Será utilizada com o intuito de entender mais a fundo o que foi levantado na etapa do brainstorming
+- **Introspecção**: Técnica rica e profunda, que consiste em entender as propriedades do sistema por um especialista. Será utilizada com o intuito de entender mais a fundo o software.
 
 - **Questionário**: Técnica que consiste em entender, de uma forma ampla, o usuário em relação ao sistema. Será utilizada pelo grupo para poder entender como que o usuário ou possível usuário enxerga o software
+
+- **Entrevista**: Técnica que tem como foco saber como um usuário em específico enxerga e utiliza o sistema, baseando-se em perguntas pré-definidas ou criadas ao decorrer da mesma. O grupo utilizou o método de entrevista fechada, em que o entrevistado responde perguntas pré-definidas, com o objetivo de elicitar requisitos.

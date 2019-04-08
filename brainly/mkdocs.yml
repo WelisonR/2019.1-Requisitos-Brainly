@@ -13,6 +13,7 @@ pages:
   - ELICITAÇÃO:
     - Plano de elicitação: plano_elicitacao.md
     - Introspecção: introspeccao.md
+    - Entrevista: entrevista.md
     
 theme:
   language: 'pt'
