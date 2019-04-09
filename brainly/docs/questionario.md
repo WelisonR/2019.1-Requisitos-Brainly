@@ -25,7 +25,7 @@ Branch 1
 ( ) Brainly </br>
 ( ) StackOverflow </br>
 ( ) Não conheço nenhum site nesse estilo.</br>
-( ) Outro: ____________</br>
+( ) Outro: _____________</br>
 
 - Você costuma acessar esses sites para:</br>
 ( ) Responder Perguntas de outros usuários </br>
@@ -33,15 +33,15 @@ Branch 1
 ( ) Não costumo acessar esses sites </br>
 
 - O que mais te motiva/motivaria a acessar essas plataformas para resṕonder perguntas?</br> Dê uma nota de 1 a 3 para cada uma. Sendo 1 indiferente e 3 motivador.</br>
-O prazer de ajudar outros usuários. 1( )  2( )  3( ) </br>
-Reforçar seu conhecimento. 1( )  2( )  3( )  </br> 
-Retorno monetário. 1( )  2( )  3( ) </br>
+O prazer de ajudar outros usuários.&emsp;1( )  2( )  3( ) </br>
+Reforçar seu conhecimento. &emsp;&emsp;&emsp;&emsp;1( )  2( )  3( )  </br> 
+Retorno monetário.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1( )  2( )  3( ) </br>
 
 - O que mais te motiva/motivaria a acessar essas plataformas para tirar dúvidas?</br> Dê uma nota de 1 a 3 para cada uma. Sendo 1 indiferente e 3 motivador.</br>
 ( ) Receber uma resposta rápida. </br>
 ( ) Reforçar seu conhecimento. </br>
 ( ) Interação entre quem perguntou e quem respondeu(desde um agradecimento até tirar dúvidas sobre a resolução do problema)</br>
-( ) Outros:_____________ </br>
+( ) Outros: _____________ </br>
 
 - Existe alguma característica dessas plataformas que te desmotiva ou que o desmotivaria a utilizá-las? Se sim, quais e qual sua sugestão para resolução desse problema?</br>
 _______________________________________________________________________________</br>
@@ -53,8 +53,8 @@ _______________________________________________________________________________<
 ## Perfil alvo - Usuários que utilizam o braily
 Branch 2
 
-- Você entende como funciona o sistema de perguntas? Se não, quais foram suas dificuldades ao usar o sistema?
-________________________________________________________________________________</br>
+- Você entende como funciona o sistema de perguntas? Se não, quais foram suas dificuldades ao usar o sistema?</br>
+_________________________________________________________________________</br>
 
 - Dentre as motivações que o brainly oferece para responder perguntas, dê uma nota de 1 a 3 para cada uma. Sendo 1 indiferente e 3 motivador.</br>
 ( ) Sistema de pontos </br>
@@ -66,7 +66,7 @@ ________________________________________________________________________________
 ( ) O prazer em ajudar outros usuários.</br>
 
 - Você adicionaria alguma outra funcionalidade para motivar os usuário do brainly a responder perguntas? Se sim qual?</br>
-_________________________________________________________________________________________________________________</br>
+___________________________________________________________________________________</br>
 
 - O sistema de escolaridade é bem dividido em ensino fundamental, médio e superior?</br> Dê uma nota de 1 a 3 sendo, 1 mal dividido, e 3 bem dividido.</br>
 ( ) 1</br>
@@ -81,9 +81,9 @@ ________________________________________________________________________________
 ( ) 5</br>
  
 - Você adicionaria mais áreas de conhecimento no brainly, se sim, quais?</br>
-_____________________________________________________________________________________________</br>
+_____________________________________________________________________________________</br>
 
-- De acordo com o objetivo do brainly, que é esclarecer suas dúvidas e ajudar outros usuários, dê uma nota de 1 a 7 correspondendo ao objetivo do app. 1 caso o objetivo não tenha sido cumprido e 7 se foi perfeitamente cumprido.
+- De acordo com o objetivo do brainly, que é esclarecer suas dúvidas e ajudar outros usuários, dê uma nota de 1 a 7 correspondendo ao objetivo do app. 1 caso o objetivo não tenha sido cumprido e 7 se foi perfeitamente cumprido.</br>
 ( ) 1</br>
 ( ) 2</br>
 ( ) 3</br>
