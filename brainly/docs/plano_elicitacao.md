@@ -7,6 +7,7 @@
 | 1.0 | 07/04/2019 | Plano de elicitação inicial | João Gabriel Rossi |
 | 1.1 | 08/04/2019 | Adicionando o campo de entrevista | João Gabriel Rossi |
 | 1.2 | 08/04/2019 | Adicionando o campo do Storytelling | Lieverton Snatos |
+| 1.3 | 09/04/2019 | Descreve a metodologia utilizada na introspecção | Welison Regis |
 
 ## Objetivo
 O documento tem como intuito definir técnicas a serem aplicadas na fase de elicitação dos requisitos, visando entender
@@ -17,7 +18,7 @@ a o usuário em relação ao software.
 acaba sendo muito frutífera, com resultado bruto pronto para ser polido. Consiste de uma reunião composta por especialistas de diferentes áreas 
 que envolvem o objeto de estudo em que os mesmos geram novas ideias e estimulam os outros participantes a fazer o mesmo, visando a resolução do problema em questão. O objetivo procurado do grupo ao utilizar dessa técnica é obter uma visão superficial do software em questão, pronta para ser polida.
 
-- **Introspecção**: Técnica rica e profunda, que consiste em entender as propriedades do sistema por um especialista. Será utilizada com o intuito de entender mais a fundo o software.
+- **Introspecção**: Técnica rica e profunda, consiste em entender as propriedades do sistema mediante a auto-reflexão sobre dado contexto. O grupo utilizou a técnica de _storytelling_ para descrever o contexto do problema, seguido da introspecção baseada nas necessidades derivadas da história contada, o que acarretou na elicitação de requisitos.
 
 - **Questionário**: Técnica que consiste em entender, de uma forma ampla, o usuário em relação ao sistema. Será utilizada pelo grupo para poder entender como que o usuário ou possível usuário enxerga o software
 
