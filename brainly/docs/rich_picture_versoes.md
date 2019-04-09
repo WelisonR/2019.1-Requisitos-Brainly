@@ -11,3 +11,9 @@
 
 ## Rich Pictures Perguntas
 ![Perguntas_1](images/rich_picture/IVAO.jpg)
+
+## RichPicture Primeiros Passos de Novo Usuário Cadastrado
+![Usuario_nao_cadastrado](images/rich_picture/andre_rich_picture_primeiros_passos_usuario_cadastrado.jpg)
+
+## RichPicture Primeiros Passos de Novo Usuário Não Cadastrado
+![Usuario_cadastrado](images/rich_picture/andre_rich_picture_primeiros_passos_usuario_nao_cadastrado.jpg)
