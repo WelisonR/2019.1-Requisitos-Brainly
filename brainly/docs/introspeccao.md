@@ -57,4 +57,43 @@ Para discorrer uma resposta de qualidade, João necessita de:
 | INT1.8 | Recursos de programação | O sistema deve possibilitar a inserção adequada de código-fonte | - |
 | INT1.9 | Consistência ferramental | A ferramenta que possibilita respostas deve ser consistente entre as plataformas | - |
 
-#### Requisitos comuns às introspecções
+## Introspecção 2 - Moderação de perguntas e respostas
+
+|Papel | Data | Nome | Observação |
+|--|--|--|--|
+| Autor | 09/04/2019 | Welison Regis | Membro da equipe/Usuário |
+
+Lucas, moderador na plataforma Brainly, corresponde às demandas de denúncias e dúvidas de usuários no site. Em atividades cotidianas, depara-se com perguntas e respostas com brincadeiras, insultos, assédios ou outros problemas do gênero.
+
+Concorrente a Lucas tem Guilherme, usuário que já não tem mais pontos e que decidiu obter a pontuação da forma mais rápida possível: digitando besteiras nas respostas das questões. Porém, Guilherme foi rapidamente denunciado por outros usuários, o que acarretou na exclusão de suas brincadeiras e em advertência ao usuário, aplicadas por Lucas, moderador do site.
+
+
+##### Necessidades Técnicas
+*   Acesso a um dispositivo que tenha internet.
+*   Consistência entre as múltimas versões (mobile, web) da plataforma;
+*   Disponibilização das ferramentas de moderação entre as múltiplas versões da plataforma.
+
+##### Necessidades Sociais
+Para tratar ações como a de Guilherme, a plataforma necessita de:
+
+*   Dispor recurso de denúncia a usuários fora das regras da plataforma;
+*   Ter funcionários e voluntários que possam verificar a procedência das denúncias e aplicar as devidas punições.
+
+##### Necessidades Individuais
+Para moderar com qualidade, Lucas necessita de:
+
+*   Treinamento por parte da administração para tratar as demandas do site.
+*   Ferramenta que possibilite a exclusão do conteúdo indevido e que registre a penalidade ao perfil do usuário;
+*   Ferramenta para bloquear, deletar ou banir o usuário da plataforma.
+*   Macros com as mensagens padrões para moderação.
+
+#### Requisitos Elicitados
+
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :--------: |
+| INT2.1 | Denúncia à irregularidade | O sistema deve oferecer um meio ao qual os usuários podem denunciar irregularidades em perguntas, respostas ou comentários | - |
+| INT2.2 | Moderação multiplataforma | Deve ser possível ao moderador e à administração a gerência de conteúdos em qualquer que seja a plataforma de uso da aplicação | - |
+| INT2.3 | Aperfeiçoamento da moderação | As ações dos moderadores devem ser pautadas por treinamentos e ensinamentos por parte da administração | - |
+| INT2.4 | Macros de moderação | A administração deve dispor macros de moderação para facilitar a atuação na plataforma | - |
+| INT2.5 | Ferramenta de exclusão de conteúdo | O sistema deve dispor aos moderados e à administração ferramentas que possibilitem a exclusão de conteúdos indevido | - |
+| INT2.6 | Ferramenta de repressão intensiva | A plataforma deve dispor aos moderadores e à administração ferramentas para bloquear, deletar e banir péssimos usuários da plataforma | - |
