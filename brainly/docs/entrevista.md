@@ -98,6 +98,9 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 17. L - Você gostaria de acrescentar mais alguma funcionalidade na versão web?
     - P - Não , acho ela bem completa.
 
+
+[link](https://drive.google.com/file/d/1-8kgP7v__OhbHu8Zkr4lan4o9Rvon3QZ/view) para o áudio.
+
 **Requisitos levantados nessa entrevista**
 
 | Requisito | Descrição |
