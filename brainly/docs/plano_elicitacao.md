@@ -6,7 +6,7 @@
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 07/04/2019 | Plano de elicitação inicial | João Gabriel Rossi |
 | 1.1 | 08/04/2019 | Adicionando o campo de entrevista | João Gabriel Rossi |
-
+| 1.2 | 08/04/2019 | Adicionando o campo do Storytelling | Lieverton Snatos |
 
 ## Objetivo
 O documento tem como intuito definir técnicas a serem aplicadas na fase de elicitação dos requisitos, visando entender
@@ -22,3 +22,5 @@ que envolvem o objeto de estudo em que os mesmos geram novas ideias e estimulam 
 - **Questionário**: Técnica que consiste em entender, de uma forma ampla, o usuário em relação ao sistema. Será utilizada pelo grupo para poder entender como que o usuário ou possível usuário enxerga o software
 
 - **Entrevista**: Técnica que tem como foco saber como um usuário em específico enxerga e utiliza o sistema, baseando-se em perguntas pré-definidas ou criadas ao decorrer da mesma. O grupo utilizou o método de entrevista fechada, em que o entrevistado responde perguntas pré-definidas, com o objetivo de elicitar requisitos.
+
+- **Storytelling**: Técnica que se baseia na utilização de histórias em grupos de pessoas, incluindo organizações, como um método de comunicação para que os envolvidos possam compartilhar conhecimento.

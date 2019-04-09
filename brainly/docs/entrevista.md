@@ -12,7 +12,7 @@
 
 ### Técnica utilizada dentro do escopo de entrevista
 
-As técnica de entrevista utilizadas foram a de **entrevista fechada** , em que as questões são pré-definidas, com um objetivo claro de levantar requisitos ao fim da mesma para avaliar o sistema pelos olhos de um usuário e a de **entrevista hibrida**, em que algumas questões estão pré-definidas, mas tambeḿ dá liberdade ao entrevistado. 
+As técnica de entrevista utilizadas foram a de **entrevista fechada** , em que as questões são pré-definidas, com um objetivo claro de levantar requisitos ao fim da mesma para avaliar o sistema pelos olhos de um usuário e a de **entrevista híbrida**, em que algumas questões estão pré-definidas, mas tambeḿ dá liberdade ao entrevistado. 
 
 ## Entrevista
 
@@ -56,7 +56,7 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 | :----: | :-------: |
 | Recompensas pelo sistema de pontos | Aumento de recompensa por bater um certo valor de pontos no software, seja dentro ou fora do sistema |
 | Portabilidade e diferentes versões | Ter diferentes versões, tanto web como mobile |
-|    Manter o o sistema gratuito     |   Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização   |
+|    Manter o sistema gratuito     |   Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização   |
 
 
 ### Entrevista com usuário júnior 2
