@@ -16,6 +16,7 @@ pages:
     - Entrevista: entrevista.md
     - Brainstorming: brainstorm.md
     - Storytelling: storytelling.md
+    - Observação: observacao.md
 theme:
   language: 'pt'
   name: 'material'
