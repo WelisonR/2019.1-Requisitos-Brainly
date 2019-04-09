@@ -16,7 +16,7 @@ A equipe realizou dois storytellings com membros da própria equipe, relacionado
 
 O usuário começou a usar o aplicativo e logo se engajou com a estrutura de gamificação, em que a cada pergunta respondida ele ganhava pontos e subia de níveis. Depois de alguns níveis atingidos, o usuário resolveu tentar utilizar o aplicativo na versão web, porém o mesmo percebeu que seus níveis não eram os mesmos da versão mobile, eram menores. Logo o usuário passou a se sentir desmotivado a continuar usando o aplicativo por ter perdido seus níveis.
 
-[link](https://drive.google.com/drive/folders/1iFSg0jS1S7qAZ2TPhfGizR7Ft--l8H8T) para o áudio.
+[link](https://drive.google.com/file/d/172sNJ5ewDcYfJDkfuuDTaaRk0_cAWcyh/view) para o áudio.
 
 ###Requisitos elicitados
 
@@ -32,7 +32,7 @@ O usuário começou a usar o aplicativo e logo se engajou com a estrutura de gam
 
 O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele usava o google para obeter informações e ele notou que brainly sempre aparecia em suas buscas. Ele fez uma conta para participar da comunidade e começou a fazer perguntas e os outros integrantes sempre respondiam. Até que um dia ele não pode fazer mais perguntas e descobriu que havia um sistema de pontuação. Para fazer perguntas era necessaŕios pontos, como os seus estavam zerados acabou o desmotivando.
 
-[link](https://drive.google.com/drive/folders/1OAta1iwfKHc2XcyZ5KTAQacF4BMNEKvY) para o áudio.
+[link](https://drive.google.com/file/d/1JLXSbExunt_UWDjzaNVHbVcJxcz8xTFK/view) para o áudio.
 
 ###Requisitos elicitados
 
