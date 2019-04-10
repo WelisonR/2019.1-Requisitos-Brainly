@@ -26,21 +26,21 @@ O usuário pra acessar os serviços do Brainly fez um cadastro a partir do faceb
 
 #### Requisitos Elicitados
 
-| Código | Requisito | Descrição |
-| :----: | :-------: | :-------: |
-| AP1.1 | Cadastro | Registro do usuário no sistema |
-| AP1.2 | Entrar com facebook | O usuário pode se cadastrar com o facebook |
-| AP1.3 | Campo com perguntas | O usuário poderá ver perguntas e responde-las |
-| AP1.4 | Scroll | A página tem um sistema de rolagem |
-| AP1.5 | Categorias de perguntas | As perguntas podem ser categorizadas por matéria |
-| AP1.6 | Feedback do sistema | O sitema deve informar ao usuário realização de tarefas e pontuação |
-| AP1.7 | Sistema de Rankings | O sistema deve mostrar os usuários com maior pontuação |
-| AP1.8 | Sistema de Desafios | Deve haver desavios para o usuário com recompensas |
-| AP1.9 | Tirar dúvidas | O usuário poderá fazer perguntas |
-| AP1.10 | Pagamento por pergunta | O usuário poderá oferecer uma certa quantidade de pontos para alguem sanar sua dúvida |
-| AP1.11 | Pefil | O usuário deverá ter um perfil com suas informações |
-| AP1.12 | Logout | O usuário poderá sair da sua conta |
-| AP1.13 | Termos de uso | Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceita-lo |
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :-------: |
+| AP1.1 | Cadastro | Registro do usuário no sistema | M |
+| AP1.2 | Entrar com facebook | O usuário pode se cadastrar com o facebook | S |
+| AP1.3 | Campo com perguntas | O usuário poderá ver perguntas e responde-las | M |
+| AP1.4 | Scroll | A página tem um sistema de rolagem | S |
+| AP1.5 | Categorias de perguntas | As perguntas podem ser categorizadas por matéria | S |
+| AP1.6 | Feedback do sistema | O sitema deve informar ao usuário realização de tarefas e pontuação | C |
+| AP1.7 | Sistema de Rankings | O sistema deve mostrar os usuários com maior pontuação | C |
+| AP1.8 | Sistema de Desafios | Deve haver desavios para o usuário com recompensas | W |
+| AP1.9 | Tirar dúvidas | O usuário poderá fazer perguntas | M |
+| AP1.10 | Pagamento por pergunta | O usuário poderá oferecer uma certa quantidade de pontos para alguem sanar sua dúvida | C |
+| AP1.11 | Pefil | O usuário deverá ter um perfil com suas informações | C |
+| AP1.12 | Logout | O usuário poderá sair da sua conta | M |
+| AP1.13 | Termos de uso | Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceita-lo | M |
 
 ##Análise de Protocolo 2
 
@@ -57,10 +57,10 @@ Inicialmente o usuário pesquisou sobre uma questão de cálculo 1 e logo depois
 
 #### Requisitos Elicitados
 
-| Código | Requisito | Descrição |
-| :----: | :-------: | :-------: |
-| AP2.1 | Campo de pesquisa | O usuário pode pesquisar conteudos para ver se alguma pergunta já respondida pode tirar suas dúvidas |
-| AP2.2 | Filtro por matéria | O usuário pode escolher matérias especificas para responder questões |
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :-------: |
+| AP2.1 | Campo de pesquisa | O usuário pode pesquisar conteudos para ver se alguma pergunta já respondida pode tirar suas dúvidas | C |
+| AP2.2 | Filtro por matéria | O usuário pode escolher matérias especificas para responder questões | S |
 
 ###Análise de Protocolo 3
 
@@ -85,7 +85,7 @@ Abaixo, segue as notas da gravação de Lais Priscila
 | Cadastro | O usuario gostou de ter feito o cadastro de modo pratico |
 | Tutorial | O usuario preferiu não ler completamente o tutorial inicial e achou um ruim ter mais do que dois popups de tutorial |
 
-###Requisitos Elicitados
+####Requisitos Elicitados
 
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :----: |
