@@ -5,6 +5,7 @@
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 09/04/2019 | Introdução | Lieverton Santos |
 | 1.1 | 09/04/2019 | Análises de protocolo 1 e 2 | Lieverton Santos |
+| 1.2 | 09/04/2019 | Análise de protocolo 3 | André Pinto |
 
 ##Análise de Protocolo
 
@@ -60,3 +61,35 @@ Inicialmente o usuário pesquisou sobre uma questão de cálculo 1 e logo depois
 | :----: | :-------: | :-------: |
 | AP2.1 | Campo de pesquisa | O usuário pode pesquisar conteudos para ver se alguma pergunta já respondida pode tirar suas dúvidas |
 | AP2.2 | Filtro por matéria | O usuário pode escolher matérias especificas para responder questões |
+
+###Análise de Protocolo 3
+
+**Relator**: Lais Priscila  
+**Analisador**: André Pinto
+
+##Metodologia
+
+Para a execução dessa análide de protocolo foi preciso a ajuda de um usuário que nunca tinha dito contato com o Brainly, porém com algum contato com outras plataformas como Stack Overflow e Yahoo respostas. O analisador não interferiu durante o processo, deixando o usuário livre para explorar as funções da forma que mais lhe agradava. O audio do processo foi gravado com o consentimento da pessoa.
+
+###Analise do Usuario
+[link](https://drive.google.com/drive/folders/1nXl8VUbnya1pisaA3z5I8ODgyufCNtba) para o áudio.
+Abaixo, segue as notas da gravação de Lais Priscila
+
+| Atividade | Comentario |
+| :--: | ---- |
+| Criação de pergunta | O usuário confundiu a pesquisa por pergunta com criação de pergunas na tela inicial |
+| Vizualização das respostas | O usuário não encontrou nenhuma resposta que solucionava sua duvida |
+| Avaliar resposta | O usuario gostou do sistema de avaliar respostas, podendo dar nota baixa para respostas sem sentido |
+| Página principal | O usuario achou coerente a localidade do botão para voltar para a página inicial |
+| Cadastro | O usuario preferiu utilizar o email para realizar o cadastro |
+| Cadastro | O usuario gostou de ter feito o cadastro de modo pratico |
+| Tutorial | O usuario preferiu não ler completamente o tutorial inicial e achou um ruim ter mais do que dois popups de tutorial |
+
+###Requisitos Elicitados
+
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :----: |
+| AP3.1 | Funções de pesquisa e criação de perguntas intuitivas | O sistema deve fornecer funcoes de facil entendimento, com uma curva de aprendizado baixo e com maior diferenciação em funções parecidas | S |
+| AP3.2 | Avaliar respostas | O sistema deve oferecer ao usuario uma forma de ele dar feedback as respostas | M |
+| AP3.3 | Cadastro facil | O cadastro na plataforma deve ocorrer de uma maneira rapida e pratica | S |
+| AP3.4 | Tutorial | O sistema poderia ter um sistema de tutorial mais rapido com menos passos | W |
