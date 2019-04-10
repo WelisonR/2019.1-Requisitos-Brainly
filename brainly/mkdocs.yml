@@ -11,15 +11,16 @@ pages:
     - Votação para escolha do tema: votacao_tema.md
     - Votação sistema de mensagem: votacao_mensagem.md
   - ELICITAÇÃO:
-    - Plano de elicitação: plano_elicitacao.md
-    - Introspecção: introspeccao.md
-    - Entrevista: entrevista.md
-    - Brainstorming: brainstorm.md
-    - Storytelling: storytelling.md
-    - Observação: observacao.md
-    - Questionário: questionario.md
     - Análise de Protocolo: analise_protocolo.md
     - Análise de Questionário: analise_questionario.md
+    - Brainstorming: brainstorm.md
+    - Entrevista: entrevista.md
+    - Introspecção: introspeccao.md
+    - Observação: observacao.md
+    - Plano de elicitação: plano_elicitacao.md
+    - Storytelling: storytelling.md
+    - Questionário: questionario.md
+
 
 theme:
   language: 'pt'
