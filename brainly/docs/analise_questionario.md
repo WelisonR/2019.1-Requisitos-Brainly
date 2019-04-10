@@ -19,6 +19,9 @@ De acordo com esse dado a plataforma não é tão conhecida pelo público entrev
 | Não, interface muito confusa |
 | Sim. O guia é bom para fazer perguntas boas |
 
+Pelas respostas podemos concluir que o sistema de perguntas foi desenvolvido de tal maneira que a maioria dos usuários não tenha dificuldades em compreender seu funcionamento.
+</br>
+
 
 
 ### Pergunta 3
@@ -40,7 +43,11 @@ Para usuários que já conhecem a plataforma o sistema de gamificação tem ince
 | Responder o pc e não outro alguém. |
 | As pessoas que tiveram perguntas respondidas poderiam</br> mostrar fruto dessa mesma resposta. Seria mais incentivador |
 | Pagamento em dinheiro | 
-| Retorno monetário. |
+| Retorno monetário. | 
+
+Em geral a ideia de funcionalidade para motivação mais relevante é o retorno monetário para quem respondeu a pergunta. Além disso algumas das ideias citadas já estão implementadas na plataforma, que são: Aumentar a pontuação adquirida ao responder alguma pergunta, isso pode ser caracterizado como os desafios, e o feedback e acompanhamento de perguntas e respostas nas quais o usuário fez parte.
+</br>
+
 
 ### Pergunta 5
 ![Pergunta 5](images/questionario/qs5.png)
@@ -64,6 +71,9 @@ De acordo com o questionário o chat não é algo essencial para os usuários do
 | Não |
 | Não sei | 
 | A área que a pessoa for perguntar precisar |
+
+As pessoas se mostraram indiferentes quanto a novas áreas de conhecimento da plataforma. As áreas de conhecimento existentes parecem ser o suficiente para os usuários da pesquisa.
+</br>
 
 
 ### Pergunta 8
