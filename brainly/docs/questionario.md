@@ -235,3 +235,25 @@ ________________________________________________________________________________
 ( ) 5</br>
 ( ) 6</br>
 ( ) 7</br>
+</br>
+
+## Requisitos levantados nesse Questionário
+
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :--------:   |
+|  QS.1  | Sistema de pontuação |O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta           |     S        |
+|  QS.2      | Sistema de níveis          |  O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível          |    C         |
+|  QS.3      |  Sistema de rank         |  Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores          |    C         |
+|  QS.4      |  Conquistas          |  O usuário ganha conquistas ao realizar ações específicas     |  C  |
+|  QS.5      | Desafios         | O usuário ao completar desafios adquiri pontos          |        W     |
+|  QS.6      |   Retorno Monetário   | O usuário recebe dinheiro ao responder pergutas            |   C     |
+|  QS.7      |  Classificação das perguntas         | Dividir as perguntas em dificuldades           |    S         |
+|  QS.8      |    Chat       | Comunicação direta com outros usuários        | W     |
+| QS.9 | Sistema de perguntas | Usuários podem perguntar e responder problemas |  M  |
+
+
+Legenda - técnica de priorização:</br>
+
+M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
+</br>
+</br>
