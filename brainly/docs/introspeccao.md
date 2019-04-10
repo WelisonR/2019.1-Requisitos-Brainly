@@ -2,7 +2,7 @@
 
 Introspecção é uma técnica muito rica e profunda para a elicitação de requisitos. Através desse método, o indivíduo que pretende levantar os requisitos faz observações e descrições do conteúdo (pensamentos, sentimentos) que decorrem da auto-reflexão sobre o serviço e, mediante a isso, é possível entender as propriedades que o sistema deve possuir para que atenda as necessidades do seu público.
 
-As introspecções descritas abaixo, são divididas em três tópicos principais: contexto, necessidades do contexto e requisitos elicitados. Para contextualizar a introspecção, utilizou-se a ideia de um _storytelling_, em que há uma persona que  desempenha uma atividade na plataforma. Decorrente do contexto, foi feita uma auto-reflexão para elencar as necessidades técnicas, sociais e individuais da persona, o que em seguida decorre na elicitação dos requisitos.
+As introspecções descritas abaixo, são divididas em três tópicos principais: contexto, necessidades do contexto e requisitos elicitados. Para contextualizar a introspecção, utilizou-se a ideia de um _storytelling_, em que há uma persona que  desempenha uma atividade na plataforma. Decorrente do contexto, foi feita uma auto-reflexão para elencar as necessidades técnicas, sociais e individuais da persona, o que em seguida decorre na elicitação dos requisitos. Por fim, nessa primeira abordagem utilizou-se a técnica "MoSCoW" para priorizar os requisitos.
 
 ## Introspecção 1 - Fluxo de perguntas e respostas
 
@@ -48,15 +48,19 @@ Para discorrer uma resposta de qualidade, João necessita de:
 
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------: |
-| INT1.1 | Compartilhar questão | O usuário pode compartilhar questões da plataforma  | - |
-| INT1.2 | Comunicação aos seguidores | O _feed_ das contribuições de um usuáiro para a plataforma podem ser visualizadas por outros usuários da plataforma | - |
-| INT1.3 | Comunicação na questão | É possível se comunicar e retirar dúvidas nos comentários da própria questão. | - |
-| INT1.4 | Recursos textuais | O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto | - |
-| INT1.5 | Recursos de anexos | O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável | - |
-| INT1.6 | Recurso de notações matematícas | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX | - |
-| INT1.7 | Recursos de _hightlight_ | O sistema deve fornecer recurso de _hightlight_ (destaque) para certas informações, como citações | - |
-| INT1.8 | Recursos de programação | O sistema deve possibilitar a inserção adequada de código-fonte | - |
-| INT1.9 | Consistência ferramental | A ferramenta que possibilita respostas deve ser consistente entre as plataformas | - |
+| INT1.1 | Compartilhar questão | O usuário pode compartilhar questões da plataforma  | S |
+| INT1.2 | Mural de respostas | O _feed_ das contribuições de um usuário pode ser visualizado em seu perfil | C |
+| INT1.3 | Comunicação na questão | É possível se comunicar e retirar dúvidas nos comentários da própria questão. | M |
+| INT1.4 | Recursos textuais | O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto | M |
+| INT1.5 | Recursos de anexos | O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável | S |
+| INT1.6 | Recurso de notações matematícas | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX | S |
+| INT1.7 | Recursos de _hightlight_ | O sistema deve fornecer recurso de _hightlight_ (destaque) para certas informações, como citações | C |
+| INT1.8 | Recursos de programação | O sistema deve possibilitar a inserção adequada de código-fonte | S |
+| INT1.9 | Consistência ferramental | A ferramenta que possibilita respostas deve ser consistente entre as plataformas | M |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
 ## Introspecção 2 - Moderação de perguntas e respostas
 
@@ -92,12 +96,16 @@ Para moderar com qualidade, Lucas necessita de:
 
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------: |
-| INT2.1 | Denúncia à irregularidade | O sistema deve oferecer um meio ao qual os usuários podem denunciar irregularidades em perguntas, respostas ou comentários | - |
-| INT2.2 | Moderação multiplataforma | Deve ser possível ao moderador e à administração a gerência de conteúdos em qualquer que seja a plataforma de uso da aplicação | - |
-| INT2.3 | Aperfeiçoamento da moderação | As ações dos moderadores devem ser pautadas por treinamentos e ensinamentos por parte da administração | - |
-| INT2.4 | Macros de moderação | A administração deve dispor macros de moderação para facilitar a atuação na plataforma | - |
-| INT2.5 | Ferramenta de exclusão de conteúdo | O sistema deve dispor aos moderados e à administração ferramentas que possibilitem a exclusão de conteúdos indevido | - |
-| INT2.6 | Ferramenta de repressão intensiva | A plataforma deve dispor aos moderadores e à administração ferramentas para bloquear, deletar e banir péssimos usuários da plataforma | - |
+| INT2.1 | Denúncia à irregularidade | O sistema deve oferecer um meio ao qual os usuários podem denunciar irregularidades em perguntas, respostas ou comentários | S |
+| INT2.2 | Moderação multiplataforma | Deve ser possível ao moderador e à administração a gerência de conteúdos em qualquer que seja a plataforma de uso da aplicação | M |
+| INT2.3 | Aperfeiçoamento da moderação | As ações dos moderadores devem ser pautadas por treinamentos e ensinamentos por parte da administração | S |
+| INT2.4 | Macros de moderação | A administração deve dispor macros de moderação para facilitar a atuação na plataforma | W |
+| INT2.5 | Ferramenta de exclusão de conteúdo | O sistema deve dispor aos moderadores e à administração ferramentas que possibilitem a exclusão de conteúdos indevidos | M |
+| INT2.6 | Ferramenta de repressão intensiva | A plataforma deve dispor aos moderadores e à administração ferramentas para bloquear, deletar e banir péssimos usuários da plataforma | M |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
 ## Introspecção 3 - Usuários com maior fluxo de perguntas
 
@@ -157,3 +165,7 @@ Foi utilizado o MoSCoW para dar prioridade aos requisitos.
 | INT3.9 | Curva rápida de aprendizagem | A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários | M |
 | INT3.10 | Anexo de imagens | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as perguntas/respostas com auxilio de imagens, facilitando o fluxo | S |
 | INT3.11 | Versão mobile | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | S |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
