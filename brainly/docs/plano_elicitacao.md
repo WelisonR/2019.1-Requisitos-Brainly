@@ -28,3 +28,6 @@ que envolvem o objeto de estudo em que os mesmos geram novas ideias e estimulam 
 - **Storytelling**: Técnica que se baseia na utilização de histórias em grupos de pessoas, incluindo organizações, como um método de comunicação para que os envolvidos possam compartilhar conhecimento.
 
 - **Observação**: Técnica que possibilita observar, no próprio ambiente, no qual o software será implantado, as tarefas sendo executadas pelos interessados, sem interferir no ambiente.
+
+- **Análise de protocolo**: Consiste em um método que solicita ao sujeito realização de uma tarefa e concorrentemente, em voz alta, explique o processo que realiza. A equipe realizou o p com procedimento usuários que conheciam a plataforma Brainly e com novos usuários para identificar diferentes pontos de vista.
+

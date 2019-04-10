@@ -7,6 +7,8 @@
 |  1.0   | 08/04/2019 | Introdução ao modelo de entrevista | João Gabriel Rossi |
 |  1.1   | 08/04/2019 |   Entrevista com usuário júnior    | João Gabriel Rossi |
 |  1.2   | 08/04/2019 |   Entrevista com usuário júnior 2  |Lieverton Santos |
+|  1.3   | 10/04/2019 |   Entrevista com usuário Sênior 1 e adicionando códigos  | João Gabriel Rossi |
+
 
 ## Entrevista como método de levantamento de requisitos
 
@@ -52,11 +54,11 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 
 **Requisitos levantados nessa entrevista**
 
-| Requisito | Descrição |
-| :----: | :-------: |
-| Recompensas pelo sistema de pontos | Aumento de recompensa por bater um certo valor de pontos no software, seja dentro ou fora do sistema |
-| Portabilidade e diferentes versões | Ter diferentes versões, tanto web como mobile |
-|    Manter o sistema gratuito     |   Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização   |
+| Código | Requisito | Descrição |
+| :----: | :-------: | :-------: |
+| EN1.1| Recompensas pelo sistema de pontos | Aumento de recompensa por bater um certo valor de pontos no software, seja dentro ou fora do sistema |
+| EN1.2| Portabilidade e diferentes versões | Ter diferentes versões, tanto web como mobile |
+| EN1.3|    Manter o sistema gratuito     |   Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização   |
 
 
 ### Entrevista com usuário júnior 2
@@ -103,12 +105,58 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 
 **Requisitos levantados nessa entrevista**
 
-| Requisito | Descrição |
-| :----: | :-------: |
-| Adicionar amigo | Um usuário na web pode adicionar amigos |
-| Seguir | Um usuário no app pode seguir outro |
-| Número máximo de respostas | Uma pergunta pode ter até duas respostas |
-| Sistema de pontuação | O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta |
-| Sistema de níveis | O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível |
-| Sistema de rank | Os usuários com melhor pontuação ficam em uma lista e ganham pontos por srem os melhores |
-| Moderação | Deve haver usuários capazes de chamar atenção quando outro usuário tem uma conduta imprópria |
+| Código | Requisito | Descrição |
+| :----: | :-------: | :-------: |
+| EN2.1| Adicionar amigo | Um usuário na web pode adicionar amigos |
+| EN2.2| Seguir | Um usuário no app pode seguir outro |
+| EN2.3| Número máximo de respostas | Uma pergunta pode ter até duas respostas |
+| EN2.4 | Sistema de pontuação | O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta |
+| EN2.5 | Sistema de níveis | O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível |
+| EN2.6 | Sistema de rank | Os usuários com melhor pontuação ficam em uma lista e ganham pontos por srem os melhores |
+| EN2.7 | Moderação | Deve haver usuários capazes de chamar atenção quando outro usuário tem uma conduta imprópria |
+
+### Entrevista com usuário sênior 1
+**Entrevistado**: Welison Regis
+**Entrevistador**: João Gabriel Rossi
+
+1. J - A quanto tempo você utiliza o brainly?
+    - W - Utilizo o Brainly desde maio de 2014, cerca de cinco anos.
+
+2. J - Você já utilizou outras plataformas do tipo? Se sim, o que você sente mais falta em relação ao brainly?
+    - W - Antigamente utilizava o Yahoo Respostas e, sinceramente, não sinto falta de nenhum aspecto da plataforma, pois embora tivesse uma ideologia interessante, não possuía controle sobre o conteúdo que fornecia.
+
+3. J - O sistema de pontos é um diferencial pra você? Explique o motivo.
+    - W - Inicialmente era atrativo, incentiva a responder mais, porém, com o passar do tempo, tornou-se irrelevante. Conforme o usuário responde ele ganha pontos, porém, majoritariamente, não encontra utilidade para eles, fora quando raramente gasta até 100 pontos em uma questão.Hoje costumo responder mais questões em que a pessoa indique interesse em tirar dúvidas, ou questões que agreguem conhecimento nas áreas que gosto, não é mais importante a pontuação.
+  
+4. J - Falando sobre pontos, o que acha de gastar pontos pra fazer uma pergunta?
+      - W - Não acho que o sistema de pontuação nas questões seja interessante, pois atualmente favorece spammers que querem pontos apenas para criar novas perguntas e acabam por prejudicar a plataforma. Além disso, atualmente os pontos não é fator relevante para a maioria dos usuários responder a uma questão.
+
+5. J - E esssa técnica de gastar pontos pra fazer pergunta, mas ganhar por responder, te incentiva a participar de ambas as atividades?
+      - W - Não, respondo para praticar o que aprendo e ganho pontos por consequência, porém não encontro utilidade nos pontos que acumulo.
+
+6. J - E o sistema de ranking, te chamou a atenção?
+    - W - Acho o sistema de ranking interessante, incentiva e mostra reconhecimento ao usuário que utiliza o serviço.
+
+7. J - Voce usou qual versão (Computador, android, IOS)? Sabia que existe mais de uma?
+      - W - Costumo utilizar apenas a versão web.
+
+8. J - Preferia usar o software no celular ou no computador? Porque?
+    - W - Apenas a versão web supre minhas necessidades, pois pelo celular tenho dificuldade em formatar as questões devidamente, porque é extremamente chato diagramar expressões matemáticas em TeX, organizar textos e etc.
+
+9.  J - Ao usar no celular, voce usaria no tempo livre ou apenas quando quisesse tirar uma dúvida?
+    - W - Utilizo a versão do celular apenas para criar perguntas, pois é uma forma mais ágil.
+
+10. J - Você se incomoda com os ads dentro do app?
+    - W - Não considero que os ads sejam abusivos, é uma forma da plataforma disponibilizar o conteúdo de forma gratuita.
+
+11. J - Entre os ads e uma mensalidade pra acessar, o que mais justo e/ou te atrai mais?
+    - W - Concordo com a política de ads. Para mim, o serviço deveria promover o conhecimento, logo, deve evitar qualquer tipo de mensalidade ou restrições que condicionem o acesso a informação.
+
+12. J - Por último, existe algo que você mudaria ou acrescentaria no produto?
+    - W - Sim, aperfeiçoaria o sistema de pontos da plataforma, que atualmente é só um número para alguns usuários. Além disso, adicionaria mais recursos nas perguntas e respostas, como hightlights de citações, códigos, que já é encontrado em outros serviços. 
+
+| Código| Requisito | Descrição |
+| :----:| :----: | :-------: |
+| EN3.1| Política de ads | Utilizar ads ao invés de cobrar mensalidades na ferramenta |
+| EN3.2| Controle de conteúdo | Controlar as informações que os usuários compartilham |
+| EN3.3| Melhoria no sistema de pontos | Recompensar mais o usuário pelos pontos do sistema |
