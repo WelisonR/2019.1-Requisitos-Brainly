@@ -98,3 +98,62 @@ Para moderar com qualidade, Lucas necessita de:
 | INT2.4 | Macros de moderação | A administração deve dispor macros de moderação para facilitar a atuação na plataforma | - |
 | INT2.5 | Ferramenta de exclusão de conteúdo | O sistema deve dispor aos moderados e à administração ferramentas que possibilitem a exclusão de conteúdos indevido | - |
 | INT2.6 | Ferramenta de repressão intensiva | A plataforma deve dispor aos moderadores e à administração ferramentas para bloquear, deletar e banir péssimos usuários da plataforma | - |
+
+## Introspecção 3 - Fluxo de perguntas
+
+|Papel | Data | Nome | Observação |
+|--|--|--|--|
+| Autor | 09/04/2019 | André Pinto | Membro da equipe/Usuário |
+
+Verônica, aluna do fundamental, estuda diariamente em casa, realizando exercícios e consequentemente surgem diversas duvidas que precisam de uma resposta razoavelmente rápida, pois não quer acumular matéria. Verônica conhece o Brainly e passa a colocar suas duvidas na plataforma, que em sua maioria são respondidas dentro de 10 minutos, porem as vezes encontra alguma resposta errada ou sem sentido que são posteriormente denunciada por outros usuários e apagadas por moderadores. Certo dia a turma Verônica sai com uma duvida da sala e a moca, ao chegar em casa, posta a pergunta na plataforma e compartilha em sua rede social predileta, o facebook, para ajudar seus colegas.
+
+Por outro lado, Paulo, aluno do ensino médio, costuma esquecer de responder seus deveres de casa, lembrando apenas no ônibus indo para a escola. Em uma jornada para escola, Paulo, conhece o Brainly, cria sua conta utilizando o facebook e coloca uma duvida na plataforma, com ajuda de fotos para agilizar o processo, sendo respondida antes de chegar na escola e consequentemente realizando o dever no prazo.
+
+##### Necessidades Técnicas
+*   Acesso a um dispositivo que tenha internet;
+*   Design intuitivo, bonito e de fácil manuseio;
+*   Consistência entre as diferentes plataformas (mobile, web);
+*   Disponibilizar ao usuário ferramentas para responder e perguntar.
+
+##### Necessidades Sociais
+Para melhor atender Verônica, a plataforma necessita de:
+
+*   Existência de moderadores;
+*   Possibilidade de exclusão de respostas irrelevantes;
+*   Possibilidade de compartilhar pergunta/resposta em rede social.
+
+Para melhor atender Paulo, a plataforma necessita de:
+
+*   Possibilidade de entrar utilizando alguma rede social;
+
+##### Necessidades Individuais
+Para melhor atender Verônica, a plataforma necessita de:
+
+*   Bom tempo médio de resposta;
+*   Possibilidade de denunciar respostas .
+
+Para melhor atender Paulo, a plataforma necessita de:
+
+*   Possibilidade de entrar utilizando alguma rede social;
+*   Rápida curva de aprendizagem;
+*   Bom tempo médio de resposta;
+*   Possibilidade de enviar fotos anexadas;
+*   Economia de internet em dispositivos mobile;
+*   Existência de uma versão mobile;
+
+#### Requisitos Elicitados
+Foi utilizado o MoSCoW para dar prioridade aos requisitos.
+
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :--------: |
+| INT3.1 | Existência de moderadores | O sistema deve possuir pessoas cuidando e analisando denuncias para evitar respostas irrelevantes | S |
+| INT3.2 | Ferramentas para moderação | O sistema deve dar aos moderadores ferramentais para que eles possam atuar da melhor forma possível | S |
+| INT3.3 | Consistência entre plataformas | O sistema deve oferecer a mesma experiência para usuários de diferentes plataformas | C |
+| INT3.4 | Compartilhar em redes sociais | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as respostas nas redes sociais | C |
+| INT3.5 | Logar com redes sociais | A plataforma deve oferecer um meio para que o usuário entre em sua conta a partir de redes sociais | C |
+| INT3.6 | Bom tempo médio de respostas | A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil | M |
+| INT3.7 | Compartilhar em redes sociais | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as respostas nas redes sociais | C |
+| INT3.8 | Denunciar resposta/conta | A plataforma deve oferecer ao usuário maneiras de denunciar algo que não condiz com as regras, facilitando e auxiliando moderadores | M |
+| INT3.9 | Curva rápida de aprendizagem | A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários | M |
+| INT3.10 | Anexo de imagens | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as perguntas/respostas com auxilio de imagens, facilitando o fluxo | S |
+| INT3.11 | Versão mobile | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | S |
