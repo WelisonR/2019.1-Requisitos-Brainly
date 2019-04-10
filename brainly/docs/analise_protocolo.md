@@ -8,8 +8,6 @@
 | 1.2 | 09/04/2019 | Análise de protocolo 3 | André Pinto |
 | 1.3 | 10/04/ 2019 | Aplicação do MoSCoW nas análises de protocolo 1 e 2 | Lieverton Santos |
 
-##Análise de Protocolo
-
 Consiste em um método que solicita ao sujeito realização de uma tarefa e concorrentemente, em voz alta, explique o processo que realiza. A equipe realizou o p com procedimento usuários que conheciam a plataforma Brainly e com novos usuários para identificar diferentes pontos de vista.
 
 ##Análise de Protocolo 1
@@ -43,6 +41,10 @@ O usuário pra acessar os serviços do Brainly fez um cadastro a partir do faceb
 | AP1.12 | Logout | O usuário poderá sair da sua conta | M |
 | AP1.13 | Termos de uso | Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceita-lo | M |
 
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
+
 ##Análise de Protocolo 2
 
 **Relator**: Leonardo Sampaio  
@@ -62,6 +64,10 @@ Inicialmente o usuário pesquisou sobre uma questão de cálculo 1 e logo depois
 | :----: | :-------: | :-------: | :-------: |
 | AP2.1 | Campo de pesquisa | O usuário pode pesquisar conteudos para ver se alguma pergunta já respondida pode tirar suas dúvidas | C |
 | AP2.2 | Filtro por matéria | O usuário pode escolher matérias especificas para responder questões | S |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
 ###Análise de Protocolo 3
 
@@ -94,3 +100,7 @@ Abaixo, segue as notas da gravação de Lais Priscila
 | AP3.2 | Avaliar respostas | O sistema deve oferecer ao usuario uma forma de ele dar feedback as respostas | M |
 | AP3.3 | Cadastro facil | O cadastro na plataforma deve ocorrer de uma maneira rapida e pratica | S |
 | AP3.4 | Tutorial | O sistema poderia ter um sistema de tutorial mais rapido com menos passos | W |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.

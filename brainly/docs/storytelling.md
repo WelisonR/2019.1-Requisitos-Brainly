@@ -28,6 +28,10 @@ O usuário começou a usar o aplicativo e logo se engajou com a estrutura de gam
 | ST1.2 | Concistência |Deve haver consistência entre as diversas plataformas | C |
 | ST1.3 | Gamificação |O aplicativo trabalha com gamificação com enfoque no sistema de níveis e pontuação | S |
 
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
+
 ##Storytelling 2
 
 ###Resumo da narração
@@ -42,3 +46,7 @@ O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele u
 | :------: | :------: | :------: | :------: |
 | ST2.1 | Sistema de perguntas e respostas para tirar dúvidas | Um usuário poderá tirar sua dúvida com outros usuários por meio de pertguntas e respostas | M |
 | ST2.2 | Pagar por perguntas |Para fazer perguntas são necessários pontos | C |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
