@@ -1,4 +1,4 @@
-#Storytelling
+#STORYTELLING
 
 ##Versionamento
 |  Versão | Data | Modificação | Autor |
@@ -6,6 +6,7 @@
 | 1.0 | 08/04/2019 | Narração e relatório | Paulo Vitor Rocha |
 | 1.1 | 08/04/2019 | Storytelling 2 | Lieverton Santos |
 | 1.2 | 10/04/2019 | Adicionando código | João Gabriel Rossi |
+| 1.3 | 10/04/ 2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
 
 ##Introdução
 Storytelling consiste em um método que utiliza palavras ou recursos audiovisuais para transmitir uma história. Também é muito usado no contexto da aprendizagem, sendo uma importante forma de transmissão do conhecimento e experiências.
@@ -21,11 +22,11 @@ O usuário começou a usar o aplicativo e logo se engajou com a estrutura de gam
 
 ###Requisitos elicitados
 
-|  Código | Requisito |
-|  :------: | :------: |
-| ST1.1 | O sistema brainly tem que ser multiplataformas |
-| ST1.2 | Deve haver consistência entre as diversas plataformas |
-| ST1.3 | O aplicativo trabalha com gamificação com enfoque no sistema de níveis e pontuação |
+|  Código | Requisito | Descrição | Prioridade |
+| :------: | :------: | :------: | :------: |
+| ST1.1 | Multiplataforma | O sistema brainly tem que ser multiplataformas | S |
+| ST1.2 | Concistência |Deve haver consistência entre as diversas plataformas | C |
+| ST1.3 | Gamificação |O aplicativo trabalha com gamificação com enfoque no sistema de níveis e pontuação | S |
 
 ##Storytelling 2
 
@@ -37,7 +38,7 @@ O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele u
 
 ###Requisitos elicitados
 
-|  Código | Requisito |
-|  :------: | :------: |
-| ST2.1 | Sistema de perguntas e respostas para tirar dúvidas |
-| ST2.2 | Para fazer perguntas são necessários pontos |
+|  Código | Requisito | Descrição | Prioridade |
+| :------: | :------: | :------: | :------: |
+| ST2.1 | Sistema de perguntas e respostas para tirar dúvidas | Um usuário poderá tirar sua dúvida com outros usuários por meio de pertguntas e respostas | M |
+| ST2.2 | Pagar por perguntas |Para fazer perguntas são necessários pontos | C |
