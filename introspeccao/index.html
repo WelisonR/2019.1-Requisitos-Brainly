@@ -402,6 +402,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../plano_elicitacao/" title="Plano de elicitação" class="md-nav__link">
+      Plano de elicitação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../analise_protocolo/" title="Análise de Protocolo" class="md-nav__link">
       Análise de Protocolo
     </a>
@@ -655,18 +667,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../plano_elicitacao/" title="Plano de elicitação" class="md-nav__link">
-      Plano de elicitação
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../storytelling/" title="Storytelling" class="md-nav__link">
       Storytelling
     </a>
@@ -881,7 +881,7 @@
                 
                 <h1 id="introspeccao">Introspecção</h1>
 <p>Introspecção é uma técnica muito rica e profunda para a elicitação de requisitos. Através desse método, o indivíduo que pretende levantar os requisitos faz observações e descrições do conteúdo (pensamentos, sentimentos) que decorrem da auto-reflexão sobre o serviço e, mediante a isso, é possível entender as propriedades que o sistema deve possuir para que atenda as necessidades do seu público.</p>
-<p>As introspecções descritas abaixo, são divididas em três tópicos principais: contexto, necessidades do contexto e requisitos elicitados. Para contextualizar a introspecção, utilizou-se a ideia de um <em>storytelling</em>, em que há uma persona que  desempenha uma atividade na plataforma. Decorrente do contexto, foi feita uma auto-reflexão para elencar as necessidades técnicas, sociais e individuais da persona, o que em seguida decorre na elicitação dos requisitos.</p>
+<p>As introspecções descritas abaixo, são divididas em três tópicos principais: contexto, necessidades do contexto e requisitos elicitados. Para contextualizar a introspecção, utilizou-se a ideia de um <em>storytelling</em>, em que há uma persona que  desempenha uma atividade na plataforma. Decorrente do contexto, foi feita uma auto-reflexão para elencar as necessidades técnicas, sociais e individuais da persona, o que em seguida decorre na elicitação dos requisitos. Por fim, nessa primeira abordagem utilizou-se a técnica "MoSCoW" para priorizar os requisitos.</p>
 <h2 id="introspeccao-1-fluxo-de-perguntas-e-respostas">Introspecção 1 - Fluxo de perguntas e respostas</h2>
 <h4 id="rastreabilidade">Rastreabilidade</h4>
 <table>
@@ -944,58 +944,62 @@
 <td align="center">INT1.1</td>
 <td align="center">Compartilhar questão</td>
 <td align="center">O usuário pode compartilhar questões da plataforma</td>
-<td align="center">-</td>
+<td align="center">S</td>
 </tr>
 <tr>
 <td align="center">INT1.2</td>
-<td align="center">Comunicação aos seguidores</td>
-<td align="center">O <em>feed</em> das contribuições de um usuáiro para a plataforma podem ser visualizadas por outros usuários da plataforma</td>
-<td align="center">-</td>
+<td align="center">Mural de respostas</td>
+<td align="center">O <em>feed</em> das contribuições de um usuário pode ser visualizado em seu perfil</td>
+<td align="center">C</td>
 </tr>
 <tr>
 <td align="center">INT1.3</td>
 <td align="center">Comunicação na questão</td>
 <td align="center">É possível se comunicar e retirar dúvidas nos comentários da própria questão.</td>
-<td align="center">-</td>
+<td align="center">M</td>
 </tr>
 <tr>
 <td align="center">INT1.4</td>
 <td align="center">Recursos textuais</td>
 <td align="center">O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto</td>
-<td align="center">-</td>
+<td align="center">M</td>
 </tr>
 <tr>
 <td align="center">INT1.5</td>
 <td align="center">Recursos de anexos</td>
 <td align="center">O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável</td>
-<td align="center">-</td>
+<td align="center">S</td>
 </tr>
 <tr>
 <td align="center">INT1.6</td>
 <td align="center">Recurso de notações matematícas</td>
 <td align="center">O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX</td>
-<td align="center">-</td>
+<td align="center">S</td>
 </tr>
 <tr>
 <td align="center">INT1.7</td>
 <td align="center">Recursos de <em>hightlight</em></td>
 <td align="center">O sistema deve fornecer recurso de <em>hightlight</em> (destaque) para certas informações, como citações</td>
-<td align="center">-</td>
+<td align="center">C</td>
 </tr>
 <tr>
 <td align="center">INT1.8</td>
 <td align="center">Recursos de programação</td>
 <td align="center">O sistema deve possibilitar a inserção adequada de código-fonte</td>
-<td align="center">-</td>
+<td align="center">S</td>
 </tr>
 <tr>
 <td align="center">INT1.9</td>
 <td align="center">Consistência ferramental</td>
 <td align="center">A ferramenta que possibilita respostas deve ser consistente entre as plataformas</td>
-<td align="center">-</td>
+<td align="center">M</td>
 </tr>
 </tbody>
 </table>
+<p>Legenda - técnica de priorização:</p>
+<ul>
+<li>M: <strong>Must have</strong>; S: <strong>Should have</strong>; C: <strong>Could have</strong>; W: <strong>Would have</strong>.</li>
+</ul>
 <h2 id="introspeccao-2-moderacao-de-perguntas-e-respostas">Introspecção 2 - Moderação de perguntas e respostas</h2>
 <table>
 <thead>
@@ -1052,40 +1056,44 @@
 <td align="center">INT2.1</td>
 <td align="center">Denúncia à irregularidade</td>
 <td align="center">O sistema deve oferecer um meio ao qual os usuários podem denunciar irregularidades em perguntas, respostas ou comentários</td>
-<td align="center">-</td>
+<td align="center">S</td>
 </tr>
 <tr>
 <td align="center">INT2.2</td>
 <td align="center">Moderação multiplataforma</td>
 <td align="center">Deve ser possível ao moderador e à administração a gerência de conteúdos em qualquer que seja a plataforma de uso da aplicação</td>
-<td align="center">-</td>
+<td align="center">M</td>
 </tr>
 <tr>
 <td align="center">INT2.3</td>
 <td align="center">Aperfeiçoamento da moderação</td>
 <td align="center">As ações dos moderadores devem ser pautadas por treinamentos e ensinamentos por parte da administração</td>
-<td align="center">-</td>
+<td align="center">S</td>
 </tr>
 <tr>
 <td align="center">INT2.4</td>
 <td align="center">Macros de moderação</td>
 <td align="center">A administração deve dispor macros de moderação para facilitar a atuação na plataforma</td>
-<td align="center">-</td>
+<td align="center">W</td>
 </tr>
 <tr>
 <td align="center">INT2.5</td>
 <td align="center">Ferramenta de exclusão de conteúdo</td>
-<td align="center">O sistema deve dispor aos moderados e à administração ferramentas que possibilitem a exclusão de conteúdos indevido</td>
-<td align="center">-</td>
+<td align="center">O sistema deve dispor aos moderadores e à administração ferramentas que possibilitem a exclusão de conteúdos indevidos</td>
+<td align="center">M</td>
 </tr>
 <tr>
 <td align="center">INT2.6</td>
 <td align="center">Ferramenta de repressão intensiva</td>
 <td align="center">A plataforma deve dispor aos moderadores e à administração ferramentas para bloquear, deletar e banir péssimos usuários da plataforma</td>
-<td align="center">-</td>
+<td align="center">M</td>
 </tr>
 </tbody>
 </table>
+<p>Legenda - técnica de priorização:</p>
+<ul>
+<li>M: <strong>Must have</strong>; S: <strong>Should have</strong>; C: <strong>Could have</strong>; W: <strong>Would have</strong>.</li>
+</ul>
 <h2 id="introspeccao-3-usuarios-com-maior-fluxo-de-perguntas">Introspecção 3 - Usuários com maior fluxo de perguntas</h2>
 <table>
 <thead>
@@ -1220,6 +1228,10 @@
 </tr>
 </tbody>
 </table>
+<p>Legenda - técnica de priorização:</p>
+<ul>
+<li>M: <strong>Must have</strong>; S: <strong>Should have</strong>; C: <strong>Could have</strong>; W: <strong>Would have</strong>.</li>
+</ul>
                 
                   
                 
