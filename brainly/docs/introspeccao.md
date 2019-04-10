@@ -99,7 +99,7 @@ Para moderar com qualidade, Lucas necessita de:
 | INT2.5 | Ferramenta de exclusão de conteúdo | O sistema deve dispor aos moderados e à administração ferramentas que possibilitem a exclusão de conteúdos indevido | - |
 | INT2.6 | Ferramenta de repressão intensiva | A plataforma deve dispor aos moderadores e à administração ferramentas para bloquear, deletar e banir péssimos usuários da plataforma | - |
 
-## Introspecção 3 - Fluxo de perguntas
+## Introspecção 3 - Usuários com maior fluxo de perguntas
 
 |Papel | Data | Nome | Observação |
 |--|--|--|--|
