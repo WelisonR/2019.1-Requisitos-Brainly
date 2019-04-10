@@ -60,9 +60,17 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 | EN1.2| Portabilidade e diferentes versões | Ter diferentes versões, tanto web como mobile | S |
 | EN1.3|    Manter o sistema gratuito     |   Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização   | S |
 
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
+
 ### Entrevista com usuário júnior 2
 **Entrevistado**: Paulo Vitor Rocha  
 **Entrevistador**: Lieverton Santos
+
+O entrevistado autorizou a gravação da entrevista em áudio.
+
+[link](https://drive.google.com/file/d/1-8kgP7v__OhbHu8Zkr4lan4o9Rvon3QZ/view) para o áudio.
 
 1. L - Você é um usuário do brainly?
     - P - sim.
@@ -99,9 +107,6 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 17. L - Você gostaria de acrescentar mais alguma funcionalidade na versão web?
     - P - Não , acho ela bem completa.
 
-
-[link](https://drive.google.com/file/d/1-8kgP7v__OhbHu8Zkr4lan4o9Rvon3QZ/view) para o áudio.
-
 **Requisitos levantados nessa entrevista**
 
 | Código | Requisito | Descrição | Prioridade |
@@ -113,6 +118,10 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 | EN2.5 | Sistema de níveis | O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível | C |
 | EN2.6 | Sistema de rank | Os usuários com melhor pontuação ficam em uma lista e ganham pontos por srem os melhores | C |
 | EN2.7 | Moderação | Deve haver usuários capazes de chamar atenção quando outro usuário tem uma conduta imprópria | M |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
 ### Entrevista com usuário sênior 1
 **Entrevistado**: Welison Regis
@@ -159,3 +168,7 @@ Serão feitas entrevistas com dois tipos de usuário, o usuário sênior e o usu
 | EN3.1| Política de ads | Utilizar ads ao invés de cobrar mensalidades na ferramenta | M |
 | EN3.2| Controle de conteúdo | Controlar as informações que os usuários compartilham | M |
 | EN3.3| Melhoria no sistema de pontos | Recompensar mais o usuário pelos pontos do sistema | C |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.

@@ -6,6 +6,7 @@
 | :----: | :--------: | :------------------: | :------------: |
 |  1.0   | 09/04/2019 | Observação - inicial | João Rodrigues |
 |  1.1   | 10/04/2019 | Adicionando código | João Gabriel Rossi |
+| 1.2 | 10/04/2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
 
 ## Observação
 
@@ -15,20 +16,23 @@ Essa técnica de elicitação de requisitos foi aplicada à reunião em que algu
 
 ### Tabela de Requisitos
 
-| Código | Requisito |
-| :----: | :-------: |
-|   OBS1.1    | Acessar ajuda na plataforma mobile |
-|   OBS1.2    | Ver tutorial inicial nas plataformas |
-|   OBS1.3    | Possuir plataformas consistentes |
-|   OBS1.4    | Fazer perguntas |
-|   OBS1.5    | Responder perguntas |
-|   OBS1.6    | Filtrar perguntas |
-|   OBS1.7    | Receber recompensas por respostas |
-|   OBS1.8    | Participar de desafios |
-|   OBS1.9    | Avaliar respostas |
-|   OBS1.10   | Escolher melhor resposta |
-|   OBS1.11   | Ganhar emblemas |
-|   OBS1.12   | Ver e participar de rankings |
-|   OBS1.13   | Comunicar-se com moderador quando necessário |
-|   OBS1.14   | Denunciar usuários |
-|   OBS1.15   | Entrar em um mesmo usuário do sistema a partir de dispositivos diferentes |
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :----: | :-------: |
+| OBS1.1 | Ajuda |Acessar ajuda na plataforma mobile | C |
+| OBS1.2 | Tutorial| Ver tutorial inicial nas plataformas | C |
+| OBS1.3 | Consistência | Possuir plataformas consistentes | S |
+| OBS1.4 | Fazer perguntas | O usuário poderá fazer perguntas para tiras suas dúvidas | M |
+| OBS1.6 | Filtrar perguntas | As perguntas são separadas por categorias | C |
+| OBS1.7 | Sistema de recompensas | O usuário deverá receber recompensas por respostas | S |
+| OBS1.8 | Desafios | O usuário poderá participar de desafios | C |
+| OBS1.9 | Avaliar respostas | O usário podera avaliar a resposta da sua pergunta | S |
+|   OBS1.10   | Escolher melhor resposta | O usuário poderá escolher a melhor resposta | C |
+| OBS1.11 | Ganhar emblemas | O usuário ganhará emplemas ao cumprir metas | C |
+| OBS1.12 | Rankings | Os usuários poderão ver os melhores usuários | C |
+| OBS1.13 | Comunicação com moderador | O usuário poderá comunicar-se com moderador quando necessário | S |
+|   OBS1.14   | Denunciar usuários | Condutas improprias poderão ser denunciadas | S |
+| OBS1.15 | Acesso multidipositivo | O usuário poderá entrar na mesma conta do sistema a partir de dispositivos diferentes | C |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
