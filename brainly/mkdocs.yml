@@ -19,6 +19,7 @@ pages:
     - Observação: observacao.md
     - Questionário: questionario.md
     - Análise de Protocolo: analise_protocolo.md
+    - Análise de Questionário: analise_questionario.md
 
 theme:
   language: 'pt'
