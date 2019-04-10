@@ -6,6 +6,7 @@
 | 1.0 | 09/04/2019 | Introdução | Lieverton Santos |
 | 1.1 | 09/04/2019 | Análises de protocolo 1 e 2 | Lieverton Santos |
 | 1.2 | 09/04/2019 | Análise de protocolo 3 | André Pinto |
+| 1.3 | 10/04/ 2019 | Aplicação do MoSCoW nas análises de protocolo 1 e 2 | Lieverton Santos |
 
 ##Análise de Protocolo
 
