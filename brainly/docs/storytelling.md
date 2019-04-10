@@ -5,6 +5,7 @@
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 08/04/2019 | Narração e relatório | Paulo Vitor Rocha |
 | 1.1 | 08/04/2019 | Storytelling 2 | Lieverton Santos |
+| 1.2 | 10/04/2019 | Adicionando código | João Gabriel Rossi |
 
 ##Introdução
 Storytelling consiste em um método que utiliza palavras ou recursos audiovisuais para transmitir uma história. Também é muito usado no contexto da aprendizagem, sendo uma importante forma de transmissão do conhecimento e experiências.
@@ -20,11 +21,11 @@ O usuário começou a usar o aplicativo e logo se engajou com a estrutura de gam
 
 ###Requisitos elicitados
 
-|  Número | Requisito |
+|  Código | Requisito |
 |  :------: | :------: |
-| 1 | O sistema brainly tem que ser multiplataformas |
-| 2 | Deve haver consistência entre as diversas plataformas |
-| 3 | O aplicativo trabalha com gamificação com enfoque no sistema de níveis e pontuação |
+| ST1.1 | O sistema brainly tem que ser multiplataformas |
+| ST1.2 | Deve haver consistência entre as diversas plataformas |
+| ST1.3 | O aplicativo trabalha com gamificação com enfoque no sistema de níveis e pontuação |
 
 ##Storytelling 2
 
@@ -36,7 +37,7 @@ O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele u
 
 ###Requisitos elicitados
 
-|  Número | Requisito |
+|  Código | Requisito |
 |  :------: | :------: |
-| 1 | Sistema de perguntas e respostas para tirar dúvidas |
-| 2 | Para fazer perguntas são necessários pontos |
+| ST2.1 | Sistema de perguntas e respostas para tirar dúvidas |
+| ST2.2 | Para fazer perguntas são necessários pontos |
