@@ -16,8 +16,10 @@ pages:
     - Entrevista: entrevista.md
     - Brainstorming: brainstorm.md
     - Storytelling: storytelling.md
+    - Observação: observacao.md
     - Questionário: questionario.md
     - Análise de Protocolo: analise_protocolo.md
+
 theme:
   language: 'pt'
   name: 'material'
