@@ -6,6 +6,7 @@
 | 1.0 | 09/04/2019 | Introdução | Lieverton Santos |
 | 1.1 | 09/04/2019 | Análises de protocolo 1 e 2 | Lieverton Santos |
 | 1.2 | 09/04/2019 | Análise de protocolo 3 | André Pinto |
+| 1.3 | 16/04/2019 | Análise de protocolo 4 | Welison Regis |
 
 ##Análise de Protocolo
 
@@ -93,3 +94,50 @@ Abaixo, segue as notas da gravação de Lais Priscila
 | AP3.2 | Avaliar respostas | O sistema deve oferecer ao usuario uma forma de ele dar feedback as respostas | M |
 | AP3.3 | Cadastro facil | O cadastro na plataforma deve ocorrer de uma maneira rapida e pratica | S |
 | AP3.4 | Tutorial | O sistema poderia ter um sistema de tutorial mais rapido com menos passos | W |
+
+###Análise de Protocolo 3
+
+**Relator**: Edinalva Almeida
+
+**Analisador**: Welison Regis
+
+##Metodologia
+
+A análise de protocolo abaixo proposta foi desenvolvida com um usuário que possui razoável conhecimento sobre o uso da _internet_ voltada para _sites_ de auxílio acadêmico e escolar. Na situação, o analisador liberou as ferramentas de moderação e solicitou a pessoa que as utilizasse para realizar algumas tarefas enquanto estava sendo supervisionada. Elencou-se como afazeres na plataforma:
+*   Moderar uma atividade irregular na área de matemática.
+*   Solicitar correção em uma atividade denunciada.
+*   Explorar outros itens no menu de moderador.
+O analisador não interveio, apenas observou as ações, deixando a cargo do usuário realizá-las.
+
+O usuário autorizou a divulgação do aúdio. [LINK](https://drive.google.com/open?id=1dpkgJa2i8CQVrACUzIMNFwDDLuj0De5g) para o áudio.
+
+###Análise do Usuario
+Abaixo, segue as notas da gravação
+
+| Atividade | Comentário |
+| :--: | ---- |
+| Acesso ao moderar tudo | No primeiro contato o usuário demorou um pouco para encontrar o ícone de moderar tudo (onde fica as denúncias) na tela principal |
+| Filtro de denúncias | O usuário considerou importante a capacidade de filtrar (priorizar) os tipos de denúncias |
+| Painel de moderação | O usuário ao entrar no painel de moderação ficou pensativo e confuso sobre a quantidade de itens que a tela possui para apresentar |
+| Exclusão de itens | O usuário não encontrou problema para justificar e excluir conteúdos |
+| Pedido de correção | O usuário não encontrou problema para solicitar pedido de correção |
+| Visualizar férias dos moderadores | O usuário acessou tranquilamente o menu de férias |
+| Visualizar moderadores | O usuário não encontrou problemas para visualizar outros moderadores |
+| Painel de moderação | O usuário ficou confuso com o fato do ícone de moderar mudar de posição na tela do painel de moderação |
+| Painel de moderação | A relatora sentiu falta de algum falta de algum campo que tivesse um tutorial de moderação ou que fornecesse dicas |
+| Acesso ao fórum | Ao clicar em "fórum" o usuário foi redirecionado ao facebook, o que o desagradou, pois uma página foi aberta encima da outra |
+
+####Requisitos Elicitados
+
+| Código | Requisito | Descrição | Prioridade |
+| :----: | :-------: | :-------: | :----: |
+| AP4.1 | Filtros de denúncias | O sistema deve implementar filtros de denúncias | M |
+| AP4.2 | Tutorial de moderação | O sistema deve disponibilizar tutoriais aos moderadores | S |
+| AP4.3 | Suporte a moderação | O sistema deve ter uma área de FAQ para moderadores | C |
+| AP4.4 | Design minimalista | A interface de moderação deve ser minimalista | C |
+| AP4.5 | Consistência do painel de moderação | A apresentação do painel de moderação deve ser consistente entre telas, não alterando a localização de sua aparição | C |
+| AP4.6 | Liberdade de navegação | O moderador deve ter liberdade em sua navegação, não sendo redirecionado a outros sites sem o seu consentimento | C |
+
+Legenda - técnica de priorização:
+
+*   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
