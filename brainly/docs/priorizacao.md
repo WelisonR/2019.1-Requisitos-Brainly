@@ -62,7 +62,6 @@
 
 ###Requisitos Não Funcionais
 
-## Planilha1
 | Código  | Descrição                                                                                                                                     | beneficio r | penalidade R | valor total | Valor % | custo relativo | custo%  | risco relativo | Risco % | prioridade |
 |:--------|:----------------------------------------------------------------------------------------------------------------------------------------------|:------------|:-------------|:------------|:--------|:---------------|:--------|:---------------|:--------|:-----------|
 | INT1.2  | A ferramenta que possibilita respostas deve ser consistente entre as plataformas                                                              | 6           | 3            | 15          | 5.06757 | 6              | 10.1695 | 5              | 7.93651 | 0.358442   |

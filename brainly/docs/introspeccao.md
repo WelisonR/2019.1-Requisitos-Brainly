@@ -49,24 +49,24 @@ João gostaria de dispor de recursos para formatar decentemente sua questão, e 
 ##### Necessidades Técnicas
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------: |
-| INT1.5 | Recursos de anexos | O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável | S |
-| INT1.9 | Consistência ferramental	| A ferramenta que possibilita respostas deve ser consistente entre as plataformas | M |
+| INT1.1 | Recursos de anexos | O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável | S |
+| INT1.2 | Consistência ferramental	| A ferramenta que possibilita respostas deve ser consistente entre as plataformas | M |
 
 
 ##### Necessidades Sociais
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------: |
-| INT1.1 | Compartilhar questão | O usuário pode compartilhar questões da plataforma  | S |
-| INT1.2 | Mural de respostas | O _feed_ das contribuições de um usuário pode ser visualizado em seu perfil | C |
-| INT1.3 | Comunicação na questão | É possível se comunicar e retirar dúvidas nos comentários da própria questão. | M |
+| INT1.3 | Compartilhar questão | O usuário pode compartilhar questões da plataforma  | S |
+| INT1.4 | Mural de respostas | O _feed_ das contribuições de um usuário pode ser visualizado em seu perfil | C |
+| INT1.5 | Comunicação na questão | É possível se comunicar e retirar dúvidas nos comentários da própria questão. | M |
 
 ##### Necessidades Individuais
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------: |
-| INT1.4 | Recursos textuais | O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto | M |
-| INT1.6 | Recurso de notações matemáticas | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX | S |
-| INT1.7 | Recursos de _hightlight_ | O sistema deve fornecer recurso de _hightlight_ (destaque) para certas informações, como citações | C |
-| INT1.8 | Recursos de programação | O sistema deve possibilitar a inserção adequada de código-fonte | S |
+| INT1.6 | Recursos textuais | O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto | M |
+| INT1.7 | Recurso de notações matemáticas | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX | S |
+| INT1.8 | Recursos de _hightlight_ | O sistema deve fornecer recurso de _hightlight_ (destaque) para certas informações, como citações | C |
+| INT1.9 | Recursos de programação | O sistema deve possibilitar a inserção adequada de código-fonte | S |
 
 Legenda - técnica de priorização:
 
