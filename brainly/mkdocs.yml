@@ -20,6 +20,9 @@ pages:
     - Storytelling: storytelling.md
     - Questionário: questionario.md
     - Priorização: priorizacao.md
+  - MODELAGEM:
+    - Cenários: cenarios10x58ed251.md
+    - Léxicos: lexicos10x58ed251.md
 
 
 theme:
