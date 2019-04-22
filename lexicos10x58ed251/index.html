@@ -1,0 +1,2469 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../images/brainly/icon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Léxicos - REQUISITOS — Brainly</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#03a9f4">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="light-blue" data-md-color-accent="white">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#versionamento" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="REQUISITOS — Brainly" class="md-header-nav__button md-logo">
+          
+            <img src="../images/brainly/icon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              REQUISITOS — Brainly
+            </span>
+            <span class="md-header-nav__topic">
+              Léxicos
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Brainly
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="REQUISITOS — Brainly" class="md-nav__button md-logo">
+      
+        <img src="../images/brainly/icon.png" width="48" height="48">
+      
+    </a>
+    REQUISITOS — Brainly
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Brainly
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      PRÉ-RASTREABILIDADE
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        PRÉ-RASTREABILIDADE
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../argumentacao/" title="Argumentação" class="md-nav__link">
+      Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rich_picture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      RASTREABILIDADE-PRINTS
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        RASTREABILIDADE-PRINTS
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../argumentacao_versoes/" title="Versões da argumentação" class="md-nav__link">
+      Versões da argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rich_picture_versoes/" title="Versões de Rich Picture" class="md-nav__link">
+      Versões de Rich Picture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../confirmacao_tema/" title="Confirmação do tema" class="md-nav__link">
+      Confirmação do tema
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nao_twich/" title="Não ao Twich.TV" class="md-nav__link">
+      Não ao Twich.TV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../votacao_tema/" title="Votação para escolha do tema" class="md-nav__link">
+      Votação para escolha do tema
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../votacao_mensagem/" title="Votação sistema de mensagem" class="md-nav__link">
+      Votação sistema de mensagem
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      ELICITAÇÃO
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        ELICITAÇÃO
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plano_elicitacao/" title="Plano de elicitação" class="md-nav__link">
+      Plano de elicitação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analise_protocolo/" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brainstorm/" title="Brainstorming" class="md-nav__link">
+      Brainstorming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../observacao/" title="Observação" class="md-nav__link">
+      Observação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questionario/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../priorizacao/" title="Priorização" class="md-nav__link">
+      Priorização
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      MODELAGEM
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        MODELAGEM
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios10x58ed251/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Léxicos" class="md-nav__link md-nav__link--active">
+      Léxicos
+    </a>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/edit/master/docs/lexicos10x58ed251.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="versionamento">Versionamento</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Versão</th>
+<th align="center">Data</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1.0</td>
+<td align="center">21/04/2019</td>
+<td align="center">Gera primeira versão dos artefatos</td>
+<td align="center">Welison Regis</td>
+</tr>
+</tbody>
+</table>
+<h1 id="administrador">administrador</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">administrador</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Funcionário que trabalha no Brainly;</br>Responsável pela gerência de <a href="./#perfil">contas</a> e necessidades da plataforma;</br>Responsável pela orientação do <a href="./#time-de-respostas">time de respostas</a> e dos <a href="./#universitário">universitários</a>.</br>Pessoa responsável pela coordenação das atividades de moderação;</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">O administrador exclui <a href="./#perfil">contas</a> de <a href="./#infrator">infratores</a>;</br>O administrador realiza a comunicação de avisos através de <a href="./#notificações">notificações</a>;</br>Recruta <a href="./#moderador">moderador</a>;</br>O administrador fornece instrução de moderação ao <a href="./#moderador">moderador</a>;</br>O administrador realiza promoção de <a href="./#moderador">moderador</a>;</br>O administrador relata falhas técnicas ao time de desenvolvimento;</br>O administrador assiste o usuário que pede auxílio.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">gerente, administradores, gerentes, administração.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="amigo">amigo</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">amigo</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Pessoa que segue ou é seguido.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Ao adicionar uma amigo, o mesmo aparece na aba de amigos.</br><a href="./#pergunta">perguntas</a> ou <a href="./#respondidas">respostas</a> geram <a href="./#notificações">notificação</a> para os amigos.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">seguidor.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="banido">banido</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">banido</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Usuario impossibilitado de acessar sua <a href="./#perfil">conta</a>.</br>Apos infringir certos tipos de regras ou ser reincidente em advertencias.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Usuário após ser temporariamente banido deve ser mais cauteloso em seu comportamento: ESTADO - <a href="./#perfil">conta</a> sob supervisão.</br></br>Após banimento total, usuário não pode mais utilizar sua <a href="./#perfil">conta</a>: ESTADO - <a href="./#perfil">conta</a> excluída.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">punido, retirado, excluido.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"><a href="./#denunciar">denunciar</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="bloquear-usuario">bloquear usuário</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">bloquear usuário</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Usuário sofre bloqueio temporário no Brainly devido a prática de infrações.</br>Usuário impossibilitado de acessar sua <a href="./#perfil">conta</a> temporariamente.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">O <a href="./#moderador">moderador</a> ou a <a href="./#administrador">administração</a> do Brainly bloqueia o usuário.</br>O usuário tem sua <a href="./#perfil">conta</a> suspensa por alguns dias.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">bloqueiam usuário, bloquear usuários, reter usuários, travar usuário, reter usuário, bloqueia usuário.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="comentario">comentário</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">comentário</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">ponderação, crítica ou esclarecimento.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">alguém pode escrever um comentário em uma <a href="./#pergunta">pergunta</a> ou em uma <a href="./#respondidas">resposta</a>.</br>A <a href="./#comunidade">comunidade</a> pode usar os comentários para comunicação.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">explicação, avaliação.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"><a href="./#notificações">notificações</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#moderador">moderador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="comunidade">comunidade</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">comunidade</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">conjunto de pessoas em prol de se ajudarem.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">a comunidade pode ajuda a <a href="./#responder">responder</a>;</br>a comunidade faz <a href="./#pergunta">perguntas</a>;</br>a comunidade pode <a href="./#denunciar">denunciar</a> atitudes impróprias.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">usuários.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2996">faça sua pergunta</a></td>
+<td align="center"><a href="./#comentário">comentário</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2997">responder tarefa</a></td>
+<td align="center"><a href="./#mensagens">mensagens</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3000">pesquisar</a></td>
+<td align="center"><a href="./#tarefas-resolvidas">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#moderador">moderador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12644">pergunta respondida</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="denunciar">denunciar</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">denunciar</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Realizada pelo usuário quando encontra uma <a href="./#respondidas">resposta</a> ou <a href="./#pergunta">pergunta</a> inadequada.</br>Ao clicar no botão de denunciar, o <a href="./#moderador">moderador</a> é acionado.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center"><a href="./#pergunta">pergunta</a> ou <a href="./#respondidas">resposta</a> apagada.</br>Usuário denunciado é advertido ou <a href="./#banido">banido</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">sinalizar, reportar.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#comunidade">comunidade</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="desafios">desafios</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">desafios</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#pergunta">tarefas</a> em um período de tempo.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Desafios completos geram <a href="./#pontos">pontos</a>;</br>Um usuário pode aceitar um único desafio por vez;</br>Servem pra impulsionar um usuário a uma <a href="./#pergunta">tarefa</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">desafio.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2998">iniciar desafios</a></td>
+<td align="center"><a href="./#pontos">pontos</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas">emblemas</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">emblemas</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Símbolos ou imagens que representam uma atividade.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Uma atividade completa gera um emblema.</br>Os usuário podem ver o próprio progresso para conquistar um emblema.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">conquistas, emblema, conquista.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#emblemas-mais-próximos">emblemas mais próximos</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#emblemas-recentes">emblemas recentes</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#emblemas-conquistados">emblemas conquistados.</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas-conquistados">emblemas conquistados.</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">emblemas conquistados.</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Atividade cumprida.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Os <a href="./#emblemas">emblemas</a> conquistados ficam salvos em <a href="./#emblemas">emblemas</a> obtidos.</br>Os <a href="./#emblemas">emblemas</a> servem evidenciar o progresso do usuário no brainly.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">emblemas adquiridos .</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas-mais-proximos">emblemas mais próximos</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">emblemas mais próximos</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Atividades perto de serem cumpridas.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center"><a href="./#emblemas">emblemas</a> que estão mais perto de serem cumpridos são mostrados em <a href="./#emblemas">emblemas</a> mais próximos.</br>Os <a href="./#emblemas">emblemas</a> mais próximos podem impulsionar um usuário a se empenhar em uma atividade.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">próxima conquista.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas-recentes">emblemas recentes</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">emblemas recentes</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Últimas atividades cumpridas;</br>Últimos <a href="./#emblemas">emblemas</a> adquiridos.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Os últimos <a href="./#emblemas">emblemas</a> ficam salvos em <a href="./#emblemas">emblemas</a> mais recentes.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">conquista recente.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="infrator">infrator</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">infrator</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Pessoa que não cumpre com as políticas do regulamento do Brainly.</br>Responsável pela perda de tempo de <a href="./#moderador">moderadores</a> e estudantes devido ao cometimento de irregularidades.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">O infrator pratica irregularidades na plataforma;</br>O infrator prejudica aos <a href="./#moderador">moderadores</a>, aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em <a href="./#pergunta">perguntas</a>, <a href="./#respondidas">respostas</a>, comentários e no chat de maneira inadequada.</br>O infrator pratica spam, brincadeiras e pedidos de informações pessoais.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">infratores.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="materia">matéria</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">matéria</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Área de conhecimento.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">As <a href="./#pergunta">perguntas</a> são divididas por matéria;</br>Um usuário pode filtrar os resultados por matéria.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">tema.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="melhor-resposta">melhor resposta</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">melhor resposta</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Solução mais adequada, ou que melhor tirou a <a href="./#pergunta">dúvida</a>.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Um usuário ao ter sua <a href="./#pergunta">dúvida</a> respondida pode escolher a melhor <a href="./#respondidas">resposta</a>.</br>Ao <a href="./#responder">responder</a> um usuário pode ganhar melhor <a href="./#respondidas">resposta</a>.</br>Uma certa quantidade de melhores <a href="./#respondidas">respostas</a> é necessária para subir de <a href="./#nível">nível</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">melhores respostas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#nível">nível</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pergunta">pergunta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#notificações">notificações</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12644">pergunta respondida</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="mensagens">mensagens</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">mensagens</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Informações trocadas em forma de texto.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Um <a href="./#moderador">moderador</a> poder chamar atenção de alguém ou fazer um esclarecimento.</br>Um usuário pode mandar mensagem para o <a href="./#moderador">moderador</a>.</br>A <a href="./#comunidade">comunidade</a> não pode trocar mensagem privada.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">mensagem, mensagem privada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="moderador">moderador</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">moderador</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Pessoa que modera os conteúdos do Brainly.</br>Responsável por esclarecer as políticas da plataforma à <a href="./#comunidade">comunidade</a>;</br>Responsável por manter o <a href="./#nível">nível</a> de qualidade da plataforma em <a href="./#pergunta">pergunta</a>, <a href="./#respondidas">resposta</a> e <a href="./#comentário">comentário</a>.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">O moderador exclui <a href="./#pergunta">pergunta</a>, <a href="./#respondidas">resposta</a> ou <a href="./#comentário">comentário</a> indevido;</br>O moderador comunica <a href="./#infrator">infratores</a> as políticas do regulamento;</br>O moderador retira <a href="./#pergunta">dúvida</a> de estudantes sobre o regulamento da plataforma;</br>O moderador pode <a href="./#bloquear-usuário">bloquear usuários</a> irregulares.</br>O moderador define <a href="./#respostas-verificadas">respostas verificadas</a>, corretas.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">moderadores.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"><a href="./#mensagens">mensagens</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#administrador">administrador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#denunciar">denunciar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#bloquear-usuário">bloquear usuário</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="nivel">nível</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">nível</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Classificação do desempenho do usuário.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Para subir de nível é necessário alcançar uma meta de <a href="./#pontos">pontos</a> e de <a href="./#melhor-resposta">melhor resposta</a>.</br>Níveis podem servir como meta para <a href="./#comunidade">usuários</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">níveis.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#melhor-resposta">melhor resposta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pontos">pontos</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#notificações">notificações</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#moderador">moderador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="notificacoes">notificações</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">notificações</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Feedback do sistema.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Uma pessoa recebe uma notificação ao receber um <a href="./#obrigados">obrigado</a>, ter uma <a href="./#pergunta-expirada">pergunta expirada</a> ou respondida, cumprir um <a href="./#desafios">desafio</a>, ganhar um <a href="./#emblemas">emblema</a>, ganhar <a href="./#melhor-resposta">melhor resposta</a>, subir de <a href="./#nível">nível</a> ou quando outra pessoa adiciona <a href="./#comentário">comentário</a> em sua <a href="./#pergunta">pergunta</a> ou <a href="./#respondidas">resposta</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">notificação, aviso.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#administrador">administrador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="obrigados">obrigados</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">obrigados</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Agradecimento.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Obrigados são representados por corações.</br>Pode-se agradecer a uma <a href="./#respondidas">resposta</a> com um obrigado.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">botão de agradecimento, obrigado.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="perfil">perfil</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">perfil</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Ambiente que possui as informações do usuário.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Apresenta as informações do usuário.</br>Permite o usuário alterar algumas de sua informações.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">perfis, conta, contas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2996">faça sua pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3032">alterar perfil</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3033">adicionar anexo para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3034">adicionar símbolo para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3035">adicionar equação para pergunta</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta">pergunta</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">pergunta</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Questão proposta para que alguém tire uma dúvida.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Para fazer um pergunta o usuário deve oferecer <a href="./#pontos">pontos</a>.</br>Quando alguém tem sua <a href="./#id=12644">pergunta respondida</a>, pode escolher a <a href="./#melhor-resposta">melhor resposta</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">tarefa, dúvida, tarefas, perguntas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2996">faça sua pergunta</a></td>
+<td align="center"><a href="./#pontos">pontos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2997">responder tarefa</a></td>
+<td align="center"><a href="./#comentário">comentário</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2999">dar obrigado</a></td>
+<td align="center"><a href="./#notificações">notificações</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3030">moderar denúncia</a></td>
+<td align="center"><a href="./#pergunta-expirada">pergunta expirada</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3033">adicionar anexo para pergunta</a></td>
+<td align="center"><a href="./#tarefas-resolvidas">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3034">adicionar símbolo para pergunta</a></td>
+<td align="center"><a href="./#tarefas-adicionadas">tarefas adicionadas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3035">adicionar equação para pergunta</a></td>
+<td align="center"><a href="./#recebendo-resposta">recebendo resposta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#moderador">moderador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#denunciar">denunciar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pergunta-popular">pergunta popular</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta-expirada">pergunta expirada</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">pergunta expirada</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#pergunta">pergunta</a> com prazo de <a href="./#respondidas">resposta</a> vencido.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Ao ter o prazo de <a href="./#respondidas">resposta</a> vencido os <a href="./#pontos">pontos</a> oferecidos são devolvidos.</br>Uma <a href="./#pergunta">pergunta</a> expirada é eliminada do brainly.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">pergunta deletada, tarefa expirada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#notificações">notificações</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta-popular">pergunta popular</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">pergunta popular</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#pergunta">pergunta</a> muito acessada por estudantes.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">A <a href="./#pergunta">pergunta</a> popular recebe maior destaque no Brainly.</br>A <a href="./#pergunta">pergunta</a> popular é responsável por atrair maior acesso à plataforma.</br>O <a href="./#time-de-respostas">time de respostas</a>, os <a href="./#moderador">moderadores</a>, os <a href="./#universitário">universitários</a>, a <a href="./#administrador">administração</a> e os <a href="./#comunidade">usuários</a> empenham-se mais em <a href="./#responder">responder</a> essas <a href="./#pergunta">perguntas</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">perguntas populares, populares, questões populares, questão popular.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="pontos">pontos</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">pontos</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Método de premiação.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Um usuário ganha pontos ao <a href="./#responder">responder</a> uma <a href="./#pergunta">pergunta</a>.</br>Para fazer uma <a href="./#pergunta">pergunta</a> é necessário oferecer pontos.</br>É necessário alcançar uma meta de pontos para subir de <a href="./#nível">nível</a>.</br>Ao cumprir <a href="./#desafios">desafios</a> o usuário ganha pontos.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">pontuação, ponto.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2998">iniciar desafios</a></td>
+<td align="center"><a href="./#responder">responder</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3033">adicionar anexo para pergunta</a></td>
+<td align="center"><a href="./#nível">nível</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3034">adicionar símbolo para pergunta</a></td>
+<td align="center"><a href="./#pergunta">pergunta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3035">adicionar equação para pergunta</a></td>
+<td align="center"><a href="./#desafios">desafios</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#rankings">rankings</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pergunta-expirada">pergunta expirada</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12647">cadastrar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12648">log in</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12651">logado</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="rankings">rankings</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">rankings</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Listagem dos melhores.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">As pessoas com mais <a href="./#pontos">pontos</a> aparecem no ranking.</br>o ranking é dividido em diário, semanal e mensal.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">ranking.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="recebendo-resposta">recebendo resposta</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">recebendo resposta</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#pergunta">perguntas</a> que estão sendo <a href="./#respondidas">respondidas</a>.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Quando uma <a href="./#pergunta">pergunta</a> já está sendo respondida por duas pessoas, outras pessoas podem apenas fazer comentários;</br>O usuário que fez a <a href="./#pergunta">pergunta</a> recebe uma <a href="./#notificações">notificação</a> que sua <a href="./#pergunta">pergunta</a> está sendo respondida.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">tarefa sendo respondida.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="responder">responder</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">responder</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Tirar <a href="./#pergunta">dúvida</a> de outro usuário.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Responder gera <a href="./#pontos">pontos</a>.</br>A <a href="./#respondidas">resposta</a> deve ser detalhada para que o usuário com <a href="./#pergunta">dúvida</a> entenda.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">responde.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2998">iniciar desafios</a></td>
+<td align="center"><a href="./#melhor-resposta">melhor resposta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pontos">pontos</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#tarefas-resolvidas">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#comunidade">comunidade</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pergunta-popular">pergunta popular</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12647">cadastrar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12648">log in</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12651">logado</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="respondidas">respondidas</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">respondidas</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">Dúvidas Tiradas ou respondidas.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center"><a href="./#pergunta">perguntas</a> com duas respostas,  apenas podem receber comentários.</br>Pode-se agradecer ou qualificar respostas.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">resposta, respostas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#tarefas-resolvidas">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#sem-resposta">sem resposta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#recebendo-resposta">recebendo resposta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#time-de-respostas">time de respostas</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#universitário">universitário</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#id=12644">pergunta respondida</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="respostas-verificadas">respostas verificadas</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">respostas verificadas</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#respondidas">respostas</a> revidadas, que foram destacadas devido seu detalhamento e precisão.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">As <a href="./#melhor-resposta">melhores respostas</a> analisadas pelo time tornam-se verificadas.</br>Ao fazer uma pesquisa são mostradas as <a href="./#respondidas">respostas</a> verificadas.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">tarefas verificadas, respostas revisadas, resposta revisada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=3000">pesquisar</a></td>
+<td align="center"><a href="./#moderador">moderador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="sem-resposta">sem resposta</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">sem resposta</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">não respondida.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center"><a href="./#pergunta">perguntas</a> que podem ser <a href="./#respondidas">respondidas</a>.</br><a href="./#pergunta">tarefas</a> que ficam muito tempo sem <a href="./#respondidas">resposta</a> são deletadas.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">tarefa sem resposta.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x58ed251/#id=2997">responder tarefa</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="tarefas-adicionadas">tarefas adicionadas</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">tarefas adicionadas</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#pergunta">pergunta</a> feita.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">As dúvidas tiradas são salvas em <a href="./#pergunta">tarefas</a> adicionadas.</br>As <a href="./#pergunta">tarefas</a> adicionadas servem para usuário rever uma <a href="./#pergunta">pergunta</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">pegunta adicionada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="tarefas-resolvidas">tarefas resolvidas</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">tarefas resolvidas</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#pergunta">perguntas</a> <a href="./#respondidas">respondidas</a>.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">Ao <a href="./#responder">responder</a> uma <a href="./#pergunta">pergunta</a> a <a href="./#pergunta">tarefa</a> fica salva em <a href="./#pergunta">tarefas</a> <a href="./#respondidas">respondidas</a>.</br>As <a href="./#pergunta">perguntas</a> resolvidas servem para o <a href="./#comunidade">comunidade</a> ver as <a href="./#respondidas">respostas</a> de um usuário.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">perguntas resolvidas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="time-de-respostas">time de respostas</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">time de respostas</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center"><a href="./#comunidade">usuários</a> mais experientes em dar <a href="./#respondidas">respostas</a> na plataforma.</br>Time coordenado e selecionado pela <a href="./#administrador">administração</a> do Brainly devido ao bom desempenho.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">O time de <a href="./#respondidas">respostas</a> aumenta a qualidade das <a href="./#pergunta">perguntas</a> <a href="./#respondidas">respondidas</a>.</br>As <a href="./#pergunta-popular">perguntas populares</a> são focalizadas pelo time de <a href="./#respondidas">respostas</a>.</br>O time de <a href="./#respondidas">respostas</a> recebe orientações de participação na plataforma por parte dos <a href="./#administrador">administradores</a>.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">equipe de resposta, equipes de respostas, time de resposta.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#administrador">administrador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#pergunta-popular">pergunta popular</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="universitario">universitário</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Nome</td>
+<td align="center">universitário</td>
+</tr>
+<tr>
+<td align="center">Noção</td>
+<td align="center">É o usuário da plataforma que cursa ensino superior.</br>Estudante selecionado pela <a href="./#administrador">administração</a> a partir de processo seletivo em universidade.</br>Possui amparo e resguardo de ações por parte da <a href="./#administrador">administração</a>.</td>
+</tr>
+<tr>
+<td align="center">Classificação</td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center">Impacto</td>
+<td align="center">O universitário <a href="./#responder">responde</a> questões especificas, especialmente as <a href="./#pergunta-popular">perguntas populares</a>.</br>O universitário recebe orientação por parte da <a href="./#administrador">administração</a> sobre as <a href="./#pergunta">perguntas</a> a serem <a href="./#respondidas">respondidas</a>.</br>O universitário gera <a href="./#respondidas">respostas</a> com alta qualidade no Brainly.</td>
+</tr>
+<tr>
+<td align="center">Sinônimos</td>
+<td align="center">acadêmico, universitários, acadêmicos.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Lexicos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../cenarios10x58ed251/" title="Cenários" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Cenários
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.dc02f8ce.js"></script>
+      
+        
+        
+          
+          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
