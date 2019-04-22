@@ -2,9 +2,10 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| [1.0](./modelagem_v1/cenarios10x58ed251.md) | 21/04/2019 | Gera primeira versão dos artefatos | Welison Regis |
-| 2.0 | 22/04/2019 | Gera segunda versão dos artefatos, crawler otimizado | Welison Regis |
+| [1.0](./modelagem_v1/cenarios10x58ed251.md) | 21/04/2019 | Gera primeira versão dos artefatos | Grupo |
+| 2.0 | 22/04/2019 | Gera segunda versão dos artefatos, crawler otimizado | Grupo |
 | 2.1 | 22/04/2019 | Adiciona introdução e descrição sobre o crawler utilizado | Welison Regis |
+| 2.2 | 22/04/2019 | Adiciona requisitos relacionados | Lieverton |
 
 # Introdução
 
@@ -53,7 +54,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Recursos** |    programa do brainly que transforma sua sentença em equação,internet,computador ou celular   |
 |  **Excecão**  |    [usuário](lexicos10x5f8c4.md#l12660) estar sem conexão de internet.</br>Servidores da plataforma estarem offline.   |
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide fazer uma [pergunta](lexicos10x5f8c4.md#l12494)</br>[usuário](lexicos10x5f8c4.md#l12660) escreve uma sentença para a [pergunta](lexicos10x5f8c4.md#l12494).</br>Programa do brainly transforma a sentença em equação.</br>[usuário](lexicos10x5f8c4.md#l12660) faz a [pergunta](lexicos10x5f8c4.md#l12494).   |
-| **Requisitos** | |
+| **Requisitos** | [MOD1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/modelagem/) |
 
 
 # adicionar símbolo para pergunta
@@ -68,7 +69,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Recursos** |    símbolos disponíveis pelo brainly , internet,computador ou celular   |
 |  **Excecão**  |    [usuário](lexicos10x5f8c4.md#l12660) estar sem conexão de internet.</br>Servidores da plataforma estarem offline.   |
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide fazer uma [pergunta](lexicos10x5f8c4.md#l12494)</br>[usuário](lexicos10x5f8c4.md#l12660) adiciona um símbolo para a [pergunta](lexicos10x5f8c4.md#l12494).</br>[usuário](lexicos10x5f8c4.md#l12660) faz a [pergunta](lexicos10x5f8c4.md#l12494).   |
-| Requisitos | [INT1.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [MOD1.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/modelagem/) |
 
 
 # alterar nível das perguntas
@@ -97,7 +98,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Recursos** |    [conta](lexicos10x5f8c4.md#l12532) de [usuário](lexicos10x5f8c4.md#l12660),internet,computador ou celular   |
 |  **Excecão**  |    [usuário](lexicos10x5f8c4.md#l12660) estar sem conexão de internet.</br>Servidores da plataforma estarem offline.   |
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide trocar alguma ou algumas informações de sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) entra em [editar](lexicos10x5f8c4.md#l12659) [perfil](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) altera a informação ou as informações da sua [conta](lexicos10x5f8c4.md#l12532).   |
-| **Requisitos** | |
+| **Requisitos** | [MOD1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/modelagem/) |
 
 
 # dar obrigado
@@ -112,7 +113,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Recursos** |    [pergunta](lexicos10x5f8c4.md#l12494), [respostas](lexicos10x5f8c4.md#l12521), [botão de agradecimento](lexicos10x5f8c4.md#l12497);   |
 |  **Excecão**  |    O servidor do site caiu.   |
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) ler uma [resposta](lexicos10x5f8c4.md#l12521);</br>[usuário](lexicos10x5f8c4.md#l12660) entende a [tarefa](lexicos10x5f8c4.md#l12494);</br>[usuário](lexicos10x5f8c4.md#l12660) clica no coração pra dar [obrigado](lexicos10x5f8c4.md#l12497).   |
-| **Requisitos** | |
+| **Requisitos** | [MOD1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/modelagem/) |
 
 # deletar conta
 ### C3029
@@ -126,7 +127,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Recursos** |    [conta](lexicos10x5f8c4.md#l12532),internet,computador ou celular   |
 |  **Excecão**  |    [usuário](lexicos10x5f8c4.md#l12660) estar sem conexão de internet.</br>Servidores da plataforma estarem offline.</br>Ninguém confirmar o apagamento da sua [conta](lexicos10x5f8c4.md#l12532).   |
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide apagar sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) acessa  [editar](lexicos10x5f8c4.md#l12659) [perfil](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) acessa [editar](lexicos10x5f8c4.md#l12659) configurações.</br>[usuário](lexicos10x5f8c4.md#l12660) clica na opção quero eliminar minha [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) usa o formulário de contato confirmar sua decisão.</br>[usuário](lexicos10x5f8c4.md#l12660) espera sua [conta](lexicos10x5f8c4.md#l12532) ser apagada, ou seja [conta deletada](lexicos10x5f8c4.md#l12658).   |
-| **Requisitos** | |
+| **Requisitos** | [MOD1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/modelagem/) |
 
 # fazer uma pergunta
 ### C3036
@@ -168,7 +169,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Recursos** |    [perfil](lexicos10x5f8c4.md#l12532) no Brainly.</br>Lista de [níveis](lexicos10x5f8c4.md#l12491) escolares.   |
 |  **Excecão**  |    [usuário](lexicos10x5f8c4.md#l12660) sem conexão com a internet.</br>Servidores da plataforma estarem offline.   |
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) acessa o Brainly.</br>[usuário](lexicos10x5f8c4.md#l12660) entra em sua [conta](lexicos10x5f8c4.md#l12532).</br></br>Plataforma mobile:</br>Na aba [resposta](lexicos10x5f8c4.md#l12521), o [usuário](lexicos10x5f8c4.md#l12660) clica em [nível](lexicos10x5f8c4.md#l12491) escolar ([nível das perguntas](lexicos10x5f8c4.md#l12656)) e escolhe o [nível](lexicos10x5f8c4.md#l12491) adequado para si na lista apresentada.</br></br>Plataforma web:</br>Na página principal, clicar no menu dropdown "Todos os [níveis](lexicos10x5f8c4.md#l12491)" e escolher o [nível](lexicos10x5f8c4.md#l12491) adequado para si na lista apresentada.</br></br>[usuário](lexicos10x5f8c4.md#l12660) escolhe uma [pergunta](lexicos10x5f8c4.md#l12494) que possa contribuir.</br>[usuário](lexicos10x5f8c4.md#l12660) [responde](lexicos10x5f8c4.md#l12489) a [pergunta](lexicos10x5f8c4.md#l12494).</br>[usuário](lexicos10x5f8c4.md#l12660) recebe [pontos](lexicos10x5f8c4.md#l12492) pela [resposta](lexicos10x5f8c4.md#l12521).   |
-| **Requisitos** | |
+| **Requisitos** | [MOD1.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/modelagem/)|
 
 # iniciar desafios
 ### C2998
