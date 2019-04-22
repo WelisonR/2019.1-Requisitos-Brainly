@@ -1,0 +1,3560 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../images/brainly/icon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Léxicos - REQUISITOS — Brainly</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#03a9f4">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="light-blue" data-md-color-accent="white">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#versionamento" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="REQUISITOS — Brainly" class="md-header-nav__button md-logo">
+          
+            <img src="../images/brainly/icon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              REQUISITOS — Brainly
+            </span>
+            <span class="md-header-nav__topic">
+              Léxicos
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Brainly
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="REQUISITOS — Brainly" class="md-nav__button md-logo">
+      
+        <img src="../images/brainly/icon.png" width="48" height="48">
+      
+    </a>
+    REQUISITOS — Brainly
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Brainly
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      PRÉ-RASTREABILIDADE
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        PRÉ-RASTREABILIDADE
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../argumentacao/" title="Argumentação" class="md-nav__link">
+      Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rich_picture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      RASTREABILIDADE-PRINTS
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        RASTREABILIDADE-PRINTS
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../argumentacao_versoes/" title="Versões da argumentação" class="md-nav__link">
+      Versões da argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rich_picture_versoes/" title="Versões de Rich Picture" class="md-nav__link">
+      Versões de Rich Picture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../confirmacao_tema/" title="Confirmação do tema" class="md-nav__link">
+      Confirmação do tema
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nao_twich/" title="Não ao Twich.TV" class="md-nav__link">
+      Não ao Twich.TV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../votacao_tema/" title="Votação para escolha do tema" class="md-nav__link">
+      Votação para escolha do tema
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../votacao_mensagem/" title="Votação sistema de mensagem" class="md-nav__link">
+      Votação sistema de mensagem
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      ELICITAÇÃO
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        ELICITAÇÃO
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../plano_elicitacao/" title="Plano de elicitação" class="md-nav__link">
+      Plano de elicitação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analise_protocolo/" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brainstorm/" title="Brainstorming" class="md-nav__link">
+      Brainstorming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../observacao/" title="Observação" class="md-nav__link">
+      Observação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questionario/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../priorizacao/" title="Priorização" class="md-nav__link">
+      Priorização
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      MODELAGEM
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        MODELAGEM
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios10x5f8c4/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Léxicos" class="md-nav__link md-nav__link--active">
+      Léxicos
+    </a>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/edit/master/docs/lexicos10x5f8c4.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="versionamento">Versionamento</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Versão</th>
+<th align="center">Data</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1.0</td>
+<td align="center">21/04/2019</td>
+<td align="center">Gera primeira versão dos artefatos</td>
+<td align="center">Welison Regis</td>
+</tr>
+<tr>
+<td align="center">2.0</td>
+<td align="center">22/04/2019</td>
+<td align="center">Gera segunda versão dos artefatos, crawler otimizado</td>
+<td align="center">Welison Regis</td>
+</tr>
+</tbody>
+</table>
+<h1 id="administrador">administrador</h1>
+<h3 id="l12529">L12529</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">administrador</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Funcionário que trabalha no Brainly;</br>Responsável pela gerência de <a href="./#l12532">contas</a> e necessidades da plataforma;</br>Responsável pela orientação do <a href="./#l12576">time de respostas</a> e dos <a href="./#l12577">universitários</a>.</br><a href="./#l12660">pessoa</a> responsável pela coordenação das atividades de moderação;</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O administrador exclui <a href="./#l12532">contas</a> de <a href="./#l12531">infratores</a>;</br>O administrador realiza a comunicação de avisos através de <a href="./#l12509">notificações</a>;</br>Recruta <a href="./#l12528">moderador</a>;</br>O administrador fornece instrução de moderação ao <a href="./#l12528">moderador</a>;</br>O administrador realiza promoção de <a href="./#l12528">moderador</a>;</br>O administrador relata falhas técnicas ao time de desenvolvimento;</br>O administrador assiste o <a href="./#l12660">usuário</a> que pede auxílio.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">gerente, administradores, gerentes, administração.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12659">editar</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"><a href="./#l12660">usuário</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="amigo">amigo</h1>
+<h3 id="l12502">L12502</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">amigo</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">pessoa</a> que segue ou é seguido.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Ao adicionar uma amigo, o mesmo aparece na aba de amigos.</br><a href="./#l12494">perguntas</a> ou <a href="./#l12521">respostas</a> geram <a href="./#l12509">notificação</a> para os amigos.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">seguidor, amigos.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="banido">banido</h1>
+<h3 id="l12534">L12534</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">banido</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Usuario impossibilitado de acessar sua <a href="./#l12532">conta</a>.</br>Apos infringir certos tipos de regras ou ser reincidente em advertencias.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> após ser temporariamente banido faz sua <a href="./#l12532">conta</a> <a href="./#l12648">entrar</a> em um período de observação: ESTADO - <a href="./#l12532">conta</a> sob supervisão.</br></br>Após banimento total, <a href="./#l12660">usuário</a> não pode mais utilizar sua <a href="./#l12532">conta</a>: ESTADO - <a href="./#l12658">conta excluída</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">excluido, retirado, punido.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12533">denunciar</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="bloquear-usuario">bloquear usuário</h1>
+<h3 id="l12574">L12574</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">bloquear usuário</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> sofre bloqueio temporário no Brainly devido a prática de infrações.</br><a href="./#l12660">usuário</a> impossibilitado de acessar sua <a href="./#l12532">conta</a> temporariamente.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12528">moderador</a> ou a <a href="./#l12529">administração</a> do Brainly bloqueia o <a href="./#l12660">usuário</a>.</br>O <a href="./#l12660">usuário</a> tem sua <a href="./#l12532">conta</a> suspensa por alguns dias.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">bloqueiam usuário, bloquear usuários, reter usuários, travar usuário, reter usuário, bloqueia usuário.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="cadastrar">cadastrar</h1>
+<h3 id="l12647">L12647</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">cadastrar</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> se cadastra.</br>O <a href="./#l12660">usuário</a> se cadastra quando deseja ter uma <a href="./#l12532">conta</a> no Brainly.</br>O <a href="./#l12660">usuário</a> cadastra o nome de <a href="./#l12660">usuário</a>; a data de nascimento; o email dos pais ou responsáveis, se menor de 13 anos; e aceita os <a href="./#l12646">termos de uso</a> e <a href="./#l12645">política de privacidade</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> está em sua <a href="./#l12532">conta</a> no Brainly.</br>O <a href="./#l12660">usuário</a> define uma senha e um endereço de email para sua <a href="./#l12532">conta</a>.</br>Quando cadastrado via email, é necessário confirmá-lo.</br>Ao realizar o primeiro <a href="./#l12648">log in</a>, o <a href="./#l12660">usuário</a> receberá um tutorial básico.</br>O <a href="./#l12660">usuário</a> ganha <a href="./#l12492">pontos</a> por criar uma <a href="./#l12532">conta</a>.</br>O <a href="./#l12660">usuário</a> pode fazer <a href="./#l12494">perguntas</a>.</br>O <a href="./#l12660">usuário</a> pode <a href="./#l12489">responder</a> <a href="./#l12494">perguntas</a> e ganhar <a href="./#l12492">pontos</a> pelas <a href="./#l12521">respostas</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">registrar.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12649">entre agora!</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12650">entrar com facebook</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="comentario">comentário</h1>
+<h3 id="l12506">L12506</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">comentário</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">ponderação, crítica ou esclarecimento.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">alguém pode escrever um comentário em uma <a href="./#l12494">pergunta</a> ou em uma <a href="./#l12521">resposta</a>.</br>A <a href="./#l12525">comunidade</a> pode usar os comentários para comunicação.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">avaliação, explicação, comentários.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12509">notificações</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3042">adicionar comentário</a></td>
+<td align="center"><a href="./#l12528">moderador</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="comunidade">comunidade</h1>
+<h3 id="l12525">L12525</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">comunidade</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">conjunto de <a href="./#l12660">pessoas</a> em prol de se ajudarem.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">a comunidade pode ajudar a <a href="./#l12489">responder</a>;</br>a comunidade faz <a href="./#l12494">perguntas</a>;</br>a comunidade pode <a href="./#l12533">denunciar</a> atitudes impróprias.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">usuários.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2997">responder tarefa</a></td>
+<td align="center"><a href="./#l12506">comentário</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3000">pesquisar</a></td>
+<td align="center"><a href="./#l12508">mensagens</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3042">adicionar comentário</a></td>
+<td align="center"><a href="./#l12512">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12528">moderador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12644">pergunta respondida</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="confirmar-email">confirmar email</h1>
+<h3 id="l12657">L12657</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">confirmar email</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> verifica que o email utilizado na criação da <a href="./#l12532">conta</a> é o dele próprio ou um email que tem acesso.</br>Ocorre quando o <a href="./#l12660">usuário</a> acaba de criar uma <a href="./#l12532">conta</a> e está <a href="./#l12651">logado</a>.</br><a href="./#l12660">usuário</a> recebe uma <a href="./#l12508">mensagem</a> dizendo para confirmar o email, <a href="./#l12660">usuário</a> deve então acessar seu email e confirmar a <a href="./#l12532">conta</a> do brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Email foi confirmado.</br>Uma vez que o email foi confirmado não pode se confirmar de novo.</br><a href="./#l12660">usuário</a> ganha 10 <a href="./#l12492">pontos</a> por confirmar o email.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">confirmação de email, aprovação de email, aprovar email.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="conta-deletada">conta deletada</h1>
+<h3 id="l12658">L12658</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">conta deletada</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12532">conta</a> não existe mais.</br>Ocorre quando um <a href="./#l12660">usuário</a> consegue deletar a <a href="./#l12532">conta</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Quando algum <a href="./#l12660">usuário</a> tenta abrir um <a href="./#l12532">conta</a> com o mesmo email e nome de antes ele consegue: Estado - <a href="./#l12532">conta</a> criada</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">conta apagada, conta retirada, conta excluída.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#id=3039">deletar conta</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="denunciar">denunciar</h1>
+<h3 id="l12533">L12533</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">denunciar</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Realizada pelo <a href="./#l12660">usuário</a> quando encontra uma <a href="./#l12521">resposta</a> ou <a href="./#l12494">pergunta</a> inadequada.</br>Ao clicar no botão de denunciar, o <a href="./#l12528">moderador</a> é acionado.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12494">pergunta</a> ou <a href="./#l12521">resposta</a> apagada.</br><a href="./#l12660">usuário</a> denunciado é advertido ou <a href="./#l12534">banido</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">sinalizar, reportar.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12525">comunidade</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="desafios">desafios</h1>
+<h3 id="l12496">L12496</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">desafios</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">tarefas</a> em um período de tempo.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Desafios completos geram <a href="./#l12492">pontos</a>;</br>Um <a href="./#l12660">usuário</a> pode aceitar um único desafio por vez;</br>Servem pra impulsionar um <a href="./#l12660">usuário</a> a uma <a href="./#l12494">tarefa</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">desafio.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"><a href="./#l12492">pontos</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="deslogado">deslogado</h1>
+<h3 id="l12653">L12653</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">deslogado</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> ainda não está <a href="./#l12651">logado</a> ao sistema</br></br>Isso ocorre quando o <a href="./#l12660">usuário</a> não <a href="./#l12651">logou</a> no sistema ou quando acabou de se desconectar.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Quando o <a href="./#l12660">usuário</a> se conecta:Estado – <a href="./#l12660">usuário</a> <a href="./#l12651">logado</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">desconectado, deslogou, desloga, saiu.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12651">logado</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="editar">editar</h1>
+<h3 id="l12659">L12659</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">editar</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Edição do conteúdo de <a href="./#l12494">perguntas</a> ou <a href="./#l12521">respostas</a> na plataforma.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Corrigir erros em <a href="./#l12494">perguntas</a> e <a href="./#l12521">respostas</a>.</br><a href="./#l12528">moderador</a>, <a href="./#l12529">administrador</a> pedir correção para incluir mais detalhes na <a href="./#l12494">pergunta</a> ou <a href="./#l12521">resposta</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">edição, modificar, mudar.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3032">alterar perfil</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#id=3039">deletar conta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas">emblemas</h1>
+<h3 id="l12495">L12495</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">emblemas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Símbolos ou imagens que representam uma atividade.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Uma atividade completa gera um emblema.</br>Os <a href="./#l12660">usuário</a> podem ver o próprio progresso para conquistar um emblema.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">conquistas, emblema, conquista.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12516">emblemas mais próximos</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12517">emblemas recentes</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12518">emblemas conquistados.</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas-conquistados">emblemas conquistados.</h1>
+<h3 id="l12518">L12518</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">emblemas conquistados.</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Atividade cumprida.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Os <a href="./#l12495">emblemas</a> conquistados ficam salvos em <a href="./#l12495">emblemas</a> obtidos.</br>Os <a href="./#l12495">emblemas</a> servem evidenciar o progresso do <a href="./#l12660">usuário</a> no brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">emblemas adquiridos .</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas-mais-proximos">emblemas mais próximos</h1>
+<h3 id="l12516">L12516</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">emblemas mais próximos</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Atividades perto de serem cumpridas.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12495">emblemas</a> que estão mais perto de serem cumpridos são mostrados em <a href="./#l12495">emblemas</a> mais próximos.</br>Os <a href="./#l12495">emblemas</a> mais próximos podem impulsionar um <a href="./#l12660">usuário</a> a se empenhar em uma atividade.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">próxima conquista.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="emblemas-recentes">emblemas recentes</h1>
+<h3 id="l12517">L12517</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">emblemas recentes</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Últimas atividades cumpridas;</br>Últimos <a href="./#l12495">emblemas</a> adquiridos.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Os últimos <a href="./#l12495">emblemas</a> ficam salvos em <a href="./#l12495">emblemas</a> mais recentes.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">conquista recente.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="entrar-com-facebook">entrar com facebook</h1>
+<h3 id="l12650">L12650</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">entrar com facebook</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">tarefa</a> realizada por um <a href="./#l12660">usuário</a>.</br></br>Acontece quando o <a href="./#l12660">usuário</a> não está <a href="./#l12651">logado</a> e deseja <a href="./#l12648">logar</a>.</br></br><a href="./#l12660">usuário</a> clica em <a href="./#l12648">entrar</a> ou <a href="./#l12647">cadastrar</a> depois clica em <a href="./#l12648">entrar</a> com facebook e no final coloca seu <a href="./#l12660">usuário</a> e senha do facebook.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> está <a href="./#l12651">logado</a> no Brainly e no facebook.</br></br>Se o <a href="./#l12660">usuário</a> está <a href="./#l12651">logado</a>, não pode <a href="./#l12648">logar</a> novamente.</br></br><a href="./#l12660">usuário</a> ganha as vantagens de estar <a href="./#l12651">logado</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">logar com facebook.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12649">entre agora!</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="entre-agora">entre agora!</h1>
+<h3 id="l12649">L12649</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">entre agora!</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> clica no texto "ENTRE AGORA!"</br>O <a href="./#l12660">usuário</a> clica quando deseja se <a href="./#l12647">cadastrar</a> no Brainly.</br>O <a href="./#l12660">usuário</a> escolhe se deseja se <a href="./#l12647">cadastrar</a> usando seu email ou Facebook (<a href="./#l12650">entrar com facebook</a>)</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> transita da tela de <a href="./#l12648">log in</a> para a tela de cadastro de <a href="./#l12660">usuário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">cadastre-se, registre-se.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="entre">entre!</h1>
+<h3 id="l12652">L12652</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">entre!</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> clica no texto "ENTRE!"</br>O <a href="./#l12660">usuário</a> clica quando deseja <a href="./#l12648">entrar</a> em uma <a href="./#l12532">conta</a> no Brainly.</br>O <a href="./#l12660">usuário</a> escolhe se deseja <a href="./#l12648">entrar</a> usando email/nome de <a href="./#l12660">usuário</a> e senha ou o Facebook.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> transita da tela de <a href="./#l12649">cadastre-se</a> para a tela de login.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">login.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="esqueceu-sua-senha">esqueceu sua senha</h1>
+<h3 id="l12654">L12654</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">esqueceu sua senha</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> clica no texto “Esqueceu sua senha?”</br>O <a href="./#l12660">usuário</a> clica quando deseja recuperar sua <a href="./#l12532">conta</a> no Brainly.</br>O <a href="./#l12660">usuário</a> insere o email ao qual a <a href="./#l12532">conta</a> foi vinculada.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> receberá um email que o levará para uma página de redefinição de senha.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">recuperar senha, recuperar conta, redefinir senha.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="infrator">infrator</h1>
+<h3 id="l12531">L12531</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">infrator</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">pessoa</a> que não cumpre com as políticas do regulamento do Brainly.</br>Responsável pela perda de tempo de <a href="./#l12528">moderadores</a> e estudantes devido ao cometimento de irregularidades.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O infrator pratica irregularidades na plataforma;</br>O infrator prejudica aos <a href="./#l12528">moderadores</a>, aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em <a href="./#l12494">perguntas</a>, <a href="./#l12521">respostas</a>, <a href="./#l12506">comentários</a> e no chat de maneira inadequada.</br>O infrator pratica spam, brincadeiras e pedidos de informações pessoais.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">infratores.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="log-in">log in</h1>
+<h3 id="l12648">L12648</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">log in</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> <a href="./#l12651">loga</a>.</br>O <a href="./#l12660">usuário</a> <a href="./#l12651">loga</a> quando deseja entrar em sua <a href="./#l12532">conta</a> no Brainly.</br>O <a href="./#l12660">usuário</a> digita seu nome de <a href="./#l12660">usuário</a> ou email e senha.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> está em sua <a href="./#l12532">conta</a> no Brainly.</br>O <a href="./#l12660">usuário</a> ganha <a href="./#l12492">pontos</a> por entrar em sua <a href="./#l12532">conta</a> periodicamente.</br>O <a href="./#l12660">usuário</a> pode fazer <a href="./#l12494">perguntas</a>.</br>O <a href="./#l12660">usuário</a> pode <a href="./#l12489">responder</a> <a href="./#l12494">perguntas</a> e ganha <a href="./#l12492">pontos</a> por essas <a href="./#l12521">respostas</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">entrar, logar.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12647">cadastrar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12649">entre agora!</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="logado">logado</h1>
+<h3 id="l12651">L12651</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">logado</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> ainda não está logado ao sistema</br></br>Isso ocorre quando o <a href="./#l12660">usuário</a> não logou no sistema ou quando acabou de se desconectar</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Quando o <a href="./#l12660">usuário</a> está logado ele possui:</br></br>-<a href="./#l12498">ranking</a> </br>-<a href="./#l12492">pontos</a> </br>-<a href="./#l12491">níveis</a> </br><a href="./#l12660">usuário</a> pode <a href="./#l12489">responder</a> e fazer <a href="./#l12494">perguntas</a>.</br>Estado:</br>-<a href="./#l12660">usuário</a> logado</br></br><a href="./#l12660">usuário</a> se desconecta : Estado – <a href="./#l12660">usuário</a> <a href="./#l12653">deslogado</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">loga, logou, conectado, entrou.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2997">responder tarefa</a></td>
+<td align="center"><a href="./#l12650">entrar com facebook</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"><a href="./#l12653">deslogado</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3036">fazer uma pergunta</a></td>
+<td align="center"><a href="./#l12657">confirmar email</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3032">alterar perfil</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3033">adicionar anexo para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3034">adicionar símbolo para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3035">adicionar equação para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#id=3039">deletar conta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3042">adicionar comentário</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="materia">matéria</h1>
+<h3 id="l12499">L12499</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">matéria</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Área de conhecimento.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">As <a href="./#l12494">perguntas</a> são divididas por matéria;</br>Um <a href="./#l12660">usuário</a> pode filtrar os resultados por matéria.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">materias, tema, matérias.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3036">fazer uma pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="melhor-resposta">melhor resposta</h1>
+<h3 id="l12490">L12490</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">melhor resposta</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Solução mais adequada, ou que melhor tirou a <a href="./#l12494">dúvida</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Um <a href="./#l12660">usuário</a> ao ter sua <a href="./#l12494">dúvida</a> respondida pode escolher a melhor <a href="./#l12521">resposta</a>.</br>Ao <a href="./#l12489">responder</a> um <a href="./#l12660">usuário</a> pode ganhar melhor <a href="./#l12521">resposta</a>.</br>Uma certa quantidade de melhores <a href="./#l12521">respostas</a> é necessária para subir de <a href="./#l12491">nível</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">melhores respostas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12491">nível</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12494">pergunta</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12509">notificações</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12644">pergunta respondida</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="mensagens">mensagens</h1>
+<h3 id="l12508">L12508</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">mensagens</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Informações trocadas em forma de texto.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Um <a href="./#l12528">moderador</a> poder chamar atenção de alguém ou fazer um esclarecimento.</br>Um <a href="./#l12660">usuário</a> pode mandar mensagem para o <a href="./#l12528">moderador</a>.</br>A <a href="./#l12525">comunidade</a> não pode trocar mensagem privada.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">mensagem, mensagem privada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12660">usuário</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="moderador">moderador</h1>
+<h3 id="l12528">L12528</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">moderador</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12660">pessoa</a> que modera os conteúdos do Brainly.</br>Responsável por esclarecer as políticas da plataforma à <a href="./#l12525">comunidade</a>;</br>Responsável por manter o <a href="./#l12491">nível</a> de qualidade da plataforma em <a href="./#l12494">pergunta</a>, <a href="./#l12521">resposta</a> e <a href="./#l12506">comentário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O moderador exclui <a href="./#l12494">pergunta</a>, <a href="./#l12521">resposta</a> ou <a href="./#l12506">comentário</a> indevido;</br>O moderador comunica <a href="./#l12531">infratores</a> as políticas do regulamento;</br>O moderador retira <a href="./#l12494">dúvida</a> de estudantes sobre o regulamento da plataforma;</br>O moderador pode <a href="./#l12574">bloquear usuários</a> irregulares.</br>O moderador define <a href="./#l12522">respostas verificadas</a>, corretas.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">moderadores.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12508">mensagens</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"><a href="./#l12529">administrador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12533">denunciar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12574">bloquear usuário</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12659">editar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12660">usuário</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="nivel">nível</h1>
+<h3 id="l12491">L12491</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">nível</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Classificação do desempenho do <a href="./#l12660">usuário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Para subir de nível é necessário alcançar uma meta de <a href="./#l12492">pontos</a> e de <a href="./#l12490">melhor resposta</a>.</br>Níveis podem servir como meta para <a href="./#l12525">usuários</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">níveis.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"><a href="./#l12490">melhor resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"><a href="./#l12492">pontos</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12509">notificações</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12528">moderador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="nivel-das-perguntas">nível das perguntas</h1>
+<h3 id="l12656">L12656</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">nível das perguntas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Divisão de dificuldade por escolaridade.</br>Responsável por uma melhor divisão das <a href="./#l12494">perguntas</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Divide as <a href="./#l12494">perguntas</a> nas dificuldades:</br>-Ensino Fundamental(Básico)</br>-Ensino Médio(Secundário)</br>-Ensino Superior</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">dificuldade das perguntas, level das perguntas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="notificacoes">notificações</h1>
+<h3 id="l12509">L12509</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">notificações</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Feedback do sistema.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Uma <a href="./#l12660">pessoa</a> recebe uma notificação ao receber um <a href="./#l12497">obrigado</a>, ter uma <a href="./#l12510">pergunta expirada</a> ou respondida, cumprir um <a href="./#l12496">desafio</a>, ganhar um <a href="./#l12495">emblema</a>, ganhar <a href="./#l12490">melhor resposta</a>, subir de <a href="./#l12491">nível</a> ou quando outra <a href="./#l12660">pessoa</a> adiciona <a href="./#l12506">comentário</a> em sua <a href="./#l12494">pergunta</a> ou <a href="./#l12521">resposta</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">notificação, aviso.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12529">administrador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="obrigados">obrigados</h1>
+<h3 id="l12497">L12497</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">obrigados</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Agradecimento.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Obrigados são representados por corações.</br>Pode-se agradecer a uma <a href="./#l12521">resposta</a> com um obrigado.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">botão de agradecimento, obrigado.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2999">dar obrigado</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="perfil">perfil</h1>
+<h3 id="l12532">L12532</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">perfil</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Ambiente que possui as informações do <a href="./#l12660">usuário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Apresenta as informações do <a href="./#l12660">usuário</a>.</br>Permite o <a href="./#l12660">usuário</a> alterar algumas de sua informações.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">perfis, conta, contas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3036">fazer uma pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3032">alterar perfil</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3033">adicionar anexo para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3034">adicionar símbolo para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3035">adicionar equação para pergunta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#id=3039">deletar conta</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta">pergunta</h1>
+<h3 id="l12494">L12494</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">pergunta</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Questão proposta para que alguém tire uma dúvida.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Para fazer um pergunta o <a href="./#l12660">usuário</a> deve oferecer <a href="./#l12492">pontos</a>.</br>Quando alguém tem sua <a href="./#l12644">pergunta respondida</a>, pode escolher a <a href="./#l12490">melhor resposta</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">tarefa, dúvida, tarefas, perguntas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2997">responder tarefa</a></td>
+<td align="center"><a href="./#l12492">pontos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"><a href="./#l12506">comentário</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2999">dar obrigado</a></td>
+<td align="center"><a href="./#l12509">notificações</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3000">pesquisar</a></td>
+<td align="center"><a href="./#l12510">pergunta expirada</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3036">fazer uma pergunta</a></td>
+<td align="center"><a href="./#l12512">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12514">tarefas adicionadas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3033">adicionar anexo para pergunta</a></td>
+<td align="center"><a href="./#l12520">recebendo resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3034">adicionar símbolo para pergunta</a></td>
+<td align="center"><a href="./#l12528">moderador</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3035">adicionar equação para pergunta</a></td>
+<td align="center"><a href="./#l12533">denunciar</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"><a href="./#l12575">pergunta popular</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3038">pesquisar pelo google</a></td>
+<td align="center"><a href="./#l12659">editar</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3042">adicionar comentário</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta-expirada">pergunta expirada</h1>
+<h3 id="l12510">L12510</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">pergunta expirada</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">pergunta</a> com prazo de <a href="./#l12521">resposta</a> vencido.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Ao ter o prazo de <a href="./#l12521">resposta</a> vencido os <a href="./#l12492">pontos</a> oferecidos são devolvidos.</br>Uma <a href="./#l12494">pergunta</a> expirada é eliminada do brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">pergunta deletada, tarefa expirada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12509">notificações</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta-popular">pergunta popular</h1>
+<h3 id="l12575">L12575</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">pergunta popular</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">pergunta</a> muito acessada por estudantes.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">A <a href="./#l12494">pergunta</a> popular recebe maior destaque no Brainly.</br>A <a href="./#l12494">pergunta</a> popular é responsável por atrair maior acesso à plataforma.</br>O <a href="./#l12576">time de respostas</a>, os <a href="./#l12528">moderadores</a>, os <a href="./#l12577">universitários</a>, a <a href="./#l12529">administração</a> e os <a href="./#l12525">usuários</a> empenham-se mais em <a href="./#l12489">responder</a> essas <a href="./#l12494">perguntas</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">perguntas populares, populares, questões populares, questão popular.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="pergunta-respondida">pergunta respondida</h1>
+<h3 id="l12644">L12644</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">pergunta respondida</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Questões <a href="./#l12521">respondidas</a> pela <a href="./#l12525">comunidade</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Os <a href="./#l12525">usuários</a> podem agradecer pela <a href="./#l12521">resposta</a>;</br>Os <a href="./#l12525">usuários</a> que teve sua <a href="./#l12494">dúvida</a> tirada pode escolher a <a href="./#l12490">melhor resposta</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">tarefa respondida, dúvida tirada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12494">pergunta</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="politica-de-privacidade">política de privacidade</h1>
+<h3 id="l12645">L12645</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">política de privacidade</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Documento que explica como os dados pessoais do <a href="./#l12660">usuário</a> são conectados e processados pelo Brainly para fins de acesso, registro ou uso.</br>Documento que descreve os termos e as finalidades de processamento dos dados pessoais do <a href="./#l12660">usuário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O <a href="./#l12660">usuário</a> lê a política de privacidade do Brainly.</br>O <a href="./#l12660">usuário</a> concorda com a política de privacidade para utilizar o Brainly.</br>Se o <a href="./#l12660">usuário</a> não concordar com a política de privacidade, não deve utilizar o Brainly e preencher, compartilhar ou armazenar dados pessoais nele.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">termos de privacidade.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12647">cadastrar</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="pontos">pontos</h1>
+<h3 id="l12492">L12492</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">pontos</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Método de premiação.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Um <a href="./#l12660">usuário</a> ganha pontos ao <a href="./#l12489">responder</a> uma <a href="./#l12494">pergunta</a>.</br>Para fazer uma <a href="./#l12494">pergunta</a> é necessário oferecer pontos.</br>É necessário alcançar uma meta de pontos para subir de <a href="./#l12491">nível</a>.</br>Ao cumprir <a href="./#l12496">desafios</a> o <a href="./#l12660">usuário</a> ganha pontos.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">pontuação, ponto.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"><a href="./#l12489">responder</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3036">fazer uma pergunta</a></td>
+<td align="center"><a href="./#l12491">nível</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3033">adicionar anexo para pergunta</a></td>
+<td align="center"><a href="./#l12494">pergunta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3034">adicionar símbolo para pergunta</a></td>
+<td align="center"><a href="./#l12496">desafios</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3035">adicionar equação para pergunta</a></td>
+<td align="center"><a href="./#l12498">rankings</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"><a href="./#l12510">pergunta expirada</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"><a href="./#l12647">cadastrar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12648">log in</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12651">logado</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12657">confirmar email</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="rankings">rankings</h1>
+<h3 id="l12498">L12498</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">rankings</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Listagem dos melhores.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">As <a href="./#l12660">pessoas</a> com mais <a href="./#l12492">pontos</a> aparecem no ranking.</br>o ranking é dividido em diário, semanal e mensal.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">ranking.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="recebendo-resposta">recebendo resposta</h1>
+<h3 id="l12520">L12520</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">recebendo resposta</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">perguntas</a> que estão sendo <a href="./#l12521">respondidas</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Quando uma <a href="./#l12494">pergunta</a> já está sendo respondida por duas <a href="./#l12660">pessoas</a>, outras <a href="./#l12660">pessoas</a> podem apenas fazer <a href="./#l12506">comentários</a>;</br>O <a href="./#l12660">usuário</a> que fez a <a href="./#l12494">pergunta</a> recebe uma <a href="./#l12509">notificação</a> que sua <a href="./#l12494">pergunta</a> está sendo respondida.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">tarefa sendo respondida.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="repetir-desafio">repetir desafio</h1>
+<h3 id="l12655">L12655</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">repetir desafio</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Realizado por um <a href="./#l12660">usuário</a>.</br>Acontece quando o <a href="./#l12660">usuário</a> falha um <a href="./#l12496">desafio</a> e quer tentar novamente.</br><a href="./#l12660">usuário</a> ao falhar um <a href="./#l12496">desafio</a> pode clicar em repita para tentar novamente aquele <a href="./#l12496">desafio</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12496">desafio</a> está aberto e pode ser tentado novamente.</br></br>Se o <a href="./#l12496">desafio</a> está aberto não se pode clicar em repita.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">tentar desafio novamente, outra tentativa do desafio.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="responder">responder</h1>
+<h3 id="l12489">L12489</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">responder</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Tirar <a href="./#l12494">dúvida</a> de outro <a href="./#l12660">usuário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">verbo</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Responder gera <a href="./#l12492">pontos</a>.</br>A <a href="./#l12521">resposta</a> deve ser detalhada para que o <a href="./#l12660">usuário</a> com <a href="./#l12494">dúvida</a> entenda.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">responde.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"><a href="./#l12490">melhor resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"><a href="./#l12492">pontos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"><a href="./#l12512">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12525">comunidade</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12575">pergunta popular</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12647">cadastrar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12648">log in</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12651">logado</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="respondidas">respondidas</h1>
+<h3 id="l12521">L12521</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">respondidas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Dúvidas Tiradas ou respondidas.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12494">perguntas</a> com duas respostas,  apenas podem receber <a href="./#l12506">comentários</a>.</br>Pode-se agradecer ou qualificar respostas.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">resposta, respostas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2999">dar obrigado</a></td>
+<td align="center"><a href="./#l12512">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3000">pesquisar</a></td>
+<td align="center"><a href="./#l12519">sem resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12520">recebendo resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"><a href="./#l12576">time de respostas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"><a href="./#l12577">universitário</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3042">adicionar comentário</a></td>
+<td align="center"><a href="./#l12644">pergunta respondida</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="respostas-verificadas">respostas verificadas</h1>
+<h3 id="l12522">L12522</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">respostas verificadas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12521">respostas</a> revidadas, que foram destacadas devido seu detalhamento e precisão.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">As <a href="./#l12490">melhores respostas</a> analisadas pelo time tornam-se verificadas.</br>Ao fazer uma pesquisa são mostradas as <a href="./#l12521">respostas</a> verificadas.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">tarefas verificadas, respostas revisadas, resposta revisada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3000">pesquisar</a></td>
+<td align="center"><a href="./#l12528">moderador</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="sem-resposta">sem resposta</h1>
+<h3 id="l12519">L12519</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">sem resposta</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">não respondida.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12494">perguntas</a> que podem ser <a href="./#l12521">respondidas</a>.</br><a href="./#l12494">tarefas</a> que ficam muito tempo sem <a href="./#l12521">resposta</a> são deletadas.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">tarefa sem resposta.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2997">responder tarefa</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="tarefas-adicionadas">tarefas adicionadas</h1>
+<h3 id="l12514">L12514</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">tarefas adicionadas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">pergunta</a> feita.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">As dúvidas tiradas são salvas em <a href="./#l12494">tarefas</a> adicionadas.</br>As <a href="./#l12494">tarefas</a> adicionadas servem para <a href="./#l12660">usuário</a> rever uma <a href="./#l12494">pergunta</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">pegunta adicionada.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="tarefas-resolvidas">tarefas resolvidas</h1>
+<h3 id="l12512">L12512</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">tarefas resolvidas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12494">perguntas</a> <a href="./#l12521">respondidas</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">estado</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Ao <a href="./#l12489">responder</a> uma <a href="./#l12494">pergunta</a> a <a href="./#l12494">tarefa</a> fica salva em <a href="./#l12494">tarefas</a> <a href="./#l12521">respondidas</a>.</br>As <a href="./#l12494">perguntas</a> resolvidas servem para o <a href="./#l12525">comunidade</a> ver as <a href="./#l12521">respostas</a> de um <a href="./#l12660">usuário</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">perguntas resolvidas.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="termos-de-uso">termos de uso</h1>
+<h3 id="l12646">L12646</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">termos de uso</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Documento que descreve as regras e condições que um <a href="./#l12660">usuário</a> deve seguir para utilizar o Brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">objeto</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center"><a href="./#l12660">usuário</a> lê os termos de uso do Brainly</br>O <a href="./#l12660">usuário</a> concorda com os termos de uso para utilizar o Brainly</br>Se o <a href="./#l12660">usuário</a> não concordar com os Termos de Uso, não deve utilizar o Brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">condições de uso.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12647">cadastrar</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="time-de-respostas">time de respostas</h1>
+<h3 id="l12576">L12576</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">time de respostas</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center"><a href="./#l12525">usuários</a> mais experientes em dar <a href="./#l12521">respostas</a> na plataforma.</br>Time coordenado e selecionado pela <a href="./#l12529">administração</a> do Brainly devido ao bom desempenho.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O time de <a href="./#l12521">respostas</a> aumenta a qualidade das <a href="./#l12494">perguntas</a> <a href="./#l12521">respondidas</a>.</br>As <a href="./#l12575">perguntas populares</a> são focalizadas pelo time de <a href="./#l12521">respostas</a>.</br>O time de <a href="./#l12521">respostas</a> recebe orientações de participação na plataforma por parte dos <a href="./#l12529">administradores</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">equipe de resposta, equipes de respostas, time de resposta.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12529">administrador</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12575">pergunta popular</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="universitario">universitário</h1>
+<h3 id="l12577">L12577</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">universitário</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">É o <a href="./#l12660">usuário</a> da plataforma que cursa ensino superior.</br>Estudante selecionado pela <a href="./#l12529">administração</a> a partir de processo seletivo em universidade.</br>Possui amparo e resguardo de ações por parte da <a href="./#l12529">administração</a>.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">O universitário <a href="./#l12489">responde</a> questões especificas, especialmente as <a href="./#l12575">perguntas populares</a>.</br>O universitário recebe orientação por parte da <a href="./#l12529">administração</a> sobre as <a href="./#l12494">perguntas</a> a serem <a href="./#l12521">respondidas</a>.</br>O universitário gera <a href="./#l12521">respostas</a> com alta qualidade no Brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">acadêmico, universitários, acadêmicos.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="usuario">usuário</h1>
+<h3 id="l12660">L12660</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Informações</th>
+<th align="center">Símbolo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Nome</strong></td>
+<td align="center">usuário</td>
+</tr>
+<tr>
+<td align="center"><strong>Noção</strong></td>
+<td align="center">Pessoa singular identificável que utiliza o Brainly.</td>
+</tr>
+<tr>
+<td align="center"><strong>Classificação</strong></td>
+<td align="center">sujeito</td>
+</tr>
+<tr>
+<td align="center"><strong>Impacto</strong></td>
+<td align="center">Um usuário tem acesso às funcionalidade comuns da plataforma (fazer <a href="./#l12494">perguntas</a>, escrever <a href="./#l12521">respostas</a> e <a href="./#l12506">comentários</a>, adicionar <a href="./#l12502">amigos</a>, entre outras) e pode evoluir para se tornar um usuário avançado (<a href="./#l12528">moderador</a> ou <a href="./#l12529">administrador</a>) e acessar outras funcionalidades (<a href="./#l12508">mensagens</a>).</td>
+</tr>
+<tr>
+<td align="center"><strong>Sinônimos</strong></td>
+<td align="center">pessoas, pessoa.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Cenários</strong></th>
+<th align="center"><strong>Lexicos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2997">responder tarefa</a></td>
+<td align="center"><a href="./#l12489">responder</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2998">iniciar desafios</a></td>
+<td align="center"><a href="./#l12490">melhor resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c2999">dar obrigado</a></td>
+<td align="center"><a href="./#l12491">nível</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3000">pesquisar</a></td>
+<td align="center"><a href="./#l12492">pontos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3036">fazer uma pergunta</a></td>
+<td align="center"><a href="./#l12494">pergunta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3030">moderar denúncia</a></td>
+<td align="center"><a href="./#l12495">emblemas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3032">alterar perfil</a></td>
+<td align="center"><a href="./#l12496">desafios</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3033">adicionar anexo para pergunta</a></td>
+<td align="center"><a href="./#l12499">matéria</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3034">adicionar símbolo para pergunta</a></td>
+<td align="center"><a href="./#l12508">mensagens</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3035">adicionar equação para pergunta</a></td>
+<td align="center"><a href="./#l12512">tarefas resolvidas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3037">alterar nível das perguntas</a></td>
+<td align="center"><a href="./#l12514">tarefas adicionadas</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3038">pesquisar pelo google</a></td>
+<td align="center"><a href="./#l12516">emblemas mais próximos</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#id=3039">deletar conta</a></td>
+<td align="center"><a href="./#l12518">emblemas conquistados.</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3040">filtrar perguntas por matéria</a></td>
+<td align="center"><a href="./#l12520">recebendo resposta</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3041">filtrar perguntas por nível escolar </a></td>
+<td align="center"><a href="./#l12529">administrador</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3042">adicionar comentário</a></td>
+<td align="center"><a href="./#l12532">perfil</a></td>
+</tr>
+<tr>
+<td align="center"><a href="../cenarios10x5f8c4/#c3045">pedir correção de contéudo</a></td>
+<td align="center"><a href="./#l12533">denunciar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12534">banido</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12574">bloquear usuário</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12577">universitário</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12645">política de privacidade</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12646">termos de uso</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12647">cadastrar</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12648">log in</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12649">entre agora!</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12650">entrar com facebook</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12651">logado</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12652">entre!</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12653">deslogado</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12654">esqueceu sua senha</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12655">repetir desafio</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12657">confirmar email</a></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><a href="./#l12658">conta deletada</a></td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../cenarios10x5f8c4/" title="Cenários" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Cenários
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.dc02f8ce.js"></script>
+      
+        
+        
+          
+          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
