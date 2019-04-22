@@ -2,8 +2,8 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 21/04/2019 | Gera primeira versão dos artefatos | Welison Regis |
-| 2.0 | 22/04/2019 | Gera segunda versão dos artefatos, crawler otimizado | Welison Regis |
+| [1.0](./modelagem_v1/lexicos10x58ed251.md) | 21/04/2019 | Gera primeira versão dos artefatos | Grupo |
+| 2.0 | 22/04/2019 | Gera segunda versão dos artefatos, crawler otimizado | Grupo |
 | 2.1 | 22/04/2019 | Adicionado requisitos relacionados | Andre Pinto, Leonardo Medeiros |
 
 # administrador
