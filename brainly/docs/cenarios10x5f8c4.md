@@ -2,8 +2,15 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 21/04/2019 | Gera primeira versão dos artefatos | Welison Regis |
+| [1.0](./modelagem_v1/cenarios10x58ed251.md) | 21/04/2019 | Gera primeira versão dos artefatos | Welison Regis |
 | 2.0 | 22/04/2019 | Gera segunda versão dos artefatos, crawler otimizado | Welison Regis |
+| 2.1 | 22/04/2019 | Adiciona introdução e descrição sobre o crawler utilizado | Welison Regis |
+
+# Introdução
+
+A modelagem por cenários consiste na confecção de estruturas narrativas de forma a desenvolver o contexto e descobrir informações pertinentes a ser desempenhadas pelo software. Para atingir esse objetivo, dividiu-se o cenário em: título, objetivo, contexto, atores, recursos, exceção e episódio.
+
+O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta desenvolvida em python disponível em nosso _github_ que, baseado nas _urls_, puxa todas as informações dos cenários do site [C&L](http://pes.inf.puc-rio.br/cel/aplicacao/) referente ao projeto Brainly e gera esse _markdown_ com âncoras nas palavras chaves (inclusive sinônimos). O _notebook_ com o código e as orientações está disponível em [C&L Crawler](https://github.com/WelisonR/2019.1-Requisitos-Brainly/blob/master/CeL_crawler_pucrio.ipynb).
 
 # adicionar anexo para pergunta
 ### C3033

@@ -4,6 +4,7 @@
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 21/04/2019 | Gera primeira versão dos artefatos | Welison Regis |
 | 2.0 | 22/04/2019 | Gera segunda versão dos artefatos, crawler otimizado | Welison Regis |
+| 2.1 | 22/04/2019 | Adicionado requisitos relacionados | Andre Pinto, Leonardo Medeiros |
 
 # administrador
 ### L12529
@@ -15,6 +16,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O administrador exclui [contas](lexicos10x5f8c4.md#l12532) de [infratores](lexicos10x5f8c4.md#l12531);</br>O administrador realiza a comunicação de avisos através de [notificações](lexicos10x5f8c4.md#l12509);</br>Recruta [moderador](lexicos10x5f8c4.md#l12528);</br>O administrador fornece instrução de moderação ao [moderador](lexicos10x5f8c4.md#l12528);</br>O administrador realiza promoção de [moderador](lexicos10x5f8c4.md#l12528);</br>O administrador relata falhas técnicas ao time de desenvolvimento;</br>O administrador assiste o [usuário](lexicos10x5f8c4.md#l12660) que pede auxílio.   |
 |  **Sinônimos**  |    gerente, administradores, gerentes, administração.   |
+| **Requisitos** | [INT2.11](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.7](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -34,6 +36,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    Ao adicionar uma amigo, o mesmo aparece na aba de amigos.</br>[perguntas](lexicos10x5f8c4.md#l12494) ou [respostas](lexicos10x5f8c4.md#l12521) geram [notificação](lexicos10x5f8c4.md#l12509) para os amigos.   |
 |  **Sinônimos**  |    seguidor, amigos.   |
+| **Requisitos** | [EN2.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -52,6 +55,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    [usuário](lexicos10x5f8c4.md#l12660) após ser temporariamente banido faz sua [conta](lexicos10x5f8c4.md#l12532) [entrar](lexicos10x5f8c4.md#l12648) em um período de observação: ESTADO - [conta](lexicos10x5f8c4.md#l12532) sob supervisão.</br></br>Após banimento total, [usuário](lexicos10x5f8c4.md#l12660) não pode mais utilizar sua [conta](lexicos10x5f8c4.md#l12532): ESTADO - [conta excluída](lexicos10x5f8c4.md#l12658).   |
 |  **Sinônimos**  |    excluido, retirado, punido.   |
+| **Requisitos** | [INT2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -70,6 +74,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [moderador](lexicos10x5f8c4.md#l12528) ou a [administração](lexicos10x5f8c4.md#l12529) do Brainly bloqueia o [usuário](lexicos10x5f8c4.md#l12660).</br>O [usuário](lexicos10x5f8c4.md#l12660) tem sua [conta](lexicos10x5f8c4.md#l12532) suspensa por alguns dias.   |
 |  **Sinônimos**  |    bloqueiam usuário, bloquear usuários, reter usuários, travar usuário, reter usuário, bloqueia usuário.   |
+| **Requisitos** | [INT2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -88,6 +93,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) está em sua [conta](lexicos10x5f8c4.md#l12532) no Brainly.</br>O [usuário](lexicos10x5f8c4.md#l12660) define uma senha e um endereço de email para sua [conta](lexicos10x5f8c4.md#l12532).</br>Quando cadastrado via email, é necessário confirmá-lo.</br>Ao realizar o primeiro [log in](lexicos10x5f8c4.md#l12648), o [usuário](lexicos10x5f8c4.md#l12660) receberá um tutorial básico.</br>O [usuário](lexicos10x5f8c4.md#l12660) ganha [pontos](lexicos10x5f8c4.md#l12492) por criar uma [conta](lexicos10x5f8c4.md#l12532).</br>O [usuário](lexicos10x5f8c4.md#l12660) pode fazer [perguntas](lexicos10x5f8c4.md#l12494).</br>O [usuário](lexicos10x5f8c4.md#l12660) pode [responder](lexicos10x5f8c4.md#l12489) [perguntas](lexicos10x5f8c4.md#l12494) e ganhar [pontos](lexicos10x5f8c4.md#l12492) pelas [respostas](lexicos10x5f8c4.md#l12521).   |
 |  **Sinônimos**  |    registrar.   |
+| **Requisitos** | [AP3.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/)  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -107,6 +113,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    alguém pode escrever um comentário em uma [pergunta](lexicos10x5f8c4.md#l12494) ou em uma [resposta](lexicos10x5f8c4.md#l12521).</br>A [comunidade](lexicos10x5f8c4.md#l12525) pode usar os comentários para comunicação.   |
 |  **Sinônimos**  |    avaliação, explicação, comentários.   |
+| **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.14](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -127,6 +134,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    a comunidade pode ajudar a [responder](lexicos10x5f8c4.md#l12489);</br>a comunidade faz [perguntas](lexicos10x5f8c4.md#l12494);</br>a comunidade pode [denunciar](lexicos10x5f8c4.md#l12533) atitudes impróprias.   |
 |  **Sinônimos**  |    usuários.   |
+| **Requisitos** | [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -149,6 +157,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    Email foi confirmado.</br>Uma vez que o email foi confirmado não pode se confirmar de novo.</br>[usuário](lexicos10x5f8c4.md#l12660) ganha 10 [pontos](lexicos10x5f8c4.md#l12492) por confirmar o email.   |
 |  **Sinônimos**  |    confirmação de email, aprovação de email, aprovar email.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -167,6 +176,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Quando algum [usuário](lexicos10x5f8c4.md#l12660) tenta abrir um [conta](lexicos10x5f8c4.md#l12532) com o mesmo email e nome de antes ele consegue: Estado - [conta](lexicos10x5f8c4.md#l12532) criada   |
 |  **Sinônimos**  |    conta apagada, conta retirada, conta excluída.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -185,6 +195,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    [pergunta](lexicos10x5f8c4.md#l12494) ou [resposta](lexicos10x5f8c4.md#l12521) apagada.</br>[usuário](lexicos10x5f8c4.md#l12660) denunciado é advertido ou [banido](lexicos10x5f8c4.md#l12534).   |
 |  **Sinônimos**  |    sinalizar, reportar.   |
+| **Requisitos** | [INT2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.16](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.17](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -203,6 +214,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Desafios completos geram [pontos](lexicos10x5f8c4.md#l12492);</br>Um [usuário](lexicos10x5f8c4.md#l12660) pode aceitar um único desafio por vez;</br>Servem pra impulsionar um [usuário](lexicos10x5f8c4.md#l12660) a uma [tarefa](lexicos10x5f8c4.md#l12494).   |
 |  **Sinônimos**  |    desafio.   |
+| **Requisitos** | [AP1.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -221,6 +233,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Quando o [usuário](lexicos10x5f8c4.md#l12660) se conecta:Estado – [usuário](lexicos10x5f8c4.md#l12660) [logado](lexicos10x5f8c4.md#l12651)   |
 |  **Sinônimos**  |    desconectado, deslogou, desloga, saiu.   |
+| **Requisitos** | [AP1.12](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -239,6 +252,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    Corrigir erros em [perguntas](lexicos10x5f8c4.md#l12494) e [respostas](lexicos10x5f8c4.md#l12521).</br>[moderador](lexicos10x5f8c4.md#l12528), [administrador](lexicos10x5f8c4.md#l12529) pedir correção para incluir mais detalhes na [pergunta](lexicos10x5f8c4.md#l12494) ou [resposta](lexicos10x5f8c4.md#l12521).   |
 |  **Sinônimos**  |    edição, modificar, mudar.   |
+| **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -261,6 +275,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Uma atividade completa gera um emblema.</br>Os [usuário](lexicos10x5f8c4.md#l12660) podem ver o próprio progresso para conquistar um emblema.   |
 |  **Sinônimos**  |    conquistas, emblema, conquista.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -281,6 +296,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Os [emblemas](lexicos10x5f8c4.md#l12495) conquistados ficam salvos em [emblemas](lexicos10x5f8c4.md#l12495) obtidos.</br>Os [emblemas](lexicos10x5f8c4.md#l12495) servem evidenciar o progresso do [usuário](lexicos10x5f8c4.md#l12660) no brainly.   |
 |  **Sinônimos**  |    emblemas adquiridos .   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -299,6 +315,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    [emblemas](lexicos10x5f8c4.md#l12495) que estão mais perto de serem cumpridos são mostrados em [emblemas](lexicos10x5f8c4.md#l12495) mais próximos.</br>Os [emblemas](lexicos10x5f8c4.md#l12495) mais próximos podem impulsionar um [usuário](lexicos10x5f8c4.md#l12660) a se empenhar em uma atividade.   |
 |  **Sinônimos**  |    próxima conquista.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -317,6 +334,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Os últimos [emblemas](lexicos10x5f8c4.md#l12495) ficam salvos em [emblemas](lexicos10x5f8c4.md#l12495) mais recentes.   |
 |  **Sinônimos**  |    conquista recente.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -335,6 +353,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    [usuário](lexicos10x5f8c4.md#l12660) está [logado](lexicos10x5f8c4.md#l12651) no Brainly e no facebook.</br></br>Se o [usuário](lexicos10x5f8c4.md#l12660) está [logado](lexicos10x5f8c4.md#l12651), não pode [logar](lexicos10x5f8c4.md#l12648) novamente.</br></br>[usuário](lexicos10x5f8c4.md#l12660) ganha as vantagens de estar [logado](lexicos10x5f8c4.md#l12651).   |
 |  **Sinônimos**  |    logar com facebook.   |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -353,6 +372,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) transita da tela de [log in](lexicos10x5f8c4.md#l12648) para a tela de cadastro de [usuário](lexicos10x5f8c4.md#l12660).   |
 |  **Sinônimos**  |    cadastre-se, registre-se.   |
+| **Requisitos** | [AP3.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -371,6 +391,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) transita da tela de [cadastre-se](lexicos10x5f8c4.md#l12649) para a tela de login.   |
 |  **Sinônimos**  |    login.   |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -389,6 +410,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) receberá um email que o levará para uma página de redefinição de senha.   |
 |  **Sinônimos**  |    recuperar senha, recuperar conta, redefinir senha.   |
+| **Requisitos** | [BR1.14](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -407,6 +429,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O infrator pratica irregularidades na plataforma;</br>O infrator prejudica aos [moderadores](lexicos10x5f8c4.md#l12528), aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em [perguntas](lexicos10x5f8c4.md#l12494), [respostas](lexicos10x5f8c4.md#l12521), [comentários](lexicos10x5f8c4.md#l12506) e no chat de maneira inadequada.</br>O infrator pratica spam, brincadeiras e pedidos de informações pessoais.   |
 |  **Sinônimos**  |    infratores.   |
+| **Requisitos** | [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -425,6 +448,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) está em sua [conta](lexicos10x5f8c4.md#l12532) no Brainly.</br>O [usuário](lexicos10x5f8c4.md#l12660) ganha [pontos](lexicos10x5f8c4.md#l12492) por entrar em sua [conta](lexicos10x5f8c4.md#l12532) periodicamente.</br>O [usuário](lexicos10x5f8c4.md#l12660) pode fazer [perguntas](lexicos10x5f8c4.md#l12494).</br>O [usuário](lexicos10x5f8c4.md#l12660) pode [responder](lexicos10x5f8c4.md#l12489) [perguntas](lexicos10x5f8c4.md#l12494) e ganha [pontos](lexicos10x5f8c4.md#l12492) por essas [respostas](lexicos10x5f8c4.md#l12521).   |
 |  **Sinônimos**  |    entrar, logar.   |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -444,6 +468,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Quando o [usuário](lexicos10x5f8c4.md#l12660) está logado ele possui:</br></br>-[ranking](lexicos10x5f8c4.md#l12498) </br>-[pontos](lexicos10x5f8c4.md#l12492) </br>-[níveis](lexicos10x5f8c4.md#l12491) </br>[usuário](lexicos10x5f8c4.md#l12660) pode [responder](lexicos10x5f8c4.md#l12489) e fazer [perguntas](lexicos10x5f8c4.md#l12494).</br>Estado:</br>-[usuário](lexicos10x5f8c4.md#l12660) logado</br></br>[usuário](lexicos10x5f8c4.md#l12660) se desconecta : Estado – [usuário](lexicos10x5f8c4.md#l12660) [deslogado](lexicos10x5f8c4.md#l12653).   |
 |  **Sinônimos**  |    loga, logou, conectado, entrou.   |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -473,6 +498,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    As [perguntas](lexicos10x5f8c4.md#l12494) são divididas por matéria;</br>Um [usuário](lexicos10x5f8c4.md#l12660) pode filtrar os resultados por matéria.   |
 |  **Sinônimos**  |    materias, tema, matérias.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -492,6 +518,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Um [usuário](lexicos10x5f8c4.md#l12660) ao ter sua [dúvida](lexicos10x5f8c4.md#l12494) respondida pode escolher a melhor [resposta](lexicos10x5f8c4.md#l12521).</br>Ao [responder](lexicos10x5f8c4.md#l12489) um [usuário](lexicos10x5f8c4.md#l12660) pode ganhar melhor [resposta](lexicos10x5f8c4.md#l12521).</br>Uma certa quantidade de melhores [respostas](lexicos10x5f8c4.md#l12521) é necessária para subir de [nível](lexicos10x5f8c4.md#l12491).   |
 |  **Sinônimos**  |    melhores respostas.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -513,6 +540,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Um [moderador](lexicos10x5f8c4.md#l12528) poder chamar atenção de alguém ou fazer um esclarecimento.</br>Um [usuário](lexicos10x5f8c4.md#l12660) pode mandar mensagem para o [moderador](lexicos10x5f8c4.md#l12528).</br>A [comunidade](lexicos10x5f8c4.md#l12525) não pode trocar mensagem privada.   |
 |  **Sinônimos**  |    mensagem, mensagem privada.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -531,6 +559,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O moderador exclui [pergunta](lexicos10x5f8c4.md#l12494), [resposta](lexicos10x5f8c4.md#l12521) ou [comentário](lexicos10x5f8c4.md#l12506) indevido;</br>O moderador comunica [infratores](lexicos10x5f8c4.md#l12531) as políticas do regulamento;</br>O moderador retira [dúvida](lexicos10x5f8c4.md#l12494) de estudantes sobre o regulamento da plataforma;</br>O moderador pode [bloquear usuários](lexicos10x5f8c4.md#l12574) irregulares.</br>O moderador define [respostas verificadas](lexicos10x5f8c4.md#l12522), corretas.   |
 |  **Sinônimos**  |    moderadores.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -554,6 +583,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Para subir de nível é necessário alcançar uma meta de [pontos](lexicos10x5f8c4.md#l12492) e de [melhor resposta](lexicos10x5f8c4.md#l12490).</br>Níveis podem servir como meta para [usuários](lexicos10x5f8c4.md#l12525).   |
 |  **Sinônimos**  |    níveis.   |
+| **Requisitos** | [EN2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/),  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -575,6 +605,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Divide as [perguntas](lexicos10x5f8c4.md#l12494) nas dificuldades:</br>-Ensino Fundamental(Básico)</br>-Ensino Médio(Secundário)</br>-Ensino Superior   |
 |  **Sinônimos**  |    dificuldade das perguntas, level das perguntas.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -594,6 +625,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Uma [pessoa](lexicos10x5f8c4.md#l12660) recebe uma notificação ao receber um [obrigado](lexicos10x5f8c4.md#l12497), ter uma [pergunta expirada](lexicos10x5f8c4.md#l12510) ou respondida, cumprir um [desafio](lexicos10x5f8c4.md#l12496), ganhar um [emblema](lexicos10x5f8c4.md#l12495), ganhar [melhor resposta](lexicos10x5f8c4.md#l12490), subir de [nível](lexicos10x5f8c4.md#l12491) ou quando outra [pessoa](lexicos10x5f8c4.md#l12660) adiciona [comentário](lexicos10x5f8c4.md#l12506) em sua [pergunta](lexicos10x5f8c4.md#l12494) ou [resposta](lexicos10x5f8c4.md#l12521).   |
 |  **Sinônimos**  |    notificação, aviso.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -612,6 +644,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Obrigados são representados por corações.</br>Pode-se agradecer a uma [resposta](lexicos10x5f8c4.md#l12521) com um obrigado.   |
 |  **Sinônimos**  |    botão de agradecimento, obrigado.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -630,6 +663,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Apresenta as informações do [usuário](lexicos10x5f8c4.md#l12660).</br>Permite o [usuário](lexicos10x5f8c4.md#l12660) alterar algumas de sua informações.   |
 |  **Sinônimos**  |    perfis, conta, contas.   |
+| **Requisitos** | [INT1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -657,6 +691,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Para fazer um pergunta o [usuário](lexicos10x5f8c4.md#l12660) deve oferecer [pontos](lexicos10x5f8c4.md#l12492).</br>Quando alguém tem sua [pergunta respondida](lexicos10x5f8c4.md#l12644), pode escolher a [melhor resposta](lexicos10x5f8c4.md#l12490).   |
 |  **Sinônimos**  |    tarefa, dúvida, tarefas, perguntas.   |
+| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -689,6 +724,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Ao ter o prazo de [resposta](lexicos10x5f8c4.md#l12521) vencido os [pontos](lexicos10x5f8c4.md#l12492) oferecidos são devolvidos.</br>Uma [pergunta](lexicos10x5f8c4.md#l12494) expirada é eliminada do brainly.   |
 |  **Sinônimos**  |    pergunta deletada, tarefa expirada.   |
+| **Requisitos** | [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [BR2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/)|
 
 
 |  **Cenários** |**Lexicos**|
@@ -707,6 +743,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    A [pergunta](lexicos10x5f8c4.md#l12494) popular recebe maior destaque no Brainly.</br>A [pergunta](lexicos10x5f8c4.md#l12494) popular é responsável por atrair maior acesso à plataforma.</br>O [time de respostas](lexicos10x5f8c4.md#l12576), os [moderadores](lexicos10x5f8c4.md#l12528), os [universitários](lexicos10x5f8c4.md#l12577), a [administração](lexicos10x5f8c4.md#l12529) e os [usuários](lexicos10x5f8c4.md#l12525) empenham-se mais em [responder](lexicos10x5f8c4.md#l12489) essas [perguntas](lexicos10x5f8c4.md#l12494).   |
 |  **Sinônimos**  |    perguntas populares, populares, questões populares, questão popular.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -725,6 +762,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Os [usuários](lexicos10x5f8c4.md#l12525) podem agradecer pela [resposta](lexicos10x5f8c4.md#l12521);</br>Os [usuários](lexicos10x5f8c4.md#l12525) que teve sua [dúvida](lexicos10x5f8c4.md#l12494) tirada pode escolher a [melhor resposta](lexicos10x5f8c4.md#l12490).   |
 |  **Sinônimos**  |    tarefa respondida, dúvida tirada.   |
+| **Requisitos** | [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -743,6 +781,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) lê a política de privacidade do Brainly.</br>O [usuário](lexicos10x5f8c4.md#l12660) concorda com a política de privacidade para utilizar o Brainly.</br>Se o [usuário](lexicos10x5f8c4.md#l12660) não concordar com a política de privacidade, não deve utilizar o Brainly e preencher, compartilhar ou armazenar dados pessoais nele.   |
 |  **Sinônimos**  |    termos de privacidade.   |
+| **Requisitos** |  |
 
 
 |  **Cenários** |**Lexicos**|
@@ -761,6 +800,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Um [usuário](lexicos10x5f8c4.md#l12660) ganha pontos ao [responder](lexicos10x5f8c4.md#l12489) uma [pergunta](lexicos10x5f8c4.md#l12494).</br>Para fazer uma [pergunta](lexicos10x5f8c4.md#l12494) é necessário oferecer pontos.</br>É necessário alcançar uma meta de pontos para subir de [nível](lexicos10x5f8c4.md#l12491).</br>Ao cumprir [desafios](lexicos10x5f8c4.md#l12496) o [usuário](lexicos10x5f8c4.md#l12660) ganha pontos.   |
 |  **Sinônimos**  |    pontuação, ponto.   |
+| **Requisitos** | [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -788,6 +828,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    As [pessoas](lexicos10x5f8c4.md#l12660) com mais [pontos](lexicos10x5f8c4.md#l12492) aparecem no ranking.</br>o ranking é dividido em diário, semanal e mensal.   |
 |  **Sinônimos**  |    ranking.   |
+| **Requisitos** | [EN1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -806,6 +847,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Quando uma [pergunta](lexicos10x5f8c4.md#l12494) já está sendo respondida por duas [pessoas](lexicos10x5f8c4.md#l12660), outras [pessoas](lexicos10x5f8c4.md#l12660) podem apenas fazer [comentários](lexicos10x5f8c4.md#l12506);</br>O [usuário](lexicos10x5f8c4.md#l12660) que fez a [pergunta](lexicos10x5f8c4.md#l12494) recebe uma [notificação](lexicos10x5f8c4.md#l12509) que sua [pergunta](lexicos10x5f8c4.md#l12494) está sendo respondida.   |
 |  **Sinônimos**  |    tarefa sendo respondida.   |
+| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -824,6 +866,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    [desafio](lexicos10x5f8c4.md#l12496) está aberto e pode ser tentado novamente.</br></br>Se o [desafio](lexicos10x5f8c4.md#l12496) está aberto não se pode clicar em repita.   |
 |  **Sinônimos**  |    tentar desafio novamente, outra tentativa do desafio.   |
+| **Requisitos** | [AP1.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -842,6 +885,7 @@
 |**Classificação**|    verbo   |
 |  **Impacto**    |    Responder gera [pontos](lexicos10x5f8c4.md#l12492).</br>A [resposta](lexicos10x5f8c4.md#l12521) deve ser detalhada para que o [usuário](lexicos10x5f8c4.md#l12660) com [dúvida](lexicos10x5f8c4.md#l12494) entenda.   |
 |  **Sinônimos**  |    responde.   |
+| **Requisitos** | [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT1.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -867,6 +911,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    [perguntas](lexicos10x5f8c4.md#l12494) com duas respostas,  apenas podem receber [comentários](lexicos10x5f8c4.md#l12506).</br>Pode-se agradecer ou qualificar respostas.   |
 |  **Sinônimos**  |    resposta, respostas.   |
+| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/=), [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -891,6 +936,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    As [melhores respostas](lexicos10x5f8c4.md#l12490) analisadas pelo time tornam-se verificadas.</br>Ao fazer uma pesquisa são mostradas as [respostas](lexicos10x5f8c4.md#l12521) verificadas.   |
 |  **Sinônimos**  |    tarefas verificadas, respostas revisadas, resposta revisada.   |
+| **Requisitos** | [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -909,6 +955,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    [perguntas](lexicos10x5f8c4.md#l12494) que podem ser [respondidas](lexicos10x5f8c4.md#l12521).</br>[tarefas](lexicos10x5f8c4.md#l12494) que ficam muito tempo sem [resposta](lexicos10x5f8c4.md#l12521) são deletadas.   |
 |  **Sinônimos**  |    tarefa sem resposta.   |
+| **Requisitos** | [BR2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -927,6 +974,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    As dúvidas tiradas são salvas em [tarefas](lexicos10x5f8c4.md#l12494) adicionadas.</br>As [tarefas](lexicos10x5f8c4.md#l12494) adicionadas servem para [usuário](lexicos10x5f8c4.md#l12660) rever uma [pergunta](lexicos10x5f8c4.md#l12494).   |
 |  **Sinônimos**  |    pegunta adicionada.   |
+| **Requisitos** | [AP1.3,](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -945,6 +993,7 @@
 |**Classificação**|    estado   |
 |  **Impacto**    |    Ao [responder](lexicos10x5f8c4.md#l12489) uma [pergunta](lexicos10x5f8c4.md#l12494) a [tarefa](lexicos10x5f8c4.md#l12494) fica salva em [tarefas](lexicos10x5f8c4.md#l12494) [respondidas](lexicos10x5f8c4.md#l12521).</br>As [perguntas](lexicos10x5f8c4.md#l12494) resolvidas servem para o [comunidade](lexicos10x5f8c4.md#l12525) ver as [respostas](lexicos10x5f8c4.md#l12521) de um [usuário](lexicos10x5f8c4.md#l12660).   |
 |  **Sinônimos**  |    perguntas resolvidas.   |
+| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -963,6 +1012,7 @@
 |**Classificação**|    objeto   |
 |  **Impacto**    |    [usuário](lexicos10x5f8c4.md#l12660) lê os termos de uso do Brainly</br>O [usuário](lexicos10x5f8c4.md#l12660) concorda com os termos de uso para utilizar o Brainly</br>Se o [usuário](lexicos10x5f8c4.md#l12660) não concordar com os Termos de Uso, não deve utilizar o Brainly.   |
 |  **Sinônimos**  |    condições de uso.   |
+| **Requisitos** | [BR2.12](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/), [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -981,6 +1031,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O time de [respostas](lexicos10x5f8c4.md#l12521) aumenta a qualidade das [perguntas](lexicos10x5f8c4.md#l12494) [respondidas](lexicos10x5f8c4.md#l12521).</br>As [perguntas populares](lexicos10x5f8c4.md#l12575) são focalizadas pelo time de [respostas](lexicos10x5f8c4.md#l12521).</br>O time de [respostas](lexicos10x5f8c4.md#l12521) recebe orientações de participação na plataforma por parte dos [administradores](lexicos10x5f8c4.md#l12529).   |
 |  **Sinônimos**  |    equipe de resposta, equipes de respostas, time de resposta.   |
+| **Requisitos** | [INT1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -1000,6 +1051,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O universitário [responde](lexicos10x5f8c4.md#l12489) questões especificas, especialmente as [perguntas populares](lexicos10x5f8c4.md#l12575).</br>O universitário recebe orientação por parte da [administração](lexicos10x5f8c4.md#l12529) sobre as [perguntas](lexicos10x5f8c4.md#l12494) a serem [respondidas](lexicos10x5f8c4.md#l12521).</br>O universitário gera [respostas](lexicos10x5f8c4.md#l12521) com alta qualidade no Brainly.   |
 |  **Sinônimos**  |    acadêmico, universitários, acadêmicos.   |
+| **Requisitos** | [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -1018,6 +1070,7 @@
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    Um usuário tem acesso às funcionalidade comuns da plataforma (fazer [perguntas](lexicos10x5f8c4.md#l12494), escrever [respostas](lexicos10x5f8c4.md#l12521) e [comentários](lexicos10x5f8c4.md#l12506), adicionar [amigos](lexicos10x5f8c4.md#l12502), entre outras) e pode evoluir para se tornar um usuário avançado ([moderador](lexicos10x5f8c4.md#l12528) ou [administrador](lexicos10x5f8c4.md#l12529)) e acessar outras funcionalidades ([mensagens](lexicos10x5f8c4.md#l12508)).   |
 |  **Sinônimos**  |    pessoas, pessoa.   |
+| **Requisitos** | [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [INT2.7](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
 
 
 |  **Cenários** |**Lexicos**|
@@ -1055,6 +1108,3 @@
 |   | [repetir desafio](lexicos10x5f8c4.md#l12655) |
 |   | [confirmar email](lexicos10x5f8c4.md#l12657) |
 |   | [conta deletada](lexicos10x5f8c4.md#l12658) |
-
-
-
