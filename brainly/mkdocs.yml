@@ -29,11 +29,11 @@ pages:
         Cadastro: casos_uso_cadastro.md
         Deletar Conta: casos_uso_deletar_conta.md
         Editar perfil: casos_uso_alterar_perfil.md
+    - Especificação Suplementar: especificacao_suplementar.md
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
         - Léxico: modelagem_v1/lexicos10x58ed251.md
-
 
 theme:
   language: 'pt'
