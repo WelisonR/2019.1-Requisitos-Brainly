@@ -5,11 +5,11 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 28/04/2019 | Adição do diagrama de casos de uso de perguntas e respostas | Lieverton |
-| 1.1 | 28/04/2019 | Adição da especificação dos casos de uso de perguntas e respostas | Lieverton, João Matheus, Paulo Vitor |
+| 1.1 | 28/04/2019 | Adição da especificação dos casos de uso de perguntas e respostas | Lieverton, João Matheus, Paulo Vitor, João Rossi |
 
 ## Diagrama de Casos de Uso
 
-![Diargam de casos de uso: perguntas e respostas](images/diagramas_casos_uso/dcu_perguntas_respostas_v1.png)
+![Diargam de casos de uso: perguntas e respostas](images/diagramas_casos_uso/Perguntas_Respostas.png)
 
 ## Especificação de Casos de Uso
 

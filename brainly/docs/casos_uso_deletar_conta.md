@@ -4,11 +4,11 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
-| 1.0 | 29/04/2019 | Adição da especificação de casos de uso e diagrama| Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, Ivan Diniz |
+| 1.0 | 29/04/2019 | Adição da especificação de casos de uso e diagrama| Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, Ivan Diniz, João Rossi |
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso: Deletar Conta](images/diagramas_casos_uso/Deletar_Conta_v1.png)
+![Diagrama de casos de uso: Deletar Conta](images/diagramas_casos_uso/Deletar_Conta.png)
 
 ## Especificação de Casos de Uso
 
