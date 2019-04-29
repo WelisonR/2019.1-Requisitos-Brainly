@@ -23,6 +23,8 @@ pages:
   - MODELAGEM:
     - Cenários: cenarios10x5f8c4.md
     - Léxicos: lexicos10x5f8c4.md
+    - Casos de Uso: 
+        Perguntas e Respostas: casos_uso_perguntas_respostas.md 
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
