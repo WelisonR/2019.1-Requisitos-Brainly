@@ -18,14 +18,14 @@ Usuário faz alterações no seu perfil no Brainly para atualizar seus dados ou 
 ### 2 Breve descrição dos atores
 #### 2.1 [Usuário](lexicos10x5f8c4.md#L12660)
 Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. 
-## 3 Pré-condições
+### 3 Pré-condições
 Possuir um sistema operacional compatível com alguma das plataformas disponibilizadas pelo Brainly.
 
 Ser cadastrado na plataforma Brainly.
 
 Possuir acesso à internet.
 
-## 4 Fluxo básico de eventos
+### 4 Fluxo básico de eventos
     1. O caso de uso começa quando o usuário decide fazer alguma alteração no seu perfil.
    
     2. Usuário  opta por alterar suas configurações.
