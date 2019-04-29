@@ -22,7 +22,8 @@ A especificação suplementar desenvolvida tem por objetivo descrever os requisi
 Esta especificação suplementar delimita-se no escopo da aplicação Brainly em território nacional brasileiro. Abarca nesse documento o escopo relacionado a aplicação web e mobile da plataforma, e procura-se desenvolver como os aspectos da plataforma, especialmente aqueles não-funcionais, interferem no convívio de moderadores, usuários, administradores e demais estudantes que utilizam o Brainly como forma de tirar dúvidas escolares ou acadêmicas.
 
 ## DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS
-    Vide [léxicos](./lexicos10x5f8c4.md)
+
+Vide [léxicos](lexicos10x5f8c4.md)
 
 ## REFERÊNCIAS
 [1] Funpar. **Template: Especificações Suplementares**. Disponível [aqui](http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sspec.htm). Acesso em: 23 abr. 2019.
@@ -126,11 +127,13 @@ O sistema deve excluir perguntas sem respostas após determinado prazo para evit
 - Inserção de textos LaTeX e símbolos matemáticos [(INT1.7)](instropeccao.md)
 
 O tráfego de dados no Brainly segue as seguintes proporções:
+
 | Navegador | Versão | Qtde usuários |
 | :-------: | :----: | :-----------: |
 |Google Chrome|	28+ |	60.77% |
 |Safari|7+|12.52%|
 |Samsung Internet|1.1+|3.99%|
+
 Logo, nota-se que se deve desenvolver a plataforma pensando na compatibilidade dos navegadores em relação ao `javascript` e demais tecnologias _web_ de forma a possibilitar uma utilização flúida especialmente nos navegadores `chrome`, `safari` e `samsung internet`.
 
 ## REQUISITO DE CONSISTÊNCIA  FERRAMENTAL
