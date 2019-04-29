@@ -76,17 +76,17 @@ Possuir no mínimo dez pontos para realizar uma pergunta.
 
 ### 7 Requisitos Especiais
 
-7.1 Sistema deve funcionar 24 horas por dia, durante 7 dias na semana.
+1. Sistema deve funcionar 24 horas por dia, durante 7 dias na semana.
 
-7.2 Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela de Requisitos Funcionais).
+2. Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela de Requisitos Funcionais).
 
-7.3 Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
+3. Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
 
-7.4 A ferramenta que possibilita respostas deve ser consistente entre as plataformas [INT1.2](introspeccao.md).
+4. A ferramenta que possibilita respostas deve ser consistente entre as plataformas [INT1.2](introspeccao.md).
 
-7.5 Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma
+5. Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma
 [INT2.10](introspeccao.md).
 
-7.6 Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md).
+6. Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md).
 
-7.7 A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspeccao).
+7. A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspeccao).
