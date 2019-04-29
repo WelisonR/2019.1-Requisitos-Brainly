@@ -102,7 +102,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#versionamento" tabindex="1" class="md-skip">
+      <a href="#especificacao-suplementar-versao-10" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -764,7 +764,8 @@
                   <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/edit/master/docs/especificacao_suplementar.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="versionamento">Versionamento</h1>
+                <h1 id="especificacao-suplementar-versao-10">ESPECIFICAÇÃO SUPLEMENTAR - VERSÃO 1.0</h1>
+<h1 id="versionamento">Versionamento</h1>
 <table>
 <thead>
 <tr>
@@ -781,9 +782,14 @@
 <td align="center">Estrutura da especificação e tópicos básicos</td>
 <td align="center">Welison Regis e Leonardo Medeiros</td>
 </tr>
+<tr>
+<td align="center">0.5</td>
+<td align="center">29/04/2019</td>
+<td align="center">Adiciona novos tópicos à especificação suplementar</td>
+<td align="center">Welison Regis</td>
+</tr>
 </tbody>
 </table>
-<h1 id="especificacao-suplementar-versao-10">ESPECIFICAÇÃO SUPLEMENTAR - VERSÃO 1.0</h1>
 <h1 id="introducao">INTRODUÇÃO</h1>
 <h2 id="finalidade">FINALIDADE</h2>
 <p>A especificação suplementar desenvolvida tem por objetivo descrever os requisitos não funcionais relacionados à plataforma Brainly. A descrição desses requisitos procura atender necessidades que vão sob um aspecto mais subjetivo em relação à qualidade, estrutura e apresentação da plataforma e outras condições de satisfação.</p>
@@ -791,22 +797,48 @@
 <p>Esta especificação suplementar delimita-se no escopo da aplicação Brainly em território nacional brasileiro. Abarca nesse documento o escopo relacionado a aplicação web e mobile da plataforma, e procura-se desenvolver como os aspectos da plataforma, especialmente aqueles não-funcionais, interferem no convívio de moderadores, usuários, administradores e demais estudantes que utilizam o Brainly como forma de tirar dúvidas escolares ou acadêmicas.</p>
 <h2 id="definicoes-acronimos-e-abreviaturas">DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS</h2>
 <h2 id="referencias">REFERÊNCIAS</h2>
+<p>[1] Funpar. <strong>Template: Especificações Suplementares</strong>. Disponível <a href="http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sspec.htm">aqui</a>. Acesso em: 23 abr. 2019.</p>
+<p>[2] BRAINLY. <strong>Brainly.com.br - estudamos juntos</strong>. Disponível <a href="https://brainly.com.br/">aqui</a>. Acesso em: 28 abr. 2019.</p>
+<p>[3] BRAINLY. <strong>Brainly Front-End Style Guide</strong>. Disponível <a href="https://styleguide.brainly.com/143.5.3/docs/">aqui</a>. Acesso em: 29 abr. 2019.</p>
+<p>[4] BRAINLY. <strong>Repositórios do Brainly no GitHub</strong>. Disponível <a href="https://github.com/brainly/style-guide">aqui</a>. Acesso em: 29 abr. 2019.</p>
 <h2 id="visao-geral">VISÃO GERAL</h2>
 <h1 id="funcionalidade">FUNCIONALIDADE</h1>
-<p>A documentação das funcionalidades da aplicação Brainly pode ser encontrada neste <a href="https://welisonr.github.io/2019.1-Requisitos-Brainly/">endereço</a>, sendo especialmente recomendado a visualização das funcionalidades com as respectivas priorizações no link (<a href="../priorizacao/">priorizações</a>), além dos casos de uso com as devidas especificações no link de <a href="./casos_uso_perguntas_respostas">casos de uso</a>.</p>
+<p>A documentação das funcionalidades da aplicação Brainly pode ser encontrada neste <a href="https://welisonr.github.io/2019.1-Requisitos-Brainly/">endereço</a>, sendo especialmente recomendado a visualização das funcionalidades com as respectivas priorizações <a href="../priorizacao/">neste link</a>, além dos casos de uso com as devidas especificações no link de <a href="./casos_uso_perguntas_respostas">casos de uso</a>.</p>
 <h1 id="usabilidade">USABILIDADE</h1>
 <h1 id="confiabilidade">CONFIABILIDADE</h1>
 <h1 id="desempenho">DESEMPENHO</h1>
 <h1 id="suportabilidade">SUPORTABILIDADE</h1>
 <h1 id="restricoes-de-design">RESTRIÇÕES DE DESIGN</h1>
+<p>O sistema deve seguir padrões de <em>deisgn</em> na implementação de suas interfaces de forma a garantir a melhor experiência na utilização da plataforma, seja em um dispositivo móvel ou computadores em geral. Tem-se como referência a documentação de <em>styleguide</em> disposta na página na página do aplicativo no github - <a href="https://github.com/brainly/style-guide">styleguide brainly</a>.</p>
 <h1 id="requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE</h1>
+<p>O sistema de ajuda e a sua respectiva documentação deve ser de fácil acesso pelo usuário através do próprio aplicativo ou da plataforma web e, deve cobrir prioritariamente os seguintes tópicos:</p>
+<ul>
+<li>Fluxo para realizar uma pergunta;</li>
+<li>Fluxo para responder a uma pergunta;</li>
+<li>Adicionar comentários às questões ou as respostas;</li>
+<li>Denunciar uma pergunta, resposta ou comentário;</li>
+<li>Modificar dados da conta ou deletá-la.</li>
+</ul>
+<p>O suporte online pode ser dividido em duas categorias, sendo:</p>
+<ul>
+<li>Seção de dúvidas frequentes, o que proporciona acesso rápido a problemas e questionamentos comuns relacionados ao uso do aplicativo - disponível no seguinte formato de <a href="https://brainly.com.br/pages/questoes_frequentes">ajuda</a>;</li>
+<li>Canal para envio de correspondências ou mensagens de forma a tirar dúvidas ou questões individuais.</li>
+</ul>
 <h1 id="componentes-adquiridos">COMPONENTES ADQUIRIDOS</h1>
+<p>Os <em>softwares</em> utilizados para a elaboração do projeto são gratuitos e cada um consta individualmente com sua licença, dentre as principais licenças, tem-se: <code>NodeJS</code> com licença própria, <code>react</code>, <code>react native</code>, <code>KaTeX</code> (latex) sob a licença <code>MIT</code>.</p>
 <h1 id="interfaces">INTERFACES</h1>
 <h2 id="interfaces-do-usuario">Interfaces do usuário</h2>
+<p>O sistema deve ter uma interfaces gráficas que possibilitem que o usuário interaja com a plataforma.
+O sistema utilizará componentes em <code>react</code> ou <code>react native</code> para modularizar a interface da aplicação.</p>
 <h2 id="interfaces-de-hardware">Interfaces de hardware</h2>
+<p>O sistema deve manter suporte para dispositivos móveis e computadores, possibilitando que as requisições sejam feitas utilizando protocolos seguros como <code>https</code>. Deve haver suporte aos sistemas <code>ios</code>, <code>android</code>.</p>
 <h2 id="interfaces-de-software">Interfaces de software</h2>
+<p>O sistema deve utilizar tecnologias de linguagens e frameworks pertencentes a um paradigma que favoreça a solução do problema de forma eficiente no desenvolvimento e fácil manutenção. Estão entre as opções utilizadas: <code>NodeJS 8+</code>, <code>React</code>, <code>React Native</code>, <code>yarn</code>, etc.</p>
 <h2 id="interfaces-de-comunicacao">Interfaces de comunicação</h2>
+<p>O sistema deve ter uma interface de comunicação que torne possível múltiplas requisições simultâneas entre os aplicativos que compõem o sistema mantendo a integridade dos dados.
+A comunicação será realizada com múltiplos <em>backends</em> em <code>NodeJS</code> com a interface feita majoritariamente em <code>react</code>.</p>
 <h2 id="requisitos-de-licenciamento">Requisitos de licenciamento</h2>
+<p>Para a utilização dos serviços Brainly requere-se que o usuário concorde com a <a href="https://brainly.com/pages/privacy_policy">política de privacidade</a> da plataforma, <a href="https://brainly.com/pages/cookie_policy">política de cookies</a> e os <a href="https://brainly.com/pages/terms_of_use">termos de uso</a>.</p>
 <h1 id="requisitos-de-licenciamento_1">REQUISITOS DE LICENCIAMENTO</h1>
 <h1 id="observacoes-legais-de-copyright-e-outras">OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS</h1>
 <h1 id="padroes-aplicaveis">PADRÕES APLICÁVEIS</h1>
