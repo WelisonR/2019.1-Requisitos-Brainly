@@ -24,9 +24,9 @@ Possuir um email para o cadastro ou uma conta no Facebook.
 
 Possuir acesso à internet.
 ## 4 Fluxo básico de eventos
-O caso de uso começa quando o usuário decide criar uma conta no Brainly seja para fazer uma pergunta ou responder.
+	1. O caso de uso começa quando o usuário decide criar uma conta no Brainly seja para fazer uma pergunta ou responder.
 
-Usuário escolher entrar com uma conta do Facebook.
+	2. Usuário escolher entrar com uma conta do Facebook.
 ### 5 Fluxos alternativos
 	2.a Cadastrar com email
 	2.a.4 Usuário com menos de 13 anos.
