@@ -20,12 +20,19 @@ Esta especificação suplementar delimita-se no escopo da aplicação Brainly em
 ## DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS
 
 ## REFERÊNCIAS
+[1] Funpar. **Template: Especificações Suplementares**. Disponível [aqui](http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sspec.htm). Acesso em: 23 abr. 2019.
+
+[2] BRAINLY. **Brainly.com.br - estudamos juntos**. Disponível [aqui](https://brainly.com.br/). Acesso em: 28 abr. 2019.
+
+[3] BRAINLY. **Brainly Front-End Style Guide**. Disponível [aqui](https://styleguide.brainly.com/143.5.3/docs/). Acesso em: 29 abr. 2019.
+
+[4] BRAINLY. **Repositórios do Brainly no GitHub**. Disponível [aqui](https://github.com/brainly/style-guide). Acesso em: 29 abr. 2019.
 
 
 ## VISÃO GERAL
 
 # FUNCIONALIDADE
-A documentação das funcionalidades da aplicação Brainly pode ser encontrada neste [endereço](https://welisonr.github.io/2019.1-Requisitos-Brainly/), sendo especialmente recomendado a visualização das funcionalidades com as respectivas priorizações no link ([priorizações](./priorizacao.md)), além dos casos de uso com as devidas especificações no link de [casos de uso](./casos_uso_perguntas_respostas).
+A documentação das funcionalidades da aplicação Brainly pode ser encontrada neste [endereço](https://welisonr.github.io/2019.1-Requisitos-Brainly/), sendo especialmente recomendado a visualização das funcionalidades com as respectivas priorizações [neste link](./priorizacao.md), além dos casos de uso com as devidas especificações no link de [casos de uso](./casos_uso_perguntas_respostas).
 
 # USABILIDADE
 
