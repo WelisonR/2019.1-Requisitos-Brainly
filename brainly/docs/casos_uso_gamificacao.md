@@ -50,14 +50,14 @@ Ser cadastrado na plataforma Brainly.
     2.d - Reposta contém conteudo que não condiz com as politica do Brainly e tem a resposta denunciada e excluida;
     3.d - Comentario contém conteudo que não condiz com as politica do Brainly e tem a comentario denunciado e excluido;
 ## 7 Requisitos Especiais
-7.1 Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela-de-Requisitos-Funcionais).
+1. Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela-de-Requisitos-Funcionais).
 
-7.2 Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
+2. Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
 
-7.3 A ferramenta que possibilita respostas deve ser consistente entre as plataforma [INT1.2](introspeccao.md).
+3. A ferramenta que possibilita respostas deve ser consistente entre as plataforma [INT1.2](introspeccao.md).
 
-7.4 Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspeccao.md).
+4. Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspeccao.md).
 
-7.5 Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md).
+5. Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md).
 
-7.6 A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspeccao.md).
+6. A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspeccao.md).
