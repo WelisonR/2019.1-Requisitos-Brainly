@@ -4,7 +4,7 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
-| 1.0 | 29/04/2019 | Adição da especificação de caso de uso | Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus |
+| 1.0 | 29/04/2019 | Adição da especificação de casos de uso | Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus |
 
 ## Diagrama de Casos de Uso
 
