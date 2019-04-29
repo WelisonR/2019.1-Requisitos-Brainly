@@ -27,6 +27,7 @@ pages:
         Perguntas e Respostas: casos_uso_perguntas_respostas.md
         Gamificação: casos_uso_gamificacao.md
         Cadastro: casos_uso_cadastro.md
+        Deletar Conta: casos_uso_deletar_conta.md
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
