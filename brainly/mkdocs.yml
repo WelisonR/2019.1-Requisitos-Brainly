@@ -24,7 +24,8 @@ pages:
     - Cenários: cenarios10x5f8c4.md
     - Léxicos: lexicos10x5f8c4.md
     - Casos de Uso: 
-        Perguntas e Respostas: casos_uso_perguntas_respostas.md 
+        Perguntas e Respostas: casos_uso_perguntas_respostas.md
+        Gamificação: casos_uso_gamificacao.md
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
