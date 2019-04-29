@@ -4,11 +4,11 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
-| 1.0 | 29/04/2019 | Adição da especificação de casos de uso | Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus |
+| 1.0 | 29/04/2019 | Adição da especificação de casos de uso | Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, João Rossi |
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso: Cadastro](images/diagramas_casos_uso/Cadastro_v1.png)
+![Diagrama de casos de uso: Cadastro](images/diagramas_casos_uso/Cadastro.png)
 
 ## Especificação de Casos de Uso
 
@@ -17,13 +17,13 @@ Usuário faz o cadastro de uma nova conta na plataforma Brainly para ter acesso 
 ### 2 Breve descrição dos atores
 #### 2.1 [Usuário](lexicos10x5f8c4.md#L12660)
 Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. 
-## 3 Pré-condições
+### 3 Pré-condições
 Possuir um sistema operacional compatível com alguma das plataformas disponibilizadas pelo Brainly.
 
 Possuir um email para o cadastro ou uma conta no Facebook.
 
 Possuir acesso à internet.
-## 4 Fluxo básico de eventos
+### 4 Fluxo básico de eventos
 	1. O caso de uso começa quando o usuário decide criar uma conta no Brainly seja para fazer uma pergunta ou responder.
 
 	2. Usuário escolher entrar com uma conta do Facebook.

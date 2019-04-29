@@ -27,9 +27,9 @@ Pessoa que utiliza a plataforma.
 Pessoa que realiza perguntas na plataforma Brainly.
 #### 2.1.2 [Usuário que responde](lexicos10x5f8c4.md#L12660)
 Pessoa que responde perguntas na plataforma Brainly.
-## 3 Pré-condições
+### 3 Pré-condições
 Ser cadastrado na plataforma Brainly.
-## 4 Fluxo básico de eventos
+### 4 Fluxo básico de eventos
     1 - Usuário que pergunta realiza alguma pergunta e oferece pontos;
     2 - Usuário que responde responde a pergunta e ganha pontos;
     3 - Gera uma pergunta respondida;
@@ -45,11 +45,11 @@ Ser cadastrado na plataforma Brainly.
     3.a - Usuário que responde completa desafio e ganha ponto;
     3.b - Usuário comenta reposta;
     3.c - Usuário que pergunta elege uma melhor resposta e ganha ponto.
-## 6 Fluxo de Exceções
+### 6 Fluxo de Exceções
     1.a - Pergunta contém conteudo que não condiz com as politica do Brainly e tem a pergunta denunciada e excluida;
     2.d - Reposta contém conteudo que não condiz com as politica do Brainly e tem a resposta denunciada e excluida;
     3.d - Comentario contém conteudo que não condiz com as politica do Brainly e tem a comentario denunciado e excluido;
-## 7 Requisitos Especiais
+### 7 Requisitos Especiais
 1. Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela-de-Requisitos-Funcionais).
 
 2. Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
