@@ -14,23 +14,23 @@
 |[US05](backlog.md#us05)|[Documentação](backlog.md#ep01)|5|
 |Total de pontos | - | 28|
 
-## SPRINT 2
-|  US  | ÉPICOS | PONTOS |
+## Sprint 2
+|  US  | Épicos | Pontos |
 |  :------: | :------: | :------: |
 | [US06](backlog.md#us06) | [Documentação](backlog.md#ep01) | 5 |
 | [US08](backlog.md#us08)| [Documentação](backlog.md#ep01) | 5 |
 | [US09](backlog.md#us06) | [Documentação](backlog.md#ep01) | 13 |
-| TOTAL DE PONTOS | - | 23 |
+| Total de pontos | - | 23 |
 
 
-## SPRINT 3
-|  US  | ÉPICOS | PONTOS |
+## Sprint 3
+|  US  | Épicos | Pontos |
 |  :------: | :------: | :------: |
 | [US07](backlog.md#us07) | [Documentação](backlog.md#ep01) | 8 |
 | [US10](backlog.md#us10)| [Autenticação](backlog.md#ep02) | 5 |
 | [US11](backlog.md#us11) | [Autenticação](backlog.md#ep02) | 5 |
 | [US13](backlog.md#us13) | [Autenticação](backlog.md#ep02) | 5 |
-| TOTAL DE PONTOS | - | 23 |
+| Total de pontos | - | 23 |
 
 ## Sprint 4
 
