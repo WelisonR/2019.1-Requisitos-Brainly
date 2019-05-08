@@ -817,6 +817,284 @@
 <p>Desenvolver o sistema para plataforma web e para as plataformas mobile android e ios.</p>
 <h1 id="historias-de-usuario">HISTÓRIAS DE USUÁRIO</h1>
 <h1 id="criterios-de-aceitacao">CRITÉRIOS DE ACEITAÇÃO</h1>
+<h2 id="us01-plano-de-comunicacao">US01 - Plano de comunicação</h2>
+<ul>
+<li>Conter os canais de comunicação e a especificação como cada um será utilizado.</li>
+</ul>
+<h2 id="us02-plano-de-elicitacao">US02 - Plano de elicitação</h2>
+<ul>
+<li>Conter técnicas a serem aplicadas e justificativas.</li>
+</ul>
+<h2 id="us03-documento-de-visao">US03 - Documento de visão</h2>
+<ul>
+<li>Deve haver uma tabela com as versões do documento;</li>
+<li>Deve apresentar o escopo do projeto;</li>
+<li>Revisão constante do documento por toda equipe do projeto.</li>
+</ul>
+<h2 id="us04-documento-de-arquitetura">US04 - Documento de arquitetura</h2>
+<ul>
+<li>Deve haver uma tabela com as versões do documento;</li>
+<li>Deve conter um diagrama que representa visualmente as camadas da arquitetura;</li>
+<li>Deve haver um texto explicativo sobre todas as camadas da arquitetura;</li>
+<li>Deve conter diagramas de casos de uso para todas as cenas;</li>
+<li>Devem ser apresentadas as plataformas que serão usadas como suporte no desenvolvimento;</li>
+<li>Revisão constante do documento pelo membros da equipe responsáveis pela arquitetura do projeto.</li>
+</ul>
+<h2 id="us05-eap">US05 - EAP</h2>
+<ul>
+<li>Todas as entregas do escopo do projeto previstas;</li>
+<li>Divisão do projeto em fases.</li>
+</ul>
+<h2 id="us06-especificacao-suplementar">US06 - Especificação suplementar</h2>
+<ul>
+<li>Deve conter as restrições do sistema;</li>
+<li>Deve conter os tópicos de usabilidade;</li>
+<li>Os requisitos citados deverão ser justificados;</li>
+</ul>
+<h2 id="us07-plano-de-gamificacao">US07 - Plano de gamificação</h2>
+<ul>
+<li>Deve conter as técnicas a serem utilizadas e a justificativa para implementação de cada uma.</li>
+</ul>
+<h2 id="us08-prototipo-de-baixo-nivel">US08 - Protótipo de baixo nível</h2>
+<ul>
+<li>Deve conter as idéias propostas pela equipe;</li>
+<li>Deve conter todas as partes do projeto.</li>
+</ul>
+<h2 id="us09-prototipo-de-alta-fidelidade">US09 - Protótipo de alta fidelidade</h2>
+<ul>
+<li>Deve conter os fluxos de uso do sistema;</li>
+<li>Deve ser utilizado uma ferramenta própria para criação de protótipos.</li>
+</ul>
+<h2 id="us10-login">US10 - Login</h2>
+<ul>
+<li>Implementar autenticação de usuário e senha no banco de dados;</li>
+<li>Implementar sistema de autenticação com facebook;</li>
+<li>Integração do sistema de login com confirmação por email.</li>
+</ul>
+<h2 id="us11-cadastro-com-facebook">US11 - Cadastro com facebook</h2>
+<ul>
+<li>Implementar a interface de cadastro com facebook de forma dinâmica, de fácil uso - <a href="../analise_protocolo/">AP3.3</a></li>
+<li>Implementar sistema de cadastro com facebook.</li>
+</ul>
+<h2 id="us12-termos-de-uso">US12 - Termos de uso</h2>
+<ul>
+<li>Implementar interface de exibição dos termos de uso.</li>
+<li>Garantir que o usuário só poderá prosseguir no cadastro após aceitar os termos de uso.</li>
+<li>Garantir concessão da autorização para o uso de dados do usuário para diversos fins comerciais do Brainly - <a href="../brainstorm/">BR2.3</a>.</li>
+</ul>
+<h2 id="us13-cadastro-com-email">US13 - Cadastro com email</h2>
+<ul>
+<li>Sistema deve fazer a validação do email inserido;</li>
+<li>Implementar sistema de confirmação de email;</li>
+<li>Verificar se o usuário atender à idade mínima para registro na plataforma - <a href="../brainstorm/">BR2.1</a>;</li>
+<li>Verificar se o usuário possui menos de 16 anos, para classificar as permissões de acesso a suas informações - <a href="../brainstorm/">BR2.7</a>.</li>
+</ul>
+<h2 id="us14-recuperar-senha">US14 - Recuperar senha</h2>
+<ul>
+<li>Sistema deve enviar uma mensagem para o email cadastrado, com link para redefinição de senha;</li>
+<li>Link enviado por email deve redirecionar para página de redefinição de senha do referido usuário, está página é responsável por fazer a alteração da senha no banco de dados.</li>
+</ul>
+<h2 id="us15-cancelar-conta">US15 - Cancelar conta</h2>
+<ul>
+<li>Deve notificar ao usuário que esta ação é irreversível;</li>
+<li>Deve marcar este usuário como cancelado no banco de dados, mas manter seus dados salvos.</li>
+</ul>
+<h2 id="us16-responder">US16 - Responder</h2>
+<ul>
+<li>Respostas devem ser gravadas permanentemente no banco de dados;</li>
+<li>O sistema deve limitar a quantidade de respostas por tarefa em 2.</li>
+</ul>
+<h2 id="us17-anexar-arquivos">US17 - Anexar arquivos</h2>
+<ul>
+<li>O usuário deve ser capaz de anexar arquivos nos formatos: docx, odt, txt, png, jpeg, bmp, pdf e html;</li>
+<li>O tamanho do anexo deve ser limitado a 16MB.</li>
+</ul>
+<h2 id="us18-compartilhar-questoes">US18 - Compartilhar questões</h2>
+<ul>
+<li>Usuário deve ser capaz de compartilhar suas tarefas nas redes sociais: Twitter, Facebook e Instagram.</li>
+</ul>
+<h2 id="us19-categorizar-perguntas-por-materias">US19 - Categorizar perguntas por matérias</h2>
+<ul>
+<li>O sistema deverá providenciar as tags necessárias para categorizar as perguntas por área de conhecimento;</li>
+<li>Deve ser possível categorizar uma pergunta em uma das seguintes matérias: Matemática, história, geografia, biologia, português, física, química, filosofia, sociologia, administração, pedagogia, inglês, artes, saúde, educação física, contabilidade, direito, psicologia, informática, lógica, educação moral, espanhol, música, educação técnica ou ENEM.</li>
+</ul>
+<h2 id="us20-tirar-duvidas-nos-comentarios">US20 - Tirar dúvidas nos comentários</h2>
+<ul>
+<li>Para fazer comentário é necessário estar logado no Brainly;</li>
+<li>Deve haver um espaço para comentário tanto na pergunta como nas respostas para que os usuários possam tirar dúvidas sobre a questão;</li>
+<li>O espaço para comentário deve ter um limite de 400 caracteres.</li>
+</ul>
+<h2 id="us21-recursos-de-escrita">US21 - Recursos de escrita</h2>
+<ul>
+<li>A ferramenta de edição de texto deve possibilitar a escrita em: negrito, itálico, sublinhado;</li>
+<li>Deve ser possível ao usuário inserir diferentes tamanhos para títulos ou textos durante a sua resposta ou pergunta.</li>
+</ul>
+<h2 id="us22-insercao-de-formulas-matematicas">US22 - Inserção de fórmulas matemáticas</h2>
+<ul>
+<li>A ferramenta de edição de texto deve possibilitar a inserção de códigos LaTeX para facilitar o desenvolvimento de questões que necessitem de excessivas expressões matemáticas;</li>
+<li>A ferramenta LaTeX deve ser consistente entre as plataformas do sistema Brainly.</li>
+</ul>
+<h2 id="us23-highlight-de-texto">US23 - Highlight de texto</h2>
+<ul>
+<li>O sistema deve oferecer recurso para destacar partes do texto, como por exemplo, ocorre em citações em arquivos markdown;</li>
+<li>A implementação do highlight deve observar as restrições de design. (<a href="https://github.com/brainly/style-guide">restrições</a>)</li>
+</ul>
+<h2 id="us24-limite-na-quantidade-de-respostas">US24 - Limite na quantidade de respostas</h2>
+<ul>
+<li>O sistema deve aceitar apenas duas respostas por questão;</li>
+<li>Apenas duas pessoas podem estar respondendo simultaneamente uma pergunta.</li>
+</ul>
+<h2 id="us25-visualizar-perguntas-e-responde-las">US25 - Visualizar perguntas e respondê-las</h2>
+<ul>
+<li>As perguntas devem ser exibidas no feed principal da plataforma, para que todos os usuários as vejam e possam respondê-las;</li>
+<li>Qualquer usuário deve ter permissão para ler qualquer pergunta.</li>
+</ul>
+<h2 id="us26-advertencias-no-perfil">US26 - Advertências no perfil</h2>
+<ul>
+<li>Os moderadores devem poder ver no perfil do usuário a quantidade de advertências que o mesmo recebeu;</li>
+<li>Usuários comuns não devem ter acesso a este dado no perfil de outros usuários;</li>
+<li>Um usuário pode ver a quantidade de advertências que já recebeu, em seu próprio perfil.</li>
+</ul>
+<h2 id="us27-categoria-de-denuncias">US27 - Categoria de denúncias</h2>
+<ul>
+<li>O sistema deverá providenciar categorização das denúncias por tipo;</li>
+<li>As denúncias devem ser categorizadas nos seguintes tipos: Links, Pergunta não apropriada, Conteúdo ofensivo, Matéria incorreta, Publicidade e Pergunta contém dados pessoais.</li>
+</ul>
+<h2 id="us28-filtragem-de-denuncias">US28 - Filtragem de denúncias</h2>
+<ul>
+<li>Ao acessar o Painel de denúncias os moderadores devem ter opção de filtrá-las pelas categorias;</li>
+<li>O filtro ter capacidade para abranger uma ou mais categorias,</li>
+</ul>
+<h2 id="us29-denunciar-por-modalidade">US29 - Denunciar por modalidade</h2>
+<ul>
+<li>Ao realizar uma denuncia o usuário deve ser obrigado indicar a qual tipo de infração ela corresponde;</li>
+<li>Esta informação deverá ser enviada aos moderadores.</li>
+</ul>
+<h2 id="us30-denuncias-automaticas">US30 - Denúncias automáticas</h2>
+<ul>
+<li>O sistema deve detectar automaticamente perguntas suspeitas, com base em palavras ofensivas e excesso de links, e enviá-las para moderação;</li>
+<li>A base de palavras ofensivas deve ser constantemente atualizada, para aumentar a efetividade do sistema.</li>
+</ul>
+<h2 id="us31-niveis-entre-moderadores">US31 - Níveis entre moderadores</h2>
+<ul>
+<li>Os moderadores devem ser divididos em níveis baseados em sua pontuação e tempo como moderador;</li>
+<li>Moderadores de níveis mais altos devem possuir poder de moderação sobre moderadores de níveis mais baixos;</li>
+<li>Deve haver uma forma de limitar algumas ações apenas para os níveis mais altos de moderação.</li>
+</ul>
+<h2 id="us32-comunicacao-entre-moderadores">US32 - Comunicação entre moderadores</h2>
+<ul>
+<li>Deve haver um canal de comunicação exclusivo para moderadores;</li>
+<li>Usuários comuns não devem ter acesso a este canal;</li>
+<li>Administradores devem ter acesso a este canal.</li>
+</ul>
+<h2 id="us33-raking-de-moderadores">US33 - Raking de moderadores</h2>
+<ul>
+<li>O sistema de ranking deve ser baseado apenas nas pontuações de moderação dos moderadores;</li>
+<li>Deve haver um ranking diário;</li>
+<li>Deve haver um ranking semanal;</li>
+<li>Deve haver um ranking mensal;</li>
+<li>Em cada ranking deverá ter uma lista como até 10 usuários;</li>
+<li>Estes rankings não devem ser visíveis para usuários comuns.</li>
+</ul>
+<h2 id="us34-painel-de-denuncias">US34 - Painel de denúncias</h2>
+<ul>
+<li>Este painel deve ser visível apenas para moderadores e administradores;</li>
+<li>Este painel deve suportar a divisão em categorias e buscas com filtragem;</li>
+<li>Este painel deve estar preparado para suportar grandes quantidades de denúncias.</li>
+</ul>
+<h2 id="us35-apagar-conteudo">US35 - Apagar conteúdo</h2>
+<ul>
+<li>Deve haver opção para moderadores e administradores possam apagar conteúdos impróprios ou indevidos;</li>
+<li>Usuário que teve conteúdo apagado deve ser notificado e receber advertência;</li>
+<li>Conteúdo apagado deve permanecer no banco de dados, mas não ser visível para usuários comuns.</li>
+</ul>
+<h2 id="us36-exclusao-de-contas-e-banimento-de-usuarios">US36 - Exclusão de contas e banimento de usuários</h2>
+<ul>
+<li>Deve haver indicadores que auxilie o moderador a tomar uma decisão de banir um usuário</li>
+<li>O moderador deve poder banir um usuário</li>
+<li>Quando um usuário é banido sua conta deve ser excluída </li>
+<li>Um usuário banido não deve poder criar outra conta</li>
+</ul>
+<h2 id="us37-correcao-de-atividades">US37 - Correção de atividades</h2>
+<ul>
+<li>Deve ser possível ao moderador enviar uma notificação para um usuário editar uma determinada tarefa</li>
+<li>O usuário que receber uma notificação de editar tarefa deve poder editar a tarefa denunciada</li>
+</ul>
+<h2 id="us38-denuncia-feita-incorretamente">US38 - Denúncia feita incorretamente</h2>
+<ul>
+<li>Deverá ser com computado para o usuário que efetuou a denúncia errada</li>
+<li>Deve ser possível ao moderador aprovar uma tarefa</li>
+</ul>
+<h2 id="us39-logout-em-conta">US39 - Logout em conta</h2>
+<ul>
+<li>Usuário deve ser capaz de sair da sua conta, encerrando sua sessão;</li>
+<li>Amigos devem ser notificados que usuário saiu.</li>
+</ul>
+<h2 id="us40-seguir-usuario">US40 - Seguir usuário</h2>
+<ul>
+<li>Ao seguir um usuário, o mesmo deverá ser notificado que ganhou um seguidor;</li>
+<li>Usuário deve ser notificado quando um usuário que ele segue adiciona uma nova pergunta ou resposta;</li>
+<li>Usuários que foram seguidos deve estar salvo no banco de dados, permanecendo salvo mesmo quando a sessão é encerrada.</li>
+</ul>
+<h2 id="us41-gerenciar-e-personalizar-conta">US41 - Gerenciar e personalizar conta</h2>
+<ul>
+<li>Usuário deve ser capaz de gerir quais informações deseja exibir em seu perfil.</li>
+</ul>
+<h2 id="us42-feed-de-contribuicoes">US42 - Feed de contribuições</h2>
+<ul>
+<li>No perfil de um usuário deve ser exibido o registro das atividades realizadas pelo mesmo;</li>
+<li>Atividades devem ser separadas em Tarefas adicionadas e Tarefas respondidas.</li>
+</ul>
+<h2 id="us43-alterar-a-regiao-do-sistema">US43 - Alterar a região do sistema</h2>
+<ul>
+<li>Usuário deve ser capaz de alterar a região e língua cadastradas no sistema;</li>
+<li>Alteração deve ser salva no banco de dados e permanecer mesmo que a sessão seja encerrada.</li>
+</ul>
+<h2 id="us44-subir-de-nivel">US44 - Subir de nível</h2>
+<ul>
+<li>Para subir de nível usuário deve ter pontos e melhores respostas suficientes;</li>
+<li>Usuário deve ter acesso à informação de quantos pontos são necessários para avançar os níveis;</li>
+<li>Usuário deve ser notificado quando subir de nível.</li>
+</ul>
+<h2 id="us45-ranking-de-usuario">US45 - Ranking de usuário</h2>
+<ul>
+<li>O sistema de ranking deve ser baseado apenas nas pontuações do usuário</li>
+<li>Deve haver um ranking diário</li>
+<li>Deve haver um ranking semanal</li>
+<li>Deve haver um ranking mensal</li>
+<li>Em cada ranking deverá ter uma lista como até 10 usuários   </li>
+</ul>
+<h2 id="us46-informar-o-usuario-a-realizacao-de-tarefas-e-pontuacao">US46 - informar o usuário a realização de tarefas e pontuação</h2>
+<ul>
+<li>O usuário deve receber uma notificação ao cumprir uma tarefa</li>
+<li>O usuário deve receber uma notificação contendo a quantidade de pontos ganha</li>
+</ul>
+<h2 id="us47-feedback-em-respostas">US47 - Feedback em respostas</h2>
+<ul>
+<li>Os usuários não deverão poder favoritar as próprias respostas</li>
+<li>Deve ser possível ao usuário favoritar uma resposta clicando em um ícone em forma de coração</li>
+<li>Deve ser possível ao usuário que fez a pergunta escolher a melhor resposta</li>
+<li>Deve ser possível dar uma nota para uma resposta (de 0 a 5 estrelas)</li>
+</ul>
+<h2 id="us48-possibilidade-de-se-tornar-moderador">US48 - Possibilidade de se tornar moderador</h2>
+<ul>
+<li>O sistema deve enviar, para bons usuários, convite para se tornar moderador - <a href="../introspeccao/">INT2.7</a></li>
+<li>Os usuários devem poder recusar convite para se tornar moderador</li>
+</ul>
+<h2 id="us49-moderacao-multiplataforma">US49 - Moderação multiplataforma</h2>
+<ul>
+<li>Deve estar implementado para ios</li>
+<li>Deve ser implementado para android</li>
+<li>Deve ser implementado para web</li>
+</ul>
+<h2 id="us50-multiplataforma">US50 - Multiplataforma</h2>
+<ul>
+<li>A ferramenta que possibilita respostas deve ser consistente entre as plataformas - <a href="../priorizacao/#requisitos_nao_funcionais">INT1.2</a></li>
+<li>O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados - <a href="../priorizacao/#requisitos_nao_funcionais">INT3.11</a></li>
+<li>Deve estar implementado para ios</li>
+<li>Deve ser implementado para android</li>
+<li>Deve ser implementado para web</li>
+</ul>
 <h1 id="referencias">REFERÊNCIAS</h1>
 <p><strong>[1]</strong> SERRANO, Maurício; SERRANO, Milene. <strong>Requisitos - Aula 17. 1º/2019</strong>. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.</p>
                 
