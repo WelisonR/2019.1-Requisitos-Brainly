@@ -22,6 +22,16 @@
 | [US09](backlog.md#us06) | [Documentação](backlog.md#ep01) | 13 |
 | TOTAL DE PONTOS | - | 23 |
 
+
+## SPRINT 3
+|  US  | ÉPICOS | PONTOS |
+|  :------: | :------: | :------: |
+| [US07](backlog.md#us07) | [Documentação](backlog.md#ep01) | 8 |
+| [US10](backlog.md#us10)| [Autenticação](backlog.md#ep02) | 5 |
+| [US11](backlog.md#us11) | [Autenticação](backlog.md#ep02) | 5 |
+| [US13](backlog.md#us13) | [Autenticação](backlog.md#ep02) | 5 |
+| TOTAL DE PONTOS | - | 23 |
+
 ## Sprint 4
 
 | US |Épicos |Pontos|
