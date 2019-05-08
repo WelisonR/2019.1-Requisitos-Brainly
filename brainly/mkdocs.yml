@@ -30,7 +30,9 @@ pages:
         Deletar Conta: casos_uso_deletar_conta.md
         Editar perfil: casos_uso_alterar_perfil.md
     - Especificação Suplementar: especificacao_suplementar.md
-    - Backlog de Produto: backlog.md
+    - Backlog:
+      - Backlog de Produto: backlog.md
+      - Sprint Backlog: sprint_backlog.md
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
