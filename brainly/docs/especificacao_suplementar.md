@@ -121,10 +121,10 @@ O sistema deve excluir perguntas sem respostas após determinado prazo para evit
 
 # SUPORTABILIDADE
 
-- Consistência ferramental [(INT1.2)](instropeccao.md)
-- Versão mobile [(INT3.11)](instropeccao.md)
+- Consistência ferramental [(INT1.2)](introspeccao.md)
+- Versão mobile [(INT3.11)](introspeccao.md)
 - Atualizar automaticamente as plataformas mobile [(BR2.16)](brainstorm.md)
-- Inserção de textos LaTeX e símbolos matemáticos [(INT1.7)](instropeccao.md)
+- Inserção de textos LaTeX e símbolos matemáticos [(INT1.7)](introspeccao.md)
 
 O tráfego de dados no Brainly segue as seguintes proporções:
 
