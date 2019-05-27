@@ -34,6 +34,7 @@ pages:
       - Backlog de Produto: backlog.md
       - Sprint Backlog: sprint_backlog.md
     - NFR: nfr.md
+    - I*: i_star.md
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
