@@ -27,7 +27,10 @@ Versão 2.0
 ![nfr_suporte](images/nfr/nfr_v1_suporte_ao_usuario.jpg)
 
 ## NFR DESEMPENHO
+Versão 1.0
 ![nfr_desempenho](images/nfr/nfr_v1_desempenho.jpg)
+Versão 2.0
+![nfr_desempenho](images/nfr/nfr_v2_desempenho.png)
 
 ## NFR USABILIDADE
 ![nfr_usabilidade](images/nfr/nfr_v1_usabilidade.png)
