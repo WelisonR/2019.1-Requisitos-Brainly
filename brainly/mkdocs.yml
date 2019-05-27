@@ -33,10 +33,12 @@ pages:
     - Backlog:
       - Backlog de Produto: backlog.md
       - Sprint Backlog: sprint_backlog.md
+    - NFR: nfr.md
     - Versões antigas:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
         - Léxico: modelagem_v1/lexicos10x58ed251.md
+      
 
 theme:
   language: 'pt'
