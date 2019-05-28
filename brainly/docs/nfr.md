@@ -12,6 +12,7 @@
 | 1.4 | 27/05/2019 | Adição do modelo NFR sobre Usabilidade | João Matheus, Lieverton Silva, Paulo Rocha|
 | 1.5 | 27/05/2019 | Separação entre NFR e análise |Paulo Rocha|
 | 1.6 | 28/05/2019 | Adição de introdução, rastreabilidade dos NFRs e referências. | Welison Regis |
+|    1.0  | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
 
 # INTRODUÇÃO
 O NFR Framework é uma abordagem orientada a processos, em que os **requisitos não-funcionais** são explicitamente representados como metas a serem obtidas. Nesse sentido, preocupa-se diretamente com o **comportamento do sistema** e com a avaliação das metas-flexíveis (softgoal) [CHUNG, 1995]. O desenvolvimento dos artefatos foi separado em dois itens: o **NFR sem a análise**, e **outra versão com a análise**.
@@ -30,7 +31,12 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 Elicitação Associada: [EN 1.3](./priorizacao.md), [BR 2.1](./priorizacao.md), [BR 2.7](./priorizacao.md), [BR 2.10](./priorizacao.md).
 
 ## NFR SUPORTABILIDADE
+Versão 1.0
 ![NRF Suportabilidade](images/nfr/nfr_v1_suportabilidade.png)
+Versão 2.0  
+![NRF Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise.jpg)
+Análise NFR Suportabilidade
+![NRF Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
 
