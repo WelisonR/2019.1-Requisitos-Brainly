@@ -14,6 +14,8 @@
 |    1.7  | 29/05/2019 | Adição da versão 1.0 do I* de realizar pergunta | Lieverton Silva, Welison Regis |
 |    1.8  | 29/05/2019 | Adição da versão 1.0 do I* de realizar resposta | Lieverton Silva, Welison Regis |
 |    1.9  | 29/05/2019 | Adição de introdução e referências do i* | Welison Regis |
+|    1.11  | 28/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
+
 
 
 # Introdução
@@ -34,6 +36,10 @@ Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar
 ## Brainly - Geral v3.0
 
 ![Diagrama de dependencias2](images/i_star/i_star_dependency_v3.png)
+
+## Brainly - Geral v4.0
+
+![Diagrama de dependencias2](images/i_star/i_star_dependency_v4.png)
 
 
 # ISR01
