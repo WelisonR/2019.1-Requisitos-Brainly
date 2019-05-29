@@ -12,9 +12,11 @@
 | 1.4 | 27/05/2019 | Adição do modelo NFR sobre Usabilidade | João Matheus, Lieverton Silva, Paulo Rocha|
 | 1.5 | 27/05/2019 | Separação entre NFR e análise confiabilidade e usabilidade |Paulo Rocha|
 | 1.6 | 28/05/2019 | Adição de introdução, rastreabilidade dos NFRs e referências. | Welison Regis |
-|    1.7  | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
+| 1.7 | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
 | 1.8 | 28/05/2019 | Separação entre NFR e análise de desempenho |Paulo Rocha|
 | 1.9 | 28/05/2019 | Preenchimento das elicitações associadas e linkagem |Paulo Rocha|
+| 2.0 | 28/05/2019 | Adicionar primeira e nova versão do NRF de Confiabilidade  | João Rodrigues |
+| 2.1 | 28/05/2019 | Adicionar nova versão de análise do NRF de Confiabilidade | João Rodrigues, Ivan Diniz |   
 
 # INTRODUÇÃO
 O NFR Framework é uma abordagem orientada a processos, em que os **requisitos não-funcionais** são explicitamente representados como metas a serem obtidas. Nesse sentido, preocupa-se diretamente com o **comportamento do sistema** e com a avaliação das metas-flexíveis (softgoal) [CHUNG, 1995]. O desenvolvimento dos artefatos foi separado em dois itens: o **NFR sem a análise**, e **outra versão com a análise**.
@@ -23,10 +25,15 @@ Ferramenta utilizada para desenvolver os NFRs: [Creately](https://creately.com/)
 
 ## NFR CONFIABILIDADE
 Versão 1.0
+![NRF Confiabilidade](images/nfr/nfr_v1_confiabilidade.png)
+Versão 2.0
 ![NRF Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise.jpg)
-Análise NFR Confiabilidade
+Versão 3.0
 ![NRF Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise.jpg)
-
+Versão 4.0
+![NRF Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise_v1.jpg)
+Análise NFR Confiabilidade
+![NRF Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise_v1.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#confiabilidade), [US31](./backlog.md#us31), [US13](./backlog.md#us13), [US26](./backlog.md#us26), [US29](./backlog.md#us29), [US34](./backlog.md#us34), [C3030](./cenarios10x5f8c4.md#c3030).
 
