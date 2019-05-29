@@ -18,7 +18,10 @@
 | 2.0 | 28/05/2019 | Adicionar primeira e nova versão do NFR de Confiabilidade  | João Rodrigues |
 | 2.1 | 28/05/2019 | Adicionar nova versão de análise do NFR de Confiabilidade | João Rodrigues, Ivan Diniz, João Gabriel |
 | 2.2 | 28/05/2019 | Adicionar nova versão do NFR de Suporte ao Usuário | João Rodrigues | 
-| 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues | 
+| 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues |
+| 2.4 | 29/05/2019 | Adicionar nova versão do NFR de Suportabilidade | João Gabriel, João Rodrigues | 
+| 2.5 | 29/05/2019 | Adicionar nova versão do NFR de Desempenho | João Gabriel, João Rodrigues | 
+| 2.6 | 29/05/2019 | Preenchendo modelagem associada | Paulo Rocha | 
 
 
 # INTRODUÇÃO
@@ -49,8 +52,11 @@ Versão 2.0
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
 Versão 3.0  
 ![NFR Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise.jpg)
-Análise NFR Suportabilidade
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v3.jpg)
+Versão 4.0  
+![NFR Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise_v2.jpg)
+Análise NFR Suportabilidade
+![NFR Suportabilidade](images/nfr/Suportabilidade_v4.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
 
@@ -64,7 +70,7 @@ Versão 2.0
 Análise NFR Suporte ao Usuário
 ![nfr_suporte](images/nfr/NFRSuporteAoUsuarioComAnalise.jpg)
 
-Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)
+Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line), [US12](./backlog.md#us12), [US13](./backlog.md#us13), [US14](./backlog.md#us14), [US15](./backlog.md#us15), [US26](./backlog.md#us26), [US27](./backlog.md#us27),  [US28](./backlog.md#us28), [US29](./backlog.md#us29), [US30](./backlog.md#us30), [US31](./backlog.md#us31), [US32](./backlog.md#us32), [US33](./backlog.md#us33), [US34](./backlog.md#us34), [US35](./backlog.md#us35), [US36](./backlog.md#us36), [US37](./backlog.md#us37), [US38](./backlog.md#us38).
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.11](introspeccao.md), [BR2.16](brainstorm.md), [INT1.7](introspeccao.md).
 
@@ -73,8 +79,14 @@ Elicitação Associada: [INT1.2](introspeccao.md), [INT3.11](introspeccao.md), [
 ## NFR DESEMPENHO
 Versão 1.0
 ![nfr_desempenho](images/nfr/NFRDesempenhoSemAnalise.jpg)
-Análise NFR Desempenho
 ![nfr_desempenho](images/nfr/NFRDesempenhoComAnalise.jpg)
+Versão 2.0
+![nfr_desempenho](images/nfr/nfr_v3_desempenho_sem_analise.png)
+Análise NFR Desempenho 
+![nfr_desempenho](images/nfr/nfr_v3_desempenho.jpg)
+
+
+
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#desempenho)
 
@@ -88,7 +100,7 @@ Versão 1.0
 Análise NFR Usabilidade
 ![nfr_usabilidade](images/nfr/NFRUsabilidadecomAnalise.jpg)
 
-Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade)
+Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade), [US10](./backlog.md#us10), [US11](./backlog.md#us11), [US06](./backlog.md#us06), [US12](./backlog.md#us12).
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [AP3.4](analise_protocolo.md).
 
