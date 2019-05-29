@@ -15,8 +15,11 @@
 | 1.7 | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
 | 1.8 | 28/05/2019 | Separação entre NFR e análise de desempenho |Paulo Rocha|
 | 1.9 | 28/05/2019 | Preenchimento das elicitações associadas e linkagem |Paulo Rocha|
-| 2.0 | 28/05/2019 | Adicionar primeira e nova versão do NRF de Confiabilidade  | João Rodrigues |
-| 2.1 | 28/05/2019 | Adicionar nova versão de análise do NRF de Confiabilidade | João Rodrigues, Ivan Diniz |   
+| 2.0 | 28/05/2019 | Adicionar primeira e nova versão do NFR de Confiabilidade  | João Rodrigues |
+| 2.1 | 28/05/2019 | Adicionar nova versão de análise do NFR de Confiabilidade | João Rodrigues, Ivan Diniz, João Gabriel |
+| 2.2 | 28/05/2019 | Adicionar nova versão do NFR de Suporte ao Usuário | João Rodrigues | 
+| 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues | 
+
 
 # INTRODUÇÃO
 O NFR Framework é uma abordagem orientada a processos, em que os **requisitos não-funcionais** são explicitamente representados como metas a serem obtidas. Nesse sentido, preocupa-se diretamente com o **comportamento do sistema** e com a avaliação das metas-flexíveis (softgoal) [CHUNG, 1995]. O desenvolvimento dos artefatos foi separado em dois itens: o **NFR sem a análise**, e **outra versão com a análise**.
@@ -54,7 +57,12 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md).
 
 ## NFR SUPORTE AO USUÁRIO
+Versão 1.0
 ![nfr_suporte](images/nfr/nfr_v1_suporte_ao_usuario.jpg)
+Versão 2.0
+![nfr_suporte](images/nfr/NFRSuporteAoUsuarioSemAnalise.jpg)
+Análise NFR Suporte ao Usuário
+![nfr_suporte](images/nfr/NFRSuporteAoUsuarioComAnalise.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)
 
