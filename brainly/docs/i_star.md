@@ -10,6 +10,7 @@
 |    1.3  | 28/05/2019 | Adição da versão 2.0 do I* de dependências | Gustavo Marques, André Pinto, Leonardo Medeiros |
 |    1.4  | 28/05/2019 | Adição da versão 2.0 do I* de moderadores | João Gabriel, Ivan Diniz, João Mateus, Paulo Rocha, Wellison Regis |
 |    1.5  | 28/05/2019 | Adição da versão 2.0 do I* da plataforma | Gustavo Marques, André Pinto, Leonardo Medeiros |
+|    1.6  | 28/05/2019 | Adição da versão 1.0 do I* de gamificação | Ivan Diniz, Paulo Rocha, João Gabriel, Leonardo Medeiros, João Matheus |
 
 
 
@@ -34,3 +35,6 @@
 
 ## Plataforma Brainly V 2.0
 ![I* Brainly2](images/i_star/i_star_brainly_v2.png)
+
+## Gamificação V 1.0
+![I* Brainly2](images/i_star/i_star_gamificação.png)
