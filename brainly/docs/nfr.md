@@ -20,6 +20,7 @@
 | 2.2 | 28/05/2019 | Adicionar nova versão do NFR de Suporte ao Usuário | João Rodrigues | 
 | 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues |
 | 2.4 | 29/05/2019 | Adicionar nova versão do NFR de Suportabilidade | João Gabriel, João Rodrigues | 
+| 2.5 | 29/05/2019 | Adicionar nova versão do NFR de Desempenho | João Gabriel, João Rodrigues | 
 
 
 # INTRODUÇÃO
@@ -77,8 +78,14 @@ Elicitação Associada: [INT1.2](introspeccao.md), [INT3.11](introspeccao.md), [
 ## NFR DESEMPENHO
 Versão 1.0
 ![nfr_desempenho](images/nfr/NFRDesempenhoSemAnalise.jpg)
-Análise NFR Desempenho
 ![nfr_desempenho](images/nfr/NFRDesempenhoComAnalise.jpg)
+Versão 2.0
+![nfr_desempenho](images/nfr/nfr_v3_desempenho_sem_analise.png)
+Análise NFR Desempenho 
+![nfr_desempenho](images/nfr/nfr_v3_desempenho.jpg)
+
+
+
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#desempenho)
 
