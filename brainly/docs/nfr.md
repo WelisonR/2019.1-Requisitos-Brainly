@@ -28,19 +28,21 @@ Análise NFR Confiabilidade
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#confiabilidade), [US31](./backlog.md#us31), [US13](./backlog.md#us13), [US26](./backlog.md#us26), [US29](./backlog.md#us29), [US34](./backlog.md#us34), [C3030](./cenarios10x5f8c4.md#c3030).
 
-Elicitação Associada: [EN 1.3](./priorizacao.md), [BR 2.1](./priorizacao.md), [BR 2.7](./priorizacao.md), [BR 2.10](./priorizacao.md).
+Elicitação Associada: [EN 1.3](./entrevista.md), [BR 2.1](./brainstorm.md), [BR 2.7](./brainstorm.md), [BR 2.10](./brainstorm.md).
 
 ## NFR SUPORTABILIDADE
 Versão 1.0
 ![NRF Suportabilidade](images/nfr/nfr_v1_suportabilidade.png)
 Versão 2.0  
+![NRF Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
+Versão 3.0  
 ![NRF Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise.jpg)
 Análise NFR Suportabilidade
-![NRF Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
+![NRF Suportabilidade](images/nfr/Suportabilidade_v3.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
 
-Elicitação Associada: 
+Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md)
 
 ## NFR SUPORTE AO USUÁRIO
 ![nfr_suporte](images/nfr/nfr_v1_suporte_ao_usuario.jpg)
