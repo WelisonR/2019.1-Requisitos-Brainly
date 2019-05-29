@@ -18,7 +18,8 @@
 | 2.0 | 28/05/2019 | Adicionar primeira e nova versão do NFR de Confiabilidade  | João Rodrigues |
 | 2.1 | 28/05/2019 | Adicionar nova versão de análise do NFR de Confiabilidade | João Rodrigues, Ivan Diniz, João Gabriel |
 | 2.2 | 28/05/2019 | Adicionar nova versão do NFR de Suporte ao Usuário | João Rodrigues | 
-| 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues | 
+| 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues |
+| 2.4 | 29/05/2019 | Adicionar nova versão do NFR de Suportabilidade | João Gabriel, João Rodrigues | 
 
 
 # INTRODUÇÃO
@@ -49,8 +50,11 @@ Versão 2.0
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
 Versão 3.0  
 ![NFR Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise.jpg)
-Análise NFR Suportabilidade
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v3.jpg)
+Versão 4.0  
+![NFR Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise_v2.jpg)
+Análise NFR Suportabilidade
+![NFR Suportabilidade](images/nfr/Suportabilidade_v4.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
 
