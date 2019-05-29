@@ -25,7 +25,7 @@
 
 ## Moderação - Qualidade de conteúdo V 2.0
 
-![Qualidade de conteúdo](images/i_star/istar_moderadores_V2.png)
+![Qualidade de conteúdo](images/i_star/istar_moderadores_v2.png)
 
 ## Plataforma Brainly
 ![I* Brainly](images/i_star/i_star_brainly_v1.png)
