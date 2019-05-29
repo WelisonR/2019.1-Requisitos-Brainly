@@ -12,33 +12,46 @@
 |    1.5  | 28/05/2019 | Adição da versão 2.0 do I* da plataforma | Gustavo Marques, André Pinto, Leonardo Medeiros |
 |    1.6  | 28/05/2019 | Adição da versão 1.0 do I* de gamificação | Ivan Diniz, Paulo Rocha, João Gabriel, Leonardo Medeiros, João Matheus |
 |    1.7  | 29/05/2019 | Adição da versão 1.0 do I* de realizar pergunta | Lieverton Silva, Welison Regis |
+|    1.8  | 29/05/2019 | Adição da versão 1.0 do I* de realizar resposta | Lieverton Silva, Welison Regis |
 
 
 
-## I* Depedency - V 1.0
+# ISD 1
+## Brainly - Geral v1.0
 
 ![Diagrama de dependencias](images/i_star/i_star_dependency_v1.png)
 
-## I* Depedency - V 2.0
+## Brainly - Geral v2.0
 
 ![Diagrama de dependencias2](images/i_star/i_star_dependency_v2.png)
 
-## Moderação - Qualidade de conteúdo V 1.0
+
+# ISR01
+## Plataforma Brainly v1.0
+
+![I* Brainly](images/i_star/i_star_brainly_v1.png)
+
+
+## Plataforma Brainly v2.0
+![I* Brainly2](images/i_star/i_star_brainly_v2.png)
+
+# ISR02
+## Realizar pergunta v1.0
+![I* Realizar Pergunta](images/i_star/i_star_realizar_pergunta.png)
+
+# ISR03
+## Realizar resposta v1.0
+![I* Realizar Resposta](images/i_star/i_star_realizar_resposta.png)
+
+# ISR04
+## Moderação - Qualidade de conteúdo v1.0
 
 ![Qualidade de conteúdo](images/i_star/istar_moderadores.png)
 
-## Moderação - Qualidade de conteúdo V 2.0
+## Moderação - Qualidade de conteúdo v2.0
 
 ![Qualidade de conteúdo2](images/i_star/istar_moderadores_V2.png)
 
-## Plataforma Brainly V 1.0
-![I* Brainly](images/i_star/i_star_brainly_v1.png)
-
-## Plataforma Brainly V 2.0
-![I* Brainly2](images/i_star/i_star_brainly_v2.png)
-
-## Gamificação V 1.0
+# ISR05
+## Gamificação v1.0
 ![I* Brainly2](images/i_star/i_star_gamificação.png)
-
-## Realizar pergunta V 1.0
-![I* Realizar Pergunta](images/i_star/i_star_realizar_pergunta.png)
