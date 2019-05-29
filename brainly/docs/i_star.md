@@ -1,4 +1,10 @@
-# NFR
+# Istar
+
+# Introdução
+
+O **framework i*** propõe uma **abordagem orientada a agentes** para engenharia de requisitos centrada nas **características intencionais do agente**, isto é, as metas, metas-flexíveis e outras abstrações. Os artefatos dividem-se no **Modelo Estratégico de Dependência** (SD) que apresenta uma visão mais geral do sistema e o **Modelo de Raciocínio Estratégico** (SR) que especifica os subsistemas com os seus devidos atores.
+
+Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar/).
 
 ## Versionamento
 
@@ -37,10 +43,12 @@
 
 # ISR02
 ## Realizar pergunta v1.0
+
 ![I* Realizar Pergunta](images/i_star/i_star_realizar_pergunta.png)
 
 # ISR03
 ## Realizar resposta v1.0
+
 ![I* Realizar Resposta](images/i_star/i_star_realizar_resposta.png)
 
 # ISR04
@@ -55,3 +63,12 @@
 # ISR05
 ## Gamificação v1.0
 ![I* Brainly2](images/i_star/i_star_gamificação.png)
+
+
+# REFERÊNCIA
+
+[1] SERRANO, Maurício; SERRANO, Milene. **Requisitos - Aula 20. 1º/2019**. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+[2] Pimentel, J.: piStar Tool - Goal Modeling. [Disponível aqui](http://www.cin.ufpe.br/jhcp/pistar/). Acessado em 29 maio 2019.
+
+[3] PUC-RIO. **O Framework de Modelagem i***. In: PUC-RIO. Requisitos de Software. PUC-Rio: [s. n.], [2007?]. [Disponível aqui]( https://www.maxwell.vrac.puc-rio.br/15000/15000_3.PDF). Acesso em: 29 maio 2019.
