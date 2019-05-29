@@ -1,11 +1,5 @@
 # Istar
 
-# Introdução
-
-O **framework i*** propõe uma **abordagem orientada a agentes** para engenharia de requisitos centrada nas **características intencionais do agente**, isto é, as metas, metas-flexíveis e outras abstrações. Os artefatos dividem-se no **Modelo Estratégico de Dependência** (SD) que apresenta uma visão mais geral do sistema e o **Modelo de Raciocínio Estratégico** (SR) que especifica os subsistemas com os seus devidos atores.
-
-Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar/).
-
 ## Versionamento
 
 |  Versão |    Data    | Modificação  | Autor |
@@ -19,8 +13,14 @@ Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar
 |    1.6  | 28/05/2019 | Adição da versão 1.0 do I* de gamificação | Ivan Diniz, Paulo Rocha, João Gabriel, Leonardo Medeiros, João Matheus |
 |    1.7  | 29/05/2019 | Adição da versão 1.0 do I* de realizar pergunta | Lieverton Silva, Welison Regis |
 |    1.8  | 29/05/2019 | Adição da versão 1.0 do I* de realizar resposta | Lieverton Silva, Welison Regis |
+|    1.9  | 29/05/2019 | Adição de introdução e referências do i* | Welison Regis |
 
 
+# Introdução
+
+O **framework i*** propõe uma **abordagem orientada a agentes** para engenharia de requisitos centrada nas **características intencionais do agente**, isto é, as metas, metas-flexíveis e outras abstrações. Os artefatos dividem-se no **Modelo Estratégico de Dependência** (SD) que apresenta uma visão mais geral do sistema e o **Modelo de Raciocínio Estratégico** (SR) que especifica os subsistemas com os seus devidos atores.
+
+Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar/).
 
 # ISD 1
 ## Brainly - Geral v1.0
@@ -71,4 +71,4 @@ Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar
 
 [2] Pimentel, J.: piStar Tool - Goal Modeling. [Disponível aqui](http://www.cin.ufpe.br/jhcp/pistar/). Acessado em 29 maio 2019.
 
-[3] PUC-RIO. **O Framework de Modelagem i***. In: PUC-RIO. Requisitos de Software. PUC-Rio: [s. n.], [2007?]. [Disponível aqui]( https://www.maxwell.vrac.puc-rio.br/15000/15000_3.PDF). Acesso em: 29 maio 2019.
+[3] PUC-RIO. **O Framework de Modelagem i***. In: PUC-RIO. Requisitos de Software. PUC-Rio: [s. n.], [2007?]. [Disponível aqui](https://www.maxwell.vrac.puc-rio.br/15000/15000_3.PDF). Acesso em: 29 maio 2019.

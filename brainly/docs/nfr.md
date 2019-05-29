@@ -108,6 +108,6 @@ Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [I
 
 [1] SERRANO, Maurício; SERRANO, Milene. **Requisitos - Aula 19. 1º/2019**. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
-[2] CHUNG, L. e NIXON, B., **“Using Non-Functional Requirements to Systematically Support Change”**, 1995;
+[2] CHUNG, L. e NIXON, B., **Using Non-Functional Requirements to Systematically Support Change**, 1995.
 
-[3] CHUNG, L., “Non-functional Requirements in Software Engineering”, visitado em 2007, disponível [aqui](https://www.utdallas.edu/~chung/RE/NFR-18.ppt);
+[3] CHUNG, L., **Non-functional Requirements in Software Engineering**. Disponível [aqui](https://www.utdallas.edu/~chung/RE/NFR-18.ppt). Acesso em: 27 maio 2019.
