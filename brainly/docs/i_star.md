@@ -13,8 +13,11 @@
 |    1.6  | 28/05/2019 | Adição da versão 1.0 do I* de gamificação | Ivan Diniz, Paulo Rocha, João Gabriel, Leonardo Medeiros, João Matheus |
 |    1.7  | 29/05/2019 | Adição da versão 1.0 do I* de realizar pergunta | Lieverton Silva, Welison Regis |
 |    1.8  | 29/05/2019 | Adição da versão 1.0 do I* de realizar resposta | Lieverton Silva, Welison Regis |
-|    1.9  | 29/05/2019 | Adição de introdução e referências do i* | Welison Regis |
-|    1.11  | 28/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
+|    1.9  | 29/05/2019 | Adição da versão 3.0 do I* de dependências | Lieverton Silva, Welison Regis |
+|    1.10  | 29/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
+|    1.11  | 29/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
+|    2.0  | 29/05/2019 | Adição da versão 2.0 do I* de gamificação | Gustavo Marques, Ivan Diniz Dobbin |
+
 
 
 
@@ -80,11 +83,13 @@ Modelagens Associadas: [EP04](./backlog.md#ep04), [US26](./backlog.md#us26), [US
 ![Qualidade de conteúdo2](images/i_star/istar_moderadores_V2.png)
 
 # ISR05
-## Gamificação v1.0
-
 Modelagens Associadas: [**Casos de uso de gamificação**](./casos_uso_perguntas_respostas.md), [EP06](./backlog.md#ep06), [US44](./backlog.md#us44), [US45](./backlog.md#us45),  [US46](./backlog.md#us46), [US47](./backlog.md#us47), [US48](./backlog.md#us48).
 
-![I* Brainly2](images/i_star/i_star_gamificação.png)
+## Gamificação v1.0
+![I* Gamificacao1](images/i_star/i_star_gamificação_v1.png)
+
+## Gamificação v2.0
+![I* Gamificacao2](images/i_star/i_star_gamificação_v2.png)
 
 
 # REFERÊNCIA
