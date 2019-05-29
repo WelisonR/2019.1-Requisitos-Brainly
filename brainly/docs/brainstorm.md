@@ -16,7 +16,7 @@
 
 ### Levantamento de requisitos com o método brainstorm
 
-Após a divisão de tarefas, os membros do grupo, André, João Gabriel, João Rodrigues, Lieverton, Paulo Vitor e Welison Regis, responsáveis por realizar o brainstorm, reuniram-se e utilizando essa técnica de elicitação, levantaram 47 requisitos, que estão descritos e divididos entre as tabelas de requisitos funcionais e não funcionais abaixo:
+Após a divisão de tarefas os membros do grupo, André, João Gabriel, João Rodrigues, Lieverton, Paulo Vitor e Welison Regis, responsáveis por realizar o brainstorm, reuniram-se e utilizando essa técnica de elicitação, levantaram 47 requisitos, que estão descritos e divididos entre as tabelas de requisitos funcionais e não funcionais abaixo:
 
 ### Tabela de Requisitos Funcionais
 
@@ -34,7 +34,7 @@ Após a divisão de tarefas, os membros do grupo, André, João Gabriel, João R
 | BR1.10 | Conquistar emblemas | O usuário deve ser capaz de conquistar novos emblemas para determinadas ações realizadas na aplicação | João Rodrigues | C |
 | BR1.11 | Contatar moderador | O usuário deve ser capaz de por meio de um botão de chat e report contatar o moderador  | Paulo Vitor | S |
 | BR1.12 | Criar conta | O usuário deve ser capaz de se registrar com seus dados na aplicação | João Rodrigues | M |
-| BR1.13 | Gerenciar e personalizar conta | O usuário deve ser capaz de gerenciar suas configurações e altera-las quando bem entender | João Gabriel | C |
+| BR1.13 | Gerenciar e personalizar conta | O usuário deve ser capaz de gerenciar suas configurações e alterá-las quando bem entender | João Gabriel | C |
 | BR1.14 | Recuperar senha | O sistema deve possuir um botão na página de login de "Esqueci minha senha" | Lieverton |
 | BR1.15 | Suspender conta | O moderador e os administradores devem ser capazes de suspender contas de usuários | André | C |
 | BR1.16 | Cancelar conta | O administrador deve ser capaz de cancelar a conta de qualquer usuário baseado nos termos de uso | Lieverton | S |
@@ -62,14 +62,14 @@ Legenda - técnica de priorização:
 |  :----: | :----: | :-----------------------: | :---: | :-----: |
 | BR2.1 | Idade mínima para registro na plataforma | O usuário deve ter mais de 13 anos para se registrar na plataforma | Paulo Vitor | M |
 | BR2.2 | Ser multiplataforma | O sistema ficará disponível nas plataformas WEB, Android e IOS | João Rodrigues | S |
-| BR2.3 | Possuir diferentes plataformas consistentes | As informações entre plataformas deverão ser relacionadas por um sistema de armazenamento de informação único | João Gabriel | C |
+| BR2.3 | Possuir diferentes plataformas consistentes | As informações entre plataformas deverão ser relacionadas por um sistema de armazenamento de informação unico | João Gabriel | C |
 | BR2.4 | Solicitar cadastro para uso da plataforma web | Para utilizar qualquer funcionalidade da plataforma WEB o usuário deve estar logado | Welison Regis | C |
 | BR2.5 | Não solicitar cadastro para perguntar no app | Para utilizar a funcionalidade de perguntar do app o usuário não precisa estar registrado | Paulo Vitor | C |
 | BR2.6 | Permitir que apenas usuários registrados possam responder em ambas plataformas | Para utilizar a funcionalidade de dar resposta o usuário necessita estar logado | João Rodrigues | M |
-| BR2.7 | Não utilizar informações de pessoas menores de 16 anos sem autorizacão | O sistema deve averiguar a idade do usuário antes de utilizar suas informações para marketing | Lieverton | M |
-| BR2.8 | Possuir termos de uso e politicas de privacidade consistentes entre as plataformas | O sistema deve possuir os termos de uso e de politicas de privacidade consistentes, se possível, único | André | M |
+| BR2.7 | Não utilizar informações de pessoas menores de 16 anos sem autorização | O sistema deve averiguar a idade do usuário antes de utilizar suas informações para marketing | Lieverton | M |
+| BR2.8 | Possuir termos de uso e políticas de privacidade consistentes entre as plataformas | O sistema deve possuir os termos de uso e de políticas de privacidade consistentes, se possível, unico | André | M |
 | BR2.9 | Necessitar de conexão com a Internet | Para utilizar o sistema ou qualquer funcionalidade relacionada a ele, o usuário precisa ter conexão com a internet | João Gabriel | M |
-| BR2.10 | Possuir medidas de segurança para protecão de dados (não especificada pelo site) | O sistema deve possuir um sistema de segurança mais seguro possível dentro dos conhecimentos de segurança atuais | André | M |
+| BR2.10 | Possuir medidas de segurança para proteção de dados (não especificada pelo site) | O sistema deve possuir um sistema de segurança mais seguro possível dentro dos conhecimentos de segurança atuais | André | M |
 | BR2.11 | Monitorar e registrar atividades | O sistema pode monitorar e registrar todas suas atividades sem autorização prévia | João Rodrigues | M |
 | BR2.12 | Responsabilidade do usuário | O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços | João Gabriel | M |
 | BR2.13 | Marketing com usuário | No registro de usuário, o usuário permite o uso de seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing | Lieverton | M |

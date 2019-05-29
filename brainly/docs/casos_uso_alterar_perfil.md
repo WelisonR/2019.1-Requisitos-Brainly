@@ -90,5 +90,5 @@ Possuir acesso à internet.
 
 
 ### 8 Requisitos Especiais
-1. Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.12](brainstorm.md).
-2. Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceita-lo [AP1.13](analise_protocolo.md)
+1. Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.12](brainstorm.md).
+2. Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo [AP1.13](analise_protocolo.md)

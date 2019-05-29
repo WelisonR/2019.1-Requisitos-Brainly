@@ -15,7 +15,7 @@
 |    Sinônimos  |    gerente, administradores, gerentes, administração.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [moderar denúncia](cenarios10x58ed251.md#id=3030) |   |
 
@@ -32,7 +32,7 @@
 |    Sinônimos  |    seguidor.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -43,13 +43,13 @@
 |  Informações  | Símbolo |
 |:-------------:|:-------:|
 |      Nome     |    banido   |
-|      Noção    |    Usuario impossibilitado de acessar sua [conta](lexicos10x58ed251.md#perfil).</br>Apos infringir certos tipos de regras ou ser reincidente em advertencias.   |
+|      Noção    |    Usuário impossibilitado de acessar sua [conta](lexicos10x58ed251.md#perfil).</br>Apos infringir certos tipos de regras ou ser reincidente em advertencias.   |
 | Classificação |    estado   |
 |    Impacto    |    Usuário após ser temporariamente banido deve ser mais cauteloso em seu comportamento: ESTADO - [conta](lexicos10x58ed251.md#perfil) sob supervisão.</br></br>Após banimento total, usuário não pode mais utilizar sua [conta](lexicos10x58ed251.md#perfil): ESTADO - [conta](lexicos10x58ed251.md#perfil) excluída.   |
 |    Sinônimos  |    punido, retirado, excluido.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [moderar denúncia](cenarios10x58ed251.md#id=3030) | [denunciar](lexicos10x58ed251.md#denunciar) |
 
@@ -66,7 +66,7 @@
 |    Sinônimos  |    bloqueiam usuário, bloquear usuários, reter usuários, travar usuário, reter usuário, bloqueia usuário.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [moderar denúncia](cenarios10x58ed251.md#id=3030) |   |
 
@@ -83,7 +83,7 @@
 |    Sinônimos  |    explicação, avaliação.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [moderar denúncia](cenarios10x58ed251.md#id=3030) | [notificações](lexicos10x58ed251.md#notificações) |
 |   | [moderador](lexicos10x58ed251.md#moderador) |
@@ -101,7 +101,7 @@
 |    Sinônimos  |    usuários.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [faça sua pergunta](cenarios10x58ed251.md#id=2996) | [comentário](lexicos10x58ed251.md#comentário) |
 | [responder tarefa](cenarios10x58ed251.md#id=2997) | [mensagens](lexicos10x58ed251.md#mensagens) |
@@ -122,7 +122,7 @@
 |    Sinônimos  |    sinalizar, reportar.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [comunidade](lexicos10x58ed251.md#comunidade) |
 
@@ -135,11 +135,11 @@
 |      Nome     |    desafios   |
 |      Noção    |    [tarefas](lexicos10x58ed251.md#pergunta) em um período de tempo.   |
 | Classificação |    objeto   |
-|    Impacto    |    Desafios completos geram [pontos](lexicos10x58ed251.md#pontos);</br>Um usuário pode aceitar um único desafio por vez;</br>Servem pra impulsionar um usuário a uma [tarefa](lexicos10x58ed251.md#pergunta).   |
+|    Impacto    |    Desafios completos geram [pontos](lexicos10x58ed251.md#pontos);</br>Um usuário pode aceitar um unico desafio por vez;</br>Servem para impulsionar um usuário a uma [tarefa](lexicos10x58ed251.md#pergunta).   |
 |    Sinônimos  |    desafio.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [iniciar desafios](cenarios10x58ed251.md#id=2998) | [pontos](lexicos10x58ed251.md#pontos) |
 
@@ -156,7 +156,7 @@
 |    Sinônimos  |    conquistas, emblema, conquista.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [emblemas mais próximos](lexicos10x58ed251.md#emblemas-mais-próximos) |
 |   | [emblemas recentes](lexicos10x58ed251.md#emblemas-recentes) |
@@ -175,7 +175,7 @@
 |    Sinônimos  |    emblemas adquiridos .   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -192,7 +192,7 @@
 |    Sinônimos  |    próxima conquista.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -209,7 +209,7 @@
 |    Sinônimos  |    conquista recente.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -222,11 +222,11 @@
 |      Nome     |    infrator   |
 |      Noção    |    Pessoa que não cumpre com as políticas do regulamento do Brainly.</br>Responsável pela perda de tempo de [moderadores](lexicos10x58ed251.md#moderador) e estudantes devido ao cometimento de irregularidades.   |
 | Classificação |    sujeito   |
-|    Impacto    |    O infrator pratica irregularidades na plataforma;</br>O infrator prejudica aos [moderadores](lexicos10x58ed251.md#moderador), aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em [perguntas](lexicos10x58ed251.md#pergunta), [respostas](lexicos10x58ed251.md#respondidas), comentários e no chat de maneira inadequada.</br>O infrator pratica spam, brincadeiras e pedidos de informações pessoais.   |
+|    Impacto    |    O infrator prática irregularidades na plataforma;</br>O infrator prejudica aos [moderadores](lexicos10x58ed251.md#moderador), aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em [perguntas](lexicos10x58ed251.md#pergunta), [respostas](lexicos10x58ed251.md#respondidas), comentários e no chat de maneira inadequada.</br>O infrator prática spam, brincadeiras e pedidos de informações pessoais.   |
 |    Sinônimos  |    infratores.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [moderar denúncia](cenarios10x58ed251.md#id=3030) |   |
 
@@ -243,7 +243,7 @@
 |    Sinônimos  |    tema.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -260,7 +260,7 @@
 |    Sinônimos  |    melhores respostas.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [nível](lexicos10x58ed251.md#nível) |
 |   | [pergunta](lexicos10x58ed251.md#pergunta) |
@@ -280,7 +280,7 @@
 |    Sinônimos  |    mensagem, mensagem privada.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -297,7 +297,7 @@
 |    Sinônimos  |    moderadores.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [moderar denúncia](cenarios10x58ed251.md#id=3030) | [mensagens](lexicos10x58ed251.md#mensagens) |
 |   | [administrador](lexicos10x58ed251.md#administrador) |
@@ -317,7 +317,7 @@
 |    Sinônimos  |    níveis.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [melhor resposta](lexicos10x58ed251.md#melhor-resposta) |
 |   | [pontos](lexicos10x58ed251.md#pontos) |
@@ -337,7 +337,7 @@
 |    Sinônimos  |    notificação, aviso.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [administrador](lexicos10x58ed251.md#administrador) |
 
@@ -354,7 +354,7 @@
 |    Sinônimos  |    botão de agradecimento, obrigado.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -371,7 +371,7 @@
 |    Sinônimos  |    perfis, conta, contas.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [faça sua pergunta](cenarios10x58ed251.md#id=2996) |   |
 | [alterar perfil](cenarios10x58ed251.md#id=3032) |   |
@@ -392,7 +392,7 @@
 |    Sinônimos  |    tarefa, dúvida, tarefas, perguntas.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [faça sua pergunta](cenarios10x58ed251.md#id=2996) | [pontos](lexicos10x58ed251.md#pontos) |
 | [responder tarefa](cenarios10x58ed251.md#id=2997) | [comentário](lexicos10x58ed251.md#comentário) |
@@ -418,7 +418,7 @@
 |    Sinônimos  |    pergunta deletada, tarefa expirada.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [notificações](lexicos10x58ed251.md#notificações) |
 
@@ -435,7 +435,7 @@
 |    Sinônimos  |    perguntas populares, populares, questões populares, questão popular.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -452,7 +452,7 @@
 |    Sinônimos  |    pontuação, ponto.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [iniciar desafios](cenarios10x58ed251.md#id=2998) | [responder](lexicos10x58ed251.md#responder) |
 | [adicionar anexo para pergunta](cenarios10x58ed251.md#id=3033) | [nível](lexicos10x58ed251.md#nível) |
@@ -477,7 +477,7 @@
 |    Sinônimos  |    ranking.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -494,7 +494,7 @@
 |    Sinônimos  |    tarefa sendo respondida.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -511,7 +511,7 @@
 |    Sinônimos  |    responde.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [iniciar desafios](cenarios10x58ed251.md#id=2998) | [melhor resposta](lexicos10x58ed251.md#melhor-resposta) |
 |   | [pontos](lexicos10x58ed251.md#pontos) |
@@ -535,7 +535,7 @@
 |    Sinônimos  |    resposta, respostas.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [tarefas resolvidas](lexicos10x58ed251.md#tarefas-resolvidas) |
 |   | [sem resposta](lexicos10x58ed251.md#sem-resposta) |
@@ -551,13 +551,13 @@
 |  Informações  | Símbolo |
 |:-------------:|:-------:|
 |      Nome     |    respostas verificadas   |
-|      Noção    |    [respostas](lexicos10x58ed251.md#respondidas) revidadas, que foram destacadas devido seu detalhamento e precisão.   |
+|      Noção    |    [respostas](lexicos10x58ed251.md#respondidas) revisadas, que foram destacadas devido seu detalhamento e precisão.   |
 | Classificação |    estado   |
 |    Impacto    |    As [melhores respostas](lexicos10x58ed251.md#melhor-resposta) analisadas pelo time tornam-se verificadas.</br>Ao fazer uma pesquisa são mostradas as [respostas](lexicos10x58ed251.md#respondidas) verificadas.   |
 |    Sinônimos  |    tarefas verificadas, respostas revisadas, resposta revisada.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [pesquisar](cenarios10x58ed251.md#id=3000) | [moderador](lexicos10x58ed251.md#moderador) |
 
@@ -574,7 +574,7 @@
 |    Sinônimos  |    tarefa sem resposta.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | [responder tarefa](cenarios10x58ed251.md#id=2997) |   |
 
@@ -588,10 +588,10 @@
 |      Noção    |    [pergunta](lexicos10x58ed251.md#pergunta) feita.   |
 | Classificação |    estado   |
 |    Impacto    |    As dúvidas tiradas são salvas em [tarefas](lexicos10x58ed251.md#pergunta) adicionadas.</br>As [tarefas](lexicos10x58ed251.md#pergunta) adicionadas servem para usuário rever uma [pergunta](lexicos10x58ed251.md#pergunta).   |
-|    Sinônimos  |    pegunta adicionada.   |
+|    Sinônimos  |    pergunta adicionada.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -608,7 +608,7 @@
 |    Sinônimos  |    perguntas resolvidas.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 
@@ -625,7 +625,7 @@
 |    Sinônimos  |    equipe de resposta, equipes de respostas, time de resposta.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 |   | [administrador](lexicos10x58ed251.md#administrador) |
 |   | [pergunta popular](lexicos10x58ed251.md#pergunta-popular) |
@@ -639,11 +639,11 @@
 |      Nome     |    universitário   |
 |      Noção    |    É o usuário da plataforma que cursa ensino superior.</br>Estudante selecionado pela [administração](lexicos10x58ed251.md#administrador) a partir de processo seletivo em universidade.</br>Possui amparo e resguardo de ações por parte da [administração](lexicos10x58ed251.md#administrador).   |
 | Classificação |    sujeito   |
-|    Impacto    |    O universitário [responde](lexicos10x58ed251.md#responder) questões especificas, especialmente as [perguntas populares](lexicos10x58ed251.md#pergunta-popular).</br>O universitário recebe orientação por parte da [administração](lexicos10x58ed251.md#administrador) sobre as [perguntas](lexicos10x58ed251.md#pergunta) a serem [respondidas](lexicos10x58ed251.md#respondidas).</br>O universitário gera [respostas](lexicos10x58ed251.md#respondidas) com alta qualidade no Brainly.   |
+|    Impacto    |    O universitário [responde](lexicos10x58ed251.md#responder) questões específicas, especialmente as [perguntas populares](lexicos10x58ed251.md#pergunta-popular).</br>O universitário recebe orientação por parte da [administração](lexicos10x58ed251.md#administrador) sobre as [perguntas](lexicos10x58ed251.md#pergunta) a serem [respondidas](lexicos10x58ed251.md#respondidas).</br>O universitário gera [respostas](lexicos10x58ed251.md#respondidas) com alta qualidade no Brainly.   |
 |    Sinônimos  |    acadêmico, universitários, acadêmicos.   |
 
 
-|    Cenários   | Lexicos |
+|    Cenários   | Léxicos |
 |:-------------:|:-------:|
 | - | - |
 

@@ -24,10 +24,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O administrador exclui [contas](lexicos10x5f8c4.md#l12532) de [infratores](lexicos10x5f8c4.md#l12531);</br>O administrador realiza a comunicação de avisos através de [notificações](lexicos10x5f8c4.md#l12509);</br>Recruta [moderador](lexicos10x5f8c4.md#l12528);</br>O administrador fornece instrução de moderação ao [moderador](lexicos10x5f8c4.md#l12528);</br>O administrador realiza promoção de [moderador](lexicos10x5f8c4.md#l12528);</br>O administrador relata falhas técnicas ao time de desenvolvimento;</br>O administrador assiste o [usuário](lexicos10x5f8c4.md#l12660) que pede auxílio.   |
 |  **Sinônimos**  |    gerente, administradores, gerentes, administração.   |
-| **Requisitos** | [INT2.11](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.7](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT2.11](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.7](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) | [editar](lexicos10x5f8c4.md#l12659) |
 | [pedir correção de contéudo](cenarios10x5f8c4.md#c3045) | [usuário](lexicos10x5f8c4.md#l12660) |
@@ -47,7 +47,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [EN2.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -59,14 +59,14 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
 |  **Nome**       |    banido   |
-|  **Noção**      |    Usuario impossibilitado de acessar sua [conta](lexicos10x5f8c4.md#l12532).</br>Apos infringir certos tipos de regras ou ser reincidente em advertencias.   |
+|  **Noção**      |    Usuário impossibilitado de acessar sua [conta](lexicos10x5f8c4.md#l12532).</br>Apos infringir certos tipos de regras ou ser reincidente em advertencias.   |
 |**Classificação**|    estado   |
 |  **Impacto**    |    [usuário](lexicos10x5f8c4.md#l12660) após ser temporariamente banido faz sua [conta](lexicos10x5f8c4.md#l12532) [entrar](lexicos10x5f8c4.md#l12648) em um período de observação: ESTADO - [conta](lexicos10x5f8c4.md#l12532) sob supervisão.</br></br>Após banimento total, [usuário](lexicos10x5f8c4.md#l12660) não pode mais utilizar sua [conta](lexicos10x5f8c4.md#l12532): ESTADO - [conta excluída](lexicos10x5f8c4.md#l12658).   |
 |  **Sinônimos**  |    excluido, retirado, punido.   |
-| **Requisitos** | [INT2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) | [denunciar](lexicos10x5f8c4.md#l12533) |
 
@@ -82,10 +82,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [moderador](lexicos10x5f8c4.md#l12528) ou a [administração](lexicos10x5f8c4.md#l12529) do Brainly bloqueia o [usuário](lexicos10x5f8c4.md#l12660).</br>O [usuário](lexicos10x5f8c4.md#l12660) tem sua [conta](lexicos10x5f8c4.md#l12532) suspensa por alguns dias.   |
 |  **Sinônimos**  |    bloqueiam usuário, bloquear usuários, reter usuários, travar usuário, reter usuário, bloqueia usuário.   |
-| **Requisitos** | [INT2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) |   |
 
@@ -104,7 +104,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [AP3.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/)  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [entre agora!](lexicos10x5f8c4.md#l12649) |
 |   | [entrar com facebook](lexicos10x5f8c4.md#l12650) |
@@ -121,10 +121,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    objeto   |
 |  **Impacto**    |    alguém pode escrever um comentário em uma [pergunta](lexicos10x5f8c4.md#l12494) ou em uma [resposta](lexicos10x5f8c4.md#l12521).</br>A [comunidade](lexicos10x5f8c4.md#l12525) pode usar os comentários para comunicação.   |
 |  **Sinônimos**  |    avaliação, explicação, comentários.   |
-| **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.14](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.14](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) | [notificações](lexicos10x5f8c4.md#l12509) |
 | [adicionar comentário](cenarios10x5f8c4.md#c3042) | [moderador](lexicos10x5f8c4.md#l12528) |
@@ -142,10 +142,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    a comunidade pode ajudar a [responder](lexicos10x5f8c4.md#l12489);</br>a comunidade faz [perguntas](lexicos10x5f8c4.md#l12494);</br>a comunidade pode [denunciar](lexicos10x5f8c4.md#l12533) atitudes impróprias.   |
 |  **Sinônimos**  |    usuários.   |
-| **Requisitos** | [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
+| **Requisitos** | [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [responder tarefa](cenarios10x5f8c4.md#c2997) | [comentário](lexicos10x5f8c4.md#l12506) |
 | [pesquisar](cenarios10x5f8c4.md#c3000) | [mensagens](lexicos10x5f8c4.md#l12508) |
@@ -168,7 +168,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -187,7 +187,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [deletar conta](cenarios10x5f8c4.md#id=3039) |   |
 
@@ -203,10 +203,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    [pergunta](lexicos10x5f8c4.md#l12494) ou [resposta](lexicos10x5f8c4.md#l12521) apagada.</br>[usuário](lexicos10x5f8c4.md#l12660) denunciado é advertido ou [banido](lexicos10x5f8c4.md#l12534).   |
 |  **Sinônimos**  |    sinalizar, reportar.   |
-| **Requisitos** | [INT2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.16](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [INT2.17](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.16](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [INT2.17](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [comunidade](lexicos10x5f8c4.md#l12525) |
 
@@ -220,12 +220,12 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Nome**       |    desafios   |
 |  **Noção**      |    [tarefas](lexicos10x5f8c4.md#l12494) em um período de tempo.   |
 |**Classificação**|    objeto   |
-|  **Impacto**    |    Desafios completos geram [pontos](lexicos10x5f8c4.md#l12492);</br>Um [usuário](lexicos10x5f8c4.md#l12660) pode aceitar um único desafio por vez;</br>Servem pra impulsionar um [usuário](lexicos10x5f8c4.md#l12660) a uma [tarefa](lexicos10x5f8c4.md#l12494).   |
+|  **Impacto**    |    Desafios completos geram [pontos](lexicos10x5f8c4.md#l12492);</br>Um [usuário](lexicos10x5f8c4.md#l12660) pode aceitar um unico desafio por vez;</br>Servem para impulsionar um [usuário](lexicos10x5f8c4.md#l12660) a uma [tarefa](lexicos10x5f8c4.md#l12494).   |
 |  **Sinônimos**  |    desafio.   |
 | **Requisitos** | [AP1.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) | [pontos](lexicos10x5f8c4.md#l12492) |
 
@@ -244,7 +244,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [AP1.12](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [logado](lexicos10x5f8c4.md#l12651) |
 
@@ -260,10 +260,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    Corrigir erros em [perguntas](lexicos10x5f8c4.md#l12494) e [respostas](lexicos10x5f8c4.md#l12521).</br>[moderador](lexicos10x5f8c4.md#l12528), [administrador](lexicos10x5f8c4.md#l12529) pedir correção para incluir mais detalhes na [pergunta](lexicos10x5f8c4.md#l12494) ou [resposta](lexicos10x5f8c4.md#l12521).   |
 |  **Sinônimos**  |    edição, modificar, mudar.   |
-| **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) |   |
 | [alterar perfil](cenarios10x5f8c4.md#c3032) |   |
@@ -286,7 +286,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [emblemas mais próximos](lexicos10x5f8c4.md#l12516) |
 |   | [emblemas recentes](lexicos10x5f8c4.md#l12517) |
@@ -307,7 +307,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -326,7 +326,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -345,7 +345,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -361,10 +361,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    [usuário](lexicos10x5f8c4.md#l12660) está [logado](lexicos10x5f8c4.md#l12651) no Brainly e no facebook.</br></br>Se o [usuário](lexicos10x5f8c4.md#l12660) está [logado](lexicos10x5f8c4.md#l12651), não pode [logar](lexicos10x5f8c4.md#l12648) novamente.</br></br>[usuário](lexicos10x5f8c4.md#l12660) ganha as vantagens de estar [logado](lexicos10x5f8c4.md#l12651).   |
 |  **Sinônimos**  |    logar com facebook.   |
-| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [entre agora!](lexicos10x5f8c4.md#l12649) |
 
@@ -383,7 +383,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [AP3.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -399,10 +399,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) transita da tela de [cadastre-se](lexicos10x5f8c4.md#l12649) para a tela de login.   |
 |  **Sinônimos**  |    login.   |
-| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -421,7 +421,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [BR1.14](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -435,12 +435,12 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Nome**       |    infrator   |
 |  **Noção**      |    [pessoa](lexicos10x5f8c4.md#l12660) que não cumpre com as políticas do regulamento do Brainly.</br>Responsável pela perda de tempo de [moderadores](lexicos10x5f8c4.md#l12528) e estudantes devido ao cometimento de irregularidades.   |
 |**Classificação**|    sujeito   |
-|  **Impacto**    |    O infrator pratica irregularidades na plataforma;</br>O infrator prejudica aos [moderadores](lexicos10x5f8c4.md#l12528), aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em [perguntas](lexicos10x5f8c4.md#l12494), [respostas](lexicos10x5f8c4.md#l12521), [comentários](lexicos10x5f8c4.md#l12506) e no chat de maneira inadequada.</br>O infrator pratica spam, brincadeiras e pedidos de informações pessoais.   |
+|  **Impacto**    |    O infrator prática irregularidades na plataforma;</br>O infrator prejudica aos [moderadores](lexicos10x5f8c4.md#l12528), aos estudantes e à plataforma devido ao tempo e recurso gasto.</br>O infrator participa em [perguntas](lexicos10x5f8c4.md#l12494), [respostas](lexicos10x5f8c4.md#l12521), [comentários](lexicos10x5f8c4.md#l12506) e no chat de maneira inadequada.</br>O infrator prática spam, brincadeiras e pedidos de informações pessoais.   |
 |  **Sinônimos**  |    infratores.   |
-| **Requisitos** | [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT2.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) |   |
 
@@ -456,10 +456,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    O [usuário](lexicos10x5f8c4.md#l12660) está em sua [conta](lexicos10x5f8c4.md#l12532) no Brainly.</br>O [usuário](lexicos10x5f8c4.md#l12660) ganha [pontos](lexicos10x5f8c4.md#l12492) por entrar em sua [conta](lexicos10x5f8c4.md#l12532) periodicamente.</br>O [usuário](lexicos10x5f8c4.md#l12660) pode fazer [perguntas](lexicos10x5f8c4.md#l12494).</br>O [usuário](lexicos10x5f8c4.md#l12660) pode [responder](lexicos10x5f8c4.md#l12489) [perguntas](lexicos10x5f8c4.md#l12494) e ganha [pontos](lexicos10x5f8c4.md#l12492) por essas [respostas](lexicos10x5f8c4.md#l12521).   |
 |  **Sinônimos**  |    entrar, logar.   |
-| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [cadastrar](lexicos10x5f8c4.md#l12647) |
 |   | [entre agora!](lexicos10x5f8c4.md#l12649) |
@@ -476,10 +476,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    estado   |
 |  **Impacto**    |    Quando o [usuário](lexicos10x5f8c4.md#l12660) está logado ele possui:</br></br>-[ranking](lexicos10x5f8c4.md#l12498) </br>-[pontos](lexicos10x5f8c4.md#l12492) </br>-[níveis](lexicos10x5f8c4.md#l12491) </br>[usuário](lexicos10x5f8c4.md#l12660) pode [responder](lexicos10x5f8c4.md#l12489) e fazer [perguntas](lexicos10x5f8c4.md#l12494).</br>Estado:</br>-[usuário](lexicos10x5f8c4.md#l12660) logado</br></br>[usuário](lexicos10x5f8c4.md#l12660) se desconecta : Estado – [usuário](lexicos10x5f8c4.md#l12660) [deslogado](lexicos10x5f8c4.md#l12653).   |
 |  **Sinônimos**  |    loga, logou, conectado, entrou.   |
-| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT3.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [responder tarefa](cenarios10x5f8c4.md#c2997) | [entrar com facebook](lexicos10x5f8c4.md#l12650) |
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) | [deslogado](lexicos10x5f8c4.md#l12653) |
@@ -509,7 +509,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [fazer uma pergunta](cenarios10x5f8c4.md#c3036) |   |
 | [filtrar perguntas por matéria](cenarios10x5f8c4.md#c3040) |   |
@@ -529,7 +529,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [nível](lexicos10x5f8c4.md#l12491) |
 |   | [pergunta](lexicos10x5f8c4.md#l12494) |
@@ -551,7 +551,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [usuário](lexicos10x5f8c4.md#l12660) |
 
@@ -570,7 +570,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) | [mensagens](lexicos10x5f8c4.md#l12508) |
 | [pedir correção de contéudo](cenarios10x5f8c4.md#c3045) | [administrador](lexicos10x5f8c4.md#l12529) |
@@ -594,7 +594,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [EN2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/),  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [alterar nível das perguntas](cenarios10x5f8c4.md#c3037) | [melhor resposta](lexicos10x5f8c4.md#l12490) |
 | [filtrar perguntas por nível escolar ](cenarios10x5f8c4.md#c3041) | [pontos](lexicos10x5f8c4.md#l12492) |
@@ -616,7 +616,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [alterar nível das perguntas](cenarios10x5f8c4.md#c3037) |   |
 | [filtrar perguntas por nível escolar ](cenarios10x5f8c4.md#c3041) |   |
@@ -636,7 +636,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [administrador](lexicos10x5f8c4.md#l12529) |
 
@@ -655,7 +655,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [dar obrigado](cenarios10x5f8c4.md#c2999) |   |
 
@@ -671,10 +671,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    objeto   |
 |  **Impacto**    |    Apresenta as informações do [usuário](lexicos10x5f8c4.md#l12660).</br>Permite o [usuário](lexicos10x5f8c4.md#l12660) alterar algumas de sua informações.   |
 |  **Sinônimos**  |    perfis, conta, contas.   |
-| **Requisitos** | [INT1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) |   |
 | [fazer uma pergunta](cenarios10x5f8c4.md#c3036) |   |
@@ -702,7 +702,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [responder tarefa](cenarios10x5f8c4.md#c2997) | [pontos](lexicos10x5f8c4.md#l12492) |
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) | [comentário](lexicos10x5f8c4.md#l12506) |
@@ -735,7 +735,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [BR2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/)|
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [notificações](lexicos10x5f8c4.md#l12509) |
 
@@ -754,7 +754,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -773,7 +773,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [pergunta](lexicos10x5f8c4.md#l12494) |
 
@@ -792,7 +792,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** |  |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [cadastrar](lexicos10x5f8c4.md#l12647) |
 
@@ -811,7 +811,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) | [responder](lexicos10x5f8c4.md#l12489) |
 | [fazer uma pergunta](cenarios10x5f8c4.md#c3036) | [nível](lexicos10x5f8c4.md#l12491) |
@@ -839,7 +839,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [EN1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -855,10 +855,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    estado   |
 |  **Impacto**    |    Quando uma [pergunta](lexicos10x5f8c4.md#l12494) já está sendo respondida por duas [pessoas](lexicos10x5f8c4.md#l12660), outras [pessoas](lexicos10x5f8c4.md#l12660) podem apenas fazer [comentários](lexicos10x5f8c4.md#l12506);</br>O [usuário](lexicos10x5f8c4.md#l12660) que fez a [pergunta](lexicos10x5f8c4.md#l12494) recebe uma [notificação](lexicos10x5f8c4.md#l12509) que sua [pergunta](lexicos10x5f8c4.md#l12494) está sendo respondida.   |
 |  **Sinônimos**  |    tarefa sendo respondida.   |
-| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -877,7 +877,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [AP1.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -893,10 +893,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    verbo   |
 |  **Impacto**    |    Responder gera [pontos](lexicos10x5f8c4.md#l12492).</br>A [resposta](lexicos10x5f8c4.md#l12521) deve ser detalhada para que o [usuário](lexicos10x5f8c4.md#l12660) com [dúvida](lexicos10x5f8c4.md#l12494) entenda.   |
 |  **Sinônimos**  |    responde.   |
-| **Requisitos** | [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT1.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT1.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) | [melhor resposta](lexicos10x5f8c4.md#l12490) |
 | [filtrar perguntas por matéria](cenarios10x5f8c4.md#c3040) | [pontos](lexicos10x5f8c4.md#l12492) |
@@ -919,10 +919,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    estado   |
 |  **Impacto**    |    [perguntas](lexicos10x5f8c4.md#l12494) com duas respostas,  apenas podem receber [comentários](lexicos10x5f8c4.md#l12506).</br>Pode-se agradecer ou qualificar respostas.   |
 |  **Sinônimos**  |    resposta, respostas.   |
-| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/=), [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/=), [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [dar obrigado](cenarios10x5f8c4.md#c2999) | [tarefas resolvidas](lexicos10x5f8c4.md#l12512) |
 | [pesquisar](cenarios10x5f8c4.md#c3000) | [sem resposta](lexicos10x5f8c4.md#l12519) |
@@ -940,14 +940,14 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
 |  **Nome**       |    respostas verificadas   |
-|  **Noção**      |    [respostas](lexicos10x5f8c4.md#l12521) revidadas, que foram destacadas devido seu detalhamento e precisão.   |
+|  **Noção**      |    [respostas](lexicos10x5f8c4.md#l12521) revisadas, que foram destacadas devido seu detalhamento e precisão.   |
 |**Classificação**|    estado   |
 |  **Impacto**    |    As [melhores respostas](lexicos10x5f8c4.md#l12490) analisadas pelo time tornam-se verificadas.</br>Ao fazer uma pesquisa são mostradas as [respostas](lexicos10x5f8c4.md#l12521) verificadas.   |
 |  **Sinônimos**  |    tarefas verificadas, respostas revisadas, resposta revisada.   |
 | **Requisitos** | [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [pesquisar](cenarios10x5f8c4.md#c3000) | [moderador](lexicos10x5f8c4.md#l12528) |
 
@@ -966,7 +966,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [BR2.15](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [responder tarefa](cenarios10x5f8c4.md#c2997) |   |
 
@@ -981,11 +981,11 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Noção**      |    [pergunta](lexicos10x5f8c4.md#l12494) feita.   |
 |**Classificação**|    estado   |
 |  **Impacto**    |    As dúvidas tiradas são salvas em [tarefas](lexicos10x5f8c4.md#l12494) adicionadas.</br>As [tarefas](lexicos10x5f8c4.md#l12494) adicionadas servem para [usuário](lexicos10x5f8c4.md#l12660) rever uma [pergunta](lexicos10x5f8c4.md#l12494).   |
-|  **Sinônimos**  |    pegunta adicionada.   |
+|  **Sinônimos**  |    pergunta adicionada.   |
 | **Requisitos** | [AP1.3,](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -1004,7 +1004,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [EN2.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -1023,7 +1023,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [BR2.12](https://welisonr.github.io/2019.1-Requisitos-Brainly/brainstorm/), [AP1.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [cadastrar](lexicos10x5f8c4.md#l12647) |
 
@@ -1039,10 +1039,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    O time de [respostas](lexicos10x5f8c4.md#l12521) aumenta a qualidade das [perguntas](lexicos10x5f8c4.md#l12494) [respondidas](lexicos10x5f8c4.md#l12521).</br>As [perguntas populares](lexicos10x5f8c4.md#l12575) são focalizadas pelo time de [respostas](lexicos10x5f8c4.md#l12521).</br>O time de [respostas](lexicos10x5f8c4.md#l12521) recebe orientações de participação na plataforma por parte dos [administradores](lexicos10x5f8c4.md#l12529).   |
 |  **Sinônimos**  |    equipe de resposta, equipes de respostas, time de resposta.   |
-| **Requisitos** | [INT1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [INT1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [EN2.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 |   | [administrador](lexicos10x5f8c4.md#l12529) |
 |   | [pergunta popular](lexicos10x5f8c4.md#l12575) |
@@ -1057,12 +1057,12 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Nome**       |    universitário   |
 |  **Noção**      |    É o [usuário](lexicos10x5f8c4.md#l12660) da plataforma que cursa ensino superior.</br>Estudante selecionado pela [administração](lexicos10x5f8c4.md#l12529) a partir de processo seletivo em universidade.</br>Possui amparo e resguardo de ações por parte da [administração](lexicos10x5f8c4.md#l12529).   |
 |**Classificação**|    sujeito   |
-|  **Impacto**    |    O universitário [responde](lexicos10x5f8c4.md#l12489) questões especificas, especialmente as [perguntas populares](lexicos10x5f8c4.md#l12575).</br>O universitário recebe orientação por parte da [administração](lexicos10x5f8c4.md#l12529) sobre as [perguntas](lexicos10x5f8c4.md#l12494) a serem [respondidas](lexicos10x5f8c4.md#l12521).</br>O universitário gera [respostas](lexicos10x5f8c4.md#l12521) com alta qualidade no Brainly.   |
+|  **Impacto**    |    O universitário [responde](lexicos10x5f8c4.md#l12489) questões específicas, especialmente as [perguntas populares](lexicos10x5f8c4.md#l12575).</br>O universitário recebe orientação por parte da [administração](lexicos10x5f8c4.md#l12529) sobre as [perguntas](lexicos10x5f8c4.md#l12494) a serem [respondidas](lexicos10x5f8c4.md#l12521).</br>O universitário gera [respostas](lexicos10x5f8c4.md#l12521) com alta qualidade no Brainly.   |
 |  **Sinônimos**  |    acadêmico, universitários, acadêmicos.   |
-| **Requisitos** | [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [INT3.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | - | - |
 
@@ -1078,10 +1078,10 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |**Classificação**|    sujeito   |
 |  **Impacto**    |    Um usuário tem acesso às funcionalidade comuns da plataforma (fazer [perguntas](lexicos10x5f8c4.md#l12494), escrever [respostas](lexicos10x5f8c4.md#l12521) e [comentários](lexicos10x5f8c4.md#l12506), adicionar [amigos](lexicos10x5f8c4.md#l12502), entre outras) e pode evoluir para se tornar um usuário avançado ([moderador](lexicos10x5f8c4.md#l12528) ou [administrador](lexicos10x5f8c4.md#l12529)) e acessar outras funcionalidades ([mensagens](lexicos10x5f8c4.md#l12508)).   |
 |  **Sinônimos**  |    pessoas, pessoa.   |
-| **Requisitos** | [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [INT2.7](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao/) |
+| **Requisitos** | [EN2.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/entrevista/), [AP1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP3.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [INT2.7](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-|  **Cenários** |**Lexicos**|
+|  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
 | [responder tarefa](cenarios10x5f8c4.md#c2997) | [responder](lexicos10x5f8c4.md#l12489) |
 | [iniciar desafios](cenarios10x5f8c4.md#c2998) | [melhor resposta](lexicos10x5f8c4.md#l12490) |

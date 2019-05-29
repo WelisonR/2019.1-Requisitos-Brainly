@@ -48,9 +48,9 @@ Ser cadastrado na plataforma Brainly.
 ### 6 Fluxo de Exceções
     1.a - Pergunta contém conteudo que não condiz com as politica do Brainly e tem a pergunta denunciada e excluida;
     2.d - Reposta contém conteudo que não condiz com as politica do Brainly e tem a resposta denunciada e excluida;
-    3.d - Comentario contém conteudo que não condiz com as politica do Brainly e tem a comentario denunciado e excluido;
+    3.d - Comentário contém conteudo que não condiz com as politica do Brainly e tem a comentario denunciado e excluido;
 ### 7 Requisitos Especiais
-1. Responsabiizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela-de-Requisitos-Funcionais).
+1. Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela-de-Requisitos-Funcionais).
 
 2. Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
 

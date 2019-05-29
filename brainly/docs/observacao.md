@@ -25,13 +25,13 @@ Essa técnica de elicitação de requisitos foi aplicada à reunião em que algu
 | OBS1.6 | Filtrar perguntas | As perguntas são separadas por categorias | C |
 | OBS1.7 | Sistema de recompensas | O usuário deverá receber recompensas por respostas | S |
 | OBS1.8 | Desafios | O usuário poderá participar de desafios | C |
-| OBS1.9 | Avaliar respostas | O usário podera avaliar a resposta da sua pergunta | S |
+| OBS1.9 | Avaliar respostas | O usuário poderá avaliar a resposta da sua pergunta | S |
 |   OBS1.10   | Escolher melhor resposta | O usuário poderá escolher a melhor resposta | C |
-| OBS1.11 | Ganhar emblemas | O usuário ganhará emplemas ao cumprir metas | C |
+| OBS1.11 | Ganhar emblemas | O usuário ganhará emblemas ao cumprir metas | C |
 | OBS1.12 | Rankings | Os usuários poderão ver os melhores usuários | C |
 | OBS1.13 | Comunicação com moderador | O usuário poderá comunicar-se com moderador quando necessário | S |
-|   OBS1.14   | Denunciar usuários | Condutas improprias poderão ser denunciadas | S |
-| OBS1.15 | Acesso multidipositivo | O usuário poderá entrar na mesma conta do sistema a partir de dispositivos diferentes | C |
+|   OBS1.14   | Denunciar usuários | Condutas impróprias poderão ser denunciadas | S |
+| OBS1.15 | Acesso multidispositivo | O usuário poderá entrar na mesma conta do sistema a partir de dispositivos diferentes | C |
 
 Legenda - técnica de priorização:
 

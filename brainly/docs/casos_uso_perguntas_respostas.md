@@ -88,4 +88,4 @@ Possuir no mínimo dez pontos para realizar uma pergunta.
 
 5. Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md).
 
-6. A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspeccao).
+6. A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção).

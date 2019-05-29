@@ -20,8 +20,8 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 | Autor | Proposição | |
 |  :------: | :------: | :------: |
-| grupo | _i(p1)_ | Escolhemos twich TV. |
-| professores | _i(p2)_ | [O grupo não pode escolher twich TV pois já foi tema em semestres anteriores.](https://welisonr.github.io/2019.1-Requisitos-Brainly/nao_twich/) |
+| grupo | _i(p1)_ | Escolhemos twitch TV. |
+| professores | _i(p2)_ | [O grupo não pode escolher twitch TV pois já foi tema em semestres anteriores.](https://welisonr.github.io/2019.1-Requisitos-Brainly/nao_twich/) |
 | André | _i(p3)_ | Precisamos escolher outro tema. |
 | Gustavo | _i(p4)_ | Vamos fazer telegram, steam, youtube ou ifood.|
 | Paulo | _i(p5)_ | Pode ser steam, tem muita  coisa.

@@ -19,7 +19,7 @@ A especificação suplementar desenvolvida tem por objetivo descrever os requisi
 
 ## ESCOPO
 
-Esta especificação suplementar delimita-se no escopo da aplicação Brainly em território nacional brasileiro. Abarca nesse documento o escopo relacionado a aplicação web e mobile da plataforma, e procura-se desenvolver como os aspectos da plataforma, especialmente aqueles não-funcionais, interferem no convívio de moderadores, usuários, administradores e demais estudantes que utilizam o Brainly como forma de tirar dúvidas escolares ou acadêmicas.
+Esta especificação suplementar delimita-se no escopo da aplicação Brainly em território nacional brasileiro. Abarca neste documento o escopo relacionado a aplicação web e mobile da plataforma, e procura-se desenvolver como os aspectos da plataforma, especialmente aqueles não-funcionais, interferem no convívio de moderadores, usuários, administradores e demais estudantes que utilizam o Brainly como forma de tirar dúvidas escolares ou acadêmicas.
 
 ## DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS
 
@@ -113,7 +113,7 @@ O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo d
 
 ## REQUISITO DE CADASTRO FÁCIL
 
-O cadastro na plataforma deve ocorrer de uma maneira rapida e pratica.
+O cadastro na plataforma deve ocorrer de uma maneira rápida e prática.
 
 ## REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA 
 
@@ -153,7 +153,7 @@ As mudanças realizadas no Brainly _web_ devem refletir diretamente nas aplicaç
 O sistema deve permitir ao usuário inserir texos latex e símbolos matemáticos quando o mesmo adicionar uma pergunta, respota ou comentário para facilitar a compreensão da informação inserida.
 
 # RESTRIÇÕES DE DESIGN
-O sistema deve seguir padrões de _deisgn_ na implementação de suas interfaces de forma a garantir a melhor experiência na utilização da plataforma, seja em um dispositivo móvel ou computadores em geral. Tem-se como referência a documentação de _styleguide_ disposta na página na página do aplicativo no github - [styleguide brainly](https://github.com/brainly/style-guide).
+O sistema deve seguir padrões de _design_ na implementação de suas interfaces de forma a garantir a melhor experiência na utilização da plataforma, seja em um dispositivo móvel ou computadores em geral. Tem-se como referência a documentação de _styleguide_ disposta na página na página do aplicativo no github - [styleguide brainly](https://github.com/brainly/style-guide).
 
 # REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE
 O sistema de ajuda e a sua respectiva documentação deve ser de fácil acesso pelo usuário através do próprio aplicativo ou da plataforma web e, deve cobrir prioritariamente os seguintes tópicos:
@@ -193,7 +193,7 @@ A comunicação será realizada com múltiplos _backends_ em `NodeJS` com a inte
 # REQUISITOS DE LICENCIAMENTO
 
 - Idade mínima para registro na plataforma [(BR2.1)](./brainstorm)
-- Não utilizar informações de menores de 16 anos sem autorizacão [(BR2.7)](./brainstorm)
+- Não utilizar informações de menores de 16 anos sem autorização [(BR2.7)](./brainstorm)
 - Responsabilidade na propagação de dados é do usuário [(BR2.12)](./brainstorm)
 - É autorizado o uso de dados do usuário para diversos fins comerciais do Brainly[(BR2.13)](./brainstorm)
 

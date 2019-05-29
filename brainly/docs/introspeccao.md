@@ -38,7 +38,7 @@ Durante o seu acesso à plataforma, João decidiu responder uma pergunta que sol
 
 Finalizada a resposta, João acessa o seu perfil, procura em todos os lugares um local para compartilhar a tarefa, mas acaba por pegar o _link_ para para compartilhar a questão para que seja possível que seus colegas de faculdade que estão estudando o mesmo assunto tenham acesso a explicação do algoritmo e, assim, facilitar o entendimento sobre o conteúdo.
 
-#### O que poderia mudar sob a visão da peronsa
+#### O que poderia mudar sob a visão da pessoa
 
 João gostaria de dispor de recursos para formatar decentemente sua questão, e isso inclui muito além dos recursos textuais básicos (negrito, sublinhado, itálico, símbolo), como é o caso da necessidade do _hightlight_ em trechos de citação, além da possibilidade de inclusão adequada de código-fonte. Fora isso, João vê que o sistema deve fornecer um sistema de compartilhamento para as questões.
 
@@ -91,7 +91,7 @@ O usuário preferiu a confidencialidade da conversa. Link para [Albert](https://
 
 **Escolaridade**: Ensino Superior, engenheiro nuclear.
 
-**Nível de conhecimento sobre a plataforma**: usuário há 4 anos, já respondeu cerca de 41 mil questões — possui alto nível de sabedoria sobre a políticas e o funcionameto da plataforma.
+**Nível de conhecimento sobre a plataforma**: usuário há 4 anos, já respondeu cerca de 41 mil questões — possui alto nível de sabedoria sobre a políticas e o funcionamento da plataforma.
 
 **Atribuição na plataforma**: moderador de conteúdo na plataforma Brainly; 
 
@@ -139,7 +139,7 @@ A narrativa acima exposta em formato de _storytelling_ foi desenvolvida em decor
 | :----: | :-------: | :-------: | :--------: |
 | INT2.7 | Recrutamento de moderadores | Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma; | M |
 | INT2.8 | Níveis de moderação | Deve haver níveis entre moderadores, o que libera mais ou menos ferramentas de moderação | M |
-| INT2.9 | Conscientização das condultas da plataforma | Os moderadores devem conscientizar os usuários sobre as políticas de conduta da plataforma; | M |
+| INT2.9 | Conscientização das condutas da plataforma | Os moderadores devem conscientizar os usuários sobre as políticas de conduta da plataforma; | M |
 | INT2.10 | Condições de advertência | Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma. | S |
 | INT2.11 | Comunicação entre o time | Os moderadores devem ter um canal de comunicação entre eles junto a administração; | S |
 | INT2.12 | Ranking de moderadores | Deve ser possível aos moderadores visualizar o número de ações realizadas, dispostas em um _ranking_ de moderadores. | W |
@@ -156,9 +156,9 @@ A narrativa acima exposta em formato de _storytelling_ foi desenvolvida em decor
 
 ## Introspecção 3 - Usuários com maior fluxo de perguntas
 
-Verônica, aluna do fundamental, estuda diariamente em casa, realizando exercícios e consequentemente surgem diversas duvidas que precisam de uma resposta razoavelmente rápida, pois não quer acumular matéria. Verônica conhece o Brainly e passa a colocar suas duvidas na plataforma, que em sua maioria são respondidas dentro de 10 minutos, porem as vezes encontra alguma resposta errada ou sem sentido que são posteriormente denunciada por outros usuários e apagadas por moderadores. Certo dia a turma Verônica sai com uma duvida da sala e a moca, ao chegar em casa, posta a pergunta na plataforma e compartilha em sua rede social predileta, o facebook, para ajudar seus colegas.
+Verônica, aluna do fundamental, estuda diariamente em casa, realizando exercícios e consequentemente surgem diversas dúvidas que precisam de uma resposta razoavelmente rápida, pois não quer acumular matéria. Verônica conhece o Brainly e passa a colocar suas dúvidas na plataforma, que em sua maioria são respondidas dentro de 10 minutos, porem as vezes encontra alguma resposta errada ou sem sentido que são posteriormente denunciada por outros usuários e apagadas por moderadores. Certo dia a turma Verônica sai com uma dúvida da sala e a moça, ao chegar em casa, posta a pergunta na plataforma e compartilha em sua rede social predileta, o facebook, para ajudar seus colegas.
 
-Por outro lado, Paulo, aluno do ensino médio, costuma esquecer de responder seus deveres de casa, lembrando apenas no ônibus indo para a escola. Em uma jornada para escola, Paulo, conhece o Brainly, cria sua conta utilizando o facebook e coloca uma duvida na plataforma, com ajuda de fotos para agilizar o processo, sendo respondida antes de chegar na escola e consequentemente realizando o dever no prazo.
+Por outro lado, Paulo, aluno do ensino médio, costuma esquecer de responder seus deveres de casa, lembrando apenas no ônibus indo para a escola. Em uma jornada para escola, Paulo, conhece o Brainly, cria sua conta utilizando o facebook e coloca uma dúvida na plataforma, com ajuda de fotos para agilizar o processo, sendo respondida antes de chegar na escola e consequentemente realizando o dever no prazo.
 
 ##### Necessidades Técnicas
 *   Acesso a um dispositivo que tenha internet;
@@ -197,7 +197,7 @@ Foi utilizado o MoSCoW para dar prioridade aos requisitos.
 
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------: |
-| INT3.1 | Existência de moderadores | O sistema deve possuir pessoas cuidando e analisando denuncias para evitar respostas irrelevantes | S |
+| INT3.1 | Existência de moderadores | O sistema deve possuir pessoas cuidando e analisando denúncias para evitar respostas irrelevantes | S |
 | INT3.2 | Ferramentas para moderação | O sistema deve dar aos moderadores ferramentais para que eles possam atuar da melhor forma possível | S |
 | INT3.3 | Consistência entre plataformas | O sistema deve oferecer a mesma experiência para usuários de diferentes plataformas | C |
 | INT3.4 | Compartilhar em redes sociais | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as respostas nas redes sociais | C |
@@ -206,7 +206,7 @@ Foi utilizado o MoSCoW para dar prioridade aos requisitos.
 | INT3.7 | Compartilhar em redes sociais | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as respostas nas redes sociais | C |
 | INT3.8 | Denunciar resposta/conta | A plataforma deve oferecer ao usuário maneiras de denunciar algo que não condiz com as regras, facilitando e auxiliando moderadores | M |
 | INT3.9 | Curva rápida de aprendizagem | A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários | M |
-| INT3.10 | Anexo de imagens | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as perguntas/respostas com auxilio de imagens, facilitando o fluxo | S |
+| INT3.10 | Anexo de imagens | A plataforma deve oferecer ferramentas para que os usuários possam compartilhar as perguntas/respostas com auxílio de imagens, facilitando o fluxo | S |
 | INT3.11 | Versão mobile | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | S |
 
 Legenda - técnica de priorização:
@@ -225,7 +225,7 @@ Legenda - técnica de priorização:
 
 #### Contexto
 
-João, graduando em técnologo em análise e desenvolvimento de sistemas, é um estudante exemplar, sendo destaque em sua turma da faculdade. Cansado das atividades monótonas da faculdade, decidiu procurar uma plataforma que possibilitasse o acesso a diversas questões abertas de outros estudantes de forma que ele pudesse praticar o que estivesse aprendendo e, além disso, ajudar outra pessoa; depois de alguns minutos, João conheceu o Brainly.
+João, graduando em tecnólogo em análise e desenvolvimento de sistemas, é um estudante exemplar, sendo destaque em sua turma da faculdade. Cansado das atividades monótonas da faculdade, decidiu procurar uma plataforma que possibilitasse o acesso a diversas questões abertas de outros estudantes de forma que ele pudesse praticar o que estivesse aprendendo e, além disso, ajudar outra pessoa; depois de alguns minutos, João conheceu o Brainly.
 
 Após criar sua conta no serviço, João, jovem astuto em programação, decidiu responder uma pergunta que solicitava ajuda na implementação de uma ordenação através do algoritmo _bubble sort_ utilizando a linguagem java. Em um primeiro momento, João escreveu uma solução que explicou o algoritmo, adicionando imagens que auxiliava na explicação da solução, porém, João não gostou do fato de não poder colocar o seu código bem formatado na resposta, e também por não possuir recurso de destaque para citações.
 
@@ -251,7 +251,7 @@ Para discorrer uma resposta de qualidade, João necessita de:
 *   Disposição de campo para escrever a resposta, campo este que possibilitará destacar a resposta (negrito, itálico, sublinhado) e aumentar fonte da letra.
 *   Possibilitar o anexo de soluções de arquivos de tamanho razoável em quaisquer formatos.
 *   Dispor de recursos de `highlight` para inserir citações e códigos fontes em questões de informática.
-*   Ferramenta que facilite digitar expressões matemáticas, seja simbolos ou `LaTeX`.
+*   Ferramenta que facilite digitar expressões matemáticas, seja símbolos ou `LaTeX`.
 *   Possibilitar consistência na ferramenta de texto entre as diversas plataformas.
 
 #### Requisitos Elicitados
@@ -263,7 +263,7 @@ Para discorrer uma resposta de qualidade, João necessita de:
 | INT1.3 | Comunicação na questão | É possível se comunicar e retirar dúvidas nos comentários da própria questão. | M |
 | INT1.4 | Recursos textuais | O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto | M |
 | INT1.5 | Recursos de anexos | O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável | S |
-| INT1.6 | Recurso de notações matematícas | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX | S |
+| INT1.6 | Recurso de notações matemáticas | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX | S |
 | INT1.7 | Recursos de _hightlight_ | O sistema deve fornecer recurso de _hightlight_ (destaque) para certas informações, como citações | C |
 | INT1.8 | Recursos de programação | O sistema deve possibilitar a inserção adequada de código-fonte | S |
 | INT1.9 | Consistência ferramental | A ferramenta que possibilita respostas deve ser consistente entre as plataformas | M |
@@ -281,7 +281,7 @@ Concorrente a Lucas tem Guilherme, usuário que já não tem mais pontos e que d
 
 ##### Necessidades Técnicas
 *   Acesso a um dispositivo que tenha internet.
-*   Consistência entre as múltimas versões (mobile, web) da plataforma;
+*   Consistência entre as múltiplas versões (mobile, web) da plataforma;
 *   Disponibilização das ferramentas de moderação entre as múltiplas versões da plataforma.
 
 ##### Necessidades Sociais

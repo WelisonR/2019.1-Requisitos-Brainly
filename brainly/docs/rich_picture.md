@@ -38,10 +38,10 @@ Um modelo completamente informal, normalmente criado sem um rigor muito técnico
 
 ## RichPicture Primeiros Passos de Novo Usuário Não Cadastrado
 
-![Rich picture primeiros passos de novo usuario nao cadastrado](images/rich_picture/rich_picture_primeiros_passos_usuario_nao_cadastrado.png)
+![Rich picture primeiros passos de novo usuário nao cadastrado](images/rich_picture/rich_picture_primeiros_passos_usuario_nao_cadastrado.png)
 
 ## RichPicture Primeiros Passos de Novo Usuário Cadastrado
 
-![Rich picture primeiros passos de novo usuario cadastrado](images/rich_picture/rich_picture_primeiros_passos_usuario_cadastrado.png)
+![Rich picture primeiros passos de novo usuário cadastrado](images/rich_picture/rich_picture_primeiros_passos_usuario_cadastrado.png)
 
 [Versões anteriores](https://welisonr.github.io/2019.1-Requisitos-Brainly/rich_picture_versoes/)

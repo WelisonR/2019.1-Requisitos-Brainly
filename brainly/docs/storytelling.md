@@ -25,7 +25,7 @@ O usuário começou a usar o aplicativo e logo se engajou com a estrutura de gam
 |  Código | Requisito | Descrição | Prioridade |
 | :------: | :------: | :------: | :------: |
 | ST1.1 | Multiplataforma | O sistema brainly tem que ser multiplataformas | S |
-| ST1.2 | Concistência |Deve haver consistência entre as diversas plataformas | C |
+| ST1.2 | Consistência |Deve haver consistência entre as diversas plataformas | C |
 | ST1.3 | Gamificação |O aplicativo trabalha com gamificação com enfoque no sistema de níveis e pontuação | S |
 
 Legenda - técnica de priorização:
@@ -36,7 +36,7 @@ Legenda - técnica de priorização:
 
 ###Resumo da narração
 
-O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele usava o google para obeter informações e ele notou que brainly sempre aparecia em suas buscas. Ele fez uma conta para participar da comunidade e começou a fazer perguntas e os outros integrantes sempre respondiam. Até que um dia ele não pode fazer mais perguntas e descobriu que havia um sistema de pontuação. Para fazer perguntas era necessaŕios pontos, como os seus estavam zerados acabou o desmotivando.
+O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele usava o google para obter informações e ele notou que brainly sempre aparecia em suas buscas. Ele fez uma conta para participar da comunidade e começou a fazer perguntas e os outros integrantes sempre respondiam. Até que um dia ele não pode fazer mais perguntas e descobriu que havia um sistema de pontuação. Para fazer perguntas era necessários pontos, como os seus estavam zerados acabou o desmotivando.
 
 [link](https://drive.google.com/file/d/1JLXSbExunt_UWDjzaNVHbVcJxcz8xTFK/view) para o áudio.
 
@@ -44,7 +44,7 @@ O usuário começou a usar o aplicativo no ensino médio. Por ter dúvidas ele u
 
 |  Código | Requisito | Descrição | Prioridade |
 | :------: | :------: | :------: | :------: |
-| ST2.1 | Sistema de perguntas e respostas para tirar dúvidas | Um usuário poderá tirar sua dúvida com outros usuários por meio de pertguntas e respostas | M |
+| ST2.1 | Sistema de perguntas e respostas para tirar dúvidas | Um usuário poderá tirar sua dúvida com outros usuários por meio de perguntas e respostas | M |
 | ST2.2 | Pagar por perguntas |Para fazer perguntas são necessários pontos | C |
 
 Legenda - técnica de priorização:

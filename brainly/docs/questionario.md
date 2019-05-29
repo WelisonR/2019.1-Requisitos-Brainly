@@ -9,7 +9,7 @@
 | 2.1 | 10/04/2019 | Altera estrutura de apresentação do questionário | Welison Regis |
 | 2.2 | 10/04/2019 | Adição da tabela e aplicação do MoSCoW nos requisitos elicitados | Gustavo Marques, Ivan Dobbin |
 
-**As perguntas realizadas nesse questionário podem ser visualizadas [AQUI](#questionario-aplicado)**.
+**As perguntas realizadas neste questionário podem ser visualizadas [AQUI](#questionario-aplicado)**.
 
 ## ANÁLISE DAS RESPOSTAS DO QUESTIONÁRIO
 
@@ -52,7 +52,7 @@ Para usuários que já conhecem a plataforma o sistema de gamificação tem ince
 |  :------: |
 | Não |
 | Sim, mais recompensas | 
-| Ajudar ao proximo |
+| Ajudar ao próximo |
 | Responder o pc e não outro alguém. |
 | As pessoas que tiveram perguntas respondidas poderiam</br> mostrar fruto dessa mesma resposta. Seria mais incentivador |
 | Pagamento em dinheiro | 
@@ -131,7 +131,7 @@ Essa resposta reforça o que já foi deixado claro, que o principal incentivo pa
 |   |
 |  :------: |
 | Não |
-| Respostas sem sentido ou sem baseamento científico. | 
+| Respostas sem sentido ou sem embasamento científico. | 
 | Falta de confiabilidade nas respostas, uma solução seria o uso de referências |
 | Resposta "desnecessárias". Se não se sabe a resposta, evitar respostas "sem noção" |
 | Desconheço |
@@ -169,7 +169,7 @@ Branch 1
 ( ) Yahoo Respostas </br>
 ( ) Brainly </br>
 ( ) StackOverflow </br>
-( ) Não conheço nenhum site nesse estilo.</br>
+( ) Não conheço nenhum site neste estilo.</br>
 ( ) Outro: _____________</br>
 
 - Você costuma acessar esses sites para:</br>
@@ -238,7 +238,7 @@ ________________________________________________________________________________
 ( ) 7</br>
 </br>
 
-## Requisitos levantados nesse Questionário
+## Requisitos levantados neste Questionário
 
 | Código | Requisito | Descrição | Prioridade |
 | :----: | :-------: | :-------: | :--------:   |
@@ -247,7 +247,7 @@ ________________________________________________________________________________
 |  QS.3      |  Sistema de rank         |  Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores          |    C         |
 |  QS.4      |  Conquistas          |  O usuário ganha conquistas ao realizar ações específicas     |  C  |
 |  QS.5      | Desafios         | O usuário ao completar desafios adquiri pontos          |        W     |
-|  QS.6      |   Retorno Monetário   | O usuário recebe dinheiro ao responder pergutas            |   C     |
+|  QS.6      |   Retorno Monetário   | O usuário recebe dinheiro ao responder perguntas            |   C     |
 |  QS.7      |  Classificação das perguntas         | Dividir as perguntas em dificuldades           |    S         |
 |  QS.8      |    Chat       | Comunicação direta com outros usuários        | W     |
 | QS.9 | Sistema de perguntas | Usuários podem perguntar e responder problemas |  M  |
