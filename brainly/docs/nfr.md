@@ -28,15 +28,15 @@ Ferramenta utilizada para desenvolver os NFRs: [Creately](https://creately.com/)
 
 ## NFR CONFIABILIDADE
 Versão 1.0
-![NRF Confiabilidade](images/nfr/nfr_v1_confiabilidade.png)
+![NFr Confiabilidade](images/nfr/nfr_v1_confiabilidade.png)
 Versão 2.0
-![NRF Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise.jpg)
+![NFR Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise.jpg)
 Versão 3.0
-![NRF Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise.jpg)
+![NFR Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise.jpg)
 Versão 4.0
-![NRF Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise_v1.jpg)
+![NFR Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise_v1.jpg)
 Análise NFR Confiabilidade
-![NRF Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise_v1.jpg)
+![NFR Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise_v1.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#confiabilidade), [US31](./backlog.md#us31), [US13](./backlog.md#us13), [US26](./backlog.md#us26), [US29](./backlog.md#us29), [US34](./backlog.md#us34), [C3030](./cenarios10x5f8c4.md#c3030).
 
@@ -44,13 +44,13 @@ Elicitação Associada: [EN 1.3](./entrevista.md), [BR 2.1](./brainstorm.md), [B
 
 ## NFR SUPORTABILIDADE
 Versão 1.0
-![NRF Suportabilidade](images/nfr/nfr_v1_suportabilidade.png)
+![NFR Suportabilidade](images/nfr/nfr_v1_suportabilidade.png)
 Versão 2.0  
-![NRF Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
+![NFR Suportabilidade](images/nfr/Suportabilidade_v2.jpg)
 Versão 3.0  
-![NRF Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise.jpg)
+![NFR Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise.jpg)
 Análise NFR Suportabilidade
-![NRF Suportabilidade](images/nfr/Suportabilidade_v3.jpg)
+![NFR Suportabilidade](images/nfr/Suportabilidade_v3.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
 
@@ -90,7 +90,7 @@ Análise NFR Usabilidade
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade)
 
-Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](introspeccao.md), [AP3.4](introspeccao.md).
+Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [AP3.4](analise_protocolo.md).
 
 ## REFERÊNCIA
 
