@@ -10,9 +10,11 @@
 | 1.2 | 27/05/2019 | Adição do modelo NFR sobre Suporte ao usuário | André Pinto, Welison Regis |
 | 1.3 | 27/05/2019 | Adição do modelo NFR sobre Desempenho | Leonardo Medeiros, Paulo Rocha, André Pinto, Lieverton Silva, Gustavo Lima |
 | 1.4 | 27/05/2019 | Adição do modelo NFR sobre Usabilidade | João Matheus, Lieverton Silva, Paulo Rocha|
-| 1.5 | 27/05/2019 | Separação entre NFR e análise |Paulo Rocha|
+| 1.5 | 27/05/2019 | Separação entre NFR e análise confiabilidade e usabilidade |Paulo Rocha|
 | 1.6 | 28/05/2019 | Adição de introdução, rastreabilidade dos NFRs e referências. | Welison Regis |
-|    1.0  | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
+|    1.7  | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
+| 1.8 | 28/05/2019 | Separação entre NFR e análise de desempenho |Paulo Rocha|
+| 1.9 | 28/05/2019 | Preenchimento das elicitações associadas e linkagem |Paulo Rocha|
 
 # INTRODUÇÃO
 O NFR Framework é uma abordagem orientada a processos, em que os **requisitos não-funcionais** são explicitamente representados como metas a serem obtidas. Nesse sentido, preocupa-se diretamente com o **comportamento do sistema** e com a avaliação das metas-flexíveis (softgoal) [CHUNG, 1995]. O desenvolvimento dos artefatos foi separado em dois itens: o **NFR sem a análise**, e **outra versão com a análise**.
@@ -42,26 +44,26 @@ Análise NFR Suportabilidade
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
 
-Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md)
+Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md).
 
 ## NFR SUPORTE AO USUÁRIO
 ![nfr_suporte](images/nfr/nfr_v1_suporte_ao_usuario.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)
 
-Elicitação Associada: 
+Elicitação Associada: [(INT1.2)](introspeccao.md), [(INT3.11)](introspeccao.md), [(BR2.16)](brainstorm.md), [(INT1.7)](introspeccao.md).
 
 
 
 ## NFR DESEMPENHO
 Versão 1.0
-![nfr_desempenho](images/nfr/nfr_v1_desempenho.jpg)
-Versão 2.0
-![nfr_desempenho](images/nfr/nfr_v2_desempenho.png)
+![nfr_desempenho](images/nfr/NFRDesempenhoSemAnalise.jpg)
+Análise NFR Desempenho
+![nfr_desempenho](images/nfr/NFRDesempenhoComAnalise.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#desempenho)
 
-Elicitação Associada: 
+Elicitação Associada: [(INT3.6)](introspeccao.md), [(INT3.11)](introspeccao.md),[(AP3.3)](analise_protocolo.md), [(BR2.15)](brainstorm.md) 
 
 
 
@@ -73,7 +75,7 @@ Análise NFR Usabilidade
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade)
 
-Elicitação Associada: 
+Elicitação Associada: [(INT1.2)](introspeccao.md), [(INT3.9)](introspeccao.md), [(INT3.11)](introspeccao.md), [(AP3.3)](introspeccao.md), [(AP3.4)](introspeccao.md).
 
 ## REFERÊNCIA
 
