@@ -21,6 +21,7 @@
 | 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues |
 | 2.4 | 29/05/2019 | Adicionar nova versão do NFR de Suportabilidade | João Gabriel, João Rodrigues | 
 | 2.5 | 29/05/2019 | Adicionar nova versão do NFR de Desempenho | João Gabriel, João Rodrigues | 
+| 2.6 | 29/05/2019 | Preenchendo modelagem associada | Paulo Rocha | 
 
 
 # INTRODUÇÃO
@@ -57,7 +58,7 @@ Versão 4.0
 Análise NFR Suportabilidade
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v4.jpg)
 
-Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
+Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade), [EP07](./backlog.md#ep07), [US49](./backlog.md#us49), [US50](./backlog.md#us50),[US26](./backlog.md#us26), [US27](./backlog.md#us27),  [US28](./backlog.md#us28), [US29](./backlog.md#us29), [US30](./backlog.md#us30), [US31](./backlog.md#us31), [US32](./backlog.md#us32), [US33](./backlog.md#us33), [US34](./backlog.md#us34), [US35](./backlog.md#us35), [US36](./backlog.md#us36), [US37](./backlog.md#us37), [US38](./backlog.md#us38).
 
 Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md).
 
@@ -69,7 +70,7 @@ Versão 2.0
 Análise NFR Suporte ao Usuário
 ![nfr_suporte](images/nfr/NFRSuporteAoUsuarioComAnalise.jpg)
 
-Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)
+Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line), [US12](./backlog.md#us12), [US13](./backlog.md#us13), [US14](./backlog.md#us14), [US15](./backlog.md#us15), [US26](./backlog.md#us26), [US27](./backlog.md#us27),  [US28](./backlog.md#us28), [US29](./backlog.md#us29), [US30](./backlog.md#us30), [US31](./backlog.md#us31), [US32](./backlog.md#us32), [US33](./backlog.md#us33), [US34](./backlog.md#us34), [US35](./backlog.md#us35), [US36](./backlog.md#us36), [US37](./backlog.md#us37), [US38](./backlog.md#us38).
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.11](introspeccao.md), [BR2.16](brainstorm.md), [INT1.7](introspeccao.md).
 
@@ -99,14 +100,14 @@ Versão 1.0
 Análise NFR Usabilidade
 ![nfr_usabilidade](images/nfr/NFRUsabilidadecomAnalise.jpg)
 
-Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade)
+Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade), [US10](./backlog.md#us10), [US11](./backlog.md#us11), [US06](./backlog.md#us06), [US12](./backlog.md#us12).
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [AP3.4](analise_protocolo.md).
 
-## REFERÊNCIA
+# REFERÊNCIA
 
 [1] SERRANO, Maurício; SERRANO, Milene. **Requisitos - Aula 19. 1º/2019**. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
-[2] CHUNG, L. e NIXON, B., **“Using Non-Functional Requirements to Systematically Support Change”**, 1995;
+[2] CHUNG, L. e NIXON, B., **Using Non-Functional Requirements to Systematically Support Change**, 1995.
 
-[3] CHUNG, L., “Non-functional Requirements in Software Engineering”, visitado em 2007, disponível [aqui](https://www.utdallas.edu/~chung/RE/NFR-18.ppt);
+[3] CHUNG, L., **Non-functional Requirements in Software Engineering**. Disponível [aqui](https://www.utdallas.edu/~chung/RE/NFR-18.ppt). Acesso em: 27 maio 2019.
