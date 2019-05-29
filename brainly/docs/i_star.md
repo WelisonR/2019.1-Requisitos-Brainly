@@ -27,7 +27,7 @@ O **framework i*** propõe uma **abordagem orientada a agentes** para engenharia
 
 Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar/).
 
-# ISD 1
+# ISD01
 ## Brainly - Geral v1.0
 
 ![Diagrama de dependencias](images/i_star/i_star_dependency_v1.png)
