@@ -66,7 +66,7 @@ Análise NFR Suporte ao Usuário
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)
 
-Elicitação Associada: [(INT1.2)](introspeccao.md), [(INT3.11)](introspeccao.md), [(BR2.16)](brainstorm.md), [(INT1.7)](introspeccao.md).
+Elicitação Associada: [INT1.2](introspeccao.md), [INT3.11](introspeccao.md), [BR2.16](brainstorm.md), [INT1.7](introspeccao.md).
 
 
 
@@ -78,7 +78,7 @@ Análise NFR Desempenho
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#desempenho)
 
-Elicitação Associada: [(INT3.6)](introspeccao.md), [(INT3.11)](introspeccao.md),[(AP3.3)](analise_protocolo.md), [(BR2.15)](brainstorm.md) 
+Elicitação Associada: [INT3.6](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [BR2.15](brainstorm.md) 
 
 
 
@@ -90,7 +90,7 @@ Análise NFR Usabilidade
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade)
 
-Elicitação Associada: [(INT1.2)](introspeccao.md), [(INT3.9)](introspeccao.md), [(INT3.11)](introspeccao.md), [(AP3.3)](introspeccao.md), [(AP3.4)](introspeccao.md).
+Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](introspeccao.md), [AP3.4](introspeccao.md).
 
 ## REFERÊNCIA
 
