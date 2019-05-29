@@ -22,5 +22,5 @@
 
 ![Qualidade de conteúdo](images/i_star/istar_moderadores.png)
 
-## Plataforma Braily
-![I* Braily](images/i_star/i_star_brainly_v1.png)
+## Plataforma Brainly
+![I* Brainly](images/i_star/i_star_brainly_v1.png)
