@@ -58,7 +58,7 @@ Versão 4.0
 Análise NFR Suportabilidade
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v4.jpg)
 
-Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade)
+Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade), [EP07](./backlog.md#ep07), [US49](./backlog.md#us49), [US50](./backlog.md#us50),[US26](./backlog.md#us26), [US27](./backlog.md#us27),  [US28](./backlog.md#us28), [US29](./backlog.md#us29), [US30](./backlog.md#us30), [US31](./backlog.md#us31), [US32](./backlog.md#us32), [US33](./backlog.md#us33), [US34](./backlog.md#us34), [US35](./backlog.md#us35), [US36](./backlog.md#us36), [US37](./backlog.md#us37), [US38](./backlog.md#us38).
 
 Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md).
 
