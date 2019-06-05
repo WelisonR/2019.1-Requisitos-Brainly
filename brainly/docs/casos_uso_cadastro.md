@@ -5,6 +5,7 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
 | 1.0 | 29/04/2019 | Adição da especificação de casos de uso | Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, João Rossi |
+| 1.1 | 29/04/2019 | Adição do Diagrama de casos de uso | Ivan Diniz Dobbin,João Matheus, João Rossi|
 
 ## Diagrama de Casos de Uso
 
