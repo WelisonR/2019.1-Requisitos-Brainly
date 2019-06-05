@@ -4,6 +4,7 @@
 |  :----: | :--------: | :---------:  | :------: |
 |    1.0  | 04/06/2019 | Adição do template | João Rossi |
 |    1.1  | 04/06/2019 | Adição da análise dos rich pictures de plataformas, visão geral, primeiros passos de um novo usuário cadastrado e não cadastrado,perguntas e respostas | João Rossi, Ivan Diniz, Paulo Rocha, João Matheus |
+|    1.2  | 05/06/2019 | Adição da análise das argumentações | João Rossi, Ivan Diniz, Paulo Rocha, João Matheus |
 
 # Introdução
 ...
@@ -73,4 +74,40 @@
 |  7 | A linguagem é objetiva? | S |
 
 
+# Argumentação
 
+## Argumentação sobre o tema
+
+|  Número |    Critério de avaliação    | Cumpre  | Melhoria |
+|  :----: | :--------: | :---------:  | :------: |
+| 1 | Inferências corretas |  S  |  |
+| 2 | Conflitos corretos |  S  |  |
+| 3 | Preferências corretas |  S  |  |
+| 4 | Conflitos resolvidos |  S  |  |
+| 5 | Coerência entre a tabelas e o grafo |  S  |  |
+| 6 | Modelos de alta complexidade |  S  |  |
+| 7 | Pré-Rastreabilidade | S |  |
+
+## Argumentação sobre o sistema de mensagens
+
+|  Número |    Critério de avaliação    | Cumpre  | Melhoria |
+|  :----: | :--------: | :---------:  | :------: |
+| 1 | Inferências corretas |  S  |  |
+| 2 | Conflitos corretos |  S  |  |
+| 3 | Preferências corretas |  S  |  |
+| 4 | Conflitos resolvidos |  S  |  |
+| 5 | Coerência entre a tabelas e o grafo |  S  |  |
+| 6 | Modelos de alta complexidade |  N  | Enriquecer as discussões |
+| 7 | Pré-Rastreabilidade | N |  |
+
+## Argumentação sobre os níveis do Brainly
+
+|  Número |    Critério de avaliação    | Cumpre  | Melhoria |
+|  :----: | :--------: | :---------:  | :------: |
+| 1 | Inferências corretas |  S  |  |
+| 2 | Conflitos corretos |  S  |  |
+| 3 | Preferências corretas |  S  |  |
+| 4 | Conflitos resolvidos |  S  |  |
+| 5 | Coerência entre a tabelas e o grafo |  S  |  |
+| 6 | Modelos de alta complexidade |  S  |  |
+| 7 | Pré-Rastreabilidade | N |  |
