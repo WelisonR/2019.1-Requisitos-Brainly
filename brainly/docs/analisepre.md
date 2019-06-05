@@ -3,7 +3,7 @@
 |  Versão |    Data    | Modificação  | Autor |
 |  :----: | :--------: | :---------:  | :------: |
 |    1.0  | 04/06/2019 | Adição do template | João Rossi |
-|    1.1  | 04/06/2019 | Adição da análise dos rich pictures de plataformas, visão geral, primeiros passos de um novo usuário cadastrado e não cadastrado | João Rossi, Ivan Diniz, Paulo Rocha, João Matheus |
+|    1.1  | 04/06/2019 | Adição da análise dos rich pictures de plataformas, visão geral, primeiros passos de um novo usuário cadastrado e não cadastrado,perguntas e respostas | João Rossi, Ivan Diniz, Paulo Rocha, João Matheus |
 
 # Introdução
 ...
@@ -58,4 +58,19 @@
 |  5 | O fluxo é bem definido? | S |  |
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
+
+
+## Rich Picture Perguntas e Respostas
+
+|  Número |    Tópico    | Cumpre  | Melhoria |
+|  :----: | :--------: | :---------:  | :------: |
+|  1 | Simbologia coerente? | S |  |
+|  2 | Existe coesão entre imagem e texto? | N | Na parte de denúncia o moderador avalia uma denúncia, porém um usuário com dúvida e outros usuários só se conectam a imagem denúncia sem dizer a relação. A relação seria "faz" e "fazem" para usuário com dúvida e outros usuários,respectivamente. |
+|  3 | Existe equilíbrio entre a quantidade de imagem e a de texto? | S |  |
+|  4 | O modelo é compreensível para qualquer um que ler? | N | Na parte de denúncia esclarecer que um usuário faz uma denúncia |
+|  5 | O fluxo é bem definido? | S |  |
+|  6 | Existe rastreablidade? | S | |
+|  7 | A linguagem é objetiva? | S |
+
+
 
