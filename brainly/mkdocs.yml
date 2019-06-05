@@ -39,6 +39,9 @@ pages:
       - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
         - Léxico: modelagem_v1/lexicos10x58ed251.md
+  - ANÁLISE:
+    - Pré-rastreabilidade: analisepre.md
+    
       
 
 theme:
