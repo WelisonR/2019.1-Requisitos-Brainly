@@ -19,7 +19,8 @@
 |  3 | Existe equilíbrio entre a quantidade de imagem e a de texto? | S |  |
 |  4 | O modelo é compreensível para qualquer um que ler? | N | Por faltar texto, pode acabar sendo complicado para alguns. |
 |  5 | O fluxo é bem definido? |  S |  |
-|  6 | Existe rastreablidade? | N | Incluir link para versões antigas |
+|  6 | Existe rastreablidade? | S |  |
+|  7 | A linguagem é objetiva? | S |  |
 
 ## Rich Picture Primeiros Passos de Novo Usuário Cadastrado
 
@@ -30,7 +31,8 @@
 |  3 | Existe equilíbrio entre a quantidade de imagem e a de texto? | S |  |
 |  4 | O modelo é compreensível para qualquer um que ler? | S |  |
 |  5 | O fluxo é bem definido? | S |  |
-|  6 | Existe rastreablidade? | N | Incluir link para versões antigas |
+|  6 | Existe rastreablidade? | S |  |
+|  7 | A linguagem é objetiva? | S |  |
 
 ## Rich Picture Visão Geral Brainly
 
@@ -39,7 +41,8 @@
 |  1 | Simbologia coerente? | S |  |
 |  2 | Existe coesão entre imagem e texto? | S |  |
 |  3 | Existe equilíbrio entre a quantidade de imagem e a de texto? | S |  |
-|  4 | O modelo é compreensível para qualquer um que ler? | S |  |
+|  4 | O modelo é compreensível para qualquer um que ler? | N | Existem algumas etapas em que faltam textos para ajudar a compreensão, podendo dificultar o entendimento |
 |  5 | O fluxo é bem definido? | S |  |
-|  6 | Existe rastreablidade? | N | Incluir link para versões antigas |
+|  6 | Existe rastreablidade? | S |  |
+|  7 | A linguagem é objetiva? | S |  |
 
