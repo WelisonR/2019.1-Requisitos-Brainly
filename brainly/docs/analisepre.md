@@ -7,7 +7,8 @@
 |    1.2  | 05/06/2019 | Adição da análise das argumentações | João Rossi, Ivan Diniz, Paulo Rocha, João Matheus |
 
 # Introdução
-...
+
+Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas dicas dadas na dinâmica e apresentação. A análise mostra o que tem ou não sido cumprido pelos objetos analizados pela equipe em determinados critérios descritos.
 
 # Rich Pictures
 
