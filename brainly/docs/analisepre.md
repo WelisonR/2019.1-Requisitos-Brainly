@@ -3,14 +3,31 @@
 |  Versão |    Data    | Modificação  | Autor |
 |  :----: | :--------: | :---------:  | :------: |
 |    1.0  | 04/06/2019 | Adição do template | João Rossi |
-|    1.1  | 04/06/2019 | Adição da análise dos rich pictures de visão geral, gamificação, plataformas, perguntas e respostas e primeiros passos de um novo usuário não cadastrado e cadastrado |  Ivan Diniz, João Matheus, João Rossi, Paulo Rocha |
-|    1.2  | 05/06/2019 | Adição da análise das argumentações | João Rossi, Ivan Diniz, Paulo Rocha, João Matheus |
+|    1.1  | 04/06/2019 | Adição da análise dos rich pictures de visão geral, gamificação, plataformas, perguntas e respostas e primeiros passos de um novo usuário não cadastrado e cadastrado |  Ivan Diniz, João Rodrigues, João Rossi, Paulo Rocha |
+|    1.2  | 05/06/2019 | Adição da análise das argumentações | João Rossi, Ivan Diniz, Paulo Rocha, João Rodrigues |
+|    1.3  | 09/06/2019 | Adição do checklist de inspeção em rich picture | Ivan Diniz, João Rodrigues, Paulo Rocha |
+|    1.4  | 09/06/2019 | Adição do checklist de inspeção em argumetação | Ivan Diniz, João Rodrigues, Paulo Rocha |
 
 # Introdução
 
 Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas dicas dadas na dinâmica e apresentação. A análise mostra o que tem ou não sido cumprido pelos objetos analizados pela equipe em determinados critérios descritos.
 
 # Rich Pictures
+
+## Checklist de Inspeção em Rich Picture
+
+| Número | Questão | Item de Inspeção | Impacto |
+| :----: | :-----: | :--------------: | :-----: |
+|   01   | Simbologia coerente? | Apresentação | A |
+|   02   | Existe coesão entre imagem e texto? | Apresentação | M |
+|   03   | Existe equilibrio entre a quantidade de imagens e a de texto? | Apresentação | B |
+|   04   | O modelo é compreensível para leigos? | Compreensibilidade | A |
+|   05   | O fluxo é bem definido? | Compreensibilidade | A |
+|   06   | A linguagem é objetiva? | Compreensibilidade | M |
+|   07   | O foco está no centro?  | Forma e Organização | A |
+|   08   | Utiliza atores? | Forma e Organização | A |
+|   09   | Utiliza representação de artefatos físicos?  | Forma e Organização | A |
+|   10   | Existe versionamento?  | Rastreabilidade | A |
 
 ## Rich Picture Visão Geral Brainly
 

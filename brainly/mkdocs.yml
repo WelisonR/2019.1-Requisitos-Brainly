@@ -40,7 +40,7 @@ pages:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
         - Léxico: modelagem_v1/lexicos10x58ed251.md
   - ANÁLISE:
-    - Pré-rastreabilidade: analisepre.md
+    - Pré-Rastreabilidade: analisepre.md
     - Casos de uso: analise_casos_de_uso.md
     - iStar: analise_istar.md
     
