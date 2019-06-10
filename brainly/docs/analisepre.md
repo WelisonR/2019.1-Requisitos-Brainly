@@ -9,6 +9,7 @@
 |    1.4  | 09/06/2019 | Adição do checklist de inspeção em argumentação | Ivan Diniz, João Rodrigues, Paulo Rocha |
 |    1.5  | 09/06/2019 | Adição da análise das argumentações | Paulo Rocha, João Gabriel |
 |    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
+|    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
 
 # Introdução
 
@@ -274,6 +275,8 @@ Hora final: 17h41
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
+##Gráfico da inspeção dos Rich-Pictures
+![Gráfico Argumentação](images/analise/RP.jpg)
 
 # Argumentação
 ## Checklist de Inspeção em Argumentação
@@ -303,6 +306,7 @@ Hora final: 17h41
 | 8 | Tabela de atores? | Rastreabilidade | A |
 | 9 | Possui data? | Rastreabilidade | B |
 | 10 | Houve consenso? | Conclusão | A |
+
 
 ## INSPEÇÕES
 ## Argumentação sobre o tema
@@ -377,7 +381,7 @@ Hora final: 17h23
 |      4       |       A       |        Sim       | -         |         
 |      5       |       M       |        Não       | Enriquecer as discussões, tentar trazer mais proposições. |         
 |      6       |       A       |        Sim       | -         |         
-|      7       |       M       |        Não       | Para criação de um bom modelo é de suma importância novas versões. |         
+|      7       |       M       |        Sim       | - |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
 |      10       |       A       |        Sim       | - |      
@@ -415,7 +419,10 @@ Hora final: 17h28
 |      4       |       A       |        Sim       | -         |         
 |      5       |       M       |        Sim       | -         |         
 |      6       |       A       |        Sim       | -         |         
-|      7       |       M       |        Não       | Para criação de um bom modelo é de suma importância novas versões. |         
+|      7       |       M       |        Sim       | - |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar data das argumentações |         
 |      10       |       A       |        Sim       | - |      
+
+##Gráfico da inspeção das argumentações
+![Gráfico Argumentação](images/analise/Arg.jpg)
