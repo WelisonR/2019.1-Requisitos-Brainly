@@ -74,6 +74,14 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/cadastro_diagrama.png) | ![](./images/analise/cadastro_especificacao.png)
 
+## IUC 03 - Deletar conta
+
+### Inspeção Individual
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/deletar_conta_diagrama.png) | ![](./images/analise/deletar_conta_especificacao.png)
+
+
 # REFERÊNCIAS
 
 [1] GREGOLIN, Rosângela. **Uma proposta de inspeção em modelos de caso de uso**. 2007. Disponível [aqui](http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf). Acesso em: 09 junho 2019.
