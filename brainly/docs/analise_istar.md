@@ -6,15 +6,15 @@
 
 # INTRODUÇÃO
 
-TO EDIT
+Os modelos de verificação de i* foram baseados no material disponibilizado pelos professores. A análise mostra o que tem ou não sido cumprido pelos objetos analisados pela equipe em determinados critérios descritos.
 
 # OBJETIVO
 
-TO EDIT
+Reconhecer e apontar erros presentes nos modelos atuais visando sua melhoria e correção.
 
 # METODOOGIA
 
-TO EDIT
+O modelo de verificação elaborado pela equipe foi realizado em dupla e após ter o modelo em mãos, a dupla se separou e preencheu individualmente o formulário, ao concluir, se juntou e discutiu, unindo suas ideias a fim de melhorar a análise do modelo em questão. Durante a aplicação do processo a dupla percebeu que a abordagem tomou muito tempo e não foi tão eficiente, logo a abordagem foi alterada e a dupla passou a responder o formulário discutindo cada pergunta desde o começo.
 
 ## MODELO DE VERIFICAÇÃO - i* v1.0
 
