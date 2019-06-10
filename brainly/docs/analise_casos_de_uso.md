@@ -6,15 +6,23 @@
 | 1.1 | 09/06/2019 | Inspeção de diagrama e especificação - Perguntas e Respostas | Welison Regis |
 | 1.2 | 09/06/2019 | Inspeção de diagrama e especificação - Perguntas e Respostas | Lieverton Silva |
 | 1.3 | 09/06/2019 | Análise de discurso - Perguntas e Respostas | Welison Regis, Lieverton Silva |
+| 1.4 | 10/06/2019 | Adiciona introdução, objetivo, metodologia e referências | Welison Lucas, Lieverton Silva |
 
 
 # INTRODUÇÃO
-
+O presente documento tem por objetivo apresentar as **inspeções referentes aos diagramas e especificações de casos de uso**, artefatos elaborados no módulo de Modelagem de Requisitos.
 
 # OBJETIVO
+A inspeção dos casos de uso possibilita conhecer aspectos relacionados a informações, abrangência, completude e qualidade dos objetos analisados. Nesse tópico, verificou-se através de métricas e _checklists_ temas importantes dos diagramas e especificações de casos de uso desenvolvidos. Esse conjunto de dados permite descobrir as fraquezas existentes no trabalho e facilita a melhoria da qualidade dos artefatos através das métricas levantadas como passíveis de melhorias.
+
 
 # METODOOGIA
+As inspeções realizadas sobre os casos de uso baseiam-se em um **_checklist_** composto por questões acompanhadas de seus **impactos (Alto/Médio/Baixo)**, sendo todas as questões baseadas em uma tese de mestrado (GREGORIN, 2007). Analisou-se separadamente cada tópico relacionado à qualidade dos diagramas e especificações, sendo os **diagramas** separados nos temas: **forma e organização, escrita, termos utilizados e conteúdo**; e as **especificações** divididas em: **nome do autor, nome do caso de uso, relacionamento entre atores, relacionamentos entre casos de uso, relacionamento entre atores e casos de uso e breve descrição**.
 
+Sobre os casos de uso mais importantes, no caso o artefato de **perguntas e respostas**, cada integrante de uma dupla realizou a inspeção individualmente e, ao final, utilizou-se de **análise de discurso** (gravada) para chegar a um consenso e a uma **inspeção geral**. Nos **demais casos de uso**, **avaliou-se unicamente o artefato**.
+
+
+Por fim, computou-se um **gráfico de radar** que diz respeito aos critérios de qualidade dos casos de uso. Para cada **critério de qualidade**, deve-se ter no **mínimo 70% de conformidade** com os questionamentos levantados.
 
 
 ## MODELO DE VERIFICAÇÃO - ESPECIFICAÇÃO v1.0
@@ -53,4 +61,10 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/perguntas_respostas_diagrama.png) | ![](./images/analise/perguntas_respostas_especificacao.png)
 
+
+
 # REFERÊNCIAS
+
+[1] GREGOLIN, Rosângela. **Uma proposta de inspeção em modelos de caso de uso**. 2007. Disponível [aqui](http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf). Acesso em: 09 junho 2019.
+
+[2] SAMPAIO, Marcos; NETO, Eloi. **Material sobre UML**. Disponível [aqui](http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/). Acesso em: 09 junho 2019.
