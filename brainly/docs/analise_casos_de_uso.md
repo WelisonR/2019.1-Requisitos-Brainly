@@ -81,6 +81,12 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/deletar_conta_diagrama.png) | ![](./images/analise/deletar_conta_especificacao.png)
 
+## IUC 04 - Editar perfil
+
+### Inspeção Individual
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/editar_perfil_diagrama.png) | ![](./images/analise/editar_perfil_especificacao.png)
 
 # REFERÊNCIAS
 
