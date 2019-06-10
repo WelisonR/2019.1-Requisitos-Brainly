@@ -4,8 +4,10 @@
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 09/06/2019 | Adiciona modelo de verificação (v1) | Leonardo Medeiros, Andre Pinto |
 | 1.1 | 09/06/2019 | Adiciona modelo de verificação (v2) | Leonardo Medeiros, Andre Pinto |
-| 1.1 | 09/06/2019 | Adiciona a verificação do modelo i* "realizar pergunta v1.0" por Andre, Leonardo e ambos | Leonardo Medeiros, Andre Pinto |
-| 1.2 | 09/06/2019 | Adiciona a verificação do modelo i* "Brainly - Geral v4.0" por Andre e Leonardo | Leonardo Medeiros, Andre Pinto |
+| 1.2 | 09/06/2019 | Adiciona a verificação do modelo i* "realizar pergunta v1.0" por Andre, Leonardo e ambos | Leonardo Medeiros, Andre Pinto |
+| 1.3 | 09/06/2019 | Adiciona a verificação do modelo i* "Brainly - Geral v4.0" por Andre e Leonardo | Leonardo Medeiros, Andre Pinto |
+| 1.4 | 10/06/2019 | Adiciona a verificação do modelo i* "Gamificação v1.0" | Welison Regis |
+| 1.5 | 10/06/2019 | Adiciona rastreabilidade | Welison Regis |
 
 # INTRODUÇÃO
 
@@ -29,6 +31,8 @@ O modelo de verificação elaborado pela equipe foi realizado em dupla e após t
 
 ## VERIFICAÇÃO DO ISTAR "REALIZAR PERGUNTA V1.0" - v1.0
 
+Rastreabilidade: [i* de Gamificação](./i_star.md#isr02)
+
 Individual Leonardo
 ![istar_pergunta_leonardo](./images/analise/istar_pergunta_leonardo.png)
 
@@ -46,6 +50,8 @@ Audios:
 
 ## VERIFICAÇÃO DO ISTAR "REALIZAR RESPOSTA V1.0" - v1.0
 
+Rastreabilidade: [i* de Gamificação](./i_star.md#isr03)
+
 Sintese: Leonardo e Andre
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_resposta_andre_e_leonardo.png)
@@ -57,3 +63,9 @@ Sintese: Leonardo e Andre
 Audio: [Discussao](https://drive.google.com/file/d/1d99E9UCn2FyxWRZsSDSxK52dXiv1vsy0/view?usp=sharing)
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_geral_andre_e_leonardo.png)
+
+## VERIFICAÇÃO DO ISTAR "Gamificação v1.0" - v1.0
+
+Rastreabilidade: [i* de Gamificação](./i_star.md#isr05)
+
+![istar_gamificacao](./images/analise/istar_gamificacao.png)
