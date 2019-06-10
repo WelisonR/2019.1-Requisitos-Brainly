@@ -8,14 +8,27 @@
 |    1.3  | 09/06/2019 | Adição do checklist de inspeção em rich picture | Ivan Diniz, João Rodrigues, Paulo Rocha |
 |    1.4  | 09/06/2019 | Adição do checklist de inspeção em argumentação | Ivan Diniz, João Rodrigues, Paulo Rocha |
 |    1.5  | 09/06/2019 | Adição da análise das argumentações | Paulo Rocha |
+|    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues |
 
 # Introdução
 
 Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas dicas dadas na dinâmica e apresentação. A análise mostra o que tem ou não sido cumprido pelos objetos analizados pela equipe em determinados critérios descritos.
 
-# Rich Pictures
-
+# Rich Picture
 ## Checklist de Inspeção em Rich Picture
+**Versão 1**
+
+|  Número |    Critério de avaliação    |
+|  :----: | :-------------------------: |
+|  1 | Simbologia coerente? |
+|  2 | Existe coesão entre imagem e texto? |
+|  3 | Existe equilíbrio entre a quantidade de imagem e a de texto? |
+|  4 | O modelo é compreensível para qualquer um que ler? |
+|  5 | O fluxo é bem definido? |
+|  6 | Existe rastreablidade? |
+|  7 | A linguagem é objetiva? |
+
+**Versão 2**
 
 | Número | Questão | Item de Inspeção | Impacto |
 | :----: | :-----: | :--------------: | :-----: |
@@ -30,7 +43,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |   9   | Utiliza representação de artefatos físicos?  | Forma e Organização | A |
 |   10   | Existe versionamento?  | Rastreabilidade | A |
 
-## Rich Picture Visão Geral Brainly v1
+## INSPEÇÕES 
+## Rich Picture Visão Geral Brainly
+**Versão 1**
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -42,8 +57,34 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
+**Versão 2**
 
-## Rich Picture Gamificação v1
+Nome do projeto: Rich Picture Visão Geral Brainly
+
+Data da inspeção: 09/06/2019
+
+Responsável pela inspeção: Ivan Diniz
+
+Hora inicial: 16h41
+
+Hora final: 17h00
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Boa escolha de imagens, pois são semelhantes às utilizadas no Brainly |
+|       2        |        M        |     Sim     | - |
+|       3        |        B        |     Sim     | - |
+|       4        |        A        |     Não     | A complexidade do fluxo dificulta a compreensão do comportamento da aplicação |
+|       5        |        A        |     Sim     | Fluxo bem definido, porém complexo e de difícil compreensão |
+|       6        |        M        |     Sim     | - |
+|       7        |        A        |     Sim     | - |
+|       8        |        A        |     Sim     | - |
+|       9        |        A        |     Sim     | - |
+|      10        |        A        |     Sim     | - |
+
+
+## Rich Picture Gamificação
+**Versão 1**
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 | :-----: | :----------: | :-----: | :------: |
@@ -55,8 +96,33 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |    6    | Existe rastreablidade? | S | |
 |    6    | A linguagem é objetiva? | S | Poderia informar para que o brainly utiliza a gamificação. |
 
+**Versão 2**
 
-## Rich Picture Plataformas v1
+Nome do projeto: Rich Picture Gamificação
+
+Data da inspeção: 09/06/2019
+
+Responsável pela inspeção: Paulo Vitor
+
+Hora inicial: 16h41
+
+Hora final: 17h00
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | - |
+|       2        |        M        |     Não     | A imagem que representa Pontos se assemelha à medalhas |
+|       3        |        B        |     Sim     | - |
+|       4        |        A        |     Sim     | - |
+|       5        |        A        |     Sim     | Fluxo bem definido, porém o foco da gamificação deve ser o usuário |
+|       6        |        M        |     Sim     | Informar a finalidade da gamificação |
+|       7        |        A        |     Não     | O foco está no usuário e o usuário não está no centro |
+|       8        |        A        |     Sim     | - |
+|       9        |        A        |     Sim     | - |
+|      10        |        A        |     Sim     | - |
+
+## Rich Picture Plataformas
+**Versão 1**
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -68,8 +134,33 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
+**Versão 2**
 
-## Rich Picture Perguntas e Respostas v1
+Nome do projeto: Rich Picture Plataformas
+
+Data da inspeção: 09/06/2019
+
+Responsável pela inspeção: João Rodrigues
+
+Hora inicial: 17h00
+
+Hora final: 17h08
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Utilizar símbolos semelhantes aos utilizados no Brainly |
+|       2        |        M        |     Não     | Adicionar legenda às imagens que não possuem |
+|       3        |        B        |     Sim     | Porém é necessário adicionar legenda às imagens que não possuem |
+|       4        |        A        |     Não     | Por faltar legenda em algumas imagens, alguns leitores podem ter difilculdade ou não compreender o modelo |
+|       5        |        A        |     Sim     | - |
+|       6        |        M        |     Sim     | - |
+|       7        |        A        |     Não     | Por ser variável, o foco está disperso |
+|       8        |        A        |     Sim     | - |
+|       9        |        A        |     Sim     | - |
+|      10        |        A        |     Sim     | - |
+
+## Rich Picture Perguntas e Respostas
+**Versão 1**
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -81,8 +172,33 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S | |
 |  7 | A linguagem é objetiva? | S |
 
+**Versão 2**
 
-## Rich Picture Primeiros Passos de Usuário não Cadastrado v1
+Nome do projeto: Rich Picture Perguntas e Respostas
+
+Data da inspeção: 09/06/2019
+
+Responsável pela inspeção: Ivan Diniz
+
+Hora inicial: 17h00
+
+Hora final: 17h16
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | - |
+|       2        |        M        |     Não     | Em denúncia, o moderador avalia uma denúncia, porém na conexão entre os atores Usuário Com Dúvida e Outros Usuários não é descrita a relação |
+|       3        |        B        |     Sim     | - |
+|       4        |        A        |     Não     | Difícil compreensão do ganho e gasto de pontos |
+|       5        |        A        |     Não     | Não explica como ganhar ou gastar pontos com as perguntas, pois quem responde e quem pergunta aponta para o mesmo lugar |
+|       6        |        M        |     Sim     | - |
+|       7        |        A        |     Não     | O foco está disperso, pois as perguntas e respostas, nem os usuários que realizam essas ações estão no centro |
+|       8        |        A        |     Sim     | - |
+|       9        |        A        |     Sim     | - |
+|      10        |        A        |     Sim     | - |
+
+## Rich Picture Primeiros Passos de Usuário não Cadastrado
+**Versão 1**
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -94,8 +210,34 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Existe rastreablidade? | N | Se necessário desenvolver nova versão, pois esta é a primeira |
 | 7 | A linguaguem é objetiva? | S |  |
 
+**Versão 2**
 
-## Rich Picture Primeiros Passos de Novo Usuário Cadastrado v1
+Nome do projeto: Rich Picture Primeiros Passos de Usuário não Cadastrado
+
+Data da inspeção: 09/06/2019
+
+Responsável pela inspeção: João Rodrigues
+
+Hora inicial: 17h15
+
+Hora final: 17h28
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Utilizar simbolos semelhantes aos utilizados no Brainly |
+|       2        |        M        |     Sim     | Porém a imagem de Dúvida Esclarecida não a representa satisfatoriamente |
+|       3        |        B        |     Sim     | - |
+|       4        |        A        |     Não     | É díficil compreender que para realizar uma pergunta o usuário deve estar registrado na plataforma |
+|       5        |        A        |     Sim     | Fluxo bem definido, porém complexo e de difícil compreensão |
+|       6        |        M        |     Sim     | Algumas palavras apresentam erros de ortografia |
+|       7        |        A        |     Não     | O usuário não está no centro do modelo |
+|       8        |        A        |     Sim     | - |
+|       9        |        A        |     Sim     | - |
+|      10        |        A        |     Sim     | - |
+
+
+## Rich Picture Primeiros Passos de Novo Usuário Cadastrado
+**Versão 1**
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -107,21 +249,47 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
+**Versão 2**
+
+Nome do projeto: Rich Picture Primeiros Passos de Novo Usuário Cadastrado
+
+Data da inspeção: 09/06/2019
+
+Responsável pela inspeção: João Rodrigues
+
+Hora inicial: 17h35
+
+Hora final: 17h41
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Utilizar simbolos semelhantes aos utilizados no Brainly |
+|       2        |        M        |     Sim     | - |
+|       3        |        B        |     Sim     | - |
+|       4        |        A        |     Sim     | - |
+|       5        |        A        |     Sim     | Para complementar o fluxo, deveriam ser descritos os passos posteriores à espera resposta de outros usuários  |
+|       6        |        M        |     Sim     | Algumas palavras apresentam erros de ortografia |
+|       7        |        A        |     Não     | O novo usuário não está no centro do modelo |
+|       8        |        A        |     Sim     | - |
+|       9        |        A        |     Sim     | - |
+|      10        |        A        |     Sim     | - |
+
 
 # Argumentação
-## Checklist de Inspeção em Rich Picture v1
+## Checklist de Inspeção em Argumentação
+**Versão 1**
 
-|  Número |    Critério de avaliação    | Cumpre  | Melhoria |
-|  :----: | :--------: | :---------:  | :------: |
-| 1 | Inferências corretas |  S ou N |  |
-| 2 | Conflitos corretos |  S ou N |  |
-| 3 | Preferências corretas |  S ou N |  |
-| 4 | Conflitos resolvidos |  S ou N |  |
-| 5 | Coerência entre a tabelas e o grafo |  S ou N |  |
-| 6 | Modelos de alta complexidade |  S ou N   |  |
-| 7 | Pré-Rastreabilidade | S ou N  |  |
+|  Número |    Critério de avaliação    |
+|  :----: | :--------: |
+| 1 | Inferências corretas |
+| 2 | Conflitos corretos |
+| 3 | Preferências corretas |
+| 4 | Conflitos resolvidos |
+| 5 | Coerência entre a tabelas e o grafo |
+| 6 | Modelos de alta complexidade |
+| 7 | Pré-Rastreabilidade |
 
-## Checklist de Inspeção em Rich Picture v2
+**Versão 2**
 
 | Número | Questão | Item de Inspeção | Impacto |
 | :----: | :-----: | :--------------: | :-----: |
@@ -135,7 +303,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 8 |Tabela de atores?| Forma e Organização | A |
 | 9 |Possui data?| Forma e Organização | B |
 
-## Argumentação sobre o tema v1
+## INSPEÇÕES
+## Argumentação sobre o tema
+**Versão 1**
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -147,7 +317,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Modelos de alta complexidade |  S  |  |
 | 7 | Pré-Rastreabilidade | S |  |
 
-## Argumentação sobre o tema v2
+**Versão 2**
 
 Nome do projeto: Argumentação sobre o tema
 
@@ -155,24 +325,25 @@ Data da inspeção: 09/06/2019
 
 Responsável pela inspeção: Paulo Vítor
 
-Hora inicial: 17:00
+Hora inicial: 17h00
 
-Hora final:17:15
+Hora final: 17h15
 
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 |  :-----------: | :-------------: | :--------:  | :--------: |
-|      1       |       A       |        Sim       |           |         
-|      2       |       A       |        Sim       |           |         
-|      3       |       A       |        Sim       |           |         
-|      4       |       A       |        Sim       |           |         
-|      5       |       M       |        Sim       |           |         
-|      6       |       A       |        Sim       |           |         
-|      7       |       M       |        Sim       |           |         
-|      8       |       A       |        Sim       |           |         
-|      9       |       B       |        Não       | É relevante indicar data das argumentações |      
+|      1       |       A       |        Sim       | -         |         
+|      2       |       A       |        Sim       | -         |         
+|      3       |       A       |        Sim       | -         |         
+|      4       |       A       |        Sim       | -         |         
+|      5       |       M       |        Sim       | -         |         
+|      6       |       A       |        Sim       | -         |         
+|      7       |       M       |        Sim       | -         |         
+|      8       |       A       |        Sim       | -         |         
+|      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
 
-## Argumentação sobre o sistema de mensagens v1
+## Argumentação sobre o sistema de mensagens
+**Versão 1**
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -184,31 +355,32 @@ Hora final:17:15
 | 6 | Modelos de alta complexidade |  N  | Enriquecer as discussões |
 | 7 | Pré-Rastreabilidade | N |  |
 
-## Argumentação sobre o sistema de mensagens v2
+**Versão 2**
+
 Nome do projeto: Argumentação sobre o sistema de mensagens
 
 Data da inspeção: 09/06/2019
 
 Responsável pela inspeção: Paulo Vítor
 
-Hora inicial: 17:15
+Hora inicial: 17h15
 
-Hora final:17:23
-
+Hora final: 17h23
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 |  :-----------: | :-------------: | :--------:  | :--------: |
-|      1       |       A       |        Sim       |           |         
-|      2       |       A       |        Sim       |           |         
-|      3       |       A       |        Sim       |           |         
-|      4       |       A       |        Sim       |           |         
+|      1       |       A       |        Sim       | -         |         
+|      2       |       A       |        Sim       | -         |         
+|      3       |       A       |        Sim       | -         |         
+|      4       |       A       |        Sim       | -         |         
 |      5       |       M       |        Não       | Enriquecer as discussões, tentar trazer mais proposições. |         
-|      6       |       A       |        Sim       |           |         
+|      6       |       A       |        Sim       | -         |         
 |      7       |       M       |        Não       | Para criação de um bom modelo é de suma importância novas versões. |         
-|      8       |       A       |        Sim       |           |         
-|      9       |       B       |        Não       | É relevante indicar data das argumentações |     
+|      8       |       A       |        Sim       | -         |         
+|      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
 
-## Argumentação sobre os níveis do Brainly v1
+## Argumentação sobre os níveis do Brainly
+**Versão 1**
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -220,28 +392,28 @@ Hora final:17:23
 | 6 | Modelos de alta complexidade |  S  |  |
 | 7 | Pré-Rastreabilidade | N |  |
 
-## Argumentação sobre os níveis do Brainly v2
+**Versão 2**
+
 Nome do projeto: Argumentação sobre os níveis do Brainly
 
 Data da inspeção: 09/06/2019
 
 Responsável pela inspeção: Paulo Vítor
 
-Hora inicial: 17:23
+Hora inicial: 17h23
 
-Hora final:17:28
-
+Hora final: 17h28
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 |  :-----------: | :-------------: | :--------:  | :--------: |
-|      1       |       A       |        Sim       |           |         
-|      2       |       A       |        Sim       |           |         
-|      3       |       A       |        Sim       |           |         
-|      4       |       A       |        Sim       |           |         
-|      5       |       M       |        Sim       |           |         
-|      6       |       A       |        Sim       |           |         
+|      1       |       A       |        Sim       | -         |         
+|      2       |       A       |        Sim       | -         |         
+|      3       |       A       |        Sim       | -         |         
+|      4       |       A       |        Sim       | -         |         
+|      5       |       M       |        Sim       | -         |         
+|      6       |       A       |        Sim       | -         |         
 |      7       |       M       |        Não       | Para criação de um bom modelo é de suma importância novas versões. |         
-|      8       |       A       |        Sim       |           |         
+|      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar data das argumentações |         
 
 
