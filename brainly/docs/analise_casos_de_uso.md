@@ -61,7 +61,11 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/perguntas_respostas_diagrama.png) | ![](./images/analise/perguntas_respostas_especificacao.png)
 
+### Gráficos da análise de discurso
 
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/grafico_perguntas_respostas_diagrama.jpg) | ![](./images/analise/grafico_perguntas_respostas_especificacao.jpg)
 
 # REFERÊNCIAS
 
