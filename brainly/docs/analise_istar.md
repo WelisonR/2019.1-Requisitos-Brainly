@@ -8,6 +8,7 @@
 | 1.3 | 09/06/2019 | Adiciona a verificação do modelo i* "Brainly - Geral v4.0" por Andre e Leonardo | Leonardo Medeiros, Andre Pinto |
 | 1.4 | 10/06/2019 | Adiciona a verificação do modelo i* "Gamificação v1.0" | Welison Regis |
 | 1.5 | 10/06/2019 | Adiciona rastreabilidade | Welison Regis |
+| 1.6 | 10/06/2019 | Adiciona gráficos | Lieverton Silva |
 
 # INTRODUÇÃO
 
@@ -48,6 +49,11 @@ Audios:
 
 ![istar_pergunta_andre_e_leonardo](./images/analise/istar_pergunta_andre_e_leonardo.png)
 
+### Gráficos de critério de aceitação
+
+
+![](./images/analise/grafico_realizar_pergunta.jpg)
+
 ## VERIFICAÇÃO DO ISTAR "REALIZAR RESPOSTA V1.0" - v1.0
 
 Rastreabilidade: [i* de Gamificação](./i_star.md#isr03)
@@ -56,6 +62,12 @@ Sintese: Leonardo e Andre
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_resposta_andre_e_leonardo.png)
 
+### Gráficos de critério de aceitação
+
+
+![](./images/analise/grafico_realizar_resposta.jpg)
+
+
 ## VERIFICAÇÃO DO ISTAR "BRAINLY - GERAL V4.0" - v1.0
 
 Sintese: Leonardo e Andre
@@ -63,6 +75,12 @@ Sintese: Leonardo e Andre
 Audio: [Discussao](https://drive.google.com/file/d/1d99E9UCn2FyxWRZsSDSxK52dXiv1vsy0/view?usp=sharing)
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_geral_andre_e_leonardo.png)
+
+### Gráficos de critério de aceitação
+
+
+![](./images/analise/grafico_geral.jpg)
+
 
 ## VERIFICAÇÃO DO ISTAR "Gamificação v1.0" - v1.0
 
