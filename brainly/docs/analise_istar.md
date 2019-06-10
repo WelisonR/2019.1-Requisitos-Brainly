@@ -19,3 +19,18 @@ O modelo de verificação elaborado pela equipe foi realizado em dupla e após t
 ## MODELO DE VERIFICAÇÃO - i* v1.0
 
 ![check_list_istart_v1](./images/analise/checklist_istar_v1.png)
+
+## MODELO DE VERIFICAÇÃO - i* v2.0
+
+![check_list_istart_v1](./images/analise/checklist_istar_v2.jpg)
+
+## VERIFICAÇÃO DO ISTAR "REALIZAR PERGUNTA V1.0" - v1.0
+
+Individual Leonardo
+![check_list_istart_v1](./images/analise/istar_pergunta_leonardo.png)
+
+Individual Andre
+![check_list_istart_v1](./images/analise/istar_pergunta_andre.png)
+
+Sintese: Leonardo e Andre
+![check_list_istart_v1](./images/analise/istar_pergunta_andre_e_leonardo.png)
