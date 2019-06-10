@@ -118,6 +118,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
+![Gráfico RichPicture Gamificacao](images/analise/gamificacao.png)
+
 ## Rich Picture Plataformas
 **Versão 1**
 
@@ -152,6 +154,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
+
+![Gráfico RichPicture Gamificacao](images/analise/plataformas.png)
 
 ## Rich Picture Perguntas e Respostas
 **Versão 1**
@@ -200,6 +204,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 5 | O fluxo é bem definido? | S |  |
 | 6 | Existe rastreablidade? | N | Se necessário desenvolver nova versão, pois esta é a primeira |
 | 7 | A linguaguem é objetiva? | S |  |
+
+![Gráfico RichPicture Gamificacao](images/analise/passos_usuario_nao_cadastrado.png)
 
 **Versão 2**
 
