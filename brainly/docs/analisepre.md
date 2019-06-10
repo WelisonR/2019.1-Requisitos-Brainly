@@ -60,15 +60,12 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 **Versão 2**
 
-Nome do projeto: Rich Picture Visão Geral Brainly
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: Ivan Diniz
-
-Hora inicial: 16h41
-
-Hora final: 17h00
+|Nome do projeto| Rich Picture Visão Geral Brainly|
+| :------------: | :------------: |
+| Data da inspeção | 09/06/2019 |
+|Responsável pela inspeção |Ivan Diniz|
+|Hora inicial| 16h41|
+|Hora final| 17h00|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 | :------------: | :-------------: | :--------:  | :--------: |
@@ -99,15 +96,12 @@ Hora final: 17h00
 
 **Versão 2**
 
-Nome do projeto: Rich Picture Gamificação
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: Paulo Vitor
-
-Hora inicial: 16h41
-
-Hora final: 17h00
+|Nome do projeto| Rich Picture Gamificação|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| Paulo Vitor|
+|Hora inicial| 16h41|
+|Hora final| 17h00|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 | :------------: | :-------------: | :--------:  | :--------: |
@@ -137,15 +131,12 @@ Hora final: 17h00
 
 **Versão 2**
 
-Nome do projeto: Rich Picture Plataformas
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: João Rodrigues
-
-Hora inicial: 17h00
-
-Hora final: 17h08
+|Nome do projeto| Rich Picture Plataformas|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| João Rodrigues|
+|Hora inicial| 17h00|
+|Hora final| 17h08|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 | :------------: | :-------------: | :--------:  | :--------: |
@@ -175,15 +166,12 @@ Hora final: 17h08
 
 **Versão 2**
 
-Nome do projeto: Rich Picture Perguntas e Respostas
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: Ivan Diniz
-
-Hora inicial: 17h00
-
-Hora final: 17h16
+|Nome do projeto| Rich Picture Perguntas e Respostas|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| Ivan Diniz|
+|Hora inicial| 17h00|
+|Hora final| 17h16|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 | :------------: | :-------------: | :--------:  | :--------: |
@@ -213,15 +201,12 @@ Hora final: 17h16
 
 **Versão 2**
 
-Nome do projeto: Rich Picture Primeiros Passos de Usuário não Cadastrado
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: João Rodrigues
-
-Hora inicial: 17h15
-
-Hora final: 17h28
+|Nome do projeto| Rich Picture Primeiros Passos de Usuário não Cadastrado|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| João Rodrigues|
+|Hora inicial| 17h15|
+|Hora final| 17h28|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 | :------------: | :-------------: | :--------:  | :--------: |
@@ -252,15 +237,12 @@ Hora final: 17h28
 
 **Versão 2**
 
-Nome do projeto: Rich Picture Primeiros Passos de Novo Usuário Cadastrado
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: João Rodrigues
-
-Hora inicial: 17h35
-
-Hora final: 17h41
+|Nome do projeto| Rich Picture Primeiros Passos de Novo Usuário Cadastrado|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| João Rodrigues|
+|Hora inicial| 17h35|
+|Hora final| 17h41|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 | :------------: | :-------------: | :--------:  | :--------: |
@@ -324,15 +306,12 @@ Hora final: 17h41
 
 **Versão 2**
 
-Nome do projeto: Argumentação sobre o tema
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: Paulo Vítor
-
-Hora inicial: 17h00
-
-Hora final: 17h15
+|Nome do projeto| Argumentação sobre o tema|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| Paulo Vítor|
+|Hora inicial| 17h00|
+|Hora final| 17h15|
 
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
@@ -363,15 +342,12 @@ Hora final: 17h15
 
 **Versão 2**
 
-Nome do projeto: Argumentação sobre o sistema de mensagens
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: Paulo Vítor
-
-Hora inicial: 17h15
-
-Hora final: 17h23
+|Nome do projeto| Argumentação sobre o sistema de mensagens|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| Paulo Vítor|
+|Hora inicial| 17h15|
+|Hora final| 17h23|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 |  :-----------: | :-------------: | :--------:  | :--------: |
@@ -401,15 +377,12 @@ Hora final: 17h23
 
 **Versão 2**
 
-Nome do projeto: Argumentação sobre os níveis do Brainly
-
-Data da inspeção: 09/06/2019
-
-Responsável pela inspeção: João Gabriel
-
-Hora inicial: 17h23
-
-Hora final: 17h28
+|Nome do projeto| Argumentação sobre os níveis do Brainly|
+| :------------: | :------------: |
+|Data da inspeção| 09/06/2019|
+|Responsável pela inspeção| João Gabriel|
+|Hora inicial| 17h23|
+|Hora final| 17h28|
 
 | N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
 |  :-----------: | :-------------: | :--------:  | :--------: |
