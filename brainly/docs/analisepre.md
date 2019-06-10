@@ -10,6 +10,8 @@
 |    1.5  | 09/06/2019 | Adição da análise das argumentações | Paulo Rocha, João Gabriel |
 |    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
 |    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
+|    1.8  | 10/06/2019 | Adição dos gráficos de analise das argumentações | Joao Gabriel |
+
 
 # Introdução
 
@@ -325,7 +327,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      7       |       M       |        Sim       | -         |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
-|      10       |       A       |        Sim       | - |      
+|      10       |       A       |        Sim       | - |  
+
+![Gráfico Argumentação Tema](images/analise/tema.jpg)
 
 ## Argumentação sobre o sistema de mensagens
 **Versão 1**
@@ -360,7 +364,10 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      7       |       M       |        Sim       | - |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
-|      10       |       A       |        Sim       | - |      
+|      10       |       A       |        Sim       | - |    
+
+![Gráfico Argumentação Mensagens](images/analise/mensagens.jpg)
+
 
 ## Argumentação sobre os níveis do Brainly
 **Versão 1**
@@ -396,6 +403,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar data das argumentações |         
 |      10       |       A       |        Sim       | - |      
+
+![Gráfico Argumentação Niveis](images/analise/niveis.jpg)
+
 
 ##Gráfico da inspeção das argumentações
 ![Gráfico Argumentação](images/analise/Arg.jpg)
