@@ -82,6 +82,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
+![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Versão_Geral_Brainly.png)
 
 ## Rich Picture Gamificação
 **Versão 1**
@@ -192,6 +193,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
+![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Perguntas_e_Respostas.png)
 ## Rich Picture Primeiros Passos de Usuário não Cadastrado
 **Versão 1**
 
@@ -205,7 +207,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Existe rastreablidade? | N | Se necessário desenvolver nova versão, pois esta é a primeira |
 | 7 | A linguaguem é objetiva? | S |  |
 
-![Gráfico RichPicture Gamificacao](images/analise/passos_usuario_nao_cadastrado.png)
+
 
 **Versão 2**
 
@@ -228,7 +230,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
-
+![Gráfico RichPicture Gamificacao](images/analise/passos_usuario_nao_cadastrado.png)
 
 ## Rich Picture Primeiros Passos de Novo Usuário Cadastrado
 **Versão 1**
@@ -264,6 +266,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
+
+![Gráfico RichPicture Primeiros Passos de UsuárioCadastrado](images/analise/RP_Primeiros_Passos_de_Usuário_Cadastrado.png)
 
 ##Gráfico da inspeção dos Rich-Pictures
 ![Gráfico Argumentação](images/analise/RP.jpg)
