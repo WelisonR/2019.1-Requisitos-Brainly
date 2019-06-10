@@ -7,8 +7,8 @@
 |    1.2  | 05/06/2019 | Adição da análise das argumentações | João Rossi, Ivan Diniz, Paulo Rocha, João Rodrigues |
 |    1.3  | 09/06/2019 | Adição do checklist de inspeção em rich picture | Ivan Diniz, João Rodrigues, Paulo Rocha |
 |    1.4  | 09/06/2019 | Adição do checklist de inspeção em argumentação | Ivan Diniz, João Rodrigues, Paulo Rocha |
-|    1.5  | 09/06/2019 | Adição da análise das argumentações | Paulo Rocha |
-|    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues |
+|    1.5  | 09/06/2019 | Adição da análise das argumentações | Paulo Rocha, João Gabriel |
+|    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
 
 # Introdução
 
@@ -293,15 +293,16 @@ Hora final: 17h41
 
 | Número | Questão | Item de Inspeção | Impacto |
 | :----: | :-----: | :--------------: | :-----: |
-| 1 |Inferências corretas?| Forma e Organização | A |
-| 2 |Conflitos corretos?| Forma e Organização | A |
-| 3 |Preferências corretas?| Forma e Organização | A |
-| 4 |Conflitos resolvidos?| Forma e Organização | A |
-| 5 |Modelos de alta complexidade?| Forma e Organização | M |
-| 6 |Coerência entre a tabelas e o grafo?| Forma e Organização | A |
-| 7 |Existe versionamento?| Forma e Organização | M |
-| 8 |Tabela de atores?| Forma e Organização | A |
-| 9 |Possui data?| Forma e Organização | B |
+| 1 | Inferências corretas? | Desenvolvimento | A |
+| 2 | Conflitos corretos? | Desenvolvimento | A |
+| 3 | Preferências corretas? | Desenvolvimento | A |
+| 4 | Conflitos resolvidos? | Desenvolvimento | A |
+| 5 | Modelos de alta complexidade? | Forma e Organização | M |
+| 6 | Coerência entre a tabelas e o grafo? | Forma e Organização | A |
+| 7 | Existe versionamento? | Rastreabilidade | M |
+| 8 | Tabela de atores? | Rastreabilidade | A |
+| 9 | Possui data? | Rastreabilidade | B |
+| 10 | Houve consenso? | Conclusão | A |
 
 ## INSPEÇÕES
 ## Argumentação sobre o tema
@@ -341,6 +342,7 @@ Hora final: 17h15
 |      7       |       M       |        Sim       | -         |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
+|      10       |       A       |        Sim       | - |      
 
 ## Argumentação sobre o sistema de mensagens
 **Versão 1**
@@ -378,6 +380,7 @@ Hora final: 17h23
 |      7       |       M       |        Não       | Para criação de um bom modelo é de suma importância novas versões. |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
+|      10       |       A       |        Sim       | - |      
 
 ## Argumentação sobre os níveis do Brainly
 **Versão 1**
@@ -398,7 +401,7 @@ Nome do projeto: Argumentação sobre os níveis do Brainly
 
 Data da inspeção: 09/06/2019
 
-Responsável pela inspeção: Paulo Vítor
+Responsável pela inspeção: João Gabriel
 
 Hora inicial: 17h23
 
@@ -415,5 +418,4 @@ Hora final: 17h28
 |      7       |       M       |        Não       | Para criação de um bom modelo é de suma importância novas versões. |         
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar data das argumentações |         
-
-
+|      10       |       A       |        Sim       | - |      
