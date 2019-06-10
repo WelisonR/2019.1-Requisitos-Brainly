@@ -49,7 +49,7 @@ Audios:
 
 ![istar_pergunta_andre_e_leonardo](./images/analise/istar_pergunta_andre_e_leonardo.png)
 
-### Gráficos de critério de aceitação
+### Gráfico de critério de aceitação
 
 
 ![](./images/analise/grafico_realizar_pergunta.jpg)
@@ -76,7 +76,7 @@ Audio: [Discussao](https://drive.google.com/file/d/1d99E9UCn2FyxWRZsSDSxK52dXiv1
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_geral_andre_e_leonardo.png)
 
-### Gráficos de critério de aceitação
+### Gráfico de critério de aceitação
 
 
 ![](./images/analise/grafico_geral.jpg)

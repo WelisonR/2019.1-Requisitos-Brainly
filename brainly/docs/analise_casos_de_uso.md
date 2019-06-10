@@ -61,7 +61,7 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/perguntas_respostas_diagrama.png) | ![](./images/analise/perguntas_respostas_especificacao.png)
 
-### Gráficos de critério de aceitação
+### Gráfico de critério de aceitação
 
 | Diagrama | Especificação |
 | :------: | :-----------: |
