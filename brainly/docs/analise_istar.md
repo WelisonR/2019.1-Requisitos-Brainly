@@ -40,9 +40,15 @@ Sintese: Leonardo e Andre
 Audios:
 [Leonardo](https://drive.google.com/file/d/1pXXKOsgZi7ksFLsfP-g7jhWzy_O25w4P/view?usp=sharing), [Andre](https://drive.google.com/file/d/1BQy9X-c2qaojW_N7-M9UCGvmyrtpX_bb/view?usp=sharing)
 
-> Obs: devido ao metodo de gravação utilizado, os audios dos participantes ficaram separados (apesar de ser uma conversa simultanea), para melhor entendimento basta reproduzi-los simultaneamente.
+> Obs: Devido ao metodo de gravação utilizado, os audios dos participantes ficaram separados (apesar de ser uma conversa simultanea), para melhor entendimento basta reproduzi-los simultaneamente.
 
 ![istar_pergunta_andre_e_leonardo](./images/analise/istar_pergunta_andre_e_leonardo.png)
+
+## VERIFICAÇÃO DO ISTAR "REALIZAR RESPOSTA V1.0" - v1.0
+
+Sintese: Leonardo e Andre
+
+![istar_geral_andre_e_leonardo](./images/analise/istar_resposta_andre_e_leonardo.png)
 
 ## VERIFICAÇÃO DO ISTAR "BRAINLY - GERAL V4.0" - v1.0
 
