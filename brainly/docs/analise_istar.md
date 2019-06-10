@@ -3,6 +3,9 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 09/06/2019 | Adiciona modelo de verificação (v1) | Leonardo Medeiros, Andre Pinto |
+| 1.1 | 09/06/2019 | Adiciona modelo de verificação (v2) | Leonardo Medeiros, Andre Pinto |
+| 1.1 | 09/06/2019 | Adiciona a verificação do modelo i* "realizar pergunta v1.0" por Andre, Leonardo e ambos | Leonardo Medeiros, Andre Pinto |
+| 1.2 | 09/06/2019 | Adiciona a verificação do modelo i* "Brainly - Geral v4.0" por Andre e Leonardo | Leonardo Medeiros, Andre Pinto |
 
 # INTRODUÇÃO
 
