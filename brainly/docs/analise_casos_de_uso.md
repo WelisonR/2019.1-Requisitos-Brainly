@@ -88,6 +88,13 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/editar_perfil_diagrama.png) | ![](./images/analise/editar_perfil_especificacao.png)
 
+## IUC 05 - Gamificação
+
+### Inspeção Individual
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/gamificacao_diagrama.png) | ![](./images/analise/gamificacao_especificacao.png)
+
 # REFERÊNCIAS
 
 [1] GREGOLIN, Rosângela. **Uma proposta de inspeção em modelos de caso de uso**. 2007. Disponível [aqui](http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf). Acesso em: 09 junho 2019.
