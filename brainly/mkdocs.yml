@@ -43,6 +43,9 @@ pages:
     - Pré-Rastreabilidade: analisepre.md
     - Casos de uso: analise_casos_de_uso.md
     - iStar: analise_istar.md
+  - PÓS-RASTREABILIDADE:
+    - Forward-From: forward.md
+    
 
 theme:
   language: 'pt'
