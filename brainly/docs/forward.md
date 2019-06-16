@@ -10,59 +10,58 @@
 |  1.3   | 16/06/2019 | Preenchimento das operacionalizações na tabela | André Pinto, Leonardo Medeiros, João Matheus |
 
 
+## Tabela de Requisitos funcionais
 
 | Código |   Descrição   |   US   |  Épico  |  Funcionalidade  |
 | :----: | :-----------: | :----: | :-----: | :--------------: |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
-
+| RF1  |  O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável  | US17 | EP03 | |
+| RF2  |  O usuário pode compartilhar questões da plataforma  | US18 | EP03 |  |
+| RF3  |  O feed das contribuições de um usuário pode ser visualizado em seu perfil  | US42 | EP05 |  |
+| RF4  |  É possível se comunicar e retirar dúvidas nos comentários da própria questão.  | US20 | EP03 |  |
+| RF5  |  O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto.  | US21 | EP03 |  |
+| RF6  |  O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX  | US22 | EP03 |  |
+| RF7  |  O sistema deve fornecer recurso de highlight(destaque) para certas informações, como citações  | US23 | EP03 |  |
+| RF8  |  O sistema deve possibilitar a inserção adequada de código-fonte  | US22 | EP03 |  |
+| RF9  |  Deve ser possível moderar em múltiplas plataformas (web e mobile)  | US49 | EP07 |  |
+| RF10 |  As advertências dos usuários devem constar em seus perfis  | US26 | EP05 |  |
+| RF11 |  Deve haver categorias de denúncias  | US27 | EP04 |  |
+| RF12 |  Deve ser possível ao moderador filtrar o tipo de denúncia por categorias  | US28 | EP04 |  |
+| RF13 |  Qualquer usuário deve ter a opção de realizar denúncias por modalidades de irregularidade  | US29 | EP04 |  |
+| RF14 |  A plataforma deve dispor recursos de bot para realizar denúncias automáticas de irregularidades  | US30 | EP04 |  |
+| RF15 |  Deve haver níveis entre moderadores, o que libera mais ou menos ferramentas de moderação  | US31 | EP04 |  |
+| RF16 |  Os moderadores devem ter um canal de comunicação entre eles junto a administração  | US32 | EP04 |  |
+| RF17 |  Deve ser possível aos moderadores visualizar o número de ações realizadas, dispostas em um ranking de moderadores  | US33 | EP04 |  |
+| RF18 |  O moderador deve ter acesso a uma painel central que possibilite avaliar as denúncias realizadas  | US34 | EP04 |  |
+| RF19 |  O moderador deve dispor de recurso para apagar questões, respostas e comentários  | US35 | EP04 |  |
+| RF20 |  Deve ser possível ao moderador a exclusão de contas e o banimento do usuário  | US36 | EP04 |  |
+| RF21 |  Após denúncia, o moderador poderá pedir a correção de uma atividade  | US37 | EP04 |  |
+| RF22 |  O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade  | US38 | EP04 |  |
+| RF23 |  O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades  | - | EP04 |  |
+| RF24 |  O sistema deve oferecer a mesma experiência para usuários de diferentes plataformas  | - | EP07 |  |
+| RF25 |  A plataforma deve oferecer um meio para que o usuário entre em sua conta a partir de redes sociais  | US11 | EP02 |  |
+| RF26 |  Aumento de recompensa por bater um certo valor de pontos no software  | - | EP06 |  |
+| RF27 |  Ter diferentes versões, tanto web como mobile  | US50 | EP07 |  |
+| RF28 |  Um usuário no app pode seguir outro  | US40 | EP05 |  |
+| RF29 |  Uma pergunta pode ter até duas respostas  | US24 | EP03 |  |
+| RF30 |  O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta  | - | EP06 |  |
+| RF31 |  O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível  | US44 | EP06 |  |
+| RF32 |  Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores  | US45 | EP06 |  |
+| RF33 |  Registro do usuário no sistema  | US13 | EP02 |  |
+| RF34 |  O usuário poderá ver perguntas e respondê-las  | US25 | EP03 |  |
+| RF35 |  A página tem um sistema de rolagem  | - | - |  |
+| RF36 |  As perguntas podem ser categorizadas por matéria  | US19 | EP03 |  |
+| RF37 |  O sistema deve informar ao usuário realização de tarefas e pontuação  | US46 | EP06 |  |
+| RF38 |  O usuário poderá fazer perguntas  | - | EP03 |  |
+| RF39 |  O usuário poderá sair da sua conta  | US39 | EP05 |  |
+| RF40 |  Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo  | US12 | EP02 |  |
+| RF41 |  O sistema deve oferecer ao usuário uma forma de ele dar feedback às respostas  | US47 | EP06 |  |
+| RF42 |  Gerenciar e personalizar conta  | US41 | EP05 |  |
+| RF43 |  Recuperar senha  | US14 | EP02 |  |
+| RF44 |  Cancelar conta  | US15 | EP02 |  |
+| RF45 |  Alterar a região do sistema  | US43 | EP05 |  |
+| RF46 |  Login  | US10 | EP02 |  |
+| RF47 |  Cadastro com email  | US13 | EP02 |  |
+| RF48 |  Responder pergunta  | US16 | EP03 |  |
 
 
 
