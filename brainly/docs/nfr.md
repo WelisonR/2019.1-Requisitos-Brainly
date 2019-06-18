@@ -35,12 +35,16 @@ Versão 1.0
 ![NFr Confiabilidade](images/nfr/nfr_v1_confiabilidade.png)
 Versão 2.0
 ![NFR Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise.jpg)
-Versão 3.0
 ![NFR Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise.jpg)
-Versão 4.0
+Versão 3.0
 ![NFR Confiabilidade](images/nfr/NFRConfiabilidadeSemAnalise_v1.jpg)
+![NFR Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise_v1.jpg)
+
+Versão 4.0
+![NFR Confiabilidade](images/nfr/NFR_Confiabilidade_SemAnalise_v5.jpg)
 Análise NFR Confiabilidade
 ![NFR Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise_v1.jpg)
+
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#confiabilidade), [US31](./backlog.md#us31), [US13](./backlog.md#us13), [US26](./backlog.md#us26), [US29](./backlog.md#us29), [US34](./backlog.md#us34), [C3030](./cenarios10x5f8c4.md#c3030).
 
