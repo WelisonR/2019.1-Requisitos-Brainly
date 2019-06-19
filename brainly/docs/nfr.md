@@ -51,7 +51,7 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 Elicitação Associada: [EN 1.3](./entrevista.md), [BR 2.1](./brainstorm.md), [BR 2.7](./brainstorm.md), [BR 2.10](./brainstorm.md).
 
 # NFR02
-## NFR SUPORTABILIDADE
+## NFR SUPORTABILITY
 Versão 1.0
 ![NFR Suportabilidade](images/nfr/nfr_v1_suportabilidade.png)
 Versão 2.0  
@@ -61,8 +61,11 @@ Versão 3.0
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v3.jpg)
 Versão 4.0  
 ![NFR Suportabilidade sem análise](images/nfr/Suportabilidade_sem_analise_v2.jpg)
-Análise NFR Suportabilidade
 ![NFR Suportabilidade](images/nfr/Suportabilidade_v4.jpg)
+Versão 5.0  
+![NFR Suportabilidade sem análise](images/nfr/Suportability_SemAnalise_v5.jpg)
+Análise NFR Suportability
+![NFR Suportabilidade](images/nfr/Suportability_ComAnalise_v5.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#suportabilidade), [EP07](./backlog.md#ep07), [US49](./backlog.md#us49), [US50](./backlog.md#us50),[US26](./backlog.md#us26), [US27](./backlog.md#us27),  [US28](./backlog.md#us28), [US29](./backlog.md#us29), [US30](./backlog.md#us30), [US31](./backlog.md#us31), [US32](./backlog.md#us32), [US33](./backlog.md#us33), [US34](./backlog.md#us34), [US35](./backlog.md#us35), [US36](./backlog.md#us36), [US37](./backlog.md#us37), [US38](./backlog.md#us38).
 
