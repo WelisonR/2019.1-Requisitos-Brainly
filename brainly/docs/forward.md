@@ -12,7 +12,19 @@
 |  1.5   | 16/06/2019 | Link específico para US, EP e NFR | Paulo Vitor Rocha |
 |  1.6   | 18/06/2019 | Adiciona GIFs e imagens das funcionalidades (RF1 - RF48) | Welison Regis |
 |  1.7   | 19/06/2019 | Adiciona hyperlinks e descrições das imagens e GIFS | Welison Regis |
+|  1.8   | 19/06/2019  | Descrição Metodologias                                      | João Rossi |
 
+
+## Metodologia
+
+### Métodos de desenvolvimento
+A metodologia utilizada pelo grupo foi, em grande parte, o pareamento para tarefas mais manuais, como procurar as elicitações para linkar com cada requisito utilizado na tabela, sendo funcional ou não-funcional e para tarefas menos manuais, que requerem mais análise do grupo, trabalhamos em equipes maiores, de 3, 4 ou até com o grupo inteiro.  
+Foi decidido adotar essas duas diferentes metodologias pois necessitávamos de mão de obra em algumas partes e havia a necessidade de otimizar o tempo trabalhado, mas trabalhar individualmente poderia gerar um alto número de conflitos na própria wiki, além de existir a possibilidade de deixar passar alguma elicitação ou modelo em branco, mas, infelizmente, em alguns momentos foi necessária a existência de trabalhos individuais por motivos de provas e outros trabalhos, e mesmo assim foram revisados pelos outros integrantes.  
+Na outra parte citada, os requisitos utilizados nas matrizes, era necessário ter pontos de vista diferentes, pois precisávamos escolher requisitos sem existir repetição, além de englobar todos os requisitos previamente levantados e modelados, por isso foi preferível ter mais pessoas ajudando em cada matriz.   
+
+### Ferramentas
+No quesito ferramentas, utilizamos o drive e a própria wiki para montar as matrizes de backward from e forward from, tendo como base as tabelas do drive para podermos ter o retorno em tempo real, podendo ter mais pessoas mexendo nela, e após ter feito no drive, passamos para a wiki e fizemos a hiperlinkagem entre os requisitos e as elicitações e modelos em que o mesmo aparece.  
+Além das ferramentas para criação de tabelas, utilizamos o [Chrome Capture](https://chrome.google.com/webstore/detail/chrome-capture/ggaabchcecdbomdcnbahdfddfikjmphe), uma extensão do chrome que facilitou na hora de captura de prints e GIF's para mostrar aonde cada requisito está implementado na própria aplicação.
 
 ## Tabela de Requisitos funcionais
 
