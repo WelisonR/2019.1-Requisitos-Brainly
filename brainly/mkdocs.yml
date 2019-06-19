@@ -57,5 +57,9 @@ theme:
     primary: 'light blue'
     accent: 'white'
 
+
+extra_css:
+  - extra.css
+
 repo_name: 'Brainly'
 repo_url: 'https://github.com/WelisonR/2019.1-Requisitos-Brainly'
