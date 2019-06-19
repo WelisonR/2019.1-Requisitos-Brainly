@@ -11,60 +11,61 @@
 |  1.4   | 16/06/2019 | Link para US, EP e NFR | André Pinto, Leonardo Medeiros, João Matheus |
 |  1.5   | 16/06/2019 | Link específico para US, EP e NFR | Paulo Vitor Rocha |
 |  1.6   | 18/06/2019 | Adiciona GIFs e imagens das funcionalidades (RF1 - RF48) | Welison Regis |
+|  1.7   | 19/06/2019 | Adiciona hyperlinks e descrições das imagens e GIFS | Welison Regis |
 
 
 ## Tabela de Requisitos funcionais
 
 | Código |   Descrição   |   US   |  Épico  |  Funcionalidade  |
 | :----: | :-----------: | :----: | :-----: | :--------------: |
-| RF1  |  O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável  | [US17](backlog.md#us17) | [EP03-Questões](backlog.md#ep03) | |
-| RF2  |  O usuário pode compartilhar questões da plataforma  | [US18](backlog.md#us18) | [EP03-Questões](backlog.md#ep03) |  |
-| RF3  |  O feed das contribuições de um usuário pode ser visualizado em seu perfil  | [US42](backlog.md#us42) | [EP05-Perfil](backlog.md#ep05) |  |
-| RF4  |  É possível se comunicar e retirar dúvidas nos comentários da própria questão.  | [US20](backlog.md#us20) | [EP03-Questões](backlog.md#ep03) |  |
-| RF5  |  O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto.  | [US21](backlog.md#us21) | [EP03-Questões](backlog.md#ep03) |  |
-| RF6  |  O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX  | [US22](backlog.md#us22) | [EP03-Questões](backlog.md#ep03) |  |
-| RF7  |  O sistema deve fornecer recurso de highlight(destaque) para certas informações, como citações  | [US23](backlog.md#us23) | [EP03-Questões](backlog.md#ep03) |  |
-| RF8  |  O sistema deve possibilitar a inserção adequada de código-fonte  | [US22](backlog.md#us22) | [EP03-Questões](backlog.md#ep03) |  |
-| RF9  |  Deve ser possível moderar em múltiplas plataformas (web e mobile)  | [US49](backlog.md#us49) | [EP07-Multiplataforma](backlog.md#ep07) |  |
-| RF10 |  As advertências dos usuários devem constar em seus perfis  | [US26](backlog.md#us26) | [EP05-Perfil](backlog.md#ep05) |  |
-| RF11 |  Deve haver categorias de denúncias  | [US27](backlog.md#us27) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF12 |  Deve ser possível ao moderador filtrar o tipo de denúncia por categorias  | [US28](backlog.md#us28) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF13 |  Qualquer usuário deve ter a opção de realizar denúncias por modalidades de irregularidade  | [US29](backlog.md#us29) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF14 |  A plataforma deve dispor recursos de bot para realizar denúncias automáticas de irregularidades  | [US30](backlog.md#us30) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF15 |  Deve haver níveis entre moderadores, o que libera mais ou menos ferramentas de moderação  | [US31](backlog.md#us31) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF16 |  Os moderadores devem ter um canal de comunicação entre eles junto a administração  | [US32](backlog.md#us32) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF17 |  Deve ser possível aos moderadores visualizar o número de ações realizadas, dispostas em um ranking de moderadores  | [US33](backlog.md#us33) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF18 |  O moderador deve ter acesso a uma painel central que possibilite avaliar as denúncias realizadas  | [US34](backlog.md#us34) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF19 |  O moderador deve dispor de recurso para apagar questões, respostas e comentários  | [US35](backlog.md#us35) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF20 |  Deve ser possível ao moderador a exclusão de contas e o banimento do usuário  | [US36](backlog.md#us36) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF21 |  Após denúncia, o moderador poderá pedir a correção de uma atividade  | [US37](backlog.md#us37) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF22 |  O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade  | [US38](backlog.md#us38) | [EP04-Moderação](backlog.md#ep04) |  |
-| RF23 |  O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades  | - | [EP04-Moderação](backlog.md#ep04) |  |
-| RF24 |  O sistema deve oferecer a mesma experiência para usuários de diferentes plataformas  | - | [EP07-Multiplataforma](backlog.md#ep07) |  |
-| RF25 |  A plataforma deve oferecer um meio para que o usuário entre em sua conta a partir de redes sociais  | [US11](backlog.md#us11) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF26 |  Aumento de recompensa por bater um certo valor de pontos no software  | - | [EP06-Gamificação](backlog.md#ep06) |  |
-| RF27 |  Ter diferentes versões, tanto web como mobile  | [US50](backlog.md#us50) | [EP07-Multiplataforma](backlog.md#ep07) |  |
-| RF28 |  Um usuário no app pode seguir outro  | [US40](backlog.md#us40) | [EP05-Perfil](backlog.md#ep05) |  |
-| RF29 |  Uma pergunta pode ter até duas respostas  | [US24](backlog.md#us24) | [EP03-Questões](backlog.md#ep03) |  |
-| RF30 |  O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta  | - | [EP06-Gamificação](backlog.md#ep06) |  |
-| RF31 |  O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível  | [US44](backlog.md#us44) | [EP06-Gamificação](backlog.md#ep06) |  |
-| RF32 |  Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores  | [US45](backlog.md#us45) | [EP06-Gamificação](backlog.md#ep06) |  |
-| RF33 |  Registro do usuário no sistema  | [US13](backlog.md#us13) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF34 |  O usuário poderá ver perguntas e respondê-las  | [US25](backlog.md#us25) | [EP03-Questões](backlog.md#ep03) |  |
-| RF35 |  A página tem um sistema de rolagem  | - | - |  |
-| RF36 |  As perguntas podem ser categorizadas por matéria  | [US19](backlog.md#us19) | [EP03-Questões](backlog.md#ep03) |  |
-| RF37 |  O sistema deve informar ao usuário realização de tarefas e pontuação  | [US46](backlog.md#us46) | [EP06-Gamificação](backlog.md#ep06) |  |
-| RF38 |  O usuário poderá fazer perguntas  | - | [EP03-Questões](backlog.md#ep03) |  |
-| RF39 |  O usuário poderá sair da sua conta  | [US39](backlog.md#us39) | [EP05-Perfil](backlog.md#ep05) |  |
-| RF40 |  Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo  | [US12](backlog.md#us12) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF41 |  O sistema deve oferecer ao usuário uma forma de ele dar feedback às respostas  | [US47](backlog.md#us47) | [EP06-Gamificação](backlog.md#ep06) |  |
-| RF42 |  Gerenciar e personalizar conta  | [US41](backlog.md#us41) | [EP05-Perfil](backlog.md#ep05) |  |
-| RF43 |  Recuperar senha  | [US14](backlog.md#us14) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF44 |  Cancelar conta  | [US15](backlog.md#us15) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF45 |  Alterar a região do sistema  | [US43](backlog.md#us43) | [EP05-Perfil](backlog.md#ep05) |  |
-| RF46 |  Login  | [US10](backlog.md#us10) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF47 |  Cadastro com email  | [US13](backlog.md#us13) | [EP02-Autenticação](backlog.md#ep02) |  |
-| RF48 |  Responder pergunta  | [US16](backlog.md#us16) | [EP03-Questões](backlog.md#ep03) |  |
+| RF1  |  O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável  | [US17](backlog.md#us17) | [EP03-Questões](backlog.md#ep03) |[IMG01](forward.md#img01) |
+| RF2  |  O usuário pode compartilhar questões da plataforma  | [US18](backlog.md#us18) | [EP03-Questões](backlog.md#ep03) | NOVO |
+| RF3  |  O feed das contribuições de um usuário pode ser visualizado em seu perfil  | [US42](backlog.md#us42) | [EP05-Perfil](backlog.md#ep05) | [IMG02](forward.md#img02) |
+| RF4  |  É possível se comunicar e retirar dúvidas nos comentários da própria questão.  | [US20](backlog.md#us20) | [EP03-Questões](backlog.md#ep03) | [IMG03](forward.md#img03) |
+| RF5  |  O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto.  | [US21](backlog.md#us21) | [EP03-Questões](backlog.md#ep03) | [IMG04](forward.md#img04) |
+| RF6  |  O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX  | [US22](backlog.md#us22) | [EP03-Questões](backlog.md#ep03) | [IMG05](forward.md#img05) |
+| RF7  |  O sistema deve fornecer recurso de highlight(destaque) para certas informações, como citações  | [US23](backlog.md#us23) | [EP03-Questões](backlog.md#ep03) | NOVO |
+| RF8  |  O sistema deve possibilitar a inserção adequada de código-fonte  | [US22](backlog.md#us22) | [EP03-Questões](backlog.md#ep03) | NOVO |
+| RF9  |  Deve ser possível moderar em múltiplas plataformas (web e mobile)  | [US49](backlog.md#us49) | [EP07-Multiplataforma](backlog.md#ep07) | NOVO |
+| RF10 |  As advertências dos usuários devem constar em seus perfis  | [US26](backlog.md#us26) | [EP05-Perfil](backlog.md#ep05) | [IMG06](forward.md#img06) |
+| RF11 |  Deve haver categorias de denúncias  | [US27](backlog.md#us27) | [EP04-Moderação](backlog.md#ep04) | [IMG07](forward.md#img07) |
+| RF12 |  Deve ser possível ao moderador filtrar o tipo de denúncia por categorias  | [US28](backlog.md#us28) | [EP04-Moderação](backlog.md#ep04) | [IMG08](forward.md#img08) |
+| RF13 |  Qualquer usuário deve ter a opção de realizar denúncias por modalidades de irregularidade  | [US29](backlog.md#us29) | [EP04-Moderação](backlog.md#ep04) | [IMG09](forward.md#img09) |
+| RF14 |  A plataforma deve dispor recursos de bot para realizar denúncias automáticas de irregularidades  | [US30](backlog.md#us30) | [EP04-Moderação](backlog.md#ep04) | NOVO |
+| RF15 |  Deve haver níveis entre moderadores, o que libera mais ou menos ferramentas de moderação  | [US31](backlog.md#us31) | [EP04-Moderação](backlog.md#ep04) | [IMG10](forward.md#img10) |
+| RF16 |  Os moderadores devem ter um canal de comunicação entre eles junto a administração  | [US32](backlog.md#us32) | [EP04-Moderação](backlog.md#ep04) | NOVO |
+| RF17 |  Deve ser possível aos moderadores visualizar o número de ações realizadas, dispostas em um ranking de moderadores  | [US33](backlog.md#us33) | [EP04-Moderação](backlog.md#ep04) | [IMG11](forward.md#img11) |
+| RF18 |  O moderador deve ter acesso a uma painel central que possibilite avaliar as denúncias realizadas  | [US34](backlog.md#us34) | [EP04-Moderação](backlog.md#ep04) | [IMG12](forward.md#img12) |
+| RF19 |  O moderador deve dispor de recurso para apagar questões, respostas e comentários  | [US35](backlog.md#us35) | [EP04-Moderação](backlog.md#ep04) | [IMG13](forward.md#img13) |
+| RF20 |  Deve ser possível ao moderador a exclusão de contas e o banimento do usuário  | [US36](backlog.md#us36) | [EP04-Moderação](backlog.md#ep04) | [IMG14](forward.md#img14) |
+| RF21 |  Após denúncia, o moderador poderá pedir a correção de uma atividade  | [US37](backlog.md#us37) | [EP04-Moderação](backlog.md#ep04) | [IMG15](forward.md#img15) |
+| RF22 |  O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade  | [US38](backlog.md#us38) | [EP04-Moderação](backlog.md#ep04) | [IMG16](forward.md#img16) |
+| RF23 |  O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades  | - | [EP04-Moderação](backlog.md#ep04) | [IMG17](forward.md#img17) |
+| RF24 |  O sistema deve oferecer a mesma experiência para usuários de diferentes plataformas  | - | [EP07-Multiplataforma](backlog.md#ep07) | NOVO |
+| RF25 |  A plataforma deve oferecer um meio para que o usuário entre em sua conta a partir de redes sociais  | [US11](backlog.md#us11) | [EP02-Autenticação](backlog.md#ep02) | [IMG18](forward.md#img18) |
+| RF26 |  Aumento de recompensa por bater um certo valor de pontos no software  | - | [EP06-Gamificação](backlog.md#ep06) | [IMG19](forward.md#img19) |
+| RF27 |  Ter diferentes versões, tanto web como mobile  | [US50](backlog.md#us50) | [EP07-Multiplataforma](backlog.md#ep07) | [IMG20](forward.md#img20) |
+| RF28 |  Um usuário no app pode seguir outro  | [US40](backlog.md#us40) | [EP05-Perfil](backlog.md#ep05) | NOVO |
+| RF29 |  Uma pergunta pode ter até duas respostas  | [US24](backlog.md#us24) | [EP03-Questões](backlog.md#ep03) | [IMG21](forward.md#img21) |
+| RF30 |  O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta  | - | [EP06-Gamificação](backlog.md#ep06) | [IMG22](forward.md#img22) |
+| RF31 |  O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível  | [US44](backlog.md#us44) | [EP06-Gamificação](backlog.md#ep06) | [IMG23](forward.md#img23) |
+| RF32 |  Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores  | [US45](backlog.md#us45) | [EP06-Gamificação](backlog.md#ep06) | [IMG24](forward.md#img24) |
+| RF33 |  Registro do usuário no sistema  | [US13](backlog.md#us13) | [EP02-Autenticação](backlog.md#ep02) | [IMG25](forward.md#img25) |
+| RF34 |  O usuário poderá ver perguntas e respondê-las  | [US25](backlog.md#us25) | [EP03-Questões](backlog.md#ep03) | [IMG26](forward.md#img26) |
+| RF35 |  A página tem um sistema de rolagem  | - | - | [IMG27](forward.md#img27) |
+| RF36 |  As perguntas podem ser categorizadas por matéria  | [US19](backlog.md#us19) | [EP03-Questões](backlog.md#ep03) | [IMG28](forward.md#img28) |
+| RF37 |  O sistema deve informar ao usuário realização de tarefas e pontuação  | [US46](backlog.md#us46) | [EP06-Gamificação](backlog.md#ep06) | [IMG29](forward.md#img29) |
+| RF38 |  O usuário poderá fazer perguntas  | - | [EP03-Questões](backlog.md#ep03) | [IMG30](forward.md#img30) |
+| RF39 |  O usuário poderá sair da sua conta  | [US39](backlog.md#us39) | [EP05-Perfil](backlog.md#ep05) | [IMG31](forward.md#img31) |
+| RF40 |  Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo  | [US12](backlog.md#us12) | [EP02-Autenticação](backlog.md#ep02) | [IMG32](forward.md#img32) |
+| RF41 |  O sistema deve oferecer ao usuário uma forma de ele dar feedback às respostas  | [US47](backlog.md#us47) | [EP06-Gamificação](backlog.md#ep06) | [IMG33](forward.md#img33) |
+| RF42 |  Gerenciar e personalizar conta  | [US41](backlog.md#us41) | [EP05-Perfil](backlog.md#ep05) | [IMG34](forward.md#img34) |
+| RF43 |  Recuperar senha  | [US14](backlog.md#us14) | [EP02-Autenticação](backlog.md#ep02) | [IMG35](forward.md#img35) |
+| RF44 |  Cancelar conta  | [US15](backlog.md#us15) | [EP02-Autenticação](backlog.md#ep02) | NOVO |
+| RF45 |  Alterar a região do sistema  | [US43](backlog.md#us43) | [EP05-Perfil](backlog.md#ep05) | NOVO |
+| RF46 |  Login  | [US10](backlog.md#us10) | [EP02-Autenticação](backlog.md#ep02) | [IMG36](forward.md#img36) |
+| RF47 |  Cadastro com email  | [US13](backlog.md#us13) | [EP02-Autenticação](backlog.md#ep02) | [IMG37](forward.md#img37) |
+| RF48 |  Responder pergunta  | [US16](backlog.md#us16) | [EP03-Questões](backlog.md#ep03) | [IMG38](forward.md#img38) |
 
 
 
@@ -95,229 +96,234 @@
 
 ## IMG01
 
-| Imagem |
+| RF1 - anexar arquivos de vários formatos às minhas perguntas |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG1.png)|
 
 ## IMG02
 
-| Imagem |
+| RF3 - visualizar feed de contribuições feitas para a plataforma |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG3.gif)|
 
 ## IMG03
 
-| Imagem |
+| RF4 - retirar dúvidas nos comentários da questão |
 |:--:|
-|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG5.gif)|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG4.gif)|
+
 
 ## IMG04
 
-| Imagem |
+| RF5 - Disponibilizar negrito, itálico, sublinhado e diferentes tamanhos de texto. |
 |:--:|
-|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG6.gif)|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG5.gif)|
 
 ## IMG05
 
-| Imagem |
+| RF6 - O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX |
 |:--:|
-|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG10.png)|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG6.gif)|
 
 ## IMG06
 
-| Imagem |
+| RF10 - ver as advertências de um usuário na página de seu perfil |
 |:--:|
-|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG11_13.gif)|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG10.png)|
 
 ## IMG07
 
-| Imagem |
+| RF11 - visualizar as denúncias separadas por categorias |
 |:--:|
-|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG12.gif)|
-
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG11_13.gif)|
 
 ## IMG08
 
-| Imagem |
+| RF12 - filtrar o tipo de denúncia para moderação |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG12.gif)|
+
+## IMG09
+
+| RF13 - denunciar irregularidades por parte do usuário |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG11_13.gif)|
 
 
-## IMG09
+## IMG10
 
-| Imagem |
+| RF15 - Deve haver níveis entre moderadores, o que libera mais ou menos ferramentas de moderação |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG15.gif)|
 
-## IMG10
+## IMG11
 
-| Imagem |
+| RF17 - Deve haver o número de ações e um ranking de moderadores |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG17.gif)|
 
-## IMG11
+## IMG12
 
-| Imagem |
+| RF18 - O moderador deve ter acesso a uma painel central que possibilite avaliar as denúncias realizadas |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG18.gif)|
 
-## IMG12
+## IMG13
 
-| Imagem |
+| RF19 - O moderador deve dispor de recurso para apagar questões, respostas e comentários |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG19.gif)|
 
+## IMG14
 
-## IMG13
-
-| Imagem |
+| RF20 - Deve ser possível ao moderador a exclusão de contas e o banimento do usuário |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG20.gif)|
 
-## IMG14
+## IMG15
 
-| Imagem |
+| RF21 - Após denúncia, o moderador poderá pedir a correção de uma atividade |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG21.gif)|
 
 
-## IMG15
+## IMG16
 
-| Imagem |
+| RF22 - O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG22.gif)|
 
 
-## IMG16
+## IMG17
 
-| Imagem |
+| RF23 - O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG23.gif)|
 
 
-## IMG17
+## IMG18
 
-| Imagem |
+| RF25 - A plataforma deve oferecer um meio para que o usuário entre em sua conta a partir de redes sociais |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG25.png)|
 
-## IMG18
+## IMG19
 
-| Imagem |
+| RF26 - Aumento de recompensa por bater um certo valor de pontos no software |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG26.gif)|
 
-## IMG19
+## IMG20
 
 | Mobile | Web |
 |:--:|:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG27_2.jpg)| ![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG27_1.png) |
 
-## IMG20
+## IMG21
 
-| Imagem |
+| RF29 - Uma pergunta pode ter até duas respostas |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG29.png)|
 
 
-## IMG21
+## IMG22
 
-| Imagem |
+| RF30 - O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG30.png)|
 
-## IMG22
+## IMG23
 
-| Imagem |
+| RF31 - O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG31.png)|
 
-## IMG23
+## IMG24
 
-| Imagem |
+| RF32 - Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG32.gif)|
 
-## IMG24
+## IMG25
 
-| Imagem |
+| RF33 - Registro do usuário no sistema |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG33.png)|
 
-## IMG25
+## IMG26
 
-| Imagem |
+| RF34 - O usuário poderá ver perguntas e respondê-las |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG34.gif)|
 
-## IMG26
+## IMG27
 
-| Imagem |
+| RF35 - A página tem um sistema de rolagem |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG35.png)|
 
-## IMG27
+## IMG28
 
-| Imagem |
+| RF36 - As perguntas podem ser categorizadas por matéria |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG36.gif)|
 
-## IMG28
+## IMG29
 
-| Imagem |
+| RF37 - O sistema deve informar ao usuário realização de tarefas e pontuação |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG37.gif)|
 
-## IMG29
+## IMG30
 
-| Imagem |
+| RF38 - O usuário poderá fazer perguntas |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG38.gif)|
 
-## IMG30
+## IMG31
 
-| Imagem |
+| RF39 - O usuário poderá sair da sua conta |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG39.png)|
 
-## IMG31
+## IMG32
 
-| Imagem |
+| RF40 - Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG40.gif)|
 
-## IMG32
+## IMG33
 
-| Imagem |
+| RF41 - Realizar comentários nas respostas |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG41.gif)|
 
-## IMG33
+## IMG34
 
-| Imagem |
+| RF42 - Gerenciar e personalizar conta |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG42.gif)|
 
-## IMG34
+## IMG35
 
-| Imagem |
+| RF43 - Recuperar senha |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG43.png)|
 
-## IMG35
+## IMG36
 
-| Imagem |
+| RF46 - Login |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG46.gif)|
 
-## IMG36
+## IMG37
 
-| Imagem |
+| RF47 - Cadastro com email |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG47.gif)|
 
-## IMG37
+## IMG38
 
-| Imagem |
+| RF48 - Responder pergunta |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG48.gif)|
