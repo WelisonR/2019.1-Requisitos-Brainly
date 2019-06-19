@@ -10,6 +10,7 @@
 |  1.3   | 16/06/2019 | Preenchimento das operacionalizações na tabela | André Pinto, Leonardo Medeiros, João Matheus |
 |  1.4   | 16/06/2019 | Link para US, EP e NFR | André Pinto, Leonardo Medeiros, João Matheus |
 |  1.5   | 16/06/2019 | Link específico para US, EP e NFR | Paulo Vitor Rocha |
+|  1.6   | 18/06/2019 | Adiciona GIFs e imagens das funcionalidades (RF1 - RF48) | Welison Regis |
 
 
 ## Tabela de Requisitos funcionais
@@ -90,3 +91,233 @@
 |  RNF17| Apagar perguntas que estão sem respostas por muito tempo | [NFR-Desempenho](nfr.md#nfr04) |  "Apagar perguntas sem resposta periodicamente".|  |
 |RNF18  |Atualizar automaticamente as plataformas mobile  |[NFR-Suportabilidade](nfr.md#nfr02)  | "Disponibilizar atualização" |  |
 | RNF19 |Cobrar por assinatura de serviços  | - | - |  |
+
+
+## IMG01
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG1.png)|
+
+## IMG02
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG3.gif)|
+
+## IMG03
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG5.gif)|
+
+## IMG04
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG6.gif)|
+
+## IMG05
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG10.png)|
+
+## IMG06
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG11_13.gif)|
+
+## IMG07
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG12.gif)|
+
+
+## IMG08
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG11_13.gif)|
+
+
+## IMG09
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG15.gif)|
+
+## IMG10
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG17.gif)|
+
+## IMG11
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG18.gif)|
+
+## IMG12
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG19.gif)|
+
+
+## IMG13
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG20.gif)|
+
+## IMG14
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG21.gif)|
+
+
+## IMG15
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG22.gif)|
+
+
+## IMG16
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG23.gif)|
+
+
+## IMG17
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG25.png)|
+
+## IMG18
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG26.gif)|
+
+## IMG19
+
+| Mobile | Web |
+|:--:|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG27_2.jpg)| ![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG27_1.png) |
+
+## IMG20
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG29.png)|
+
+
+## IMG21
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG30.png)|
+
+## IMG22
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG31.png)|
+
+## IMG23
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG32.gif)|
+
+## IMG24
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG33.png)|
+
+## IMG25
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG34.gif)|
+
+## IMG26
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG35.png)|
+
+## IMG27
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG36.gif)|
+
+## IMG28
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG37.gif)|
+
+## IMG29
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG38.gif)|
+
+## IMG30
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG39.png)|
+
+## IMG31
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG40.gif)|
+
+## IMG32
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG41.gif)|
+
+## IMG33
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG42.gif)|
+
+## IMG34
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG43.png)|
+
+## IMG35
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG46.gif)|
+
+## IMG36
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG47.gif)|
+
+## IMG37
+
+| Imagem |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG48.gif)|

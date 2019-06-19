@@ -6,7 +6,37 @@
 | :----: | :--------: | :------------------------------------------------------: | :-------------------------------: |
 |  1.0   | 16/06/2019 | Adicionar Backward-From dos requisitos não funcionais    | João Rodrigues, Paulo Vitor Rocha |
 |  1.1   | 18/06/2019 | Matriz de requisitos funcionais                          | João Rossi |
+<<<<<<< HEAD
 |  1.2   | 19/06/2019 | Complementar Backward-From dos requisitos não funcionais | João Rodrigues, Paulo Vitor Rocha, Lieverton Silva |
+|  1.3   | 19/06/2019  | Adicionar legendas                                       | João Rodrigues |
+
+## Legenda
+
+### Elicitação
+
+| Código |     Significado      |
+| :----: | :------------------: |
+|   AP   | Análise de Protocolo |
+|   BR   |     Brainstorming    |
+|   EN   |      Entrevista      |
+|   INT  |     Introspecção     |
+|   OBS  |      Observação      |
+|   ST   |     Storytelling     |
+|   QS   |     Questionário     |
+ 
+### Modelagem
+
+| Código |        Significado        |
+| :----: | :-----------------------: |
+|    C   |          Cenário          |
+|    L   |          Léxico           |
+|   UC   |       Casos de Uso        |
+|    E   | Especificação Suplementar |
+|   EP   |           Épico           |
+|   US   |         User Story        |
+|   NFR  |       NFR Framework       |
+|   ISR  |           iStar           |
+>>>>>>> ac7315ed480eb80b44bbac268a422656255839e4
 
 
 ## Requisitos Não Funcionais
@@ -34,7 +64,7 @@
 | RNF19  | Cobrar por assinatura de serviços | - | [BR 2.18](brainstorm.md) | - |
 
 
-# Tabela de requisitos funcionais
+## Requisitos Funcionais
 
 | Código |   Descrição   |   Fonte   |  Elicitação  |  Modelagem  |
 | :----: | :-----------: | :----: | :-----: | :--------------: |
