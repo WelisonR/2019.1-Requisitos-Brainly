@@ -11,6 +11,7 @@
 |  1.4   | 16/06/2019 | Link para US, EP e NFR | André Pinto, Leonardo Medeiros, João Matheus |
 |  1.5   | 16/06/2019 | Link específico para US, EP e NFR | Paulo Vitor Rocha |
 |  1.6   | 18/06/2019 | Adiciona GIFs e imagens das funcionalidades (RF1 - RF48) | Welison Regis |
+|  1.6   | 18/06/2019 | Adiciona GIFs e imagens dos requisitos não funcionais (RNF1 - RNF15) | Gustavo Marques |
 
 
 ## Tabela de Requisitos funcionais
@@ -72,21 +73,21 @@
 
 | Código |   Descrição   |   NFR  |  Operacionalizações  |  Funcionalidade  |
 | :----: |    :--------------: | :----: | :-----: | :--------------: |
-|RNF1  |  A ferramenta que possibilita respostas deve ser consistente entre as plataformas| [NFR-Suportabilidade](nfr.md#nfr02) | "Disponibilizar plataformas semelhantes". |  |
-|RNF2  |A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil  | [NFR-Confiabilidade](nfr.md#nfr01) | "Ter vários usuários frequentes na plataforma";"Fazer propagandas para atrair usuários";"Aplicar gamificação";"Enviar notificações". |  |
-|  RNF3| Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma | - | - |  |
+|RNF1  |  A ferramenta que possibilita respostas deve ser consistente entre as plataformas| [NFR-Suportabilidade](nfr.md#nfr02) | "Disponibilizar plataformas semelhantes". |[IMG38](#IMG38), [IMG39](#IMG39)|
+|RNF2  |A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil  | [NFR-Confiabilidade](nfr.md#nfr01) | "Ter vários usuários frequentes na plataforma";"Fazer propagandas para atrair usuários";"Aplicar gamificação";"Enviar notificações". |  [IMG40](#IMG40), [IMG41](#IMG41) |
+|  RNF3| Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma | - | - | [IMG42](#IMG42) |
 |RNF4  |  Os moderadores devem conscientizar os usuários sobre as políticas de conduta da plataforma|[NFR-Suporte ao usuário](nfr.md#nfr03)  | "Disseminar práticas recomendadas";"Disponibilizar a política de privacidade";"Disponibilizar a política de cookies";"Disponibilizar o regulamento"; |  |
 | RNF5 | Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma |[NFR-Confiabilidade](nfr.md#nfr01)  | "Administradores dão advertências ou punições";"Moderadores dão advertências ou punições";"Usuários denunciam perguntas e respostas". |  |
-| RNF6 | A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários |[NFR-Usabilidade](nfr.md#nfr05)  |"Dar suporte aos usuários";"Ter uma seção Fale Conosco";"Disponibilizar um tutorial";"Disponibiizar Documentação".  |  |
-|RNF7  | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | - | - |  |
-| RNF8 | Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização | [NFR-Confiabilidade](nfr.md#nfr01) | "Adicionar anúncios na plataforma";"Ter patrocinadores";"Vender dados". |  |
-|  RNF9| O cadastro na plataforma deve ocorrer de uma maneira rápida e prática |[NFR-Usabilidade](nfr.md#nfr05)  |"Cadastrar por meio de redes sociais";"Cadastrar via facebook";"Requisitar apenas informações úteis para o funcionamento do sistema".  |  |
-|  RNF10|O sistema poderia ter um sistema de tutorial mais rápido com menos passos  | - | - |  |
+| RNF6 | A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários |[NFR-Usabilidade](nfr.md#nfr05)  |"Dar suporte aos usuários";"Ter uma seção Fale Conosco";"Disponibilizar um tutorial";"Disponibiizar Documentação".  | [IMG43](#IMG43) |
+|RNF7  | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | - | - | [IMG44](#IMG44) |
+| RNF8 | Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização | [NFR-Confiabilidade](nfr.md#nfr01) | "Adicionar anúncios na plataforma";"Ter patrocinadores";"Vender dados". | [IMG45](#IMG45) |
+|  RNF9| O cadastro na plataforma deve ocorrer de uma maneira rápida e prática |[NFR-Usabilidade](nfr.md#nfr05)  |"Cadastrar por meio de redes sociais";"Cadastrar via facebook";"Requisitar apenas informações úteis para o funcionamento do sistema".  | [IMG46](#IMG46) |
+|  RNF10|O sistema poderia ter um sistema de tutorial mais rápido com menos passos  | - | - | [IMG47](#IMG47) |
 |RNF11  | Possuir idade mínima (13) para se registrar na plataforma |  [NFR-Confiabilidade](nfr.md#nfr01)|  "Requerer consentimento dos responsáveis para cadastro de usuários com menos de 13 anos"|  |
-|RNF12  | Não utilizar informações de pessoas menores de 16 anos sem autorização |[NFR-Confiabilidade](nfr.md#nfr01)  |"Requerer consentimento dos responsáveis para utilizar dados de usuários com menos de 16 anos"  |  |
-| RNF13 |  Possuir medidas de segurança para proteção de dados (não especificada pelo site)| - | - |  |
-| RNF14 |  Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia| - | - |  |
-|RNF15  | Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços | - | - |  |
+|RNF12  | Não utilizar informações de pessoas menores de 16 anos sem autorização |[NFR-Confiabilidade](nfr.md#nfr01)  |"Requerer consentimento dos responsáveis para utilizar dados de usuários com menos de 16 anos"  | [IMG48](#IMG48), [Políticas de privacidade](https://brainly.com.br/pages/privacy_policy) |
+| RNF13 |  Possuir medidas de segurança para proteção de dados (não especificada pelo site)| - | - | [IMG49](#IMG49) |
+| RNF14 |  Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia| - | - | [IMG50](#IMG50),  [Regulamento Braily](https://brainly.com.br/pages/regulamento)|
+|RNF15  | Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços | - | - |  [IMG50](#IMG51) [Políticas de privacidade](https://brainly.com.br/pages/privacy_policy) |
 | RNF16 | Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing | [NFR-Confiabilidade](nfr.md#nfr01) |  | "Solicitar permissão para utilizar os dados do usuário";"Usar dados para publicidade e marketing". |
 |  RNF17| Apagar perguntas que estão sem respostas por muito tempo | [NFR-Desempenho](nfr.md#nfr04) |  "Apagar perguntas sem resposta periodicamente".|  |
 |RNF18  |Atualizar automaticamente as plataformas mobile  |[NFR-Suportabilidade](nfr.md#nfr02)  | "Disponibilizar atualização" |  |
@@ -321,3 +322,87 @@
 | Imagem |
 |:--:|
 |![Imagem](./images/pos_rastreabilidade/forward_funcionais/IMG48.gif)|
+
+## IMG38
+
+| RNF1 -A ferramenta que possibilita respostas deve ser consistente entre as plataformas - Web |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF1_PC.gif)|
+
+## IMG39
+
+| RNF1 -A ferramenta que possibilita respostas deve ser consistente entre as plataformas - Celular |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF1_PHONE.gif)|
+
+## IMG40
+
+| RNF2 -A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil - Web |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF2_PC.gif)|
+
+## IMG41
+
+| RNF2 -A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil - Celular |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF2_PHONE.gif)|
+
+## IMG42
+
+| RNF4 -Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma|
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF4.gif)|
+
+## IMG43
+
+| RNF6 -A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários	|
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF6.gif)|
+
+## IMG44
+
+| RNF7 -O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados		|
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF7.gif)|
+
+## IMG45
+
+| RNF8 -Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização|
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF8.png)|
+
+## IMG46 
+
+| RNF9 -O cadastro na plataforma deve ocorrer de uma maneira rápida e prática|
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF9.gif)|
+
+## IMG47
+
+| RNF10 - O sistema poderia ter um sistema de tutorial mais rápido com menos passos |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF10.gif)|
+
+## IMG48
+
+| RNF12 - Não utilizar informações de pessoas menores de 16 anos sem autorização	 |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF12.gif)|
+
+## IMG49
+
+| RNF13 - Possuir medidas de segurança para proteção de dados (não especificada pelo site) |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF13.jpg)|
+
+## IMG50
+
+| RNF14 - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF14.jpg)|
+
+## IMG51
+
+| RNF15 - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços |
+|:--:|
+|![Imagem](./images/pos_rastreabilidade/forward_nao_funcionais/RNF15.jpg)|
