@@ -5,7 +5,7 @@
 | Versão |   Data    |            Modificação             |       Autor        |
 | :----: | :-------: | :--------------------------------: | :----------------: |
 |  1.0   | 16/06/2019 | Preenchimento código e descrição dos requisitos | João Matheus, Paulo Vitor Rocha |
-|  1.1   | 18/06/2019 | Tabela de requisitos funcionais | João Rossi |
+|  1.1   | 18/06/2019 | Matriz de requisitos funcionais | João Rossi |
 
 
 # Tabela de requisitos não-funcionais
