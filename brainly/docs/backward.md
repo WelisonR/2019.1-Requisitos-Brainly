@@ -5,6 +5,7 @@
 | Versão |   Data    |            Modificação             |       Autor        |
 | :----: | :-------: | :--------------------------------: | :----------------: |
 |  1.0   | 16/06/2019 | Preenchimento código e descrição dos requisitos | João Matheus, Paulo Vitor Rocha |
+|  1.1   | 18/06/2019 | Tabela de requisitos funcionais | João Rossi |
 
 
 # Tabela de requisitos não-funcionais
@@ -30,3 +31,61 @@
 |    RNF17    |       Apagar perguntas que estão sem respostas por muito tempo        |    [Regulamento do Brainly](https://brainly.com.br/pages/regulamento)    |    [BR 2.15](brainstorm.md)     |         [L12510](lexicos10x5f8c4.md#l12510), [L12519](lexicos10x5f8c4.md#l12519), [ES - Desempenho](especificacao_suplementar.md#desempenho)         |
 |    RNF18    |       Atualizar automaticamente as plataformas mobile        |    -    |    [BR 2.16](brainstorm.md)     |         [ES - Confiabilidade](especificacao_suplementar.md#confiabilidade),  [ES - Suportability](especificacao_suplementar.md#suportabilidade)        |
 |    RNF19    |       Cobrar por assinatura de serviços        |    -    |    [BR 2.18](brainstorm.md)     |         -         |
+
+
+# Tabela de requisitos funcionais
+
+| Código |   Descrição   |   Fonte   |  Elicitação  |  Modelagem  |
+| :----: | :-----------: | :----: | :-----: | :--------------: |
+| RF1 | O sistema deve suportar diversos formatos de anexos que ocupem um espaço razoável |  | [INT 1.1](introspeccao.md#necessidades-tecnicas), [INT 3.10](introspeccao.md#requisitos-elicitados), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly) |  |
+| RF2 | O usuário pode compartilhar questões da plataforma |  | [BR 1.24](brainstorm.md#tabela-de-requisitos-funcionais), [INT 1.3](introspeccao.md#necessidades-sociais),  [INT 3.4](introspeccao.md#requisitos-elicitados) |  |
+| RF3 | O feed das contribuições de um usuário pode ser visualizado em seu perfil |  | [INT 1.4](introspeccao.md#necessidades-sociais) |  |
+| RF4 | É possível se comunicar e retirar dúvidas nos comentários da própria questão. |  |  [BR 1.8](brainstorm.md#tabela-de-requisitos-funcionais), [INT 1.5](introspeccao.md#necessidades-sociais) |  |
+| RF5 | O sistema deve fornecer recursos de escrita, como: negrito, itálico, sublinhado, diferentes tamanhos de texto. |  | [INT 1.6](introspeccao.md#necessidades-individuais),[RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF6 | O sistema deve facilitar a inserção de símbolos matemáticos, assim como textos em LaTeX |  | [INT 1.7](introspeccao.md#necessidades-individuais),[RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF7 | O sistema deve fornecer recurso de highlight(destaque) para certas informações, como citações |  | [INT 1.8](introspeccao.md#necessidades-individuais),[RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF8 | O sistema deve possibilitar a inserção adequada de código-fonte |  | [INT 1.9](introspeccao.md#necessidades-individuais),[RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF9 | Deve ser possível moderar em múltiplas plataformas (web e mobile) |  | [INT 2.1](introspeccao.md#necessidades-tecnicas_1) |  |
+| RF10 | As advertências dos usuários devem constar em seus perfis |  | [INT 2.2](introspeccao.md#necessidades-tecnicas_1) |  |
+| RF11 | Deve haver categorias de denúncias |  | [INT 2.3](introspeccao.md#necessidades-tecnicas_1), [AP 4.1](analise_protocolo.md#requisitos-elicitados_3) |  |    
+| RF12 | Deve ser possível ao moderador filtrar o tipo de denúncia por categorias |  | [INT 2.4](introspeccao.md#necessidades-tecnicas_1), [AP 4.1](analise_protocolo.md#requisitos-elicitados_3) |  |
+| RF13 | Qualquer usuário deve ter a opção de realizar denúncias por modalidades de irregularidade |  | [INT 2.5](introspeccao.md#necessidades-tecnicas_1), [BR 1.7](brainstorm.md#tabela-de-requisitos-funcionais), [INT 3.8](introspeccao.md#requisitos-elicitados), [OBS 1.14](observacao.md#tabela-de-requisitos), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF14 | A plataforma deve dispor recursos de bot para realizar denúncias automáticas de irregularidades |  | [EN3.2](entrevista.md#entrevista-com-usuario-senior-1), [INT 2.6](introspeccao.md#necessidades-tecnicas_1), [INT 3.2](introspeccao.md#requisitos-elicitados) |  |
+| RF15 | Deve haver níveis entre moderadores, o que libera mais ou menos ferramentas de moderação |  | [INT 2.8](introspeccao.md#necessidades-sociais_1) |  |
+| RF16 | Os moderadores devem ter um canal de comunicação entre eles junto a administração |  | [INT 2.11](introspeccao.md#necessidades-sociais_1) |  |
+| RF17 | Deve ser possível aos moderadores visualizar o número de ações realizadas, dispostas em um ranking de moderadores |  |  [INT 2.12](introspeccao.md#necessidades-sociais_1) |  |
+| RF18 | O moderador deve ter acesso a uma painel central que possibilite avaliar as denúncias realizadas |  | [INT 2.13](introspeccao.md#necessidades-sociais_1), [INT 3.2](introspeccao.md#requisitos-elicitados), [EN3.2](entrevista.md#entrevista-com-usuario-senior-1) |  |
+| RF19 | O moderador deve dispor de recurso para apagar questões, respostas e comentários |  | [INT 2.14](introspeccao.md#necessidades-sociais_1), [INT 3.2](introspeccao.md#requisitos-elicitados), [EN3.2](entrevista.md#entrevista-com-usuario-senior-1), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas), [BR 1.1](brainstorm.md#tabela-de-requisitos-funcionais) |  |
+| RF20 | Deve ser possível ao moderador a exclusão de contas e o banimento do usuário |  | [BR 1.1](brainstorm.md#tabela-de-requisitos-funcionais), [INT 2.15](introspeccao.md#necessidades-sociais_1), [INT 3.2](introspeccao.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly) |  |
+| RF21 | Após denúncia, o moderador poderá pedir a correção de uma atividade |  | [INT 2.16](introspeccao.md#necessidades-sociais_1), [INT 3.2](introspeccao.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly) |  |
+| RF22 | O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade |  | [BR 1.1](brainstorm.md#tabela-de-requisitos-funcionais), [INT 2.17](introspeccao.md#necessidades-sociais_1), [INT 3.2](introspeccao.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly) |  |
+| RF23 | O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades |  |  [INT 2.18](introspeccao.md#necessidades-sociais_1), [INT 3.2](introspeccao.md#requisitos-elicitados) |  |
+| RF24 | O sistema deve oferecer a mesma experiência para usuários de diferentes plataformas |  | [EN1.2](entrevista.md#entrevista-com-usuario-junior-1), [INT 3.3](introspeccao.md#requisitos-elicitados), [OBS 1.15](observacao.md#tabela-de-requisitos), [ST 1.1](storytelling.md#requisitos-elicitados), [RP Plataformas](rich_picture.md#richpicture-plataformas) |  |
+| RF25 | A plataforma deve oferecer um meio para que o usuário entre em sua conta a partir de redes sociais |  | [BR 1.12](brainstorm.md#tabela-de-requisitos-funcionais), [INT 3.5](introspeccao.md#requisitos-elicitados), [AP 1.2](analise_protocolo.md#requisitos-elicitados) |  |
+| RF26 | Aumento de recompensa por bater um certo valor de pontos no software |  | [OBS 1.7](observacao.md#tabela-de-requisitos), [RP Gamificação](rich_picture.md#richpicture-gamificacao) |  |
+| RF27 | Ter diferentes versões, tanto web como mobile |  | [EN1.2](entrevista.md#entrevista-com-usuario-junior-1), [INT 3.11](introspeccao.md#requisitos-elicitados), [OBS 1.15](observacao.md#tabela-de-requisitos), [ST 1.1](storytelling.md#requisitos-elicitados), [RP Plataformas](rich_picture.md#richpicture-plataformas) |  |
+| RF28 | Um usuário no app pode seguir outro |  | [BR 1.2](brainstorm.md#tabela-de-requisitos-funcionais), [BR 1.3](brainstorm.md#tabela-de-requisitos-funcionais), [EN2.1](entrevista.md#entrevista-com-usuario-junior-2), [EN2.2](entrevista.md#entrevista-com-usuario-junior-2) |  |
+| RF29 | Uma pergunta pode ter até duas respostas |  | [BR 1.21](brainstorm.md#tabela-de-requisitos-funcionais), [EN2.3](entrevista.md#entrevista-com-usuario-junior-2) |  |
+| RF30 | O usuário ganha pontos ao responder e paga com pontos para fazer uma pergunta |  | [EN1.1](entrevista.md#entrevista-com-usuario-junior-1), [EN2.4](entrevista.md#entrevista-com-usuario-junior-2), [OBS 1.7](observacao.md#tabela-de-requisitos), [AP 1.10](analise_protocolo.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [ST 2.2](storytelling.md#requisitos-elicitados_1), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas), [RP Gamificação](rich_picture.md#richpicture-gamificacao) |  |
+| RF31 | O usuário ao bater uma pontuação e quantidade de melhor resposta ele sobe de nível |  | [EN2.5](entrevista.md#entrevista-com-usuario-junior-2), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Gamificação](rich_picture.md#richpicture-gamificacao) |  |
+| RF32 | Os usuários com melhor pontuação ficam em uma lista e ganham pontos por serem os melhores |  | [EN2.6](entrevista.md#entrevista-com-usuario-junior-2), [OBS 1.12](observacao.md#tabela-de-requisitos), [AP 1.7](analise_protocolo.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Gamificação](rich_picture.md#richpicture-gamificacao) |  |
+| RF33 | Registro do usuário no sistema |  | [BR 1.12](brainstorm.md#tabela-de-requisitos-funcionais), [AP 1.1](analise_protocolo.md#requisitos-elicitados), [AP 3.3](analise_protocolo.md#requisitos-elicitados_2), [RP Primeiros Passos de Novo Usuário Não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |  |
+| RF34 | O usuário poderá ver perguntas e respondê-las |  | [BR 1.5](brainstorm.md#tabela-de-requisitos-funcionais), [ST 2.1](storytelling.md#requisitos-elicitados_1), [AP 1.3](analise_protocolo.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF35 | A página tem um sistema de rolagem |  | [AP 1.4](analise_protocolo.md#requisitos-elicitados) |  |
+| RF36 | As perguntas podem ser categorizadas por matéria |  | [AP 1.5](analise_protocolo.md#requisitos-elicitados), [AP 2.2](analise_protocolo.md#requisitos-elicitados_1), [OBS 1.6](observacao.md#tabela-de-requisitos), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF37 | O sistema deve informar ao usuário realização de tarefas e pontuação |  | [BR 1.18](brainstorm.md#tabela-de-requisitos-funcionais), [AP 1.6](analise_protocolo.md#requisitos-elicitados) |  |
+| RF38 | O usuário poderá fazer perguntas |  | [BR 1.4](brainstorm.md#tabela-de-requisitos-funcionais), [AP 1.6](analise_protocolo.md#requisitos-elicitados), [AP 3.1](analise_protocolo.md#requisitos-elicitados_2), [OBS 1.4](observacao.md#tabela-de-requisitos), [ST 2.1](storytelling.md#requisitos-elicitados_1), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas), [RP Primeiros Passos de Novo Usuário Não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado), [RP Primeiros Passos de Novo Usuário Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-cadastrado), [RP Gamificação](rich_picture.md#richpicture-gamificacao) |  |
+| RF39 | O usuário poderá sair da sua conta |  | [AP 1.12](analise_protocolo.md#requisitos-elicitados)  |  |
+| RF40 | Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo |  | [AP 1.13](analise_protocolo.md#requisitos-elicitados) |  |
+| RF41 | O sistema deve oferecer ao usuário uma forma de ele dar feedback às respostas |  | [BR 1.6](brainstorm.md#tabela-de-requisitos-funcionais), [BR 1.8](brainstorm.md#tabela-de-requisitos-funcionais),  [AP 3.2](analise_protocolo.md#requisitos-elicitados_2), [OBS 1.9](observacao.md#tabela-de-requisitos), [OBS 1.10](observacao.md#tabela-de-requisitos), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |  |
+| RF42 | Gerenciar e personalizar conta |  | [BR 1.13](brainstorm.md#tabela-de-requisitos-funcionais) |  |
+| RF43 | Recuperar senha |  | [BR 1.14](brainstorm.md#tabela-de-requisitos-funcionais) |  |
+| RF44 | Cancelar conta |  | [BR 1.15](brainstorm.md#tabela-de-requisitos-funcionais), [BR 1.16](brainstorm.md#tabela-de-requisitos-funcionais) |  |
+| RF45 | Alterar a região do sistema |  | [BR 1.25](brainstorm.md#tabela-de-requisitos-funcionais) |  |
+| RF46 | Login |  | [AP 1.2](analise_protocolo.md#requisitos-elicitados), [INT 3.5](introspeccao.md#requisitos-elicitados) |  |
+| RF47 | Cadastro com email |  | [BR 1.2](brainstorm.md#tabela-de-requisitos-funcionais), [AP 1.1](analise_protocolo.md#requisitos-elicitados), [AP 3.3](analise_protocolo.md#requisitos-elicitados_2) |  |
+| RF48 | Responder pergunta |  | [BR 1.5](brainstorm.md#tabela-de-requisitos-funcionais), [ST 2.1](storytelling.md#requisitos-elicitados_1), [AP 1.3](analise_protocolo.md#requisitos-elicitados), [RP Visão Geral](rich_picture.md#rich-picture-visao-geral-brainly), [RP Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas), [RP Gamificação](rich_picture.md#richpicture-gamificacao) |  |
+
+
+
+
