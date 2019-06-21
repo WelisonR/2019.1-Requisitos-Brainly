@@ -19,7 +19,7 @@
 |    1.12  | 29/05/2019 | Adição da versão 2.0 do I* de gamificação | Gustavo Marques, Ivan Diniz Dobbin |
 |    2.0  | 21/06/2019 | Adição da versão 5.0 do diagrama de dependências gerais | Gustavo Marques, André Pinto |
 |    2.1  | 21/06/2019 | Adição da versão 2.0 do diagrama de pergunta | Gustavo Marques, André Pinto |
-
+|    2.2  | 21/06/2019 | Adição da versão 2.0 do diagrama de resposta | Gustavo Marques, André Pinto |
 
 
 # Introdução
@@ -78,8 +78,10 @@ Modelagens Associadas: [**Casos de uso de perguntas e respostas**](./casos_uso_p
 Modelagens Associadas: [**Casos de uso de perguntas e respostas**](./casos_uso_perguntas_respostas.md), [EP03](./backlog.md#ep03), [US16](./backlog.md#us16), [US17](./backlog.md#us17), [US18](./backlog.md#us18), [US19](./backlog.md#us19), [US20](./backlog.md#us20), [US21](./backlog.md#us21), [US22](./backlog.md#us22), [US23](./backlog.md#us23), [US24](./backlog.md#us24), [US25](./backlog.md#us25).
 
 ## Realizar resposta v1.0
+![I* Realizar Resposta 1](images/i_star/i_star_realizar_resposta_v1.png)
 
-![I* Realizar Resposta](images/i_star/i_star_realizar_resposta.png)
+## Realizar resposta v2.0
+![I* Realizar Resposta 2](images/i_star/i_star_realizar_resposta_v2.png)
 
 # ISR04
 
@@ -91,7 +93,7 @@ Modelagens Associadas: [EP04](./backlog.md#ep04), [US26](./backlog.md#us26), [US
 
 ## Moderação - Qualidade de conteúdo v2.0
 
-![Qualidade de conteúdo2](images/i_star/istar_moderadores_V2.png)
+![Qualidade de conteúdo 2](images/i_star/istar_moderadores_V2.png)
 
 # ISR05
 Modelagens Associadas: [**Casos de uso de gamificação**](./casos_uso_perguntas_respostas.md), [EP06](./backlog.md#ep06), [US44](./backlog.md#us44), [US45](./backlog.md#us45),  [US46](./backlog.md#us46), [US47](./backlog.md#us47), [US48](./backlog.md#us48).
