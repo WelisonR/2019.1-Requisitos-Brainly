@@ -4,17 +4,18 @@
 ##Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 08/04/2019 | Introdução e Introspecção 1 | Welison Regis |
-| 1.1 | 09/04/2019 | Introspecção 2 | Welison Regis |
-| 1.2 | 09/04/2019 | Introspecção 3 e MoSCoW | André Pinto |
-| 1.3 | 10/04/ 2019 | Aplicação de MoSCoW nos requisitos | Welison Regis |
-| 1.4 | 16/04/2019 | Introspecção 1 e 2 (v2) após feedback pessoal | Welison Regis |
+| 0.1 | 08/04/2019 | Introdução e Introspecção 1 | Welison Regis |
+| 0.2 | 09/04/2019 | Introspecção 2 | Welison Regis |
+| 0.3 | 09/04/2019 | Introspecção 3 e MoSCoW | André Pinto |
+| 0.4 | 10/04/ 2019 | Aplicação de MoSCoW nos requisitos | Welison Regis |
+| 1.0 | 16/04/2019 | Introspecção 1 e 2 (v2) após feedback pessoal | Welison Regis |
 
 ## Introspecção
 Introspecção é uma técnica muito rica e profunda para a elicitação de requisitos. Através desse método, o indivíduo que pretende levantar os requisitos faz observações e descrições do conteúdo (pensamentos, sentimentos) que decorrem da auto-reflexão sobre o serviço e, mediante a isso, é possível entender as propriedades que o sistema deve possuir para que atenda as necessidades do seu público.
 
 As introspecções descritas abaixo, são divididas em três tópicos principais: contexto, necessidades do contexto e requisitos elicitados. Para contextualizar a introspecção, utilizou-se a ideia de um _storytelling_, em que há uma persona que  desempenha uma atividade na plataforma. Decorrente do contexto, foi feita uma auto-reflexão para elencar as necessidades técnicas, sociais e individuais da persona, o que em seguida decorre na elicitação dos requisitos. Por fim, nessa primeira abordagem utilizou-se a técnica "MoSCoW" para priorizar os requisitos.
 
+# INT01
 ## Introspecção 1 - Ferramentas de respostas v2
 
 A versão anterior dessa introspecção pode ser verificada [AQUI](#introspeccao-2-ferramentas-de-respostas-v1).
@@ -72,6 +73,7 @@ Legenda - técnica de priorização:
 
 *   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
+# INT02
 ## Introspecção 2 - Moderação de atividades na plataforma v2
 
 A versão anterior dessa introspecção pode ser verificada [AQUI](#introspeccao-2-moderacao-de-atividades-na-plataforma-v1).
@@ -154,6 +156,7 @@ A narrativa acima exposta em formato de _storytelling_ foi desenvolvida em decor
 | INT2.17 | Aprovação de tarefa | O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade. | M |
 | INT2.18 | Mensagens padrão | O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades. | C |
 
+# INT03
 ## Introspecção 3 - Usuários com maior fluxo de perguntas
 
 Verônica, aluna do fundamental, estuda diariamente em casa, realizando exercícios e consequentemente surgem diversas dúvidas que precisam de uma resposta razoavelmente rápida, pois não quer acumular matéria. Verônica conhece o Brainly e passa a colocar suas dúvidas na plataforma, que em sua maioria são respondidas dentro de 10 minutos, porem as vezes encontra alguma resposta errada ou sem sentido que são posteriormente denunciada por outros usuários e apagadas por moderadores. Certo dia a turma Verônica sai com uma dúvida da sala e a moça, ao chegar em casa, posta a pergunta na plataforma e compartilha em sua rede social predileta, o facebook, para ajudar seus colegas.

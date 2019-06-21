@@ -36,9 +36,11 @@ pages:
     - NFR: nfr.md
     - I*: i_star.md
     - Versões antigas:
-      - Versão 1:
         - Cenário: modelagem_v1/cenarios10x58ed251.md
         - Léxico: modelagem_v1/lexicos10x58ed251.md
+        - Backlog:
+          - Backlog de Produto: modelagem_v1/backlog.md
+          - Sprint Backlog: modelagem_v1/sprint_backlog.md
   - ANÁLISE:
     - Pré-Rastreabilidade: analisepre.md
     - Casos de uso: analise_casos_de_uso.md
