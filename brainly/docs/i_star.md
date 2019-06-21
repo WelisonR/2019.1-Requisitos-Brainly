@@ -17,7 +17,8 @@
 |    1.10  | 29/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
 |    1.11  | 29/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
 |    1.12  | 29/05/2019 | Adição da versão 2.0 do I* de gamificação | Gustavo Marques, Ivan Diniz Dobbin |
-|    2.0  | 29/05/2019 | Adição da versão 5.0 do diagrama de dependências gerais | Gustavo Marques, André Pinto |
+|    2.0  | 21/06/2019 | Adição da versão 5.0 do diagrama de dependências gerais | Gustavo Marques, André Pinto |
+|    2.1  | 21/06/2019 | Adição da versão 2.0 do diagrama de pergunta | Gustavo Marques, André Pinto |
 
 
 
@@ -66,8 +67,11 @@ A metodologia ultilizada para o desenvolvimento dos i estrela foi a metodologia 
 Modelagens Associadas: [**Casos de uso de perguntas e respostas**](./casos_uso_perguntas_respostas.md), [EP03](./backlog.md#ep03), [US16](./backlog.md#us16), [US17](./backlog.md#us17), [US18](./backlog.md#us18), [US19](./backlog.md#us19), [US20](./backlog.md#us20), [US21](./backlog.md#us21), [US22](./backlog.md#us22), [US23](./backlog.md#us23), [US24](./backlog.md#us24), [US25](./backlog.md#us25).
 
 ## Realizar pergunta v1.0
+![I* Realizar Pergunta 1](images/i_star/i_star_realizar_pergunta_v1.png)
 
-![I* Realizar Pergunta](images/i_star/i_star_realizar_pergunta.png)
+## Realizar pergunta v2.0
+![I* Realizar Pergunta 2](images/i_star/i_star_realizar_pergunta_v2.png)
+
 
 # ISR03
 
