@@ -21,7 +21,9 @@
 | 2.3 | 28/05/2019 | Adicionar nova versão de análise do NFR de Suporte ao Usuário | Ivan Diniz, João Gabriel, João Rodrigues |
 | 2.4 | 29/05/2019 | Adicionar nova versão do NFR de Suportabilidade | João Gabriel, João Rodrigues | 
 | 2.5 | 29/05/2019 | Adicionar nova versão do NFR de Desempenho | João Gabriel, João Rodrigues | 
-| 2.6 | 29/05/2019 | Preenchendo modelagem associada | Paulo Rocha | 
+| 2.6 | 29/05/2019 | Preenchendo modelagem associada | Paulo Rocha |
+| 2.7 | 19/06/2019| Adicionando novas versões para Confiabilidade,Suporte ao Usuário e Suportability| Ivan Diniz Dobbin|
+| 2.8 | 21/06/2019| Adicionando novas versões para Usabilidade| Ivan Diniz Dobbin|
 
 
 # INTRODUÇÃO
@@ -108,8 +110,12 @@ Elicitação Associada: [INT3.6](introspeccao.md), [INT3.11](introspeccao.md), [
 ## NFR USABILIDADE
 Versão 1.0
 ![nfr_usabilidade](images/nfr/NFRUsabilidadeSemAnalise.jpg)
-Análise NFR Usabilidade
 ![nfr_usabilidade](images/nfr/NFRUsabilidadecomAnalise.jpg)
+
+Versão 2.0
+![nfr_usabilidade](images/nfr/NFR_Usabilidade_SemAnalise.jpg)
+Análise NFR Usabilidade
+![nfr_usabilidade](images/nfr/NFR_Usabilidade_ComAnalise.jpg)
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade), [US10](./backlog.md#us10), [US11](./backlog.md#us11), [US06](./backlog.md#us06), [US12](./backlog.md#us12).
 
