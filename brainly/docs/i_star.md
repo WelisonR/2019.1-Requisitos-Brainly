@@ -16,8 +16,8 @@
 |    1.9  | 29/05/2019 | Adição da versão 3.0 do I* de dependências | Lieverton Silva, Welison Regis |
 |    1.10  | 29/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
 |    1.11  | 29/05/2019 | Adição da versão 4.0 do I* de dependências | Gustavo Marques, Ivan Diniz Dobbin |
-|    2.0  | 29/05/2019 | Adição da versão 2.0 do I* de gamificação | Gustavo Marques, Ivan Diniz Dobbin |
-
+|    1.12  | 29/05/2019 | Adição da versão 2.0 do I* de gamificação | Gustavo Marques, Ivan Diniz Dobbin |
+|    2.0  | 29/05/2019 | Adição da versão 5.0 do diagrama de dependências gerais | Gustavo Marques, André Pinto |
 
 
 
@@ -26,6 +26,10 @@
 O **framework i*** propõe uma **abordagem orientada a agentes** para engenharia de requisitos centrada nas **características intencionais do agente**, isto é, as metas, metas-flexíveis e outras abstrações. Os artefatos dividem-se no **Modelo Estratégico de Dependência** (SD) que apresenta uma visão mais geral do sistema e o **Modelo de Raciocínio Estratégico** (SR) que especifica os subsistemas com os seus devidos atores.
 
 Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar/).
+
+# Metodologia
+
+A metodologia ultilizada para o desenvolvimento dos i estrela foi a metodologia do pareamento com um membro da dupla realizando a tarefa e o outro auxiliando na realização da mesma, com a excessão dos primeiros modelos que necessitaram de uma atenção maior do grupo. A partir da versão 2.0 deste documento o método de correção partiu de uma análise previamente feita, que pode ser encontrada na página **[Análize iStar](analise_istar.md).**
 
 # ISD01
 ## Brainly - Geral v1.0
@@ -38,12 +42,15 @@ Ferramenta utilizada para modelagem: [piStar](http://www.cin.ufpe.br/jhcp/pistar
 
 ## Brainly - Geral v3.0
 
-![Diagrama de dependencias2](images/i_star/i_star_dependency_v3.png)
+![Diagrama de dependencias3](images/i_star/i_star_dependency_v3.png)
 
 ## Brainly - Geral v4.0
 
-![Diagrama de dependencias2](images/i_star/i_star_dependency_v4.png)
+![Diagrama de dependencias4](images/i_star/i_star_dependency_v4.png)
 
+## Brainly - Geral v5.0
+
+![Diagrama de dependencias5](images/i_star/i_star_dependency_v5.png)
 
 # ISR01
 ## Plataforma Brainly v1.0
