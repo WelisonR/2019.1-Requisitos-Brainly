@@ -9,14 +9,14 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso: Cadastro](images/diagramas_casos_uso/Cadastro.png)
+![Diagrama de casos de uso: Cadastro](../../images/diagramas_casos_uso/Cadastro.png)
 
 ## Especificação de Casos de Uso
 
 ### 1 Breve descrição
 Usuário faz o cadastro de uma nova conta na plataforma Brainly para ter acesso a mais funcionalidades, como, responder perguntas.
 ### 2 Breve descrição dos atores
-#### 2.1 [Usuário](lexicos10x5f8c4.md#L12660)
+#### 2.1 [Usuário](../../lexicos10x5f8c4.md#L12660)
 Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. 
 ### 3 Pré-condições
 Possuir um sistema operacional compatível com alguma das plataformas disponibilizadas pelo Brainly.
@@ -60,11 +60,11 @@ Possuir acesso à internet.
 
 
 ### 8 Requisitos Especiais
-1. Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços - [BR2.12](brainstorm.md).
-2. Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo - [AP1.13](analise_protocolo.md).
-3. A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários - [INT3.9](introspeccao.md).
-4. O cadastro na plataforma deve ocorrer de uma maneira rápida e prática - [AP3.3](analise_protocolo.md).
-5. Não utilizar informações de pessoas menores de 16 anos sem autorização - [BR2.7](brainstorm.md).
-6. Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia - [BR2.11](brainstorm.md).
-7. Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing - [BR2.13](brainstorm.md).
-8. Cobrar por assinatura de serviços - [BR2.19](brainstorm.md).
+1. Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços - [BR2.12](../../brainstorm.md).
+2. Ao se cadastrar o usuário terá acesso aos termos de uso e para concluir o registro deverá aceitá-lo - [AP1.13](../../analise_protocolo.md).
+3. A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários - [INT3.9](../../introspeccao.md).
+4. O cadastro na plataforma deve ocorrer de uma maneira rápida e prática - [AP3.3](../../analise_protocolo.md).
+5. Não utilizar informações de pessoas menores de 16 anos sem autorização - [BR2.7](../../brainstorm.md).
+6. Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia - [BR2.11](../../brainstorm.md).
+7. Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing - [BR2.13](../../brainstorm.md).
+8. Cobrar por assinatura de serviços - [BR2.19](../../brainstorm.md).
