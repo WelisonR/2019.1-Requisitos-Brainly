@@ -1,11 +1,13 @@
-# [PERGUNTAS E RESPOSTAS](rich_picture.md#RichPicture Perguntas e Respostas)
+# CASO DE USO - [PERGUNTAS E RESPOSTAS](rich_picture.md#richpicture-perguntas-e-respostas)
 
 ## Versionamento
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 28/04/2019 | Adição do diagrama de casos de uso de perguntas e respostas | Lieverton |
-| 1.1 | 28/04/2019 | Adição da especificação dos casos de uso de perguntas e respostas | Lieverton, João Matheus, Paulo Vitor, João Rossi |
+| 0.1 | 28/04/2019 | Adição do diagrama de casos de uso de perguntas e respostas | Lieverton, Welison |
+| [1.0](modelagem_v1/casos_uso/casos_uso_perguntas_respostas.md) | 28/04/2019 | Adição da especificação dos casos de uso de perguntas e respostas | Lieverton, João Matheus, Paulo Vitor, João Rossi |
+| 1.1 | 21/06/2019 | Refatora diagrama de caso de uso de perguntas e respostas | Lieverton Silva, Welison Regis |
+| 2.0 | 21/06/2019 | Adiciona 5 especificações de caso de uso de perguntas e respostas | Lieverton Silva, Welison Regis |
 
 ## Diagrama de Casos de Uso
 
@@ -13,79 +15,66 @@
 
 ## Especificação de Casos de Uso
 
-### 1 Breve descrição
-O usuário faz uma pergunta para ser respondida por outros usuários, utilizando seus pontos para recompensar quem respondê-la de maneira coerente.
+### UC01
 
-### 2 Breve descrição dos atores
+| UC01 | Fazer pergunta |
+| -------------: | :---|
+| **Descrição** | Um usuário acessa o Brainly e faz uma pergunta. |
+| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Possuir no mínimo dez pontos para realizar uma pergunta;<br/> - Estar logado. |
+| **Fluxo básico** | 1. Usuário pesquisa pela sua dúvida no Brainly;<br/> 2. Se o usuário não encontrar uma tarefa relacionada, usuário faz uma pergunta;<br/> 3. Usuário adiciona a matéria associada à pergunta;<br/> 4. Usuário atribui pontos à questão;<br/>5. Se o usuário estiver satisfeito com a questão ele a submete.|
+| **Fluxos alternativos** | 2.a Usuário encontra a questão desejada;<br/> 5.a Usuário adiciona anexos;<br/>5.b Usuário adiciona equações na ferramenta LaTeX;<br/>5.c Usuário adiciona símbolos matemáticos;<br/>5.d Usuário adiciona texto com diferentes formatações.|
+| **Fluxos de exceções** | [2 - 4] Usuário reinicia a página acidentalmente, ao clicar em fazer pergunta novamente, tudo o que o usuário tinha digitado e escolhido na pergunta anteriormente se mantém;<br/>[2] Usuário digita uma pergunta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
 
-#### 2.1 [Usuário](lexicos10x5f8c4.md#L12660)
-Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras.
+### UC02
 
-#### 2.2 [Moderador](lexicos10x5f8c4.md#L12528)
-Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários.
+| UC02 | Responder pergunta |
+| -------------: | :---|
+| **Descrição** | Um usuário da comunidade acessa o Brainly e responde uma pergunta. |
+| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Comunidade](lexicos10x5f8c4.md#L12525) | Conjunto de usuários em prol de se ajudarem. |
+| **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01));<br/> - A pegunta não ser respondida por 2 usuários.|
+| **Fluxo básico** | 1. Usuário da comunidade, que deseja contribuir, navega pela listas de perguntas;<br/> 2. Usuário da comunidade escolhe uma pergunta;<br/> 3. Usuário da comunidade responde uma pergunta. |
+| **Fluxos alternativos** | 3.a Usuário adiciona anexos;<br/>3.b Usuário adiciona equações na ferramenta LaTeX;<br/>3.c Usuário adiciona símbolos matemáticos;<br/>3.d Usuário adiciona texto com diferentes formatações.|
+| **Fluxos de exceções** | [3] Usuário da comunidade digita uma resposta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A ferramenta que possibilita respostas deve ser consistente entre as plataformas [INT1.2](introspeccao.md);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-#### 2.3 [Comunidade](lexicos10x5f8c4.md#L12525)
-Conjunto de usuários em prol de se ajudarem.
+### UC03
 
-### 3 Pré-condições
-Ser cadastrado na plataforma Brainly.
-Possuir no mínimo dez pontos para realizar uma pergunta.
+| UC03 | Realizar comentário |
+| -------------: | :---|
+| **Descrição** | Um usuário com interece de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
+| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Moderador](lexicos10x5f8c4.md#L12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
+| **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01)) ou um usuário responder uma pergunta ([3. UC02](#uc02)).|
+| **Fluxo básico** | 1. Um usuário com interece de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
+| **Fluxos alternativos** | 1.a Um usuário faz uma denúncia ([3. UC04](#uc04)) e um moderador faz um comentário. |
+| **Fluxos de exceções** | [1] Usuário da comunidade digita um comentário com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada.|
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
 
-### 4 Fluxo básico de eventos
+### UC04
 
-    1. O caso de uso começa quando o usuário possui uma dúvida e decide fazer uma pergunta na plataforma Brainly para saná-la.
+| UC04 | Denunciar irregularidade |
+| -------------: | :---|
+| **Descrição** | Um usuário após ver uma irregularidade faz uma denúncia. |
+| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01)) ou um usuário responder uma pergunta ([3. UC02](#uc02)) ou um usuário fazer um comentário ([1. UC03](#uc03)) indevido.|
+| **Fluxo básico** | 1. O usuário após ver uma irregularidade faz uma denúncia;<br/> 2. O usuário seleciona a categoria;<br/> 3. Usuário confirma a denúncia. |
+| **Fluxos alternativos** | - |
+| **Fluxos de exceções** | - |
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
 
-    2. Usuário digita uma pergunta.
+### UC05
 
-    3. Usuário oferece pontos.
-
-    4. Usuário adiciona matéria que corresponde à área de conhecimento da pergunta.
-
-    5. O usuário finaliza a pergunta.
-
-    6. Um segundo usuário da comunidade, que deseja contribuir, navega pela listas de perguntas.
-
-    7. Esse usuário escolhe uma pergunta.
-
-    8. Esse usuário responde a pergunta.
-
-### 5 Fluxos alternativos
-
-    2.a Usuário adiciona uma equação à pergunta.
-
-    2.b Usuário adiciona um anexo à pergunta.
-
-    2.c Usuário adiciona símbolo à pergunta. 
-
-    7.a Usuários ou moderadores comentam em uma pergunta.
-
-    7.b A comunidade denuncia más práticas em uma pergunta.
-
-    7.c O moderador adverte o usuário que cometeu a infração.
-
-    8.a Usuários ou moderadores comentam em uma resposta.
-
-    8.b A comunidade denuncia más práticas em uma pergunta.
-
-    8.c O moderador adverte o usuário que cometeu a infração.
-
-### 6 Fluxo de Exceções
-
-    [2 - 4] Usuário aperta f5(reinicia a página) acidentalmente, ao clicar em fazer pergunta novamente, tudo o que o usuário tinha digitado e escolhido na pergunta anteriormente se mantém.
-
-    [2] Usuário digita uma pergunta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada.
-
-### 7 Requisitos Especiais
-
-1. Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#Tabela de Requisitos Funcionais).
-
-2. Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md).
-
-3. A ferramenta que possibilita respostas deve ser consistente entre as plataformas [INT1.2](introspeccao.md).
-
-4. Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma
-[INT2.10](introspeccao.md).
-
-5. Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md).
-
-6. A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção).
+| UC05 | Advertir infrator |
+| -------------: | :---|
+| **Descrição** | Um moderador após receber uma denúncia de irregularidade avalia a veracidade do conteúdo. |
+| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Moderador](lexicos10x5f8c4.md#L12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
+| **Pré-condições** | - Ser moderador na plataforma Brainly; <br/> - Estar logado;<br/> - Receber uma denúncia ou visualizar uma irregularidade.|
+| **Fluxo básico** | 1. O moderador visualiza as denúncias no painel de moderação;<br/> 2. O moderador escolhe uma denúncia para avaliar;<br/>3. Se houver irregularidade o moderador exclui o conteúdo indevido. |
+| **Fluxos alternativos** | 2.a O moderador pede a correção do conteúdo. <br/> 3.a O moderador aplica advertência;<br/> 3.b O moderador tira pontos do usuário infrator; <br/> 3.c O moderador comunica o usuário infrator. |
+| **Fluxos de exceções** | [2 3] O moderdarador fica bloqueado devido grande número de ações em um curto período de tempo.|
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma
+[INT2.10](introspeccao.md). |

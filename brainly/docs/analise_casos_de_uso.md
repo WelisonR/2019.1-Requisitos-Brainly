@@ -25,11 +25,11 @@ Sobre os casos de uso mais importantes, no caso o artefato de **perguntas e resp
 Por fim, computou-se um **gráfico de radar** que diz respeito aos critérios de qualidade dos casos de uso. Para cada **critério de qualidade**, deve-se ter no **mínimo 70% de conformidade** com os questionamentos levantados.
 
 
-## MODELO DE VERIFICAÇÃO - ESPECIFICAÇÃO v1.0
-
-![Inspeção de especificação](./images/analise/caso_uso_inspecao_diagrama.png)
-
 ## MODELO DE VERIFICAÇÃO - DIAGRAMAS v1.0
+
+![Inspeção de diagrama](./images/analise/caso_uso_inspecao_diagrama.png)
+
+## MODELO DE VERIFICAÇÃO - ESPECIFICAÇÃO v1.0
 
 ![Inspeção de especificação](./images/analise/caso_uso_inspecao_descricao.png)
 
