@@ -358,9 +358,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      4       |       A       |        Sim       | Todos os conflitos criados da argumentação foram resolvidos por meio de escolha de preferência.         |         
 |      5       |       M       |        Sim       | O modelo de argumentação apresenta uma quantidade boa de argumentos, teve mais de duas pessoas envolvidas e possui link para votações e enquetes que demonstram a escolha das preferências.          |         
 |      6       |       A       |        Sim       | -         |         
-|      7       |       M       |        Sim       | Existe versionamento presente em link disponível na própria página da arguemntação        |         
+|      7       |       M       |        Sim       | Existe versionamento presente em link disponível na própria página da argumentação.        |         
 |      8       |       A       |        Sim       | Tabela de atores existente porém não há uma descrição de quem são os professores e quem são os participantes do grupo.         |         
-|      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
+|      9       |       B       |        Não       | É relevante indicar a data das argumentações. |      
 |      10       |       A       |        Sim       | Houve consenso entre os participantes da argumentação o que pode ser demonstrado pela preferência P2. |  
 
 ![Gráfico Argumentação Tema](images/analise/tema.jpg)
@@ -399,6 +399,29 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
 |      10       |       A       |        Sim       | - |    
+
+**Versão 3**
+
+|Nome do projeto| [Argumentação sobre o sistema de mensagens](argumentacao.md#argumentacao-sobre-o-sistema-de-mensagens)|
+| :------------: | :------------: |
+|Data da inspeção| 22/06/2019|
+|Responsável pela inspeção| Paulo Vítor|
+|Hora inicial| 17h25|
+|Hora final| 17h50|
+
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+|  :-----------: | :-------------: | :--------:  | :--------: |
+|      1       |       A       |        Sim       | Está correto o uso do rótulo it para indicar a aplicação de uma regra de inferência. Todas as inferências tem pelo menos uma linha que entra e uma que sai.   |         
+|      2       |       A       |        Sim       | Está correto o uso do rótulo C para indicar a aplicação da regra de conflito assim como a adição dos vértices em conflito. Todos os conflitos possuem pelo menos uma linha que entra e uma que sai.         |         
+|      3       |       A       |        Sim       | Está correto o uso do rótulo P para indicar a aplicação de uma regra de inferência. Todas as preferências possuem pelo menos uma linha que entra e uma que sai. Uma preferência também pode ser dada entre outras preferências.         |         
+|      4       |       A       |        Sim       | Todos os conflitos criados da argumentação foram resolvidos por meio de escolha de preferência.         |         
+|      5       |       M       |        Não       | O modelo de argumentação apresenta uma quantidade pequena de argumentos, apesar de ter mais de duas pessoas envolvidas e possuir link para votações que demonstram a escolha das preferências.          |         
+|      6       |       A       |        Sim       | -         |         
+|      7       |       M       |        Sim       | Existe sistema de versionamento porém é o primeiro modelo.        |         
+|      8       |       A       |        Sim       | Tabela de atores existente porém não há uma descrição de quem são os professores e quem são os participantes do grupo.         |         
+|      9       |       B       |        Não       | É relevante indicar a data das argumentações. |      
+|      10       |       A       |        Sim       | Houve consenso entre os participantes da argumentação o que pode ser demonstrado pela preferência P2. |  
 
 ![Gráfico Argumentação Mensagens](images/analise/mensagens.jpg)
 
