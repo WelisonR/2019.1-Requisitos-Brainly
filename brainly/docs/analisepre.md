@@ -1,4 +1,4 @@
-# Análise Pré-Rastreabilidade
+# PRÉ-RASTREABILIDADE
 
 |  Versão |    Data    | Modificação  | Autor |
 |  :----: | :--------: | :---------:  | :------: |
@@ -11,15 +11,17 @@
 |    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
 |    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
 |    1.8  | 10/06/2019 | Adição dos gráficos de analise das argumentações | Joao Gabriel |
-|    1.9  | 10/06/2019 | Adição da versão 3 das análises de argumentação | Paulo Vitor, João Matheus |
+|    1.9  | 10/06/2019 | Adição da versão 3 das análises de argumentação | Paulo Vitor, João Rodrigues |
 
-
-# Introdução
+# INTRODUÇÃO
 
 Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas dicas dadas na dinâmica e apresentação. A análise mostra o que tem ou não sido cumprido pelos objetos analizados pela equipe em determinados critérios descritos.
 
-# Rich Picture
-## Checklist de Inspeção em Rich Picture
+# OBJETIVO
+
+# METODOLOGIA
+
+## MODELO DE VERIFICAÇÃO - RICH PICTURE
 **Versão 1**
 
 |  Número |    Critério de avaliação    |
@@ -47,9 +49,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |   9   | Utiliza representação de artefatos físicos?  | Forma e Organização | A |
 |   10   | Existe versionamento?  | Rastreabilidade | A |
 
-## INSPEÇÕES 
-## Rich Picture Visão Geral Brainly
-**Versão 1**
+# INSPEÇÕES 
+## IRP 01 - Rich Picture Visão Geral Brainly
+### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -61,7 +63,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Rich Picture Visão Geral Brainly|
 | :------------: | :------------: |
@@ -85,8 +87,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Versão_Geral_Brainly.png)
 
-## Rich Picture Gamificação
-**Versão 1**
+## IRP 02 - Rich Picture Gamificação
+### Inspeção Individual v1.0
+
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 | :-----: | :----------: | :-----: | :------: |
@@ -98,7 +101,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |    6    | Existe rastreablidade? | S | |
 |    6    | A linguagem é objetiva? | S | Poderia informar para que o brainly utiliza a gamificação. |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Rich Picture Gamificação|
 | :------------: | :------------: |
@@ -122,8 +125,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ![Gráfico RichPicture Gamificacao](images/analise/gamificacao.png)
 
-## Rich Picture Plataformas
-**Versão 1**
+## IRP 03 - Rich Picture Plataformas
+### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -135,7 +138,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Rich Picture Plataformas|
 | :------------: | :------------: |
@@ -159,8 +162,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ![Gráfico RichPicture Gamificacao](images/analise/plataformas.png)
 
-## Rich Picture Perguntas e Respostas
-**Versão 1**
+## IRP 04 - Rich Picture Perguntas e Respostas
+### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -172,7 +175,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S | |
 |  7 | A linguagem é objetiva? | S |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Rich Picture Perguntas e Respostas|
 | :------------: | :------------: |
@@ -195,8 +198,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      10        |        A        |     Sim     | - |
 
 ![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Perguntas_e_Respostas.png)
-## Rich Picture Primeiros Passos de Usuário não Cadastrado
-**Versão 1**
+
+## IRP 05 - Rich Picture Primeiros Passos de Usuário não Cadastrado
+### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -208,9 +212,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Existe rastreablidade? | N | Se necessário desenvolver nova versão, pois esta é a primeira |
 | 7 | A linguaguem é objetiva? | S |  |
 
-
-
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Rich Picture Primeiros Passos de Usuário não Cadastrado|
 | :------------: | :------------: |
@@ -231,10 +233,11 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
+
 ![Gráfico RichPicture Gamificacao](images/analise/passos_usuario_nao_cadastrado.png)
 
-## Rich Picture Primeiros Passos de Novo Usuário Cadastrado
-**Versão 1**
+## IRP 06 - Rich Picture Primeiros Passos de Novo Usuário Cadastrado
+### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -246,7 +249,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Rich Picture Primeiros Passos de Novo Usuário Cadastrado|
 | :------------: | :------------: |
@@ -263,7 +266,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       4        |        A        |     Sim     | - |
 |       5        |        A        |     Sim     | Para complementar o fluxo, deveriam ser descritos os passos posteriores à espera resposta de outros usuários  |
 |       6        |        M        |     Sim     | Algumas palavras apresentam erros de ortografia |
-|       7        |        A        |     Não     | O novo usuário não está no centro do modelo |
+|       7        |        A        |     Sim     | O novo usuário não está no centro do modelo |
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
@@ -273,8 +276,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 ##Gráfico da inspeção dos Rich-Pictures
 ![Gráfico Argumentação](images/analise/RP.jpg)
 
-# Argumentação
-## Checklist de Inspeção em Argumentação
+## MODELO DE VERIFICAÇÃO - ARGUMENTAÇÃO
 **Versão 1**
 
 |  Número |    Critério de avaliação    |
@@ -303,9 +305,9 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 10 | Houve consenso? | Conclusão | A |
 
 
-## INSPEÇÕES
-## Argumentação sobre o tema
-**Versão 1**
+# INSPEÇÕES
+## IAR 01 - Argumentação sobre o tema
+### Inspeção Individual v1.0
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -317,7 +319,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Modelos de alta complexidade |  S  |  |
 | 7 | Pré-Rastreabilidade | S |  |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| [Argumentação sobre o tema](argumentacao.md#argumentacao-sobre-o-tema)|
 | :------------: | :------------: |
@@ -340,7 +342,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
 |      10       |       A       |        Sim       | - |  
 
-**Versão 3**
+### Inspeção Individual v3.0
 
 |Nome do projeto| [Argumentação sobre o tema](argumentacao.md#argumentacao-sobre-o-tema)|
 | :------------: | :------------: |
@@ -365,8 +367,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ![Gráfico Argumentação Tema](images/analise/tema.jpg)
 
-## Argumentação sobre o sistema de mensagens
-**Versão 1**
+## IAR 02 - Argumentação sobre o sistema de mensagens
+### Inspeção Individual v1.0
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -378,7 +380,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Modelos de alta complexidade |  N  | Enriquecer as discussões |
 | 7 | Pré-Rastreabilidade | N |  |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Argumentação sobre o sistema de mensagens|
 | :------------: | :------------: |
@@ -400,7 +402,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
 |      10       |       A       |        Sim       | - |    
 
-**Versão 3**
+### Inspeção Individual v3.0
 
 |Nome do projeto| [Argumentação sobre o sistema de mensagens](argumentacao.md#argumentacao-sobre-o-sistema-de-mensagens)|
 | :------------: | :------------: |
@@ -426,8 +428,8 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 ![Gráfico Argumentação Mensagens](images/analise/mensagens.jpg)
 
 
-## Argumentação sobre os níveis do Brainly
-**Versão 1**
+## IAR 03 - Argumentação sobre os níveis do Brainly
+### Inspeção Individual v1.0
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -439,7 +441,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 | 6 | Modelos de alta complexidade |  S  |  |
 | 7 | Pré-Rastreabilidade | N |  |
 
-**Versão 2**
+### Inspeção Individual v2.0
 
 |Nome do projeto| Argumentação sobre os níveis do Brainly|
 | :------------: | :------------: |
@@ -460,6 +462,30 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar data das argumentações |         
 |      10       |       A       |        Sim       | - |      
+
+### Inspeção Individual v3.0
+
+|      Nome do projeto      | [Argumentação sobre os níveis do Brainly](argumentacao.md#argumentacao-sobre-os-niveis-do-brainly) |
+| :-----------------------: | :------------------------------------------------------------------------------------------------: |
+|     Data da inspeção      |  22/06/2019    |
+| Responsável pela inspeção | João Rodrigues |
+|         Hora inicial      | 18h06 |
+|         Hora final        | 18h22 |
+
+
+| N°. da questão | Impacto (A/M/B) |   Satisfeito?    | Observação |
+| :------------: | :-------------: | :-------------:  | :--------: |
+|       1        |        A        |        Sim       | A inferências foram aplicadas corretamente aos argumentos, porém estão representadas incorretamente no grafo pela letra h, que deveria ser it. |
+|       2        |        A        |        Sim       | Os conflitos foram aplicados e representados corretamente. |         
+|       3        |        A        |        Sim       | As preferências foram aplicadas corretamente, porém estão representados incorretamente no grafo pela palavra pref, que deveria se P. |         
+|       4        |        A        |        Sim       | Os conflitos foram resolvidos corretamente utilizando as preferências. |         
+|       5        |        M        |        Sim       | Poderiam ter sido elaborados mais argumentos por parte dos participantes. |
+|       6        |        A        |        Sim       | As informações apresentadas no grafo são encontradas e aprofundadas na tabela. |         
+|       7        |        M        |        Sim       | Poderiam ser elaborados outras versões dessa argumentação. |         
+|       8        |        A        |        Sim       | Não existe tabela de atores, mas esses são bem identificados no decorrer da apresentação do modelo de argumentação. |    
+|       9        |        B        |        Não       | Necessário indicar a data em que foi realizada a argumentação. |      
+|      10        |        A        |        Sim       | Foi apresentada uma preferência (P1) sem argumentos contrários, indicando consenso entre os participantes da argumentação. |  
+
 
 ![Gráfico Argumentação Niveis](images/analise/niveis.jpg)
 
