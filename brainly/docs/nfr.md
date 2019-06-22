@@ -24,7 +24,7 @@
 | 2.6 | 29/05/2019 | Preenchendo modelagem associada | Paulo Rocha |
 | 2.7 | 19/06/2019| Adicionando novas versões para Confiabilidade,Suporte ao Usuário e Suportability| Ivan Diniz Dobbin|
 | 2.8 | 21/06/2019| Adicionando nova versão para Usabilidade| Ivan Diniz Dobbin|
-| 2.9 | 21/06/2019| Adicionando nova versão para Suportability| Ivan Diniz Dobbin|
+| 2.9 | 21/06/2019| Adicionando nova versão para Suportability e Desempenho| Ivan Diniz Dobbin|
 
 
 # INTRODUÇÃO
@@ -100,8 +100,11 @@ Versão 1.0
 ![nfr_desempenho](images/nfr/NFRDesempenhoComAnalise.jpg)
 Versão 2.0
 ![nfr_desempenho](images/nfr/nfr_v3_desempenho_sem_analise.png)
-Análise NFR Desempenho 
 ![nfr_desempenho](images/nfr/nfr_v3_desempenho.jpg)
+Versão 3.0
+![nfr_desempenho](images/nfr/Desempenho_SemAnalise.jpg)
+Análise NFR Desempenho 
+![nfr_desempenho](images/nfr/Desempenho_ComAnalise.jpg)
 
 
 
