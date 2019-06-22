@@ -15,6 +15,7 @@ A argumentação pode ser definida como uma organização discursiva que inclui 
 Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptability Evaluation Framework*).
 
 ## Argumentação sobre o tema
+### Data 25/03/2019
 
 ![Argumentação sobre o tema](images/argumentacao/argumentacao_tema.png)
 
@@ -37,6 +38,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 [versão anterior](https://welisonr.github.io/2019.1-Requisitos-Brainly/argumentacao_versoes/)
 
 ## Argumentação sobre o sistema de mensagens
+### Data 27/03/2019
 
 ![Argumentação sobre mensagens](images/argumentacao/argumentacao_mensagens.png)
 
@@ -56,6 +58,7 @@ Para demonstrar as argumentações será utilizado o *framework* ACE (*Acceptabi
 
 
 ## Argumentação sobre os níveis do Brainly
+### Data 29/03/2019
 
 ![Argumento sobre os níveis do Brainly](images/argumentacao/argumentacao_niveis.png)
 
