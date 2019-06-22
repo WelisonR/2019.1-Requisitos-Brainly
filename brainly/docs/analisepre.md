@@ -11,6 +11,7 @@
 |    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
 |    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
 |    1.8  | 10/06/2019 | Adição dos gráficos de analise das argumentações | Joao Gabriel |
+|    1.9  | 10/06/2019 | Adição da versão 3 das análises de argumentação | Paulo Vitor, João Matheus |
 
 
 # Introdução
@@ -318,7 +319,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 **Versão 2**
 
-|Nome do projeto| Argumentação sobre o tema|
+|Nome do projeto| [Argumentação sobre o tema](argumentacao.md#argumentacao-sobre-o-tema)|
 | :------------: | :------------: |
 |Data da inspeção| 09/06/2019|
 |Responsável pela inspeção| Paulo Vítor|
@@ -338,6 +339,29 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |      8       |       A       |        Sim       | -         |         
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
 |      10       |       A       |        Sim       | - |  
+
+**Versão 3**
+
+|Nome do projeto| [Argumentação sobre o tema](argumentacao.md#argumentacao-sobre-o-tema)|
+| :------------: | :------------: |
+|Data da inspeção| 22/06/2019|
+|Responsável pela inspeção| Paulo Vítor|
+|Hora inicial| 16h50|
+|Hora final| 17h25|
+
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+|  :-----------: | :-------------: | :--------:  | :--------: |
+|      1       |       A       |        Sim       | Está correto o uso do rótulo it para indicar a aplicação de uma regra de inferência. Todas as inferências tem pelo menos uma linha que entra e uma que sai.   |         
+|      2       |       A       |        Sim       | Está correto o uso do rótulo C para indicar a aplicação da regra de conflito assim como a adição dos vértices em conflito. Todos os conflitos possuem pelo menos uma linha que entra e uma que sai.         |         
+|      3       |       A       |        Sim       | Está correto o uso do rótulo P para indicar a aplicação de uma regra de inferência. Todas as preferências possuem pelo menos uma linha que entra e uma que sai. Uma preferência também pode ser dada entre outras preferências.         |         
+|      4       |       A       |        Sim       | Todos os conflitos criados da argumentação foram resolvidos por meio de escolha de preferência.         |         
+|      5       |       M       |        Sim       | O modelo de argumentação apresenta uma quantidade boa de argumentos, teve mais de duas pessoas envolvidas e possui link para votações e enquetes que demonstram a escolha das preferências.          |         
+|      6       |       A       |        Sim       | -         |         
+|      7       |       M       |        Sim       | Existe versionamento presente em link disponível na própria página da arguemntação        |         
+|      8       |       A       |        Sim       | Tabela de atores existente porém não há uma descrição de quem são os professores e quem são os participantes do grupo.         |         
+|      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
+|      10       |       A       |        Sim       | Houve consenso entre os participantes da argumentação o que pode ser demonstrado pela preferência P2. |  
 
 ![Gráfico Argumentação Tema](images/analise/tema.jpg)
 
