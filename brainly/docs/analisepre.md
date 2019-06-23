@@ -140,7 +140,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ### Inspeção Individual v2.0
 
-|Nome do projeto| [Rich Picture Plataformas](rich_picture.md##richpicture-plataformas) |
+|Nome do projeto| [Rich Picture Plataformas](rich_picture.md#richpicture-plataformas) |
 | :------------: | :------------: |
 |Data da inspeção| 09/06/2019|
 |Responsável pela inspeção| João Rodrigues|
@@ -177,7 +177,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ### Inspeção Individual v2.0
 
-|Nome do projeto| Rich Picture Perguntas e Respostas|
+|Nome do projeto| [Rich Picture Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas)|
 | :------------: | :------------: |
 |Data da inspeção| 09/06/2019|
 |Responsável pela inspeção| Ivan Diniz|
@@ -214,7 +214,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ### Inspeção Individual v2.0
 
-|Nome do projeto| Rich Picture Primeiros Passos de Usuário não Cadastrado|
+|Nome do projeto| [Rich Picture Primeiros Passos de Usuário não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |
 | :------------: | :------------: |
 |Data da inspeção| 09/06/2019|
 |Responsável pela inspeção| João Rodrigues|
@@ -251,7 +251,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 ### Inspeção Individual v2.0
 
-|Nome do projeto| Rich Picture Primeiros Passos de Novo Usuário Cadastrado|
+|Nome do projeto| [Rich Picture Primeiros Passos de Novo Usuário Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-cadastrado) |
 | :------------: | :------------: |
 |Data da inspeção| 09/06/2019|
 |Responsável pela inspeção| João Rodrigues|
@@ -266,7 +266,7 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       4        |        A        |     Sim     | - |
 |       5        |        A        |     Sim     | Para complementar o fluxo, deveriam ser descritos os passos posteriores à espera resposta de outros usuários  |
 |       6        |        M        |     Sim     | Algumas palavras apresentam erros de ortografia |
-|       7        |        A        |     Sim     | O novo usuário não está no centro do modelo |
+|       7        |        A        |     Não     | O novo usuário não está no centro do modelo |
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
