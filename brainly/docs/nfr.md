@@ -26,6 +26,7 @@
 | 2.8 | 21/06/2019| Adicionando nova versão para Usabilidade| Ivan Diniz Dobbin|
 | 2.9 | 21/06/2019| Adicionando nova versão para Suportability e Desempenho| Ivan Diniz Dobbin|
 | 3.0 | 22/06/2019| Adicionando novas versões para Confiabilidade,Suportability,Suporte ao Usuário e Usabilidade| Ivan Diniz Dobbin|
+| 3.1 | 23/06/2019| Adicionando novas versões para Confiabilidade e Suporte ao Usuário| Ivan Diniz Dobbin|
 
 # INTRODUÇÃO
 O NFR Framework é uma abordagem orientada a processos, em que os **requisitos não-funcionais** são explicitamente representados como metas a serem obtidas. Nesse sentido, preocupa-se diretamente com o **comportamento do sistema** e com a avaliação das metas-flexíveis (softgoal) [CHUNG, 1995]. O desenvolvimento dos artefatos foi separado em dois itens: o **NFR sem a análise**, e **outra versão com a análise**.
@@ -103,8 +104,11 @@ Versão 3.0
 ![nfr_suporte](images/nfr/SuporteaoUsuario_ComAnalise.jpg)
 Versão 4.0
 ![nfr_suporte](images/nfr/SuporteaoUsuario_SemAnalise_v4.jpg)
-Análise NFR Suporte ao Usuário
 ![nfr_suporte](images/nfr/SuporteaoUsuario_ComAnalise_v4.jpg)
+Versão 5.0
+![nfr_suporte](images/nfr/SuporteaoUsuario_SemAnalise_v5.jpg)
+Análise NFR Suporte ao Usuário
+![nfr_suporte](images/nfr/SuporteaoUsuario_ComAnalise_v5.jpg)
 
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line), [US12](./backlog.md#us12), [US13](./backlog.md#us13), [US14](./backlog.md#us14), [US15](./backlog.md#us15), [US26](./backlog.md#us26), [US27](./backlog.md#us27),  [US28](./backlog.md#us28), [US29](./backlog.md#us29), [US30](./backlog.md#us30), [US31](./backlog.md#us31), [US32](./backlog.md#us32), [US33](./backlog.md#us33), [US34](./backlog.md#us34), [US35](./backlog.md#us35), [US36](./backlog.md#us36), [US37](./backlog.md#us37), [US38](./backlog.md#us38).
