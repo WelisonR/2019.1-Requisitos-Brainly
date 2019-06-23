@@ -1,5 +1,7 @@
 # QUESTIONÁRIO
 
+## Versionamento
+
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 0.1 | 08/04/2019 | Questionário geral e usuários do Brainly | Gustavo Marques, Ivan Dobbin |
