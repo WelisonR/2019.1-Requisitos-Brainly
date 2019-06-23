@@ -1,4 +1,6 @@
-# Versionamento
+# CENÁRIOS
+
+## Versionamento
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
@@ -7,14 +9,15 @@
 | 2.1 | 22/04/2019 | Adiciona introdução e descrição sobre o crawler utilizado | Welison Regis |
 | 2.2 | 22/04/2019 | Adiciona requisitos relacionados | Lieverton |
 
-# Introdução
+## Introdução
 
 A modelagem por cenários consiste na confecção de estruturas narrativas de forma a desenvolver o contexto e descobrir informações pertinentes a ser desempenhadas pelo software. Para atingir esse objetivo, dividiu-se o cenário em: título, objetivo, contexto, atores, recursos, exceção e episódio.
 
 O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta desenvolvida em python disponível em nosso _github_ que, baseado nas _urls_, puxa todas as informações dos cenários do site [C&L](http://pes.inf.puc-rio.br/cel/aplicacao/) referente ao projeto Brainly e gera esse _markdown_ com âncoras nas palavras chaves (inclusive sinônimos). O _notebook_ com o código e as orientações está disponível em [C&L Crawler](https://github.com/WelisonR/2019.1-Requisitos-Brainly/blob/master/CeL_crawler_pucrio.ipynb).
 
-# adicionar anexo para pergunta
-### C3033
+## C3033
+### adicionar anexo para pergunta
+
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -27,8 +30,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide fazer uma [pergunta](lexicos10x5f8c4.md#l12494)</br>[usuário](lexicos10x5f8c4.md#l12660) adiciona um anexo para a [pergunta](lexicos10x5f8c4.md#l12494).</br>[usuário](lexicos10x5f8c4.md#l12660) faz a [pergunta](lexicos10x5f8c4.md#l12494).   |
 | **Requisitos** | [INT1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
-# adicionar comentário
-### C3042
+## C3042
+### adicionar comentário
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -42,8 +45,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [INT1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
 
-# adicionar equação para pergunta
-### C3035
+## C3035
+### adicionar equação para pergunta
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -57,8 +60,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [MOD1.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/priorizacao/) |
 
 
-# adicionar símbolo para pergunta
-### C3034
+## C3034
+### adicionar símbolo para pergunta
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -72,8 +75,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [MOD1.2](https://welisonr.github.io/2019.1-Requisitos-Brainly/priorizacao/) |
 
 
-# alterar nível das perguntas
-### C3037
+## C3037
+### alterar nível das perguntas
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -86,8 +89,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide [mudar](lexicos10x5f8c4.md#l12659) o [nível](lexicos10x5f8c4.md#l12491) de [perguntas](lexicos10x5f8c4.md#l12494) da sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) acessa  [editar](lexicos10x5f8c4.md#l12659) [perfil](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) acessa [editar](lexicos10x5f8c4.md#l12659) configurações.</br>[usuário](lexicos10x5f8c4.md#l12660) altera [perfil](lexicos10x5f8c4.md#l12532) mudando o [nível](lexicos10x5f8c4.md#l12491) de escolaridade.</br>[usuário](lexicos10x5f8c4.md#l12660) ao [mudar](lexicos10x5f8c4.md#l12659) [nível](lexicos10x5f8c4.md#l12491) de escolaridade também muda o [nível das perguntas](lexicos10x5f8c4.md#l12656).   |
 | **Requisitos** | [AP1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
-# alterar perfil
-### C3032
+## C3032
+### alterar perfil
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -101,8 +104,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | **Requisitos** | [MOD1.3](https://welisonr.github.io/2019.1-Requisitos-Brainly/priorizacao/) |
 
 
-# dar obrigado
-### C2999
+## C2999
+### dar obrigado
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -115,8 +118,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) ler uma [resposta](lexicos10x5f8c4.md#l12521);</br>[usuário](lexicos10x5f8c4.md#l12660) entende a [tarefa](lexicos10x5f8c4.md#l12494);</br>[usuário](lexicos10x5f8c4.md#l12660) clica no coração para dar [obrigado](lexicos10x5f8c4.md#l12497).   |
 | **Requisitos** | [MOD1.4](https://welisonr.github.io/2019.1-Requisitos-Brainly/priorizacao/) |
 
-# deletar conta
-### C3029
+## C3029
+### deletar conta
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -129,8 +132,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) liga o computador ou celular.</br>[usuário](lexicos10x5f8c4.md#l12660) entra no Brainly pela internet ou aplicativo.</br>[usuário](lexicos10x5f8c4.md#l12660) acessa sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) decide apagar sua [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) acessa  [editar](lexicos10x5f8c4.md#l12659) [perfil](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) acessa [editar](lexicos10x5f8c4.md#l12659) configurações.</br>[usuário](lexicos10x5f8c4.md#l12660) clica na opção quero eliminar minha [conta](lexicos10x5f8c4.md#l12532).</br>[usuário](lexicos10x5f8c4.md#l12660) usa o formulário de contato confirmar sua decisão.</br>[usuário](lexicos10x5f8c4.md#l12660) espera sua [conta](lexicos10x5f8c4.md#l12532) ser apagada, ou seja [conta deletada](lexicos10x5f8c4.md#l12658).   |
 | **Requisitos** | [MOD1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/priorizacao/) |
 
-# fazer uma pergunta
-### C3036
+## C3036
+### fazer uma pergunta
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -143,8 +146,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) clica no botão faça sua [pergunta](lexicos10x5f8c4.md#l12494)</br>[usuário](lexicos10x5f8c4.md#l12660) digita sua [dúvida](lexicos10x5f8c4.md#l12494)</br>[usuário](lexicos10x5f8c4.md#l12660) pode adicionar anexo</br>[usuário](lexicos10x5f8c4.md#l12660) pode adicionar equações</br>[usuário](lexicos10x5f8c4.md#l12660) pode adicionar símbolo</br>[usuário](lexicos10x5f8c4.md#l12660) escolhe a [matéria](lexicos10x5f8c4.md#l12499) relacionada</br>[usuário](lexicos10x5f8c4.md#l12660) oferece os [pontos](lexicos10x5f8c4.md#l12492) para [pergunta](lexicos10x5f8c4.md#l12494)</br>Para concluir, o [usuário](lexicos10x5f8c4.md#l12660) clica em um novo botão também com o nome faça sua [pergunta](lexicos10x5f8c4.md#l12494)   |
 | **Requisitos** | [AP1.9](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/), [AP1.10](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
-# filtrar perguntas por matéria
-### C3040
+## C3040
+### filtrar perguntas por matéria
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -157,8 +160,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) acessa o Brainly.</br>[usuário](lexicos10x5f8c4.md#l12660) entra em sua [conta](lexicos10x5f8c4.md#l12532).</br></br>Plataforma mobile:</br>Na aba [resposta](lexicos10x5f8c4.md#l12521), o [usuário](lexicos10x5f8c4.md#l12660) clica em [matéria](lexicos10x5f8c4.md#l12499) e escolhe uma [matéria](lexicos10x5f8c4.md#l12499) na lista apresentada.</br></br>Plataforma Web:</br>Na lista apresentada no lado esquerdo da página principal, o [usuário](lexicos10x5f8c4.md#l12660) escolhe uma [matéria](lexicos10x5f8c4.md#l12499).</br></br>[usuário](lexicos10x5f8c4.md#l12660) escolhe uma [pergunta](lexicos10x5f8c4.md#l12494) que possa contribuir.</br>[usuário](lexicos10x5f8c4.md#l12660) [responde](lexicos10x5f8c4.md#l12489) a [pergunta](lexicos10x5f8c4.md#l12494).</br>[usuário](lexicos10x5f8c4.md#l12660) recebe [pontos](lexicos10x5f8c4.md#l12492) pela [resposta](lexicos10x5f8c4.md#l12521).   |
 | **Requisitos** | [AP1.5](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
-# filtrar perguntas por nível escolar
-### C3041
+## C3041
+### filtrar perguntas por nível escolar
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -171,8 +174,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) acessa o Brainly.</br>[usuário](lexicos10x5f8c4.md#l12660) entra em sua [conta](lexicos10x5f8c4.md#l12532).</br></br>Plataforma mobile:</br>Na aba [resposta](lexicos10x5f8c4.md#l12521), o [usuário](lexicos10x5f8c4.md#l12660) clica em [nível](lexicos10x5f8c4.md#l12491) escolar ([nível das perguntas](lexicos10x5f8c4.md#l12656)) e escolhe o [nível](lexicos10x5f8c4.md#l12491) adequado para si na lista apresentada.</br></br>Plataforma web:</br>Na página principal, clicar no menu dropdown "Todos os [níveis](lexicos10x5f8c4.md#l12491)" e escolher o [nível](lexicos10x5f8c4.md#l12491) adequado para si na lista apresentada.</br></br>[usuário](lexicos10x5f8c4.md#l12660) escolhe uma [pergunta](lexicos10x5f8c4.md#l12494) que possa contribuir.</br>[usuário](lexicos10x5f8c4.md#l12660) [responde](lexicos10x5f8c4.md#l12489) a [pergunta](lexicos10x5f8c4.md#l12494).</br>[usuário](lexicos10x5f8c4.md#l12660) recebe [pontos](lexicos10x5f8c4.md#l12492) pela [resposta](lexicos10x5f8c4.md#l12521).   |
 | **Requisitos** | [MOD1.6](https://welisonr.github.io/2019.1-Requisitos-Brainly/priorizacao/)|
 
-# iniciar desafios
-### C2998
+## C2998
+### iniciar desafios
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -185,8 +188,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) vê os [desafios](lexicos10x5f8c4.md#l12496) propostos;</br>[usuário](lexicos10x5f8c4.md#l12660) aceita [desafio](lexicos10x5f8c4.md#l12496) clicando no botão comece;</br>[usuário](lexicos10x5f8c4.md#l12660) cumpre as [tarefas](lexicos10x5f8c4.md#l12494) previstas em um período de tempo;</br>[usuário](lexicos10x5f8c4.md#l12660) ganha [pontos](lexicos10x5f8c4.md#l12492).</br>[usuário](lexicos10x5f8c4.md#l12660) pode repetir um [desafio](lexicos10x5f8c4.md#l12496).   |
 | **Requisitos** | [AP1.8](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
-# moderar denúncia
-### C3030
+## C3030
+### moderar denúncia
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -199,8 +202,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    O [moderador](lexicos10x5f8c4.md#l12528) ou [administrador](lexicos10x5f8c4.md#l12529) verifica a denúncia no painel de moderação.</br>Se a [pergunta](lexicos10x5f8c4.md#l12494), [resposta](lexicos10x5f8c4.md#l12521) ou [comentário](lexicos10x5f8c4.md#l12506) é apropriado, os [moderadores](lexicos10x5f8c4.md#l12528) ou [administradores](lexicos10x5f8c4.md#l12529) aprovam o conteúdo.</br>Se há possibilidade de correção, os [moderadores](lexicos10x5f8c4.md#l12528) ou [administradores](lexicos10x5f8c4.md#l12529) solicitam a [edição](lexicos10x5f8c4.md#l12659) da atividade.</br>Se a denuncia é verídica, os [moderadores](lexicos10x5f8c4.md#l12528) ou [administradores](lexicos10x5f8c4.md#l12529) advertem o [infrator](lexicos10x5f8c4.md#l12531) e exclui sua [pergunta](lexicos10x5f8c4.md#l12494), [resposta](lexicos10x5f8c4.md#l12521) ou [comentário](lexicos10x5f8c4.md#l12506).</br>Se a ação do [usuário](lexicos10x5f8c4.md#l12660) tiver conteúdo extremamente inapropriado, os [moderadores](lexicos10x5f8c4.md#l12528) ou [administradores](lexicos10x5f8c4.md#l12529) tornam o [usuário](lexicos10x5f8c4.md#l12660) [banido](lexicos10x5f8c4.md#l12534) ou [bloqueiam usuário](lexicos10x5f8c4.md#l12574).   |
 | **Requisitos** | [INT2.13](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
-# pedir correção de contéudo
-### C3045
+## C3045
+### pedir correção de contéudo
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -213,8 +216,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [moderador](lexicos10x5f8c4.md#l12528) ou [administrador](lexicos10x5f8c4.md#l12529) verifica um erro na [pergunta](lexicos10x5f8c4.md#l12494), [resposta](lexicos10x5f8c4.md#l12521) ou [comentário](lexicos10x5f8c4.md#l12506) do [usuário](lexicos10x5f8c4.md#l12660) e solicita a correção, [edição](lexicos10x5f8c4.md#l12659).</br>[usuário](lexicos10x5f8c4.md#l12660) é notificado sobre o erro no conteúdo.</br>[usuário](lexicos10x5f8c4.md#l12660) edita a [tarefa](lexicos10x5f8c4.md#l12494) e envia para [avaliação](lexicos10x5f8c4.md#l12506) de quem solicitou a correção.</br>O [moderador](lexicos10x5f8c4.md#l12528) ou [administrador](lexicos10x5f8c4.md#l12529) responsável pelo pedido de correção avalia a questão e torna a [resposta](lexicos10x5f8c4.md#l12521) verificada.   |
 | **Requisitos** | [INT2.16](https://welisonr.github.io/2019.1-Requisitos-Brainly/introspeccao) |
 
-# pesquisar
-### C3000
+## C3000
+### pesquisar
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -227,8 +230,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) tem uma [dúvida](lexicos10x5f8c4.md#l12494);</br>[usuário](lexicos10x5f8c4.md#l12660) digita no capo de pesquisa;</br>[perguntas](lexicos10x5f8c4.md#l12494) verificadas são retornadas;</br>[usuário](lexicos10x5f8c4.md#l12660) lê [perguntas](lexicos10x5f8c4.md#l12494) e [respostas](lexicos10x5f8c4.md#l12521) para tirar sua [dúvida](lexicos10x5f8c4.md#l12494).   |
 | **Requisitos** | [AP2.1](https://welisonr.github.io/2019.1-Requisitos-Brainly/analise_protocolo/) |
 
-# pesquisar pelo google
-### C3038
+## C3038
+### pesquisar pelo google
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|
@@ -241,8 +244,9 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 |  **Episódio** |    [usuário](lexicos10x5f8c4.md#l12660) faz uma pesquisa no google.</br>[usuário](lexicos10x5f8c4.md#l12660) vê um resultado relacionado à plataforma brainly.</br>[usuário](lexicos10x5f8c4.md#l12660) clica no resultado.</br>[usuário](lexicos10x5f8c4.md#l12660) é redirecionado para plataforma brainly.</br>[usuário](lexicos10x5f8c4.md#l12660) visualiza uma [tarefa](lexicos10x5f8c4.md#l12494) verificada.   |
 | **Requisitos** | |
 
-# responder tarefa
-### C2997
+
+## C2997
+### responder tarefa
 
 |  Informações  | Cenário |
 |:-------------:|:-------:|

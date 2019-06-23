@@ -1,4 +1,6 @@
-# Versionamento
+# LÉXICOS
+
+## Versionamento
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
@@ -7,15 +9,15 @@
 | 2.1 | 22/04/2019 | Adiciona introdução e descrição sobre o crawler utilizado | Welison Regis |
 | 2.2 | 22/04/2019 | Adicionado requisitos relacionados | Andre Pinto, Leonardo Medeiros |
 
-# Introdução
+## Introdução
 
 A modelagem por léxicos baseia-se na descrição de símbolos tendo como base a noção que transmitem (sentido denotativo) e o impacto que ocasionam (sentido conotativo). Os léxicos abaixo dividem-se em: nome, noção, classificação (sujeito, objeto, verbo, estado) e impacto.
 
 O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta desenvolvida em python disponível em nosso _github_ que, baseado nas _urls_, puxa todas as informações dos léxicos do site [C&L](http://pes.inf.puc-rio.br/cel/aplicacao/) referente ao projeto Brainly e gera esse _markdown_ com âncoras nas palavras chaves (inclusive sinônimos). O _notebook_ com o código e as orientações está disponível em [C&L Crawler](https://github.com/WelisonR/2019.1-Requisitos-Brainly/blob/master/CeL_crawler_pucrio.ipynb).
 >>>>>>> ddbd32728e6cd9c6bea26882e4c24c4550e0d9da
 
-# administrador
-### L12529
+## L12529
+### administrador
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -33,9 +35,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | [pedir correção de contéudo](cenarios10x5f8c4.md#c3045) | [usuário](lexicos10x5f8c4.md#l12660) |
 
 
-
-# amigo
-### L12502
+## L12502
+### amigo
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -52,9 +53,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | - | - |
 
 
-
-# banido
-### L12534
+## L12534
+### banido
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -72,8 +72,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# bloquear usuário
-### L12574
+## L12574
+### bloquear usuário
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -91,8 +91,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# cadastrar
-### L12647
+## L12647
+### cadastrar
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -111,8 +111,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# comentário
-### L12506
+## L12506
+### comentário
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -132,8 +132,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# comunidade
-### L12525
+## L12525
+### comunidade
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -155,8 +155,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# confirmar email
-### L12657
+## L12657
+### confirmar email
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -174,8 +174,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# conta deletada
-### L12658
+## L12658
+### conta deletada
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -189,12 +189,12 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 |  **Cenários** |**Léxicos**|
 |:-------------:|:---------:|
-| [deletar conta](cenarios10x5f8c4.md#id=3039) |   |
+| [deletar conta](cenarios10x5f8c4.md#c3029) |   |
 
 
 
-# denunciar
-### L12533
+## L12533
+### denunciar
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -212,8 +212,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# desafios
-### L12496
+## L12496
+### desafios
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -231,8 +231,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# deslogado
-### L12653
+## L12653
+### deslogado
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -250,8 +250,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# editar
-### L12659
+## L12659
+### editar
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -268,13 +268,13 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | [moderar denúncia](cenarios10x5f8c4.md#c3030) |   |
 | [alterar perfil](cenarios10x5f8c4.md#c3032) |   |
 | [alterar nível das perguntas](cenarios10x5f8c4.md#c3037) |   |
-| [deletar conta](cenarios10x5f8c4.md#id=3039) |   |
+| [deletar conta](cenarios10x5f8c4.md#c3029) |   |
 | [pedir correção de contéudo](cenarios10x5f8c4.md#c3045) |   |
 
 
 
-# emblemas
-### L12495
+## L12495
+### emblemas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -294,8 +294,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# emblemas conquistados.
-### L12518
+## L12518
+### emblemas conquistados
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -312,9 +312,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | - | - |
 
 
-
-# emblemas mais próximos
-### L12516
+## L12516
+### emblemas mais próximos
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -332,8 +331,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# emblemas recentes
-### L12517
+## L12517
+### emblemas recentes
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -351,8 +350,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# entrar com facebook
-### L12650
+## L12650
+### entrar com facebook
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -370,8 +369,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# entre agora!
-### L12649
+## L12649
+### entre agora!
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -388,9 +387,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | - | - |
 
 
-
-# entre!
-### L12652
+## L12652
+### entre!
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -408,8 +406,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# esqueceu sua senha
-### L12654
+## L12654
+### esqueceu sua senha
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -427,8 +425,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# infrator
-### L12531
+## L12531
+### infrator
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -446,8 +444,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# log in
-### L12648
+## L12648
+### log in
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -466,8 +464,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# logado
-### L12651
+## L12651
+### logado
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -489,15 +487,15 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | [adicionar símbolo para pergunta](cenarios10x5f8c4.md#c3034) |   |
 | [adicionar equação para pergunta](cenarios10x5f8c4.md#c3035) |   |
 | [alterar nível das perguntas](cenarios10x5f8c4.md#c3037) |   |
-| [deletar conta](cenarios10x5f8c4.md#id=3039) |   |
+| [deletar conta](cenarios10x5f8c4.md#c3029) |   |
 | [filtrar perguntas por matéria](cenarios10x5f8c4.md#c3040) |   |
 | [filtrar perguntas por nível escolar ](cenarios10x5f8c4.md#c3041) |   |
 | [adicionar comentário](cenarios10x5f8c4.md#c3042) |   |
 
 
 
-# matéria
-### L12499
+## L12499
+### matéria
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -516,8 +514,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# melhor resposta
-### L12490
+## L12490
+### melhor resposta
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -538,8 +536,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# mensagens
-### L12508
+## L12508
+### mensagens
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -557,8 +555,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# moderador
-### L12528
+## L12528
+### moderador
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -581,8 +579,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# nível
-### L12491
+## L12491
+### nível
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -603,8 +601,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# nível das perguntas
-### L12656
+## L12656
+### nível das perguntas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -623,8 +621,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# notificações
-### L12509
+## L12509
+### notificações
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -642,8 +640,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# obrigados
-### L12497
+## L12497
+### obrigados
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -661,8 +659,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# perfil
-### L12532
+## L12532
+### perfil
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -683,14 +681,13 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | [adicionar símbolo para pergunta](cenarios10x5f8c4.md#c3034) |   |
 | [adicionar equação para pergunta](cenarios10x5f8c4.md#c3035) |   |
 | [alterar nível das perguntas](cenarios10x5f8c4.md#c3037) |   |
-| [deletar conta](cenarios10x5f8c4.md#id=3039) |   |
+| [deletar conta](cenarios10x5f8c4.md#c3029) |   |
 | [filtrar perguntas por matéria](cenarios10x5f8c4.md#c3040) |   |
 | [filtrar perguntas por nível escolar ](cenarios10x5f8c4.md#c3041) |   |
 
 
-
-# pergunta
-### L12494
+## L12494
+### pergunta
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -722,8 +719,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# pergunta expirada
-### L12510
+## L12510
+### pergunta expirada
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -741,8 +738,9 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# pergunta popular
-### L12575
+
+## L12575
+### pergunta popular
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -759,9 +757,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | - | - |
 
 
-
-# pergunta respondida
-### L12644
+## L12644
+### pergunta respondida
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -779,8 +776,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# política de privacidade
-### L12645
+## L12645
+### política de privacidade
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -798,8 +795,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# pontos
-### L12492
+## L12492
+### pontos
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -826,8 +823,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# rankings
-### L12498
+## L12498
+### rankings
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -845,8 +842,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# recebendo resposta
-### L12520
+## L12520
+### recebendo resposta
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -864,8 +861,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# repetir desafio
-### L12655
+## L12655
+### repetir desafio
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -883,8 +880,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# responder
-### L12489
+## L12489
+### responder
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -909,8 +906,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# respondidas
-### L12521
+## L12521
+### respondidas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -934,8 +931,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# respostas verificadas
-### L12522
+## L12522
+### respostas verificadas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -953,8 +950,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# sem resposta
-### L12519
+## L12519
+### sem resposta
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -972,8 +969,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# tarefas adicionadas
-### L12514
+## L12514
+### tarefas adicionadas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -991,8 +988,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# tarefas resolvidas
-### L12512
+## L12512
+### tarefas resolvidas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -1010,8 +1007,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# termos de uso
-### L12646
+## L12646
+### termos de uso
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -1029,8 +1026,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# time de respostas
-### L12576
+## L12576
+### time de respostas
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -1049,8 +1046,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# universitário
-### L12577
+## L12577
+### universitário
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -1068,8 +1065,8 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 
 
 
-# usuário
-### L12660
+## L12660
+### usuário
 
 |  Informações    | Símbolo |
 |:---------------:|:-------:|
@@ -1095,7 +1092,7 @@ O arquivo _markdown_ aqui disposto é gerado automaticamente por uma ferramenta 
 | [adicionar equação para pergunta](cenarios10x5f8c4.md#c3035) | [tarefas resolvidas](lexicos10x5f8c4.md#l12512) |
 | [alterar nível das perguntas](cenarios10x5f8c4.md#c3037) | [tarefas adicionadas](lexicos10x5f8c4.md#l12514) |
 | [pesquisar pelo google](cenarios10x5f8c4.md#c3038) | [emblemas mais próximos](lexicos10x5f8c4.md#l12516) |
-| [deletar conta](cenarios10x5f8c4.md#id=3039) | [emblemas conquistados.](lexicos10x5f8c4.md#l12518) |
+| [deletar conta](cenarios10x5f8c4.md#c3029) | [emblemas conquistados.](lexicos10x5f8c4.md#l12518) |
 | [filtrar perguntas por matéria](cenarios10x5f8c4.md#c3040) | [recebendo resposta](lexicos10x5f8c4.md#l12520) |
 | [filtrar perguntas por nível escolar ](cenarios10x5f8c4.md#c3041) | [administrador](lexicos10x5f8c4.md#l12529) |
 | [adicionar comentário](cenarios10x5f8c4.md#c3042) | [perfil](lexicos10x5f8c4.md#l12532) |
