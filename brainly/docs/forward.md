@@ -7,8 +7,8 @@
 |  1.0   | 16/06/2019 | Preenchimento código e descrição dos requisitos | Welison Regis, João Gabriel Rossi |
 |  1.1   | 16/06/2019 | Preenchimento US e Épico | Paulo Vitor Rocha, Gustavo Marques |
 |  1.2   | 16/06/2019 | Preenchimento dos NFR na tabela | Ivan Diniz Dobbin, Lieverton Santos |
-|  1.3   | 16/06/2019 | Preenchimento das operacionalizações na tabela | André Pinto, Leonardo Medeiros, João Matheus |
-|  1.4   | 16/06/2019 | Link para US, EP e NFR | André Pinto, Leonardo Medeiros, João Matheus |
+|  1.3   | 16/06/2019 | Preenchimento das operacionalizações na tabela | André Pinto, João Rodrigues, Leonardo Medeiros |
+|  1.4   | 16/06/2019 | Link para US, EP e NFR | André Pinto, João Rodrigues, , Leonardo Medeiros |
 |  1.5   | 16/06/2019 | Link específico para US, EP e NFR | Paulo Vitor Rocha |
 |  1.6   | 18/06/2019 | Adiciona GIFs e imagens das funcionalidades (RF1 - RF48) | Welison Regis |
 |  1.7   | 19/06/2019 | Adiciona hyperlinks e descrições das imagens e GIFS | Welison Regis |
@@ -113,25 +113,25 @@ Versão 2
 
 | Código |   Descrição   |   NFR  |  Operacionalizações  |  Funcionalidade  |
 | :----: |    :--------------: | :----: | :-----: | :--------------: |
-|RNF1  |  A ferramenta que possibilita respostas deve ser consistente entre as plataformas| [NFR-Suportabilidade](nfr.md#nfr02) | "Disponibilizar plataformas semelhantes". |[IMG39](#img39), [IMG40](#img40)|
+|RNF1  |  A ferramenta que possibilita respostas deve ser consistente entre as plataformas| [NFR-Suportability](nfr.md#nfr02) | "Disponibilizar plataformas semelhantes". |[IMG39](#img39), [IMG40](#img40)|
 |RNF2  |A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil  | [NFR-Confiabilidade](nfr.md#nfr01) | "Ter vários usuários frequentes na plataforma";"Fazer propagandas para atrair usuários";"Aplicar gamificação";"Enviar notificações". |  [IMG41](#img41), [IMG42](#img42) |
-|  RNF3| Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma | NFR-Confiabilidade | "Recrutar usuários para a moderação conforme o seu bom desempenho na plataformar" |  |
+|  RNF3| Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma | [NFR-Confiabilidade](nfr.md#nfr01) | "Recrutar usuários para a moderação conforme o seu bom desempenho na plataformar" |  |
 |RNF4  |  Os moderadores devem conscientizar os usuários sobre as políticas de conduta da plataforma|[NFR-Suporte ao usuário](nfr.md#nfr03)  | "Moderadores conscientizarem os usuários sobre a política da plataforma" | [IMG43](#img43) |
 | RNF5 | Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma |[NFR-Confiabilidade](nfr.md#nfr01)  | "Administradores dão advertências ou punições";"Moderadores dão advertências ou punições";"Usuários denunciam perguntas e respostas". | [Regulamento Braily](https://brainly.com.br/pages/regulamento) |
 | RNF6 | A plataforma ter uma boa curva de aprendizagem, sem causar impacto aos novos usuários |[NFR-Usabilidade](nfr.md#nfr05)  |"Dar suporte aos usuários";"Ter uma seção Fale Conosco";"Disponibilizar um tutorial";"Disponibiizar Documentação".  | [IMG44](#img44) |
-|RNF7  | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | NFR-Suportability | "Reduzir os gatos de bateria e dados em uma versão mobile opcional"| [IMG45](#img45) |
+|RNF7  | O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados | [NFR-Suportability](nfr.md#nfr02) | "Reduzir os gatos de bateria e dados em uma versão mobile opcional"| [IMG45](#img45) |
 | RNF8 | Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização | [NFR-Confiabilidade](nfr.md#nfr01) | "Adicionar anúncios na plataforma";"Ter patrocinadores";"Vender dados". | [IMG46](#img46) |
 |  RNF9| O cadastro na plataforma deve ocorrer de uma maneira rápida e prática |[NFR-Usabilidade](nfr.md#nfr05)  |"Cadastrar por meio de redes sociais";"Cadastrar via facebook";"Requisitar apenas informações úteis para o funcionamento do sistema".  | [IMG47](#img47) |
-|  RNF10|O sistema poderia ter um sistema de tutorial mais rápido com menos passos  | NFR-Usabilidade | "Disponibilizar   um tutorial simples e rápido" | [IMG48](#img48) |
+|  RNF10|O sistema poderia ter um sistema de tutorial mais rápido com menos passos  | [NFR-Usabilidade](nfr.md#nfr05) | "Disponibilizar   um tutorial simples e rápido" | [IMG48](#img48) |
 |RNF11  | Possuir idade mínima (13) para se registrar na plataforma |  [NFR-Confiabilidade](nfr.md#nfr01)|  "Requerer consentimento dos responsáveis para cadastro de usuários com menos de 13 anos"|  |
 |RNF12  | Não utilizar informações de pessoas menores de 16 anos sem autorização |[NFR-Confiabilidade](nfr.md#nfr01)  |"Requerer consentimento dos responsáveis para utilizar dados de usuários com menos de 16 anos"  | [IMG49](#img49), [Políticas de privacidade](https://brainly.com.br/pages/privacy_policy) |
-| RNF13 |  Possuir medidas de segurança para proteção de dados (não especificada pelo site)| NFR-Confiabilidade | "Possuir um ótimo sistema de segurança de dados" | [IMG50](#img50) |
-| RNF14 |  Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia| NFR-Suporte ao usuário | "Monitorar e registrar atividades nos serviços da brainly sem autorização prévia"  | [IMG51](#img51),  [Regulamento Braily](https://brainly.com.br/pages/regulamento)|
-|RNF15  | Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços | NFR-Confiabilidade | "Responsabilizar o usuário por todos os dados enviados ou transmitidos dentro da plataforma" |  [IMG52](#img52) [Políticas de privacidade](https://brainly.com.br/pages/privacy_policy) |
+| RNF13 |  Possuir medidas de segurança para proteção de dados (não especificada pelo site)| [NFR-Confiabilidade](nfr.md#nfr01) | "Possuir um ótimo sistema de segurança de dados" | [IMG50](#img50) |
+| RNF14 |  Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia| [NFR-Suporte ao usuário](nfr.md#nfr03) | "Monitorar e registrar atividades nos serviços da brainly sem autorização prévia"  | [IMG51](#img51),  [Regulamento Braily](https://brainly.com.br/pages/regulamento)|
+|RNF15  | Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços | [NFR-Confiabilidade](nfr.md#nfr01) | "Responsabilizar o usuário por todos os dados enviados ou transmitidos dentro da plataforma" |  [IMG52](#img52) [Políticas de privacidade](https://brainly.com.br/pages/privacy_policy) |
 | RNF16 | Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing | [NFR-Confiabilidade](nfr.md#nfr01) | "Solicitar permissão para utilizar os dados do usuário";"Usar dados para publicidade e marketing".  | |
 |  RNF17| Apagar perguntas que estão sem respostas por muito tempo | [NFR-Desempenho](nfr.md#nfr04) |  "Apagar perguntas sem resposta periodicamente".|  |
-|RNF18  |Atualizar automaticamente as plataformas mobile  |[NFR-Suportabilidade](nfr.md#nfr02)  | "Disponibilizar atualização" |  |
-| RNF19 |Cobrar por assinatura de serviços  | NFR-Confiabiliade | "Cobrar por assinatura de serviços " |  |
+|RNF18  |Atualizar automaticamente as plataformas mobile  |[NFR-Suportability](nfr.md#nfr02)  | "Disponibilizar atualização" |  |
+| RNF19 |Cobrar por assinatura de serviços  | [NFR-Confiabiliade](nfr.md#nfr01) | "Cobrar por assinatura de serviços " |  |
 
 ## IMG01
 
