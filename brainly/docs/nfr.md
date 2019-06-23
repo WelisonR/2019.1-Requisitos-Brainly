@@ -45,8 +45,13 @@ Versão 3.0
 
 Versão 4.0
 ![NFR Confiabilidade](images/nfr/NFR_Confiabilidade_SemAnalise_v5.jpg)
-Análise NFR Confiabilidade
 ![NFR Confiabilidade](images/nfr/NFRConfiabilidadeComAnalise_v1.jpg)
+
+Versão 5.0
+![NFR Confiabilidade](images/nfr/Confiabilidade_SemAnalise_v5.jpg)
+Análise NFR Confiabilidade
+![NFR Confiabilidade](images/nfr/Confiabilidade_ComAnalise_v5.jpg)
+
 
 
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#confiabilidade), [US31](./backlog.md#us31), [US13](./backlog.md#us13), [US26](./backlog.md#us26), [US29](./backlog.md#us29), [US34](./backlog.md#us34), [C3030](./cenarios10x5f8c4.md#c3030).
