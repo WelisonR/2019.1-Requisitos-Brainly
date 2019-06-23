@@ -14,12 +14,15 @@
 |    1.9  | 22/06/2019 | Adição da versão 3 das análises de argumentação | João Rodrigues, Paulo Vítor |
 |    2.0  | 22/06/2019 | Adição da versão 3 das análises dos rich pictures | João Rodrigues, Paulo Vítor |
 |    2.1  | 22/06/2019 | Adição da metodologia utilizada para análise | João Rodrigues, Paulo Vítor |
+|    2.2  | 22/06/2019 | Adição de objetivo da análise de pré rastreabilidade | João Rodrigues, Paulo Vítor |
 
 # INTRODUÇÃO
 
 Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas dicas dadas na dinâmica e apresentação. A análise mostra o que tem ou não sido cumprido pelos objetos analizados pela equipe em determinados critérios descritos.
 
 # OBJETIVO
+
+A inspeção dos modelos possibilita conhecer aspectos relacionados a informações, abrangência, completude e qualidade dos objetos analisados. Nesse tópico, verificou-se através de métricas e checklists, temas importantes presentes nos modelos. A inspeção nos permitiu descobrir as fraquezas existentes no trabalho e também trouxe uma maior facilidade na hora de realizar a melhoria da qualidade dos modelos.
 
 # METODOLOGIA
 
