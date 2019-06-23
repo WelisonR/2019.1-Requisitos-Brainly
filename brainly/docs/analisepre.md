@@ -4,31 +4,34 @@
 |  :----: | :--------: | :---------:  | :------: |
 |    1.0  | 04/06/2019 | Adição do template | João Rossi |
 |    1.1  | 04/06/2019 | Adição da análise dos rich pictures de visão geral, gamificação, plataformas, perguntas e respostas e primeiros passos de um novo usuário não cadastrado e cadastrado |  Ivan Diniz, João Rodrigues, João Rossi, Paulo Rocha |
-|    1.2  | 05/06/2019 | Adição da análise das argumentações | João Rossi, Ivan Diniz, Paulo Rocha, João Rodrigues |
+|    1.2  | 05/06/2019 | Adição da análise das argumentações | Ivan Diniz, João Rodrigues, João Rossi, Paulo Rocha |
 |    1.3  | 09/06/2019 | Adição do checklist de inspeção em rich picture | Ivan Diniz, João Rodrigues, Paulo Rocha |
 |    1.4  | 09/06/2019 | Adição do checklist de inspeção em argumentação | Ivan Diniz, João Rodrigues, Paulo Rocha |
-|    1.5  | 09/06/2019 | Adição da análise das argumentações | Paulo Rocha, João Gabriel |
-|    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
-|    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
-|    1.8  | 10/06/2019 | Adição dos gráficos de analise das argumentações | Joao Gabriel |
+|    1.5  | 09/06/2019 | Adição da análise das argumentações |  João Rossi, Paulo Rocha |
+|    1.6  | 09/06/2019 | Adição da análise dos rich pictures | Ivan Diniz, João Rodrigues |
+|    1.7  | 09/06/2019 | Adição dos gráficos de análise dos rich pictures e argumentação | João Rodrigues, João Rossi, Paulo Vítor |
+|    1.8  | 10/06/2019 | Adição dos gráficos de análise das argumentações | João Rossi |
 |    1.9  | 22/06/2019 | Adição da versão 3 das análises de argumentação | João Rodrigues, Paulo Vítor |
 |    2.0  | 22/06/2019 | Adição da versão 3 das análises dos rich pictures | João Rodrigues, Paulo Vítor |
 |    2.1  | 22/06/2019 | Adição da metodologia utilizada para análise | João Rodrigues, Paulo Vítor |
 |    2.2  | 22/06/2019 | Adição de objetivo da análise de pré rastreabilidade | João Rodrigues, Paulo Vítor |
 
+
 # INTRODUÇÃO
 
-Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas dicas dadas na dinâmica e apresentação. A análise mostra o que tem ou não sido cumprido pelos objetos analizados pela equipe em determinados critérios descritos.
+Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas orientações dadas na dinâmica e apresentação desse tópico. A análise mostra o que tem ou não sido cumprido pelos objetos analisados pela equipe de acordo com os critérios determinados.
+
 
 # OBJETIVO
 
-A inspeção dos modelos possibilita conhecer aspectos relacionados a informações, abrangência, completude e qualidade dos objetos analisados. Nesse tópico, verificou-se através de métricas e checklists, temas importantes presentes nos modelos. A inspeção nos permitiu descobrir as fraquezas existentes no trabalho e também trouxe uma maior facilidade na hora de realizar a melhoria da qualidade dos modelos.
+A inspeção dos modelos possibilita conhecer aspectos relacionados a informações, abrangência, completude e qualidade dos objetos analisados. Nesse tópico, verificou-se através de métricas e checklists, temas importantes presentes nos modelos. A inspeção nos permitiu descobrir as fraquezas existentes no trabalho e também facilitou a realização do aprimoramento de qualidade dos modelos.
+
 
 # METODOLOGIA
 
-As inspeções foram feitas individualmente por cada membro, porém antes de realiza-las foi feita uma reunião para discutir a organização das checklists, sua disposição e o conteúdo presente em cada uma delas.
+As inspeções foram executadas individualmente por cada membro, porém antes de produzi-las foi realizada uma reunião para discutir a organização das checklists, sua disposição e o conteúdo presente em cada uma delas.
 
-As inspeções realizadas sobre a pré-rastrebilidade baseiam-se em um checklist composto por questões acompanhadas de seus impactos (Alto/Médio/Baixo). Analisou-se separadamente cada tópico relacionado à qualidade dos modelos, sendo os modelos dos Rich Pictures separados nos temas: Apresentação, Compreensibilidade, Forma e Organização e Rastreabilidade; e os modelos de Argumentação em: Desenvolvimento, Forma e Organização, Rastreabilidade e Conclusão.
+As inspeções realizadas sobre a pré-rastrebilidade baseiam-se em um checklist composto por questões acompanhadas de seus impactos (Alto/Médio/Baixo). Analisou-se separadamente cada tópico relacionado à qualidade dos modelos, sendo os tópicos dos modelos dos Rich Pictures separados nos temas: Apresentação, Compreensibilidade, Forma e Organização e Rastreabilidade; e os tópicos dos modelos de Argumentação em: Desenvolvimento, Forma e Organização, Rastreabilidade e Conclusão.
 
 Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qualidade dos modelos, tanto de argumentação quanto os de rich pictures.
 
@@ -237,7 +240,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | Utiliza um dispositivo android, um dispositivo ios e um dispositivo desktop |
 |      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
 
-![Gráfico RichPicture Gamificacao](images/analise/plataformas.png)
+![Gráfico RichPicture Plataformas](images/analise/plataformas.png)
 
 ## IRP 04 - Rich Picture Perguntas e Respostas
 ### Inspeção Individual v1.0
@@ -274,9 +277,32 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Perguntas_e_Respostas.png)
 
-## IRP 05 - Rich Picture Primeiros Passos de Usuário não Cadastrado
+### Inspeção Individual v3.0
+
+| Nome do projeto           | [Rich Picture Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |
+| :-----------------------: | :-------------------------------------------------------------------------------------: |
+| Data da inspeção          | 22/06/2019 |
+| Responsável pela inspeção | João Rodrigues |
+| Hora inicial              | 21h56 |
+| Hora final                | 22h11 |
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Os símbolos escolhidos são facilmente interpretados, porém é recomendado utilizar símbolos semelhantes aos utilizados no Brainly para se adequar a identidade visual empregada na plataforma. |
+|       2        |        M        |     Não     | Em denúncia, o moderador avalia uma denúncia, porém na conexão entre os atores Usuário Com Dúvida e Outros Usuários não é descrita a relação. |
+|       3        |        B        |     Sim     | Foram utilizadas somente as imagens necessárias para ilustrar os textos e foram ilustrados todos os textos no artefato produzido. |
+|       4        |        A        |     Não     | No artefato, é díficil compreender o ganho e gasto de pontos por parte do usuário. |
+|       5        |        A        |     Não     | O artefato produzido não explica como ganhar ou gastar pontos com as perguntas, pois quem responde e quem pergunta aponta para o mesmo lugar. |
+|       6        |        M        |     Sim     | Longos textos não foram utilizados como legenda de imagens, indicação de ações (texto em setas e etc) ou explanação geral no artefato produzido. |
+|       7        |        A        |     Não     | O foco do artefato está disperso, pois as perguntas e respostas, nem os usuários que realizam essas ações estão no centro do que foi produzido. |
+|       8        |        A        |     Sim     | O usuário com dúvida e os outros usuários são representados no artefato produzido. |
+|       9        |        A        |     Sim     | É implicito, no artefato produzido, a representação de um dispositivo eletrônico que possibilite a utilização da plataforma Brainly. |
+|      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
+
+![Gráfico Rich Picture Perguntas e Respostas](images/analise/Rich_Picture_Perguntas_e_Respostas.png)
+
+## IRP 05 - Rich Picture Primeiros Passos de Novo Usuário não Cadastrado
 ### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
@@ -291,7 +317,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ### Inspeção Individual v2.0
 
-|Nome do projeto| [Rich Picture Primeiros Passos de Usuário não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |
+|Nome do projeto| [Rich Picture Primeiros Passos de Novo Usuário não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |
 | :------------: | :------------: |
 |Data da inspeção| 09/06/2019|
 |Responsável pela inspeção| João Rodrigues|
@@ -311,7 +337,29 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-![Gráfico RichPicture Gamificacao](images/analise/passos_usuario_nao_cadastrado.png)
+### Inspeção Individual v3.0
+
+| Nome do projeto           | [Rich Picture Primeiros Passos de Novo Usuário não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |
+| :-----------------------: | :-------------------------------------------------------------------------------------: |
+| Data da inspeção          | 22/06/2019 |
+| Responsável pela inspeção | Paulo Vitor |
+| Hora inicial              | 22h37 |
+| Hora final                | 22h47 |
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Os símbolos escolhidos são facilmente interpretados, porém é recomendado utilizar símbolos semelhantes aos utilizados no Brainly para se adequar a identidade visual empregada na plataforma. |
+|       2        |        M        |     Sim     | A imagem de Dúvida Esclarecida poderia representá-la de maneira mais satisfatória. |
+|       3        |        B        |     Sim     | Foram utilizadas somente as imagens necessárias para ilustrar os textos e foram ilustrados todos os textos no artefato produzido. |
+|       4        |        A        |     Não     | No artefato produzido, é díficil compreender que para realizar uma pergunta o usuário deve estar registrado na plataforma Brainly. |
+|       5        |        A        |     Sim     | O fluxo do artefato produzido é bem definido, porém sua complexidade o torna de díficil compreensão. |
+|       6        |        M        |     Sim     | Longos textos não foram utilizados como legenda de imagens, indicação de ações (texto em setas e etc) ou explanação geral no artefato produzido, porém algumas palavras apresentam erros de ortografia. |
+|       7        |        A        |     Não     | O foco do artefato é o usuário e o usuário não está no centro do artefato produzido. |
+|       8        |        A        |     Sim     | O novo usuário não cadastrado é representado no artefato produzido. |
+|       9        |        A        |     Sim     | É implicito, no artefato produzido, a representação de um dispositivo eletrônico que possibilite a utilização da plataforma Brainly. |
+|      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
+
+![Gráfico RichPicture Primeiros Passos de Novo Usuário Não Cadastrado](images/analise/passos_usuario_nao_cadastrado.png)
 
 ## IRP 06 - Rich Picture Primeiros Passos de Novo Usuário Cadastrado
 ### Inspeção Individual v1.0
@@ -348,10 +396,32 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-![Gráfico RichPicture Primeiros Passos de UsuárioCadastrado](images/analise/RP_Primeiros_Passos_de_Usuário_Cadastrado.png)
+### Inspeção Individual v3.0
+
+| Nome do projeto           | [Rich Picture Primeiros Passos de Novo Usuário Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-cadastrado) |
+| :-----------------------: | :-------------------------------------------------------------------------------------: |
+| Data da inspeção          | 22/06/2019 |
+| Responsável pela inspeção | Paulo Vitor |
+| Hora inicial              | 23h06 |
+| Hora final                | 23h22 |
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Os símbolos escolhidos são facilmente interpretados, porém é recomendado utilizar símbolos semelhantes aos utilizados no Brainly para se adequar a identidade visual empregada na plataforma. |
+|       2        |        M        |     Sim     | As imagens representam bem os textos aos quais estão associadas. |
+|       3        |        B        |     Sim     | Foram utilizadas somente as imagens necessárias para ilustrar os textos e foram ilustrados todos os textos no artefato produzido. |
+|       4        |        A        |     Sim     | O artefato não é complexo e é de fácil compreensão. |
+|       5        |        A        |     Sim     | O fluxo do artefato produzido é bem definido, porém, com o objetivo de complementá-lo, deveriam ser descritos os passos posteriores à espera respota de outros usuários. |
+|       6        |        M        |     Sim     | Longos textos não foram utilizados como legenda de imagens, indicação de ações (texto em setas e etc) ou explanação geral no artefato produzido, porém algumas palavras apresentam erros de ortografia. |
+|       7        |        A        |     Sim     | Considerando que se trata de um artefato focado em usuários com registro na plataforma Brainly, é correto considerar que o foco do artefato é o login do novo usuário na plataforma Brainly. Portanto, o foco está no centro do modelo. |
+|       8        |        A        |     Sim     | O novo usuário cadastrado, outros usuários e o outro usuário que responde uma dúvida são representados no artefato produzido. |
+|       9        |        A        |     Sim     | É implicito, no artefato produzido, a representação de um dispositivo eletrônico que possibilite a utilização da plataforma Brainly. |
+|      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
+
+![Gráfico RichPicture Primeiros Passos de Novo Usuário Cadastrado](images/analise/RP_Primeiros_Passos_de_Usuário_Cadastrado.png)
 
 ##Gráfico da inspeção dos Rich-Pictures
-![Gráfico Argumentação](images/analise/RP.jpg)
+![Gráfico da Inspeção dos Rich-Pictures](images/analise/RP.jpg)
 
 ## MODELO DE VERIFICAÇÃO - ARGUMENTAÇÃO
 **Versão 1**
@@ -567,5 +637,5 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 ![Gráfico Argumentação Niveis](images/analise/niveis.jpg)
 
 
-##Gráfico da inspeção das argumentações
-![Gráfico Argumentação](images/analise/Arg.jpg)
+##Gráfico da Inspeção das argumentações
+![Gráfico da Inspeção das Argumentação](images/analise/Arg.jpg)
