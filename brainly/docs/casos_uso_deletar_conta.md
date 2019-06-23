@@ -5,7 +5,8 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
 | [1.0](modelagem_v1/casos_uso/casos_uso_deletar_conta.md) | 29/04/2019 | Adição da especificação de casos de uso e diagrama| Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, Ivan Diniz, João Rossi |
-| 2.0 | 29/04/2019 | Adição do diagrama de caso de uso verão 2, baseado na análise | Leonardo Medeiros |
+| 2.0 | 22/06/2019 | Adição do diagrama de caso de uso versão 2, baseado na análise | Leonardo Medeiros |
+| 2.1 | 22/06/2019 | Adição das especificações de casos de uso | Leonardo Medeiros |
 
 ## Diagrama de Casos de Uso
 
