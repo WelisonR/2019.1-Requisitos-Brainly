@@ -11,7 +11,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso: Cadastro](images/diagramas_casos_uso/Cadastro_v2.png)
+![Diagrama de casos de uso: Cadastro v2](images/diagramas_casos_uso/Cadastro_v2.png)
 
 ## Especificação de Casos de Uso
 

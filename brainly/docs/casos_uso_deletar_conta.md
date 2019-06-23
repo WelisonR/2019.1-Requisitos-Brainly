@@ -10,7 +10,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso: Deletar Conta](images/diagramas_casos_uso/Deletar_Conta_v2.png)
+![Diagrama de casos de uso: Deletar Conta v2](images/diagramas_casos_uso/Deletar_Conta_v2.png)
 
 ## Especificação de Casos de Uso
 
