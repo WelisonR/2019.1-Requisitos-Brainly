@@ -1,4 +1,4 @@
-# [CADASTRO](rich_picture.md#RichPicture Primeiros Passos de Novo Usuário Não Cadastrado)
+# [CADASTRO](../../rich_picture.md#RichPicture Primeiros Passos de Novo Usuário Não Cadastrado)
 
 ## Versionamento
 

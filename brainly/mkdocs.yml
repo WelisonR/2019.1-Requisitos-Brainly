@@ -43,6 +43,7 @@ pages:
           - Sprint Backlog: modelagem_v1/sprint_backlog.md
         - Caso de Uso:
           -  Perguntas e Respostas: modelagem_v1/casos_uso/casos_uso_perguntas_respostas.md
+          -  Cadastro: modelagem_v1/casos_uso/casos_uso_cadastro.md
   - ANÁLISE:
     - Pré-Rastreabilidade: analisepre.md
     - Casos de uso: analise_casos_de_uso.md
