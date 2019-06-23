@@ -49,8 +49,12 @@ Versão 4.0
 
 Versão 5.0
 ![NFR Confiabilidade](images/nfr/Confiabilidade_SemAnalise_v5.jpg)
-Análise NFR Confiabilidade
 ![NFR Confiabilidade](images/nfr/Confiabilidade_ComAnalise_v5.jpg)
+
+Versão 6.0
+![NFR Confiabilidade](images/nfr/Confiabilidade_SemAnalise_v6.jpg)
+Análise NFR Confiabilidade
+![NFR Confiabilidade](images/nfr/Confiabilidade_ComAnalise_v6.jpg)
 
 
 
