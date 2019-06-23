@@ -1,11 +1,15 @@
-|  Versão | Data | Modificação | Autor |
-|  :------: | :------: | :------: | :------: |
-| [1.0](modelagem_v1/sprint_backlog.md) | 8/05/2019 | Adição de sprints 1-5 | Gustavo Marques, João Rossi, Ivan Diniz, Paulo Rocha, Welison Regis |
-| 2.0 | 21/06/2019 | Completa e corrige cronograma de sprints | Lieverton Silva, Welison Regis |
-
 # SPRINT BACKLOG
 
-## Sprint 1
+## Versionamento
+|  Versão | Data | Modificação | Autor |
+|  :------: | :------: | :------: | :------: |
+| [1.0](modelagem_v1/sprint_backlog.md) | 8/05/2019 | Adição de sprints 1-5 | Gustavo Marques, Ivan Diniz, João Rodrigues, João Rossi,  Paulo Rocha, Welison Regis |
+| 2.0 | 21/06/2019 | Completa e corrige cronograma de sprints | Lieverton Silva, Welison Regis |
+
+
+## SPRINT BACKLOG
+
+### Sprint 01
 |  US  | Épicos | Pontos |
 |  :------: | :------: | :------: |
 | [US10](backlog.md#us10)| [Autenticação](backlog.md#ep02) | 5 |
@@ -14,7 +18,7 @@
 |[US14](backlog.md#us14)|[Autenticação](backlog.md#ep02)|5|
 | Total de pontos | - | 20 |
 
-## Sprint 2
+### Sprint 02
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -24,7 +28,7 @@
 |Total de pontos | - | 19|
 
 
-## Sprint 3
+### Sprint 03
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -35,7 +39,7 @@
 |[US21](backlog.md#us21)|[Questões](backlog.md#ep03)|8|
 |Total de pontos | - | 22|
 
-## Sprint 04
+### Sprint 04
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -44,16 +48,7 @@
 |[US23](backlog.md#us23)|[Questões](backlog.md#ep03)|5|
 |Total de pontos | - | 21|
 
-## Sprint 04
-
-| US |Épicos |Pontos|
-|:----------:|:--------------:|:------------:|
-|[US21](backlog.md#us21)|[Questões](backlog.md#ep03)|8|
-|[US22](backlog.md#us22)|[Questões](backlog.md#ep03)|8|
-|[US23](backlog.md#us23)|[Questões](backlog.md#ep03)|5|
-|Total de pontos | - | 21|
-
-## Sprint 05
+### Sprint 05
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -66,7 +61,7 @@
 |Total de pontos | - |18|
 
 
-## Sprint 06
+### Sprint 06
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -74,7 +69,7 @@
 |[US31](backlog.md#us31)|[Moderação](backlog.md#ep04)|5|
 |Total de pontos | - |18|
 
-## Sprint 07
+### Sprint 07
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -83,7 +78,7 @@
 |[US34](backlog.md#us34)|[Moderação](backlog.md#ep04)|5|
 |Total de pontos | - |23|
 
-## Sprint 08
+### Sprint 08
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -95,7 +90,7 @@
 |[US40](backlog.md#us40)|[Perfil](#ep05)|5|
 |Total de pontos | - |19|
 
-## Sprint 09
+### Sprint 09
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -105,7 +100,7 @@
 |[US44](backlog.md#us44)|[Gamificação](#ep06)|3|
 |Total de pontos | - |18|
 
-## Sprint 10
+### Sprint 10
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -114,7 +109,7 @@
 |[US47](backlog.md#us47)|[Gamificação](#ep06)|8|
 |Total de pontos | - |18|
 
-## Sprint 11
+### Sprint 11
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|
@@ -122,7 +117,7 @@
 |[US49](backlog.md#us49)|[Multiplataforma](#ep07)|13|
 |Total de pontos | - |18|
 
-## Sprint 12
+### Sprint 12
 
 | US |Épicos |Pontos|
 |:----------:|:--------------:|:------------:|

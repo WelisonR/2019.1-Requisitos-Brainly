@@ -28,13 +28,13 @@
 | 3.0 | 22/06/2019| Adicionando novas versões para Confiabilidade,Suportability,Suporte ao Usuário e Usabilidade| Ivan Diniz Dobbin|
 | 3.1 | 23/06/2019| Adicionando novas versões para Confiabilidade e Suporte ao Usuário| Ivan Diniz Dobbin|
 
-# INTRODUÇÃO
+## INTRODUÇÃO
 O NFR Framework é uma abordagem orientada a processos, em que os **requisitos não-funcionais** são explicitamente representados como metas a serem obtidas. Nesse sentido, preocupa-se diretamente com o **comportamento do sistema** e com a avaliação das metas-flexíveis (softgoal) [CHUNG, 1995]. O desenvolvimento dos artefatos foi separado em dois itens: o **NFR sem a análise**, e **outra versão com a análise**.
 
 Ferramenta utilizada para desenvolver os NFRs: [Creately](https://creately.com/).
 
-# NFR01
-## NFR CONFIABILIDADE
+## NFR01
+### NFR CONFIABILIDADE
 Versão 1.0
 ![NFr Confiabilidade](images/nfr/nfr_v1_confiabilidade.png)
 Versão 2.0
@@ -63,8 +63,8 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 
 Elicitação Associada: [EN 1.3](./entrevista.md), [BR 2.1](./brainstorm.md), [BR 2.7](./brainstorm.md), [BR 2.10](./brainstorm.md).
 
-# NFR02
-## NFR SUPORTABILITY
+## NFR02
+### NFR SUPORTABILITY
 Versão 1.0
 ![NFR Suportabilidade](images/nfr/nfr_v1_suportabilidade.png)
 Versão 2.0  
@@ -92,8 +92,8 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 
 Elicitação Associada: [INT1.2](./introspeccao.md), [INT3.11](./introspeccao.md), [BR2.16](./brainstorm.md), [INT1.7](./introspeccao.md).
 
-# NFR03
-## NFR SUPORTE AO USUÁRIO
+## NFR03
+### NFR SUPORTE AO USUÁRIO
 Versão 1.0
 ![nfr_suporte](images/nfr/nfr_v1_suporte_ao_usuario.jpg)
 Versão 2.0
@@ -115,8 +115,8 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.11](introspeccao.md), [BR2.16](brainstorm.md), [INT1.7](introspeccao.md).
 
-# NFR04
-## NFR DESEMPENHO
+## NFR04
+### NFR DESEMPENHO
 Versão 1.0
 ![nfr_desempenho](images/nfr/NFRDesempenhoSemAnalise.jpg)
 ![nfr_desempenho](images/nfr/NFRDesempenhoComAnalise.jpg)
@@ -135,8 +135,8 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 
 Elicitação Associada: [INT3.6](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [BR2.15](brainstorm.md) 
 
-# NFR05
-## NFR USABILIDADE
+## NFR05
+### NFR USABILIDADE
 Versão 1.0
 ![nfr_usabilidade](images/nfr/NFRUsabilidadeSemAnalise.jpg)
 ![nfr_usabilidade](images/nfr/NFRUsabilidadecomAnalise.jpg)
@@ -155,7 +155,7 @@ Modelagens Associadas: [**Especificação Suplementar**](./especificacao_supleme
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [AP3.4](analise_protocolo.md).
 
-# REFERÊNCIA
+## REFERÊNCIA
 
 [1] SERRANO, Maurício; SERRANO, Milene. **Requisitos - Aula 19. 1º/2019**. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
