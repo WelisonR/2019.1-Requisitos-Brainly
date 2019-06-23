@@ -154,15 +154,15 @@ Esse resultado mostra que foi feita uma boa escolha de público para a pesquisa,
 </br>
 </br>
 
-# QUESTIONÁRIO APLICADO
+## QUESTIONÁRIO APLICADO
 
-## Pergunta 1 para todos.
+### Pergunta 1 para todos.
 
 - Você conhece o brainly?</br>
 ( ) Sim</br>
 ( ) Não</br>
 
-## Perfil alvo - Usuários que não conhecem o brainly.
+### Perfil alvo - Usuários que não conhecem o brainly.
 Branch 1
 
 - Você conhece alguma dessas plataformas de ensino interativo?</br>
@@ -195,7 +195,7 @@ _______________________________________________________________________________<
 ( ) Sim</br>
 ( ) Não</br>
 ( ) Talvez</br>
-## Perfil alvo - Usuários que utilizam o braily
+### Perfil alvo - Usuários que utilizam o braily
 Branch 2
 
 - Você entende como funciona o sistema de perguntas? Se não, quais foram suas dificuldades ao usar o sistema?</br>

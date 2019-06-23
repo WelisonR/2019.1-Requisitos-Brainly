@@ -15,8 +15,8 @@ Introspecção é uma técnica muito rica e profunda para a elicitação de requ
 
 As introspecções descritas abaixo, são divididas em três tópicos principais: contexto, necessidades do contexto e requisitos elicitados. Para contextualizar a introspecção, utilizou-se a ideia de um _storytelling_, em que há uma persona que  desempenha uma atividade na plataforma. Decorrente do contexto, foi feita uma auto-reflexão para elencar as necessidades técnicas, sociais e individuais da persona, o que em seguida decorre na elicitação dos requisitos. Por fim, nessa primeira abordagem utilizou-se a técnica "MoSCoW" para priorizar os requisitos.
 
-# INT01
-## Introspecção 1 - Ferramentas de respostas v2
+### INT01
+### Introspecção 1 - Ferramentas de respostas v2
 
 A versão anterior dessa introspecção pode ser verificada [AQUI](#introspeccao-2-ferramentas-de-respostas-v1).
 
@@ -73,8 +73,8 @@ Legenda - técnica de priorização:
 
 *   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
-# INT02
-## Introspecção 2 - Moderação de atividades na plataforma v2
+### INT02
+### Introspecção 2 - Moderação de atividades na plataforma v2
 
 A versão anterior dessa introspecção pode ser verificada [AQUI](#introspeccao-2-moderacao-de-atividades-na-plataforma-v1).
 
@@ -156,8 +156,8 @@ A narrativa acima exposta em formato de _storytelling_ foi desenvolvida em decor
 | INT2.17 | Aprovação de tarefa | O moderador poderá aprovar uma tarefa denunciada, indicando sua regularidade. | M |
 | INT2.18 | Mensagens padrão | O moderador deve dispor de mensagens padrões para facilitar a exclusão de irregularidades. | C |
 
-# INT03
-## Introspecção 3 - Usuários com maior fluxo de perguntas
+### INT03
+### Introspecção 3 - Usuários com maior fluxo de perguntas
 
 Verônica, aluna do fundamental, estuda diariamente em casa, realizando exercícios e consequentemente surgem diversas dúvidas que precisam de uma resposta razoavelmente rápida, pois não quer acumular matéria. Verônica conhece o Brainly e passa a colocar suas dúvidas na plataforma, que em sua maioria são respondidas dentro de 10 minutos, porem as vezes encontra alguma resposta errada ou sem sentido que são posteriormente denunciada por outros usuários e apagadas por moderadores. Certo dia a turma Verônica sai com uma dúvida da sala e a moça, ao chegar em casa, posta a pergunta na plataforma e compartilha em sua rede social predileta, o facebook, para ajudar seus colegas.
 
@@ -221,9 +221,9 @@ Legenda - técnica de priorização:
 <br/>
 
 
-# INTROSPECÇÕES ANTIGAS
+## INTROSPECÇÕES ANTIGAS
 
-## Introspecção 2 - Ferramentas de respostas v1
+### Introspecção 2 - Ferramentas de respostas v1
 
 
 #### Contexto
@@ -275,7 +275,7 @@ Legenda - técnica de priorização:
 
 *   M: **Must have**; S: **Should have**; C: **Could have**; W: **Would have**.
 
-## Introspecção 2 - Moderação de atividades na plataforma v1
+### Introspecção 2 - Moderação de atividades na plataforma v1
 
 Lucas, moderador na plataforma Brainly, responde às demandas de denúncias e dúvidas de usuários no site. Em atividades cotidianas, depara-se com perguntas e respostas com brincadeiras, insultos, assédios ou outros problemas do gênero.
 

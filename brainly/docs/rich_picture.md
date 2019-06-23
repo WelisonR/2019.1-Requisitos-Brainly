@@ -11,8 +11,8 @@
 | 1.2 | 01/04/2019 | Primeira versão RichPicture de perguntas e respostas | André Pinto, Leonardo Medeiros, Welison Regis |
 | 1.3 | 1/04/2019 | Renomeando categorias da tabela de nível | João Gabriel Rossi|
 | 1.4 | 8/04/2019 | Adicionado RichPicture de primeiros passos para novo usuário cadastrado e não cadastrado | André Pinto |
-| 1.5 | 22/06/2019 | Refatoração pós análise dos RP de gamificação e perguntas e respostas | Paulo Vítor, João Matheus |
-| 1.5 | 23/06/2019 | Adição de código para linkagem de cada RP | Paulo Vítor, João Matheus |
+| 1.5 | 22/06/2019 | Refatoração pós análise dos RP de gamificação e perguntas e respostas | João Rodrigues, Paulo Vítor |
+| 1.6 | 23/06/2019 | Adição de código para linkagem de cada RP | João Rodrigues, Paulo Vítor |
 
 ## Rich Picture
 
