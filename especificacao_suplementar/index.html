@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#especificacao-suplementar-versao-10" tabindex="1" class="md-skip">
+      <a href="#especificacao-suplementar" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -579,8 +579,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../casos_uso_deletar_conta/" title="Deletar Conta" class="md-nav__link">
-      Deletar Conta
+    <a href="../casos_uso_perguntas_respostas/" title="Perguntas e Respostas" class="md-nav__link">
+      Perguntas e Respostas
     </a>
   </li>
 
@@ -591,8 +591,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../casos_uso_gamificacao/" title="Gamificação" class="md-nav__link">
-      Gamificação
+    <a href="../casos_uso_deletar_conta/" title="Deletar Conta" class="md-nav__link">
+      Deletar Conta
     </a>
   </li>
 
@@ -615,8 +615,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../casos_uso_perguntas_respostas/" title="Perguntas e Respostas" class="md-nav__link">
-      Perguntas e Respostas
+    <a href="../casos_uso_gamificacao/" title="Gamificação" class="md-nav__link">
+      Gamificação
     </a>
   </li>
 
@@ -652,9 +652,387 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Especificação Suplementar
+      </label>
+    
     <a href="./" title="Especificação Suplementar" class="md-nav__link md-nav__link--active">
       Especificação Suplementar
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="INTRODUÇÃO" class="md-nav__link">
+    INTRODUÇÃO
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" title="FINALIDADE" class="md-nav__link">
+    FINALIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" title="ESCOPO" class="md-nav__link">
+    ESCOPO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviaturas" title="DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS" class="md-nav__link">
+    DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencias" title="REFERÊNCIAS" class="md-nav__link">
+    REFERÊNCIAS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral" title="VISÃO GERAL" class="md-nav__link">
+    VISÃO GERAL
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade" title="FUNCIONALIDADE" class="md-nav__link">
+    FUNCIONALIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" title="USABILIDADE" class="md-nav__link">
+    USABILIDADE
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-consistencia-ferramental" title="REQUISITO DE CONSISTÊNCIA FERRAMENTAL" class="md-nav__link">
+    REQUISITO DE CONSISTÊNCIA FERRAMENTAL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-curva-rapida-de-aprendizagem" title="REQUISITO DE CURVA RÁPIDA DE APRENDIZAGEM" class="md-nav__link">
+    REQUISITO DE CURVA RÁPIDA DE APRENDIZAGEM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-versao-mobile" title="REQUISITO DE VERSÃO MOBILE" class="md-nav__link">
+    REQUISITO DE VERSÃO MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-cadastro-facil" title="REQUISITO DE CADASTRO FÁCIL" class="md-nav__link">
+    REQUISITO DE CADASTRO FÁCIL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-tutorial" title="REQUISITO DE TUTORIAL" class="md-nav__link">
+    REQUISITO DE TUTORIAL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade" title="CONFIABILIDADE" class="md-nav__link">
+    CONFIABILIDADE
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-tempo-de-resposta" title="REQUISITO DE TEMPO DE RESPOSTA" class="md-nav__link">
+    REQUISITO DE TEMPO DE RESPOSTA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-advrtencia" title="REQUISITO DE ADVRTÊNCIA" class="md-nav__link">
+    REQUISITO DE ADVRTÊNCIA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-sistema-gratuito" title="REQUISITO DE SISTEMA GRATUITO" class="md-nav__link">
+    REQUISITO DE SISTEMA GRATUITO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-utilizacao-de-informacoes-de-pessoais" title="REQUISITO UTILIZAÇÃO DE INFORMAÇÕES DE PESSOAIS" class="md-nav__link">
+    REQUISITO UTILIZAÇÃO DE INFORMAÇÕES DE PESSOAIS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-protecao-de-dados" title="REQUISITO DE PROTEÇÃO DE DADOS" class="md-nav__link">
+    REQUISITO DE PROTEÇÃO DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-protecao-de-dados_1" title="REQUISITO DE PROTEÇÃO DE DADOS" class="md-nav__link">
+    REQUISITO DE PROTEÇÃO DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-impossibilitar-comercializacao-de-informacoes" title="REQUISITO DE IMPOSSIBILITAR COMERCIALIZAÇÃO DE INFORMAÇÕES" class="md-nav__link">
+    REQUISITO DE IMPOSSIBILITAR COMERCIALIZAÇÃO DE INFORMAÇÕES
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desempenho" title="DESEMPENHO" class="md-nav__link">
+    DESEMPENHO
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-tempo-medio-de-respostas" title="REQUISITO DE TEMPO MÉDIO DE RESPOSTAS" class="md-nav__link">
+    REQUISITO DE TEMPO MÉDIO DE RESPOSTAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-versao-mobile_1" title="REQUISITO DE VERSÃO MOBILE" class="md-nav__link">
+    REQUISITO DE VERSÃO MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-cadastro-facil_1" title="REQUISITO DE CADASTRO FÁCIL" class="md-nav__link">
+    REQUISITO DE CADASTRO FÁCIL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-apagar-perguntas-sem-resposta" title="REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA" class="md-nav__link">
+    REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suportabilidade" title="SUPORTABILIDADE" class="md-nav__link">
+    SUPORTABILIDADE
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-consistencia-ferramental_1" title="REQUISITO DE CONSISTÊNCIA  FERRAMENTAL" class="md-nav__link">
+    REQUISITO DE CONSISTÊNCIA  FERRAMENTAL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-versao-mobile_2" title="REQUISITO DE VERSÃO MOBILE" class="md-nav__link">
+    REQUISITO DE VERSÃO MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atualizar-automaticamente-as-plataformas-mobile" title="ATUALIZAR AUTOMATICAMENTE AS PLATAFORMAS MOBILE" class="md-nav__link">
+    ATUALIZAR AUTOMATICAMENTE AS PLATAFORMAS MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insercao-de-textos-latex-e-simbolos-matematicos" title="INSERÇÃO DE TEXTOS LATEX E SÍMBOLOS MATEMÁTICOS" class="md-nav__link">
+    INSERÇÃO DE TEXTOS LATEX E SÍMBOLOS MATEMÁTICOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restricoes-de-design" title="RESTRIÇÕES DE DESIGN" class="md-nav__link">
+    RESTRIÇÕES DE DESIGN
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line" title="REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE" class="md-nav__link">
+    REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#componentes-adquiridos" title="COMPONENTES ADQUIRIDOS" class="md-nav__link">
+    COMPONENTES ADQUIRIDOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="INTERFACES" class="md-nav__link">
+    INTERFACES
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-do-usuario" title="Interfaces do usuário" class="md-nav__link">
+    Interfaces do usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-hardware" title="Interfaces de hardware" class="md-nav__link">
+    Interfaces de hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-software" title="Interfaces de software" class="md-nav__link">
+    Interfaces de software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-comunicacao" title="Interfaces de comunicação" class="md-nav__link">
+    Interfaces de comunicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rl1" title="RL1" class="md-nav__link">
+    RL1
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-de-licenciamento" title="REQUISITOS DE LICENCIAMENTO" class="md-nav__link">
+    REQUISITOS DE LICENCIAMENTO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacoes-legais-de-copyright-e-outras" title="OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS" class="md-nav__link">
+    OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-aplicaveis" title="PADRÕES APLICÁVEIS" class="md-nav__link">
+    PADRÕES APLICÁVEIS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1017,6 +1395,371 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="INTRODUÇÃO" class="md-nav__link">
+    INTRODUÇÃO
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" title="FINALIDADE" class="md-nav__link">
+    FINALIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" title="ESCOPO" class="md-nav__link">
+    ESCOPO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviaturas" title="DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS" class="md-nav__link">
+    DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencias" title="REFERÊNCIAS" class="md-nav__link">
+    REFERÊNCIAS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral" title="VISÃO GERAL" class="md-nav__link">
+    VISÃO GERAL
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidade" title="FUNCIONALIDADE" class="md-nav__link">
+    FUNCIONALIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" title="USABILIDADE" class="md-nav__link">
+    USABILIDADE
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-consistencia-ferramental" title="REQUISITO DE CONSISTÊNCIA FERRAMENTAL" class="md-nav__link">
+    REQUISITO DE CONSISTÊNCIA FERRAMENTAL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-curva-rapida-de-aprendizagem" title="REQUISITO DE CURVA RÁPIDA DE APRENDIZAGEM" class="md-nav__link">
+    REQUISITO DE CURVA RÁPIDA DE APRENDIZAGEM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-versao-mobile" title="REQUISITO DE VERSÃO MOBILE" class="md-nav__link">
+    REQUISITO DE VERSÃO MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-cadastro-facil" title="REQUISITO DE CADASTRO FÁCIL" class="md-nav__link">
+    REQUISITO DE CADASTRO FÁCIL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-tutorial" title="REQUISITO DE TUTORIAL" class="md-nav__link">
+    REQUISITO DE TUTORIAL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade" title="CONFIABILIDADE" class="md-nav__link">
+    CONFIABILIDADE
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-tempo-de-resposta" title="REQUISITO DE TEMPO DE RESPOSTA" class="md-nav__link">
+    REQUISITO DE TEMPO DE RESPOSTA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-advrtencia" title="REQUISITO DE ADVRTÊNCIA" class="md-nav__link">
+    REQUISITO DE ADVRTÊNCIA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-sistema-gratuito" title="REQUISITO DE SISTEMA GRATUITO" class="md-nav__link">
+    REQUISITO DE SISTEMA GRATUITO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-utilizacao-de-informacoes-de-pessoais" title="REQUISITO UTILIZAÇÃO DE INFORMAÇÕES DE PESSOAIS" class="md-nav__link">
+    REQUISITO UTILIZAÇÃO DE INFORMAÇÕES DE PESSOAIS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-protecao-de-dados" title="REQUISITO DE PROTEÇÃO DE DADOS" class="md-nav__link">
+    REQUISITO DE PROTEÇÃO DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-protecao-de-dados_1" title="REQUISITO DE PROTEÇÃO DE DADOS" class="md-nav__link">
+    REQUISITO DE PROTEÇÃO DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-impossibilitar-comercializacao-de-informacoes" title="REQUISITO DE IMPOSSIBILITAR COMERCIALIZAÇÃO DE INFORMAÇÕES" class="md-nav__link">
+    REQUISITO DE IMPOSSIBILITAR COMERCIALIZAÇÃO DE INFORMAÇÕES
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desempenho" title="DESEMPENHO" class="md-nav__link">
+    DESEMPENHO
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-tempo-medio-de-respostas" title="REQUISITO DE TEMPO MÉDIO DE RESPOSTAS" class="md-nav__link">
+    REQUISITO DE TEMPO MÉDIO DE RESPOSTAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-versao-mobile_1" title="REQUISITO DE VERSÃO MOBILE" class="md-nav__link">
+    REQUISITO DE VERSÃO MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-cadastro-facil_1" title="REQUISITO DE CADASTRO FÁCIL" class="md-nav__link">
+    REQUISITO DE CADASTRO FÁCIL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-apagar-perguntas-sem-resposta" title="REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA" class="md-nav__link">
+    REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suportabilidade" title="SUPORTABILIDADE" class="md-nav__link">
+    SUPORTABILIDADE
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-consistencia-ferramental_1" title="REQUISITO DE CONSISTÊNCIA  FERRAMENTAL" class="md-nav__link">
+    REQUISITO DE CONSISTÊNCIA  FERRAMENTAL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisito-de-versao-mobile_2" title="REQUISITO DE VERSÃO MOBILE" class="md-nav__link">
+    REQUISITO DE VERSÃO MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atualizar-automaticamente-as-plataformas-mobile" title="ATUALIZAR AUTOMATICAMENTE AS PLATAFORMAS MOBILE" class="md-nav__link">
+    ATUALIZAR AUTOMATICAMENTE AS PLATAFORMAS MOBILE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insercao-de-textos-latex-e-simbolos-matematicos" title="INSERÇÃO DE TEXTOS LATEX E SÍMBOLOS MATEMÁTICOS" class="md-nav__link">
+    INSERÇÃO DE TEXTOS LATEX E SÍMBOLOS MATEMÁTICOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restricoes-de-design" title="RESTRIÇÕES DE DESIGN" class="md-nav__link">
+    RESTRIÇÕES DE DESIGN
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line" title="REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE" class="md-nav__link">
+    REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#componentes-adquiridos" title="COMPONENTES ADQUIRIDOS" class="md-nav__link">
+    COMPONENTES ADQUIRIDOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="INTERFACES" class="md-nav__link">
+    INTERFACES
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-do-usuario" title="Interfaces do usuário" class="md-nav__link">
+    Interfaces do usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-hardware" title="Interfaces de hardware" class="md-nav__link">
+    Interfaces de hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-software" title="Interfaces de software" class="md-nav__link">
+    Interfaces de software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-comunicacao" title="Interfaces de comunicação" class="md-nav__link">
+    Interfaces de comunicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rl1" title="RL1" class="md-nav__link">
+    RL1
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-de-licenciamento" title="REQUISITOS DE LICENCIAMENTO" class="md-nav__link">
+    REQUISITOS DE LICENCIAMENTO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacoes-legais-de-copyright-e-outras" title="OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS" class="md-nav__link">
+    OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-aplicaveis" title="PADRÕES APLICÁVEIS" class="md-nav__link">
+    PADRÕES APLICÁVEIS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1030,8 +1773,8 @@
                   <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly/edit/master/docs/especificacao_suplementar.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="especificacao-suplementar-versao-10">ESPECIFICAÇÃO SUPLEMENTAR - VERSÃO 1.0</h1>
-<h1 id="versionamento">Versionamento</h1>
+                <h1 id="especificacao-suplementar">ESPECIFICAÇÃO SUPLEMENTAR</h1>
+<h2 id="versionamento">Versionamento</h2>
 <table>
 <thead>
 <tr>
@@ -1080,23 +1823,23 @@
 </tr>
 </tbody>
 </table>
-<h1 id="introducao">INTRODUÇÃO</h1>
-<h2 id="finalidade">FINALIDADE</h2>
+<h2 id="introducao">INTRODUÇÃO</h2>
+<h3 id="finalidade">FINALIDADE</h3>
 <p>A especificação suplementar desenvolvida tem por objetivo descrever os requisitos não funcionais relacionados à plataforma Brainly, além dos requisitos não identificados imediatamente nos casos de uso do modelo de casos de uso. A descrição desses requisitos procura atender necessidades que vão sob um aspecto mais subjetivo em relação à qualidade, estrutura e apresentação da plataforma e outras condições de satisfação.</p>
-<h2 id="escopo">ESCOPO</h2>
+<h3 id="escopo">ESCOPO</h3>
 <p>Esta especificação suplementar delimita-se no escopo da aplicação Brainly em território nacional brasileiro. Abarca neste documento o escopo relacionado a aplicação web e mobile da plataforma, e procura-se desenvolver como os aspectos da plataforma, especialmente aqueles não-funcionais, interferem no convívio de moderadores, usuários, administradores e demais estudantes que utilizam o Brainly como forma de tirar dúvidas escolares ou acadêmicas.</p>
-<h2 id="definicoes-acronimos-e-abreviaturas">DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS</h2>
+<h3 id="definicoes-acronimos-e-abreviaturas">DEFINIÇÕES, ACRÔNIMOS E ABREVIATURAS</h3>
 <p>Vide <a href="../lexicos10x5f8c4/">léxicos</a></p>
-<h2 id="referencias">REFERÊNCIAS</h2>
+<h3 id="referencias">REFERÊNCIAS</h3>
 <p>[1] Funpar. <strong>Template: Especificações Suplementares</strong>. Disponível <a href="http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sspec.htm">aqui</a>. Acesso em: 23 abr. 2019.</p>
 <p>[2] NNGROUP. <strong>Dez heurísticas de usabilidade</strong>. Disponível <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">aqui</a>. Acesso em: 29 abr. 2019.</p>
 <p>[3] BRAINLY. <strong>Brainly.com.br - estudamos juntos</strong>. Disponível <a href="https://brainly.com.br/">aqui</a>. Acesso em: 28 abr. 2019.</p>
 <p>[4] BRAINLY. <strong>Brainly Front-End Style Guide</strong>. Disponível <a href="https://styleguide.brainly.com/143.5.3/docs/">aqui</a>. Acesso em: 29 abr. 2019.</p>
 <p>[5] BRAINLY. <strong>Repositórios do Brainly no GitHub</strong>. Disponível <a href="https://github.com/brainly/style-guide">aqui</a>. Acesso em: 29 abr. 2019.</p>
 <h2 id="visao-geral">VISÃO GERAL</h2>
-<h1 id="funcionalidade">FUNCIONALIDADE</h1>
+<h3 id="funcionalidade">FUNCIONALIDADE</h3>
 <p>A documentação das funcionalidades da aplicação Brainly pode ser encontrada <a href="https://welisonr.github.io/2019.1-Requisitos-Brainly/">neste endereço</a>, sendo especialmente recomendado a visualização das funcionalidades com as respectivas priorizações <a href="../priorizacao/">neste link</a>, além dos casos de uso com as devidas especificações no link de <a href="./casos_uso_perguntas_respostas">casos de uso</a>.</p>
-<h1 id="usabilidade">USABILIDADE</h1>
+<h3 id="usabilidade">USABILIDADE</h3>
 <ul>
 <li>Consistência ferramental <a href="../introspeccao/">(INT1.2)</a></li>
 <li>Curva rápida de aprendizagem <a href="../introspeccao/">(INT3.9)</a> </li>
@@ -1104,56 +1847,56 @@
 <li>Cadastro fácil <a href="../introspeccao/">(AP3.3)</a> </li>
 <li>Tutorial <a href="../introspeccao/">(AP3.4)</a> </li>
 </ul>
-<h2 id="requisito-de-consistencia-ferramental">REQUISITO DE CONSISTÊNCIA FERRAMENTAL</h2>
+<h4 id="requisito-de-consistencia-ferramental">REQUISITO DE CONSISTÊNCIA FERRAMENTAL</h4>
 <p>O sistema deve oferecer uma experiência consistente ao usuário, disponibilizando ferramentas que oferecem um risco pequeno de erro, fazendo com que o usuário tenha uma experiência mais fluida.</p>
-<h2 id="requisito-de-curva-rapida-de-aprendizagem">REQUISITO DE CURVA RÁPIDA DE APRENDIZAGEM</h2>
+<h4 id="requisito-de-curva-rapida-de-aprendizagem">REQUISITO DE CURVA RÁPIDA DE APRENDIZAGEM</h4>
 <p>A plataforma deve ser feita de tal forma que o usuário aprenda de forma rápida como utilizar as ferramentas essênciais para seguir os possíveis fluxos da aplicação. Um tutorial deve ser feito para usuário novatos, sendo possível repetir caso desejar. O sistema deve seguir as <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 heurísticas de Nielsen</a>.</p>
-<h2 id="requisito-de-versao-mobile">REQUISITO DE VERSÃO MOBILE</h2>
+<h4 id="requisito-de-versao-mobile">REQUISITO DE VERSÃO MOBILE</h4>
 <p>O sistema deve possuir, também, uma versão mobile, aumentando o publico alvo e facilitando o uso. Tal versão deve estar disponível para dispositivos Android e iOS e ter um baixo consumo de bateria/dados, para que o usuário não se sinta desmotivado em utilizar a plataforma.</p>
-<h2 id="requisito-de-cadastro-facil">REQUISITO DE CADASTRO FÁCIL</h2>
+<h4 id="requisito-de-cadastro-facil">REQUISITO DE CADASTRO FÁCIL</h4>
 <p>O cadastro na plataforma deve ocorrer de uma maneira rápida e prática, possuindo apenas os campos mais úteis como e-mail, senha, país e data de nascimento. O sistema deve também disponibilizar cadastro via Facebook por muitos usuários acharem mais prático e conter os dados necessários.</p>
-<h2 id="requisito-de-tutorial">REQUISITO DE TUTORIAL</h2>
+<h4 id="requisito-de-tutorial">REQUISITO DE TUTORIAL</h4>
 <p>O tutorial do sistema deve ocorrer de maneira fluida, rápida, contínua, sem informações não úteis para um usuário novo e deve ser possível repeti-lo caso o usuário sinta necessidade.</p>
-<h1 id="confiabilidade">CONFIABILIDADE</h1>
+<h3 id="confiabilidade">CONFIABILIDADE</h3>
 <ul>
 <li>tempo de respostas <a href="../introspeccao/">(INT3.6)</a></li>
 <li>Condições de advertência <a href="../introspeccao/">(INT2.10)</a></li>
 <li>Sistema gratuito <a href="../introspeccao/">(EN1.3)</a></li>
 <li>Utilização de informações de pessoais <a href="../brainstorm/">(BR2.7)</a></li>
-<li>Protecão de dados <a href="../brainstorm/">(BR2.10)</a></li>
+<li>Proteção de dados <a href="../brainstorm/">(BR2.10)</a></li>
 <li>Atualizar automaticamente o app <a href="../brainstorm/">(BR2.16)</a></li>
 <li>Impossibilitar comercialização de informações <a href="../brainstorm/">(BR2.17)</a></li>
 </ul>
-<h2 id="requisito-de-tempo-de-resposta">REQUISITO DE TEMPO DE RESPOSTA</h2>
+<h4 id="requisito-de-tempo-de-resposta">REQUISITO DE TEMPO DE RESPOSTA</h4>
 <p>A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil.</p>
-<h2 id="requisito-de-advrtencia">REQUISITO DE ADVRTÊNCIA</h2>
+<h4 id="requisito-de-advrtencia">REQUISITO DE ADVRTÊNCIA</h4>
 <p>Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma.</p>
-<h2 id="requisito-de-sistema-gratuito">REQUISITO DE SISTEMA GRATUITO</h2>
+<h4 id="requisito-de-sistema-gratuito">REQUISITO DE SISTEMA GRATUITO</h4>
 <p>Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização.</p>
-<h2 id="requisito-utilizacao-de-informacoes-de-pessoais">REQUISITO UTILIZAÇÃO DE INFORMAÇÕES DE PESSOAIS</h2>
+<h4 id="requisito-utilizacao-de-informacoes-de-pessoais">REQUISITO UTILIZAÇÃO DE INFORMAÇÕES DE PESSOAIS</h4>
 <p>O sistema não deve utilizar informações de pessoas menores de 16 anos sem autorização. Para isso deve averiguar a idade do usuário antes de utilizar suas informações para marketing.</p>
-<h2 id="requisito-de-protecao-de-dados">REQUISITO DE PROTEÇÃO DE DADOS</h2>
+<h4 id="requisito-de-protecao-de-dados">REQUISITO DE PROTEÇÃO DE DADOS</h4>
 <p>O sistema deve possuir um sistema de segurança mais seguro possível dentro dos conhecimentos de segurança atuais.</p>
-<h2 id="requisito-de-protecao-de-dados_1">REQUISITO DE PROTEÇÃO DE DADOS</h2>
+<h4 id="requisito-de-protecao-de-dados_1">REQUISITO DE PROTEÇÃO DE DADOS</h4>
 <p>O sistema deve ser atualizado automaticamente nas plataformas Android e IOS, assim que forem aceitos novos commits na master.</p>
-<h2 id="requisito-de-impossibilitar-comercializacao-de-informacoes">REQUISITO DE IMPOSSIBILITAR COMERCIALIZAÇÃO DE INFORMAÇÕES</h2>
+<h4 id="requisito-de-impossibilitar-comercializacao-de-informacoes">REQUISITO DE IMPOSSIBILITAR COMERCIALIZAÇÃO DE INFORMAÇÕES</h4>
 <p>Impedir o vazamento de informações pessoais dos usuários e consequentemente sua venda.</p>
-<h1 id="desempenho">DESEMPENHO</h1>
+<h3 id="desempenho">DESEMPENHO</h3>
 <ul>
 <li>Tempo médio de respostas<a href="../introspeccao/">(INT3.6)</a></li>
 <li>Versão mobile <a href="../introspeccao/">(INT3.11)</a></li>
 <li>Cadastro fácil <a href="../analise_protocolo/">(AP3.3)</a></li>
 <li>Apagar perguntas sem reposta <a href="../brainstorm/">(BR2.15)</a> </li>
 </ul>
-<h2 id="requisito-de-tempo-medio-de-respostas">REQUISITO DE TEMPO MÉDIO DE RESPOSTAS</h2>
+<h4 id="requisito-de-tempo-medio-de-respostas">REQUISITO DE TEMPO MÉDIO DE RESPOSTAS</h4>
 <p>A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil.</p>
-<h2 id="requisito-de-versao-mobile_1">REQUISITO DE VERSÃO MOBILE</h2>
+<h4 id="requisito-de-versao-mobile_1">REQUISITO DE VERSÃO MOBILE</h4>
 <p>O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados.</p>
-<h2 id="requisito-de-cadastro-facil_1">REQUISITO DE CADASTRO FÁCIL</h2>
+<h4 id="requisito-de-cadastro-facil_1">REQUISITO DE CADASTRO FÁCIL</h4>
 <p>O cadastro na plataforma deve ocorrer de uma maneira rápida e prática.</p>
-<h2 id="requisito-de-apagar-perguntas-sem-resposta">REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA</h2>
+<h4 id="requisito-de-apagar-perguntas-sem-resposta">REQUISITO DE APAGAR PERGUNTAS SEM RESPOSTA</h4>
 <p>O sistema deve excluir perguntas sem respostas após determinado prazo para evitar o acúmulo de informações sem utilidade no banco de dados. </p>
-<h1 id="suportabilidade">SUPORTABILIDADE</h1>
+<h3 id="suportabilidade">SUPORTABILIDADE</h3>
 <ul>
 <li>Consistência ferramental <a href="../introspeccao/">(INT1.2)</a></li>
 <li>Versão mobile <a href="../introspeccao/">(INT3.11)</a></li>
@@ -1188,17 +1931,17 @@
 </tbody>
 </table>
 <p>Logo, nota-se que se deve desenvolver a plataforma pensando na compatibilidade dos navegadores em relação ao <code>javascript</code> e demais tecnologias <em>web</em> de forma a possibilitar uma utilização flúida especialmente nos navegadores <code>chrome</code>, <code>safari</code> e <code>samsung internet</code>.</p>
-<h2 id="requisito-de-consistencia-ferramental_1">REQUISITO DE CONSISTÊNCIA  FERRAMENTAL</h2>
+<h4 id="requisito-de-consistencia-ferramental_1">REQUISITO DE CONSISTÊNCIA  FERRAMENTAL</h4>
 <p>O sistema deve funcionar de forma concistente, respeitando as limitações de cada plataforma. Deve ser possível acessar todas as funcionalidades em todas plataformas.</p>
-<h2 id="requisito-de-versao-mobile_2">REQUISITO DE VERSÃO MOBILE</h2>
+<h4 id="requisito-de-versao-mobile_2">REQUISITO DE VERSÃO MOBILE</h4>
 <p>O sistema deve ser multiplataforma, incluindo versões para dispositivos com tecnologia android e ios para facilitar o acésso da ferramenta para o usuário.</p>
-<h2 id="atualizar-automaticamente-as-plataformas-mobile">ATUALIZAR AUTOMATICAMENTE AS PLATAFORMAS MOBILE</h2>
+<h4 id="atualizar-automaticamente-as-plataformas-mobile">ATUALIZAR AUTOMATICAMENTE AS PLATAFORMAS MOBILE</h4>
 <p>As mudanças realizadas no Brainly <em>web</em> devem refletir diretamente nas aplicações <em>mobile</em> através de um <code>plano de devops</code> de modo a manter a suportabilidade das funcionalidades da plataforma de maneira dinâmica.</p>
-<h2 id="insercao-de-textos-latex-e-simbolos-matematicos">INSERÇÃO DE TEXTOS LATEX E SÍMBOLOS MATEMÁTICOS</h2>
+<h4 id="insercao-de-textos-latex-e-simbolos-matematicos">INSERÇÃO DE TEXTOS LATEX E SÍMBOLOS MATEMÁTICOS</h4>
 <p>O sistema deve permitir ao usuário inserir texos latex e símbolos matemáticos quando o mesmo adicionar uma pergunta, respota ou comentário para facilitar a compreensão da informação inserida.</p>
-<h1 id="restricoes-de-design">RESTRIÇÕES DE DESIGN</h1>
+<h3 id="restricoes-de-design">RESTRIÇÕES DE DESIGN</h3>
 <p>O sistema deve seguir padrões de <em>design</em> na implementação de suas interfaces de forma a garantir a melhor experiência na utilização da plataforma, seja em um dispositivo móvel ou computadores em geral. Tem-se como referência a documentação de <em>styleguide</em> disposta na página na página do aplicativo no github - <a href="https://github.com/brainly/style-guide">styleguide brainly</a>.</p>
-<h1 id="requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE</h1>
+<h3 id="requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">REQUISITOS DE SISTEMA DE AJUDA E DE DOCUMENTAÇÃO DE USUÁRIO ON-LINE</h3>
 <p>O sistema de ajuda e a sua respectiva documentação deve ser de fácil acesso pelo usuário através do próprio aplicativo ou da plataforma web e, deve cobrir prioritariamente os seguintes tópicos:</p>
 <ul>
 <li>Fluxo para realizar uma pergunta;</li>
@@ -1212,21 +1955,21 @@
 <li>Seção de dúvidas frequentes, o que proporciona acesso rápido a problemas e questionamentos comuns relacionados ao uso do aplicativo - disponível no seguinte formato de <a href="https://brainly.com.br/pages/questoes_frequentes">ajuda</a>;</li>
 <li>Canal para envio de correspondências ou mensagens de forma a tirar dúvidas ou questões individuais.</li>
 </ul>
-<h1 id="componentes-adquiridos">COMPONENTES ADQUIRIDOS</h1>
+<h3 id="componentes-adquiridos">COMPONENTES ADQUIRIDOS</h3>
 <p>Os <em>softwares</em> utilizados para a elaboração do projeto são gratuitos e cada um consta individualmente com sua licença, dentre as principais licenças, tem-se: <code>NodeJS</code> com licença própria, <code>react</code>, <code>react native</code>, <code>KaTeX</code> (latex) sob a licença <code>MIT</code>.</p>
-<h1 id="interfaces">INTERFACES</h1>
-<h2 id="interfaces-do-usuario">Interfaces do usuário</h2>
+<h2 id="interfaces">INTERFACES</h2>
+<h3 id="interfaces-do-usuario">Interfaces do usuário</h3>
 <p>O sistema deve ter uma interfaces gráficas que possibilitem que o usuário interaja com a plataforma.
 O sistema utilizará componentes em <code>react</code> ou <code>react native</code> para modularizar a interface da aplicação.</p>
-<h2 id="interfaces-de-hardware">Interfaces de hardware</h2>
+<h3 id="interfaces-de-hardware">Interfaces de hardware</h3>
 <p>O sistema deve manter suporte para dispositivos móveis e computadores, possibilitando que as requisições sejam feitas utilizando protocolos seguros como <code>https</code>. Deve haver suporte aos sistemas <code>ios</code>, <code>android</code>.</p>
-<h2 id="interfaces-de-software">Interfaces de software</h2>
+<h3 id="interfaces-de-software">Interfaces de software</h3>
 <p>O sistema deve utilizar tecnologias de linguagens e frameworks pertencentes a um paradigma que favoreça a solução do problema de forma eficiente no desenvolvimento e fácil manutenção. Estão entre as opções utilizadas: <code>NodeJS 8+</code>, <code>React</code>, <code>React Native</code>, <code>yarn</code>, etc.</p>
-<h2 id="interfaces-de-comunicacao">Interfaces de comunicação</h2>
+<h3 id="interfaces-de-comunicacao">Interfaces de comunicação</h3>
 <p>O sistema deve ter uma interface de comunicação que torne possível múltiplas requisições simultâneas entre os aplicativos que compõem o sistema mantendo a integridade dos dados.
 A comunicação será realizada com múltiplos <em>backends</em> em <code>NodeJS</code> com a interface feita majoritariamente em <code>react</code>.</p>
-<h1 id="rl1">RL1</h1>
-<h1 id="requisitos-de-licenciamento">REQUISITOS DE LICENCIAMENTO</h1>
+<h2 id="rl1">RL1</h2>
+<h3 id="requisitos-de-licenciamento">REQUISITOS DE LICENCIAMENTO</h3>
 <ul>
 <li>Idade mínima para registro na plataforma <a href="./brainstorm">(BR2.1)</a></li>
 <li>Não utilizar informações de menores de 16 anos sem autorização <a href="./brainstorm">(BR2.7)</a></li>
@@ -1234,9 +1977,9 @@ A comunicação será realizada com múltiplos <em>backends</em> em <code>NodeJS
 <li>É autorizado o uso de dados do usuário para diversos fins comerciais do Brainly<a href="./brainstorm">(BR2.13)</a></li>
 </ul>
 <p>Os serviços Brainly tem por objetivo disseminar o conhecimento e incentivar os estudantes no desenvolvimento acadêmico ou escolar; porém, para a utilização dos serviços o usuário deve concordar com os <a href="https://brainly.com/pages/terms_of_use">termos de uso</a>, <a href="https://brainly.com/pages/privacy_policy">política de privacidade</a> e a <a href="https://brainly.com/pages/cookie_policy">política de cookies</a>.</p>
-<h1 id="observacoes-legais-de-copyright-e-outras">OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS</h1>
+<h2 id="observacoes-legais-de-copyright-e-outras">OBSERVAÇÕES LEGAIS, DE COPYRIGHT E OUTRAS</h2>
 <p>Os usuários do software são responsáveis pelas respostas que fornecem na plataforma. Assim, o Brainly não tem responsabilidade direta pelo conteúdo prestado na plataforma, servindo apenas como intermediário para a armazenamento e processamento de dados. Reserva-se ao Brainly direitos sobre a marca, nome, logotipo, logomarca utilizados na plataforma.</p>
-<h1 id="padroes-aplicaveis">PADRÕES APLICÁVEIS</h1>
+<h2 id="padroes-aplicaveis">PADRÕES APLICÁVEIS</h2>
 <p>ISO 9241-11:1998, Web Content Accessibility Guidelines (WCAG) 2.0, ISO/IEC 25010:2011.</p>
                 
                   
