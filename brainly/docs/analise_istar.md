@@ -1,5 +1,6 @@
 # iStar
 
+## Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 1.0 | 09/06/2019 | Adiciona modelo de verificação (v1) | Leonardo Medeiros, Andre Pinto |
@@ -10,15 +11,15 @@
 | 1.5 | 10/06/2019 | Adiciona rastreabilidade | Welison Regis |
 | 1.6 | 10/06/2019 | Adiciona gráficos | Lieverton Silva |
 
-# INTRODUÇÃO
+## INTRODUÇÃO
 
 Os modelos de verificação de i* foram baseados no material disponibilizado pelos professores. A análise mostra o que tem ou não sido cumprido pelos objetos analisados pela equipe em determinados critérios descritos.
 
-# OBJETIVO
+## OBJETIVO
 
 Reconhecer e apontar erros presentes nos modelos atuais visando sua melhoria e correção.
 
-# METODOOGIA
+## METODOLOGIA
 
 O modelo de verificação elaborado pela equipe foi realizado em dupla e após ter o modelo em mãos, a dupla se separou e preencheu individualmente o formulário, ao concluir, se juntou e discutiu, unindo suas ideias a fim de melhorar a análise do modelo em questão. Durante a aplicação do processo a dupla percebeu que a abordagem tomou muito tempo e não foi tão eficiente, logo a abordagem foi alterada e a dupla passou a responder o formulário discutindo cada pergunta desde o começo.
 
@@ -49,7 +50,7 @@ Audios:
 
 ![istar_pergunta_andre_e_leonardo](./images/analise/istar_pergunta_andre_e_leonardo.png)
 
-### Gráfico de critério de aceitação
+## Gráfico de critério de aceitação
 
 
 ![](./images/analise/grafico_realizar_pergunta.jpg)
@@ -62,7 +63,7 @@ Sintese: Leonardo e Andre
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_resposta_andre_e_leonardo.png)
 
-### Gráficos de critério de aceitação
+## Gráficos de critério de aceitação
 
 
 ![](./images/analise/grafico_realizar_resposta.jpg)
@@ -76,7 +77,7 @@ Audio: [Discussao](https://drive.google.com/file/d/1d99E9UCn2FyxWRZsSDSxK52dXiv1
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_geral_andre_e_leonardo.png)
 
-### Gráfico de critério de aceitação
+## Gráfico de critério de aceitação
 
 
 ![](./images/analise/grafico_geral.jpg)

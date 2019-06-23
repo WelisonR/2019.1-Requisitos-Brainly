@@ -9,7 +9,7 @@
 |    1.1  | 27/05/2019 | Adicionar NFR Suportabilidade | Ivan Diniz, João Rodrigues, João Gabriel |
 | 1.2 | 27/05/2019 | Adição do modelo NFR sobre Suporte ao usuário | André Pinto, Welison Regis |
 | 1.3 | 27/05/2019 | Adição do modelo NFR sobre Desempenho | Leonardo Medeiros, Paulo Rocha, André Pinto, Lieverton Silva, Gustavo Lima |
-| 1.4 | 27/05/2019 | Adição do modelo NFR sobre Usabilidade | João Matheus, Lieverton Silva, Paulo Rocha|
+| 1.4 | 27/05/2019 | Adição do modelo NFR sobre Usabilidade | João Rodrigues, Lieverton Silva, Paulo Rocha|
 | 1.5 | 27/05/2019 | Separação entre NFR e análise confiabilidade e usabilidade |Paulo Rocha|
 | 1.6 | 28/05/2019 | Adição de introdução, rastreabilidade dos NFRs e referências. | Welison Regis |
 | 1.7 | 26/05/2019 | Adicionar segunda versão NFR de Suportabilidade | Ivan Diniz, João Gabriel |
