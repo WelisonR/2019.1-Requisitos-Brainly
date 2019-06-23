@@ -138,6 +138,11 @@ Versão 2.0
 Análise NFR Usabilidade
 ![nfr_usabilidade](images/nfr/NFR_Usabilidade_ComAnalise.jpg)
 
+Versão 3.0
+![nfr_usabilidade](images/nfr/Usabilidade_SemAnalise_v3.jpg)
+Análise NFR Usabilidade
+![nfr_usabilidade](images/nfr/Usabilidade_ComAnalise_v3.jpg)
+
 Modelagens Associadas: [**Especificação Suplementar**](./especificacao_suplementar.md#usabilidade), [US10](./backlog.md#us10), [US11](./backlog.md#us11), [US06](./backlog.md#us06), [US12](./backlog.md#us12).
 
 Elicitação Associada: [INT1.2](introspeccao.md), [INT3.9](introspeccao.md), [INT3.11](introspeccao.md), [AP3.3](analise_protocolo.md), [AP3.4](analise_protocolo.md).
