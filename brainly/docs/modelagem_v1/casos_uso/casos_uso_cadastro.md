@@ -1,4 +1,4 @@
-# [CADASTRO](../../rich_picture.md#RichPicture Primeiros Passos de Novo Usuário Não Cadastrado)
+# [CADASTRO](../../rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado)
 
 ## Versionamento
 
@@ -16,7 +16,7 @@
 ### 1 Breve descrição
 Usuário faz o cadastro de uma nova conta na plataforma Brainly para ter acesso a mais funcionalidades, como, responder perguntas.
 ### 2 Breve descrição dos atores
-#### 2.1 [Usuário](../../lexicos10x5f8c4.md#L12660)
+#### 2.1 [Usuário](../../lexicos10x5f8c4.md#l12660)
 Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. 
 ### 3 Pré-condições
 Possuir um sistema operacional compatível com alguma das plataformas disponibilizadas pelo Brainly.

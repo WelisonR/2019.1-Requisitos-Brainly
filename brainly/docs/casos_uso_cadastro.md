@@ -1,4 +1,4 @@
-# [CADASTRO](rich_picture.md#RichPicture Primeiros Passos de Novo Usuário Não Cadastrado)
+# [CADASTRO](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado)
 
 ## Versionamento
 
@@ -20,7 +20,7 @@
 | UC01 | Acessar o Brainly |
 | -------------: | :---|
 | **Descrição** | Um usuário não cadastrado acessa a plataforma Brainly. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet. |
 | **Fluxo básico** | 1. Usuário acessa à plataforma via web ou aplicativo para dispositivo móvel;|
 | **Fluxos alternativos** | - |
@@ -32,7 +32,7 @@
 | UC02 | Cadastrar conta |
 | -------------: | :---|
 | **Descrição** | Um usuário não cadastrado deseja cadastrar-se na plataforma Brainly. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet. |
 | **Fluxo básico** | 1. Usuário deseja cadastrar-se na plataforma para utilizar de tods os recursos disponiveis;<br/>2. Usuário clica no botão "cadastrar". |
 | **Fluxos alternativos** | 1.a Usuário deseja realizar uma pergunta, durante este processo será solicitado que faça cadastro. |
@@ -44,7 +44,7 @@
 | UC03 | Entrar com Facebook |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma desejesa usar sua conta do Facebook para cadastrar-se. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet;<br/> - Ter uma conta no Facebook. |
 | **Fluxo básico** | 1. No momento inicial do cadastro, usuário opta por usar sua conta do Facebook;<br/>2. Usuário faz login no Facebook;<br/>3. Usuário concede as devidas permissões para que o Brainly acesse seus dados do Facebook. |
 | **Fluxos alternativos** |  |
@@ -56,7 +56,7 @@
 | UC04 | Usar email |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma opta por usar um endereço email para concluir seu cadastro. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet. |
 | **Fluxo básico** | 1. No momento inicial do cadastro, usuário opta por usar email. |
 | **Fluxos alternativos** | - |
@@ -68,7 +68,7 @@
 | UC05 | Digitar email |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma deverá inserir um endereço email para concluir seu cadastro. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet;<br/> - Ter um endereço de email. |
 | **Fluxo básico** | 1. Usuário insere endereço de email |
 | **Fluxos alternativos** | - |
@@ -80,7 +80,7 @@
 | UC06 | Inserir dados |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma deverá inserir seus dados pessoair para concluir cadastro. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet;<br/> - Ter um endereço de email. |
 | **Fluxo básico** | 1. Usuário insere seu Nome de usuário;<br/>2. Usuário insere sua Senha;<br/>3. Usuário seleciona seu País;<br/>4. Usuário seleciona sua Data de nascimento.|
 | **Fluxos alternativos** | - |
@@ -92,7 +92,7 @@
 | UC07 | Verificar idade |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma insere sua data de nascimento. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet;<br/> - Ter um endereço de email. |
 | **Fluxo básico** | 1. Sistema verifica se a Data de nascimento selecionada pelo usuário correndo a uma idade menor que 13 anos.|
 | **Fluxos alternativos** | - |
@@ -104,7 +104,7 @@
 | UC08 | Inserir email de um Responsável |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma insere uma data de nascimento que corresponde a uma idade atual menor que 13 anos. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet;<br/> - Ter um endereço de email;<br/> Ter menos de 13 anos de idade. |
 | **Fluxo básico** | 1. Usuário insere endereço de email de um de seus responsáveis, para que o mesmo conceda a autorização de uso.|
 | **Fluxos alternativos** | - |
@@ -116,7 +116,7 @@
 | UC09 | Confirmar email |
 | -------------: | :---|
 | **Descrição** | Um usuário que está se cadastrando na plataforma usando seu email, completa seu cadastro, então precisa confirmar a posse do email. |
-| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#l12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet;<br/> - Ter um endereço de email;<br/> Ter mais de 13 anos de idade. |
 | **Fluxo básico** | 1. Usuário conclui cadastro na plataforma;<br/>2. Usuário confirma seu cadastro em sua conta de email.|
 | **Fluxos alternativos** | - |

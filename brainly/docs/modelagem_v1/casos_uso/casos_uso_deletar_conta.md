@@ -1,4 +1,4 @@
-# [DELETAR CONTA](../../cenarios10x5f8c4.md#C3029)
+# [DELETAR CONTA](../../cenarios10x5f8c4.md#c3029)
 
 ## Versionamento
 
@@ -15,9 +15,9 @@
 ### 1 Breve descrição
 Usuário solicita que sua conta no Brainly seja deletada.
 ### 2 Breve descrição dos atores
-#### 2.1 [Usuário](../../lexicos10x5f8c4.md#L12660)
+#### 2.1 [Usuário](../../lexicos10x5f8c4.md#l12660)
 Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. 
-#### 2.2 [Administrador](../../lexicos10x5f8c4.md#L12529)
+#### 2.2 [Administrador](../../lexicos10x5f8c4.md#l12529)
 Ator, que trabalha diretamente para o Brainly, responsável pela coordenação das atividades de moderação e pela gerência de contas e necessidades das plataformas Brainly. 
 ### 3 Pré-condições
 Possuir uma conta na plataforma Brainly.

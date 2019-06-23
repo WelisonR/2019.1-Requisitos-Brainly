@@ -1,4 +1,4 @@
-# [GAMIFICAÇÃO](rich_picture.md#RichPicture-Gamificação)
+# [GAMIFICAÇÃO](rich_picture.md#richpicture-gamificacao)
 
 ## Versionamento
 
@@ -21,11 +21,11 @@
 Técnica aplicada para incentivar os usuários a contribuir com a plataforma Brainly, ou seja, confirmar e-mail, convidar amigos e responder perguntas.
 
 ### 2 Breve descrição dos atores
-#### 2.1 [Usuário](lexicos10x5f8c4.md#L12660)
+#### 2.1 [Usuário](lexicos10x5f8c4.md#l12660)
 Pessoa que utiliza a plataforma.
-#### 2.1.1 [Usuário que pergunta](lexicos10x5f8c4.md#L12660)
+#### 2.1.1 [Usuário que pergunta](lexicos10x5f8c4.md#l12660)
 Pessoa que realiza perguntas na plataforma Brainly.
-#### 2.1.2 [Usuário que responde](lexicos10x5f8c4.md#L12660)
+#### 2.1.2 [Usuário que responde](lexicos10x5f8c4.md#l12660)
 Pessoa que responde perguntas na plataforma Brainly.
 ### 3 Pré-condições
 Ser cadastrado na plataforma Brainly.

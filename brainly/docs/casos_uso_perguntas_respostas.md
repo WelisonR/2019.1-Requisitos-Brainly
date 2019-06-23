@@ -20,7 +20,7 @@
 | UC01 | Fazer pergunta |
 | -------------: | :---|
 | **Descrição** | Um usuário acessa o Brainly e faz uma pergunta. |
-| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Usuário](lexicos10x5f8c4.md#l12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Possuir no mínimo dez pontos para realizar uma pergunta;<br/> - Estar logado. |
 | **Fluxo básico** | 1. Usuário pesquisa pela sua dúvida no Brainly;<br/> 2. Se o usuário não encontrar uma tarefa relacionada, usuário faz uma pergunta;<br/> 3. Usuário adiciona a matéria associada à pergunta;<br/> 4. Usuário atribui pontos à questão;<br/>5. Se o usuário estiver satisfeito com a questão ele a submete.|
 | **Fluxos alternativos** | 2.a Usuário encontra a questão desejada;<br/> 5.a Usuário adiciona anexos;<br/>5.b Usuário adiciona equações na ferramenta LaTeX;<br/>5.c Usuário adiciona símbolos matemáticos;<br/>5.d Usuário adiciona texto com diferentes formatações.|
@@ -32,8 +32,8 @@
 | UC02 | Responder pergunta |
 | -------------: | :---|
 | **Descrição** | Um usuário da comunidade acessa o Brainly e responde uma pergunta. |
-| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
-| [Comunidade](lexicos10x5f8c4.md#L12525) | Conjunto de usuários em prol de se ajudarem. |
+| [Usuário](lexicos10x5f8c4.md#l12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Comunidade](lexicos10x5f8c4.md#l12525) | Conjunto de usuários em prol de se ajudarem. |
 | **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01));<br/> - A pegunta não ser respondida por 2 usuários.|
 | **Fluxo básico** | 1. Usuário da comunidade, que deseja contribuir, navega pela listas de perguntas;<br/> 2. Usuário da comunidade escolhe uma pergunta;<br/> 3. Usuário da comunidade responde uma pergunta. |
 | **Fluxos alternativos** | 3.a Usuário adiciona anexos;<br/>3.b Usuário adiciona equações na ferramenta LaTeX;<br/>3.c Usuário adiciona símbolos matemáticos;<br/>3.d Usuário adiciona texto com diferentes formatações.|
@@ -45,8 +45,8 @@
 | UC03 | Realizar comentário |
 | -------------: | :---|
 | **Descrição** | Um usuário com interece de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
-| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
-| [Moderador](lexicos10x5f8c4.md#L12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
+| [Usuário](lexicos10x5f8c4.md#l12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Moderador](lexicos10x5f8c4.md#l12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
 | **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01)) ou um usuário responder uma pergunta ([3. UC02](#uc02)).|
 | **Fluxo básico** | 1. Um usuário com interece de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
 | **Fluxos alternativos** | 1.a Um usuário faz uma denúncia ([3. UC04](#uc04)) e um moderador faz um comentário. |
@@ -58,7 +58,7 @@
 | UC04 | Denunciar irregularidade |
 | -------------: | :---|
 | **Descrição** | Um usuário após ver uma irregularidade faz uma denúncia. |
-| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Usuário](lexicos10x5f8c4.md#l12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01)) ou um usuário responder uma pergunta ([3. UC02](#uc02)) ou um usuário fazer um comentário ([1. UC03](#uc03)) indevido.|
 | **Fluxo básico** | 1. O usuário após ver uma irregularidade faz uma denúncia;<br/> 2. O usuário seleciona a categoria;<br/> 3. Usuário confirma a denúncia. |
 | **Fluxos alternativos** | - |
@@ -70,8 +70,8 @@
 | UC05 | Advertir infrator |
 | -------------: | :---|
 | **Descrição** | Um moderador após receber uma denúncia de irregularidade avalia a veracidade do conteúdo. |
-| [Usuário](lexicos10x5f8c4.md#L12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
-| [Moderador](lexicos10x5f8c4.md#L12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
+| [Usuário](lexicos10x5f8c4.md#l12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
+| [Moderador](lexicos10x5f8c4.md#l12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
 | **Pré-condições** | - Ser moderador na plataforma Brainly; <br/> - Estar logado;<br/> - Receber uma denúncia ou visualizar uma irregularidade.|
 | **Fluxo básico** | 1. O moderador visualiza as denúncias no painel de moderação;<br/> 2. O moderador escolhe uma denúncia para avaliar;<br/>3. Se houver irregularidade o moderador exclui o conteúdo indevido. |
 | **Fluxos alternativos** | 2.a O moderador pede a correção do conteúdo. <br/> 3.a O moderador aplica advertência;<br/> 3.b O moderador tira pontos do usuário infrator; <br/> 3.c O moderador comunica o usuário infrator. |

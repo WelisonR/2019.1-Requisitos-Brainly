@@ -1,4 +1,4 @@
-# [DELETAR CONTA](cenarios10x5f8c4.md#C3029)
+# [DELETAR CONTA](cenarios10x5f8c4.md#c3029)
 
 ## Versionamento
 

@@ -18,13 +18,13 @@ O usuário faz uma pergunta para ser respondida por outros usuários, utilizando
 
 ### 2 Breve descrição dos atores
 
-#### 2.1 [Usuário](../../lexicos10x5f8c4.md#L12660)
+#### 2.1 [Usuário](../../lexicos10x5f8c4.md#l12660)
 Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras.
 
-#### 2.2 [Moderador](../../lexicos10x5f8c4.md#L12528)
+#### 2.2 [Moderador](../../lexicos10x5f8c4.md#l12528)
 Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários.
 
-#### 2.3 [Comunidade](../../lexicos10x5f8c4.md#L12525)
+#### 2.3 [Comunidade](../../lexicos10x5f8c4.md#l12525)
 Conjunto de usuários em prol de se ajudarem.
 
 ### 3 Pré-condições
