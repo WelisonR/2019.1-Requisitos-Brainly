@@ -22,9 +22,9 @@
 | **Descrição** | Um usuário não cadastrado acessa a plataforma Brainly. |
 | Usuário não cadastrado | Ator que pretende criar uma conta, tornando-se um [usuário](lexicos10x5f8c4.md#L12660), para possuir acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | **Pré-condições** | - Ter acesso à internet. |
-| **Fluxo básico** | 1. Usuário acessà plataforma via web ou aplicativo para dispositivo móvel;|
+| **Fluxo básico** | 1. Usuário acessa à plataforma via web ou aplicativo para dispositivo móvel;|
 | **Fluxos alternativos** | - |
-| **Fluxos de exceções** | [1] Servidores da plataforma estão indisponíveis, logo usuário não terá como acessa-los |
+| **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
 ### UC02
@@ -36,7 +36,7 @@
 | **Pré-condições** | - Ter acesso à internet. |
 | **Fluxo básico** | 1. Usuário deseja cadastrar-se na plataforma para utilizar de tods os recursos disponiveis;<br/>2. Usuário clica no botão "cadastrar". |
 | **Fluxos alternativos** | 1.a Usuário deseja realizar uma pergunta, durante este processo será solicitado que faça cadastro. |
-| **Fluxos de exceções** | [1 - 2] Servidores da plataforma estão indisponíveis, logo usuário não terá como acessa-los. |
+| **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização [EN1.3](entrevista.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md) |
 
 ### UC03
