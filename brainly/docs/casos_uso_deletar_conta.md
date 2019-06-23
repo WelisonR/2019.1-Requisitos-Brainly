@@ -95,6 +95,6 @@
 | **Fluxo básico** | 1. Administrador recebe email com formulário preenchido pelo usuário;<br/>2. Administrador confirma a exclusão da conta. |
 | **Fluxos alternativos** | - |
 | **Fluxos de exceções** | [1] Usuário não preenche o formulário adequadamente |
-|  **Requisitos Especiais** | - Deve ser possível ao moderador a exclusão de contas e o banimento do usuário [INT 2.15](../../priorizacao.md). |
+|  **Requisitos Especiais** | - Deve ser possível ao moderador a exclusão de contas e o banimento do usuário [INT 2.15](introspeccao.md). |
 
 

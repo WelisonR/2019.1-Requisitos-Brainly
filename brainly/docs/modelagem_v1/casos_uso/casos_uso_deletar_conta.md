@@ -43,6 +43,6 @@ O administrador deleta a conta.
 
     [7] Usuário não confirma sua decisão.
 ### 6 Requisitos Especiais
-1. Deve ser possível ao moderador a exclusão de contas e o banimento do usuário - [INT 2.15](../../priorizacao.md).
+1. Deve ser possível ao moderador a exclusão de contas e o banimento do usuário - [INT 2.15](../../introspeccao.md).
 
 
