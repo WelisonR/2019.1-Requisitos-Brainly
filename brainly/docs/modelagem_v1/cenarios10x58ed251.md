@@ -2,7 +2,7 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 21/04/2019 | Gera primeira versão dos artefatos | Welison Regis |
+| 1.0 | 21/04/2019 | Gera primeira versão dos artefatos | Grupo |
 
 
 # dar obrigado
