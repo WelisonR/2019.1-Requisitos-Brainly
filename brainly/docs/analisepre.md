@@ -11,8 +11,9 @@
 |    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
 |    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
 |    1.8  | 10/06/2019 | Adição dos gráficos de analise das argumentações | Joao Gabriel |
-|    1.9  | 22/06/2019 | Adição da versão 3 das análises de argumentação | João Rodrigues, Paulo Vitor |
-|    2.0  | 22/06/2019 | Adição da versão 3 das análises dos rich pictures | João Rodrigues, Paulo Vitor |
+|    1.9  | 22/06/2019 | Adição da versão 3 das análises de argumentação | João Rodrigues, Paulo Vítor |
+|    2.0  | 22/06/2019 | Adição da versão 3 das análises dos rich pictures | João Rodrigues, Paulo Vítor |
+|    2.1  | 22/06/2019 | Adição da metodologia utilizada para análise | João Rodrigues, Paulo Vítor |
 
 # INTRODUÇÃO
 
@@ -21,6 +22,12 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 # OBJETIVO
 
 # METODOLOGIA
+
+As inspeções foram feitas individualmente por cada membro, porém antes de realiza-las foi feita uma reunião para discutir a organização das checklists, sua disposição e o conteúdo presente em cada uma delas.
+
+As inspeções realizadas sobre a pré-rastrebilidade baseiam-se em um checklist composto por questões acompanhadas de seus impactos (Alto/Médio/Baixo). Analisou-se separadamente cada tópico relacionado à qualidade dos modelos, sendo os modelos dos Rich Pictures separados nos temas: Apresentação, Compreensibilidade, Forma e Organização e Rastreabilidade; e os modelos de Argumentação em: Desenvolvimento, Forma e Organização, Rastreabilidade e Conclusão.
+
+Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qualidade dos modelos, tanto de argumentação quanto os de rich pictures.
 
 ## MODELO DE VERIFICAÇÃO - RICH PICTURE
 **Versão 1**
