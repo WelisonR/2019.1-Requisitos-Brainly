@@ -11,7 +11,10 @@
 |    1.6  | 09/06/2019 | Adição da análise dos rich pictures | João Rodrigues, Ivan Diniz |
 |    1.7  | 09/06/2019 | Adição dos gráficos de analise dos rich pictures e argumentação | João Rodrigues, Paulo Vítor, Joao Gabriel |
 |    1.8  | 10/06/2019 | Adição dos gráficos de analise das argumentações | Joao Gabriel |
-|    1.9  | 10/06/2019 | Adição da versão 3 das análises de argumentação | Paulo Vitor, João Rodrigues |
+|    1.9  | 22/06/2019 | Adição da versão 3 das análises de argumentação | João Rodrigues, Paulo Vítor |
+|    2.0  | 22/06/2019 | Adição da versão 3 das análises dos rich pictures | João Rodrigues, Paulo Vítor |
+|    2.1  | 22/06/2019 | Adição da metodologia utilizada para análise | João Rodrigues, Paulo Vítor |
+|    2.2  | 22/06/2019 | Adição de objetivo da análise de pré rastreabilidade | João Rodrigues, Paulo Vítor |
 
 # INTRODUÇÃO
 
@@ -19,7 +22,15 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 
 # OBJETIVO
 
+A inspeção dos modelos possibilita conhecer aspectos relacionados a informações, abrangência, completude e qualidade dos objetos analisados. Nesse tópico, verificou-se através de métricas e checklists, temas importantes presentes nos modelos. A inspeção nos permitiu descobrir as fraquezas existentes no trabalho e também trouxe uma maior facilidade na hora de realizar a melhoria da qualidade dos modelos.
+
 # METODOLOGIA
+
+As inspeções foram feitas individualmente por cada membro, porém antes de realiza-las foi feita uma reunião para discutir a organização das checklists, sua disposição e o conteúdo presente em cada uma delas.
+
+As inspeções realizadas sobre a pré-rastrebilidade baseiam-se em um checklist composto por questões acompanhadas de seus impactos (Alto/Médio/Baixo). Analisou-se separadamente cada tópico relacionado à qualidade dos modelos, sendo os modelos dos Rich Pictures separados nos temas: Apresentação, Compreensibilidade, Forma e Organização e Rastreabilidade; e os modelos de Argumentação em: Desenvolvimento, Forma e Organização, Rastreabilidade e Conclusão.
+
+Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qualidade dos modelos, tanto de argumentação quanto os de rich pictures.
 
 ## MODELO DE VERIFICAÇÃO - RICH PICTURE
 **Versão 1**
@@ -85,6 +96,28 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
+### Inspeção Individual v3.0
+
+| Nome do projeto           | [Rich Picture Visão Geral Brainly](rich_picture.md#rich-picture-visao-geral-brainly) |
+| :-----------------------: | :----------------------------------------------------------------------------------: |
+| Data da inspeção          | 22/06/2019 |
+| Responsável pela inspeção | João Rodrigues |
+| Hora inicial              | 19h22 |
+| Hora final                | 19h38 |
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Boa escolha de imagens, pois são semelhantes às utilizadas no Brainly. |
+|       2        |        M        |     Sim     | As imagens representam bem os textos aos quais estão associadas. |
+|       3        |        B        |     Sim     | Foram utilizadas somente as imagens necessárias para ilustrar os textos e foram ilustrados todos os textos. |
+|       4        |        A        |     Não     | A complexidade do fluxo dificulta a compreensão do comportamento da aplicação. |
+|       5        |        A        |     Sim     | Fluxo bem definido, porém complexo e de difícil compreensão. |
+|       6        |        M        |     Sim     | Longos textos não foram utilizados como legenda de imagens, indicação de ações (texto em setas e etc) ou explanação geral. |
+|       7        |        A        |     Sim     | O foco é a visão geral da plataforma Brainly, ou seja, o Brainly, que se encontra no centro do artefato. |
+|       8        |        A        |     Sim     | A administração, os moderadores, o estudante com dúvida, os estudantes em geral, os bons usuários e os maus usuários são representados. |
+|       9        |        A        |     Sim     | É implicita a representação de um dispositivo eletrônico que possibilite a utilização da plataforma Brainly. |
+|      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
+
 ![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Versão_Geral_Brainly.png)
 
 ## IRP 02 - Rich Picture Gamificação
@@ -123,6 +156,28 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
+### Inspeção Individual v3.0
+
+| Nome do projeto           | [Rich Picture Gamificação](rich_picture.md#richpicture-gamificacao) |
+| :-----------------------: | :----------------------------------------------------------------------------------: |
+| Data da inspeção          | 22/06/2019 |
+| Responsável pela inspeção | João Rodrigues |
+| Hora inicial              | 19h57 |
+| Hora final                | 20h16 |
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Os símbolos escolhidos são facilmente interpretados, porém é recomendado utilizar símbolos semelhantes aos utilizados no Brainly para se adequar a identidade visual empregada na plataforma. |
+|       2        |        M        |     Não     | A imagem que representa Pontos se assemelha à medalhas. |
+|       3        |        B        |     Sim     | A utilização de tabelas evita acumulação de texto explicativo ou de imagens ilustrativas. |
+|       4        |        A        |     Sim     | Por ser a representação de uma parte de um todo (gamificação aplicada na plataforma Brainly) , o artefato não é complexo e é de fácil compreensão. |
+|       5        |        A        |     Sim     | Fluxo bem definido, porém o foco da gamificação deve ser o usuário. |
+|       6        |        M        |     Sim     | Longos textos não foram utilizados como legenda de imagens, indicação de ações (texto em setas e etc) ou explanação geral. |
+|       7        |        A        |     Não     | O foco da gamificação é o usuário e o usuário não está no centro. |
+|       8        |        A        |     Sim     | Os usuários e os usuários com ótimo desempenho na gamificação aplicada na plataforma Brainly são representados. |
+|       9        |        A        |     Sim     | É implicita a representação de um dispositivo eletrônico que possibilite a utilização da plataforma Brainly. |
+|      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
+
 ![Gráfico RichPicture Gamificacao](images/analise/gamificacao.png)
 
 ## IRP 03 - Rich Picture Plataformas
@@ -159,6 +214,28 @@ Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas 
 |       8        |        A        |     Sim     | - |
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
+
+### Inspeção Individual v3.0
+
+| Nome do projeto           | [Rich Picture Plataformas](rich_picture.md#richpicture-plataformas) |
+| :-----------------------: | :----------------------------------------------------------------------------------: |
+| Data da inspeção          | 22/06/2019 |
+| Responsável pela inspeção | João Rodrigues |
+| Hora inicial              | 20h25 |
+| Hora final                | 20h40 |
+
+| N°. da questão | Impacto (A/M/B) | Satisfeito? | Observação |
+| :------------: | :-------------: | :--------:  | :--------: |
+|       1        |        A        |     Sim     | Os símbolos escolhidos são facilmente interpretados, porém é recomendado utilizar símbolos semelhantes aos utilizados no Brainly para se adequar a identidade visual empregada na plataforma. |
+|       2        |        M        |     Sim     | Utiliza símbolos e imagens que são facilmente interpretadas da maneira correta, porém é recomendado adicionar lengenda às imagens que não possuem. |
+|       3        |        B        |     Sim     | Apesar da falta de algumas legendas, a distribuição de imagens e texto no artefato é equilibrada. |
+|       4        |        A        |     Não     | Por faltar legenda em algumas imagens, alguns leitores podem encontrar dificuldade em compreender o artefato. |
+|       5        |        A        |     Sim     | Apesar de o artefato possuir um ponto central variável, o fluxo está bem definido. |
+|       6        |        M        |     Sim     | Longos textos não foram utilizados como legenda de imagens, indicação de ações (texto em setas e etc) ou explanação geral. |
+|       7        |        A        |     Sim     | O foco do artefato parece disperso, pois o ponto central desse artefato é variável. Porém, agrupando suas variações nota-se que o foco está no centro do artefato. |
+|       8        |        A        |     Sim     | O usuário, os seguidores do usuário na plataforma Brainly e os amigos do usuário na plataforma Brainly são representados. |
+|       9        |        A        |     Sim     | Utiliza um dispositivo android, um dispositivo ios e um dispositivo desktop |
+|      10        |        A        |     Sim     | São apresentados as versões e os autores das versões do artefato. |
 
 ![Gráfico RichPicture Gamificacao](images/analise/plataformas.png)
 
