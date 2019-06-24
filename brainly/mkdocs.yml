@@ -3,9 +3,10 @@ pages:
   - PRÉ-RASTREABILIDADE:
     - Argumentação: argumentacao.md
     - RichPicture: rich_picture.md
+    - Versões antigas:
+      - RichPicture: rich_picture_versoes.md
   - RASTREABILIDADE-PRINTS:
     - Versões da argumentação: argumentacao_versoes.md
-    - Versões de Rich Picture: rich_picture_versoes.md
     - Confirmação do tema: confirmacao_tema.md
     - Não ao Twich.TV: nao_twich.md
     - Votação para escolha do tema: votacao_tema.md
@@ -20,6 +21,8 @@ pages:
     - Storytelling: storytelling.md
     - Questionário: questionario.md
     - Priorização: priorizacao.md
+    - Versões antigas:
+        - Introspecção: elicitacao_v1/introspeccao.md
   - MODELAGEM:
     - Cenários: cenarios10x5f8c4.md
     - Léxicos: lexicos10x5f8c4.md
