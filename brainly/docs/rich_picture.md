@@ -52,4 +52,4 @@ Um modelo completamente informal, normalmente criado sem um rigor muito técnico
 
 ![Rich picture primeiros passos de novo usuário cadastrado](images/rich_picture/rich_picture_primeiros_passos_usuario_cadastrado.png)
 
-[Versões anteriores](rich_picture_versoes.md)
+[Versões anteriores](pre_rastreabilidade_v1/rich_picture_versoes.md)

@@ -1,1 +1,0 @@
-![Argumentação sobre o tema](images/argumentacao/argumentacao_tema(1).jpg)

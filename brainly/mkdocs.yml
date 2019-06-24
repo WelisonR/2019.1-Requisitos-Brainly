@@ -4,13 +4,8 @@ pages:
     - Argumentação: argumentacao.md
     - RichPicture: rich_picture.md
     - Versões antigas:
-      - RichPicture: rich_picture_versoes.md
-  - RASTREABILIDADE-PRINTS:
-    - Versões da argumentação: argumentacao_versoes.md
-    - Confirmação do tema: confirmacao_tema.md
-    - Não ao Twich.TV: nao_twich.md
-    - Votação para escolha do tema: votacao_tema.md
-    - Votação sistema de mensagem: votacao_mensagem.md
+      - RichPicture: pre_rastreabilidade_v1/rich_picture_versoes.md
+      - Argumentação: pre_rastreabilidade_v1/argumentacao_versoes.md
   - ELICITAÇÃO:
     - Plano de elicitação: plano_elicitacao.md
     - Análise de Protocolo: analise_protocolo.md
@@ -56,6 +51,11 @@ pages:
   - PÓS-RASTREABILIDADE:
     - Forward-From: forward.md
     - Backward-From: backward.md
+  - RASTREABILIDADE-PRINTS:
+    - Confirmação do tema: rastreabilidade_prints/confirmacao_tema.md
+    - Não ao Twich.TV: rastreabilidade_prints/nao_twich.md
+    - Votação para escolha do tema: rastreabilidade_prints/votacao_tema.md
+    - Votação sistema de mensagem: rastreabilidade_prints/votacao_mensagem.md
     
 
 theme:

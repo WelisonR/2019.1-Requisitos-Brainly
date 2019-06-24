@@ -1,1 +1,0 @@
-![](images/argumentacao/sim_brainly.jpg)

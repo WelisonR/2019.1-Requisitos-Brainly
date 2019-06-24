@@ -22,20 +22,20 @@ Data 25/03/2019
 | Autor | Proposição | |
 |  :------: | :------: | :------: |
 | grupo | _i(p1)_ | Escolhemos twitch TV. |
-| professores | _i(p2)_ | [O grupo não pode escolher twitch TV pois já foi tema em semestres anteriores.](https://welisonr.github.io/2019.1-Requisitos-Brainly/nao_twich/) |
+| professores | _i(p2)_ | [O grupo não pode escolher twitch TV pois já foi tema em semestres anteriores.](rastreabilidade_prints/nao_twich.md) |
 | André | _i(p3)_ | Precisamos escolher outro tema. |
 | Gustavo | _i(p4)_ | Vamos fazer telegram, steam, youtube ou ifood.|
 | Paulo | _i(p5)_ | Pode ser steam, tem muita  coisa.
 | Ivan | _i(p6)_ | Gostei da ideia do steam. |
 | Welison | _i(p7)_ | Minha sugestão é o brainly, site voltado para estudo, não acho que seja bom pegar algo tão grande.|
-| professores | _i(p8)_ |[Tema ok.](https://welisonr.github.io/2019.1-Requisitos-Brainly/confirmacao_tema/) |
+| professores | _i(p8)_ |[Tema ok.](rastreabilidade_prints/confirmacao_tema.md) |
 
 | Autor | Preferência | |
 |  :------: | :------: | :------: |
 | Professores | _P1_ | Por imposição o grupo teve que escolher outro tema. |
-| Grupo | _P2_ | [Por meio de votação foi escolhido o brainly.](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_tema/) |
+| Grupo | _P2_ | [Por meio de votação foi escolhido o brainly.](rastreabilidade_prints/votacao_tema.md) |
 
-[versão anterior](https://welisonr.github.io/2019.1-Requisitos-Brainly/argumentacao_versoes/)
+[versão anterior](pre_rastreabilidade_v1/argumentacao_versoes.md)
 
 ## Argumentação sobre o sistema de mensagens
 Data 27/03/2019
@@ -53,8 +53,8 @@ Data 27/03/2019
 
 | Autor | Preferência | |
 |  :------: | :------: | :------: |
-| [Votação](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_mensagem/) | _P1_ |Por votação, decidiu-se que o ‘Brainly’ deve retirar o ‘chat’ devido a complicações legais e éticas. |
-| [Votação](https://welisonr.github.io/2019.1-Requisitos-Brainly/votacao_mensagem/) | _P2_ | Por votação, decidiu-se que o Brianly deve fornecer uma ferramenta de comunicação entre a administração, moderadores e usuários, além de possibilitar o uso do recurso por bons usuários. |
+| [Votação](rastreabilidade_prints/votacao_mensagem/) | _P1_ |Por votação, decidiu-se que o ‘Brainly’ deve retirar o ‘chat’ devido a complicações legais e éticas. |
+| [Votação](rastreabilidade_prints/votacao_mensagem/) | _P2_ | Por votação, decidiu-se que o Brianly deve fornecer uma ferramenta de comunicação entre a administração, moderadores e usuários, além de possibilitar o uso do recurso por bons usuários. |
 
 
 ## Argumentação sobre os níveis do Brainly
