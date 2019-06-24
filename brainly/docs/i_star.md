@@ -8,9 +8,9 @@
 |    1.1  | 27/05/2019 | Adição do I* de moderação | Welison Regis |
 |    1.2  | 28/05/2019 | Adição do I* da plataforma | Gustavo Marques, André Pinto, Leonardo Medeiros |
 |    1.3  | 28/05/2019 | Adição da versão 2.0 do I* de dependências | Gustavo Marques, André Pinto, Leonardo Medeiros |
-|    1.4  | 28/05/2019 | Adição da versão 2.0 do I* de moderadores | João Gabriel, Ivan Diniz, João Mateus, Paulo Rocha, Wellison Regis |
+|    1.4  | 28/05/2019 | Adição da versão 2.0 do I* de moderadores | Ivan Diniz, João Gabriel, João Rodrigues, Paulo Rocha, Wellison Regis |
 |    1.5  | 28/05/2019 | Adição da versão 2.0 do I* da plataforma | Gustavo Marques, André Pinto, Leonardo Medeiros |
-|    1.6  | 28/05/2019 | Adição da versão 1.0 do I* de gamificação | Ivan Diniz, Paulo Rocha, João Gabriel, Leonardo Medeiros, João Matheus |
+|    1.6  | 28/05/2019 | Adição da versão 1.0 do I* de gamificação | Ivan Diniz, João Gabriel, João Rodrigues, Leonardo Medeiros, Paulo Rocha |
 |    1.7  | 29/05/2019 | Adição da versão 1.0 do I* de realizar pergunta | Lieverton Silva, Welison Regis |
 |    1.8  | 29/05/2019 | Adição da versão 1.0 do I* de realizar resposta | Lieverton Silva, Welison Regis |
 |    1.9  | 29/05/2019 | Adição da versão 3.0 do I* de dependências | Lieverton Silva, Welison Regis |

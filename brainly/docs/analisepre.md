@@ -1,5 +1,6 @@
 # PRÉ-RASTREABILIDADE
 
+## Versionamento
 |  Versão |    Data    | Modificação  | Autor |
 |  :----: | :--------: | :---------:  | :------: |
 |    1.0  | 04/06/2019 | Adição do template | João Rossi |
@@ -17,17 +18,17 @@
 |    2.2  | 22/06/2019 | Adição de objetivo da análise de pré rastreabilidade | João Rodrigues, Paulo Vítor |
 
 
-# INTRODUÇÃO
+## INTRODUÇÃO
 
 Na análise de pré-rastreabilidade foram estabelecidos critérios com base nas orientações dadas na dinâmica e apresentação desse tópico. A análise mostra o que tem ou não sido cumprido pelos objetos analisados pela equipe de acordo com os critérios determinados.
 
 
-# OBJETIVO
+## OBJETIVO
 
 A inspeção dos modelos possibilita conhecer aspectos relacionados a informações, abrangência, completude e qualidade dos objetos analisados. Nesse tópico, verificou-se através de métricas e checklists, temas importantes presentes nos modelos. A inspeção nos permitiu descobrir as fraquezas existentes no trabalho e também facilitou a realização do aprimoramento de qualidade dos modelos.
 
 
-# METODOLOGIA
+## METODOLOGIA
 
 As inspeções foram executadas individualmente por cada membro, porém antes de produzi-las foi realizada uma reunião para discutir a organização das checklists, sua disposição e o conteúdo presente em cada uma delas.
 
@@ -63,9 +64,9 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |   9   | Utiliza representação de artefatos físicos?  | Forma e Organização | A |
 |   10   | Existe versionamento?  | Rastreabilidade | A |
 
-# INSPEÇÕES 
-## IRP 01 - Rich Picture Visão Geral Brainly
-### Inspeção Individual v1.0
+## INSPEÇÕES 
+### IRP 01 - Rich Picture Visão Geral Brainly
+#### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -77,7 +78,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Rich Picture Visão Geral Brainly](rich_picture.md#rich-picture-visao-geral-brainly) |
 | :------------: | :------------: |
@@ -99,7 +100,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 | Nome do projeto           | [Rich Picture Visão Geral Brainly](rich_picture.md#rich-picture-visao-geral-brainly) |
 | :-----------------------: | :----------------------------------------------------------------------------------: |
@@ -123,8 +124,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico Rich Picture Visão Geral Brainly](images/analise/Rich_Picture_Versão_Geral_Brainly.png)
 
-## IRP 02 - Rich Picture Gamificação
-### Inspeção Individual v1.0
+### IRP 02 - Rich Picture Gamificação
+#### Inspeção Individual v1.0
 
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
@@ -137,7 +138,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |    6    | Existe rastreablidade? | S | |
 |    6    | A linguagem é objetiva? | S | Poderia informar para que o brainly utiliza a gamificação. |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Rich Picture Gamificação](rich_picture.md#richpicture-gamificacao) |
 | :------------: | :------------: |
@@ -159,7 +160,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 | Nome do projeto           | [Rich Picture Gamificação](rich_picture.md#richpicture-gamificacao) |
 | :-----------------------: | :----------------------------------------------------------------------------------: |
@@ -183,8 +184,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico RichPicture Gamificacao](images/analise/gamificacao.png)
 
-## IRP 03 - Rich Picture Plataformas
-### Inspeção Individual v1.0
+### IRP 03 - Rich Picture Plataformas
+#### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -196,7 +197,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Rich Picture Plataformas](rich_picture.md#richpicture-plataformas) |
 | :------------: | :------------: |
@@ -218,7 +219,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 | Nome do projeto           | [Rich Picture Plataformas](rich_picture.md#richpicture-plataformas) |
 | :-----------------------: | :----------------------------------------------------------------------------------: |
@@ -242,8 +243,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico RichPicture Plataformas](images/analise/plataformas.png)
 
-## IRP 04 - Rich Picture Perguntas e Respostas
-### Inspeção Individual v1.0
+### IRP 04 - Rich Picture Perguntas e Respostas
+#### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -255,7 +256,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |  6 | Existe rastreablidade? | S | |
 |  7 | A linguagem é objetiva? | S |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Rich Picture Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas)|
 | :------------: | :------------: |
@@ -278,7 +279,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |      10        |        A        |     Sim     | - |
 
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 | Nome do projeto           | [Rich Picture Perguntas e Respostas](rich_picture.md#richpicture-perguntas-e-respostas) |
 | :-----------------------: | :-------------------------------------------------------------------------------------: |
@@ -302,8 +303,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico Rich Picture Perguntas e Respostas](images/analise/Rich_Picture_Perguntas_e_Respostas.png)
 
-## IRP 05 - Rich Picture Primeiros Passos de Novo Usuário não Cadastrado
-### Inspeção Individual v1.0
+### IRP 05 - Rich Picture Primeiros Passos de Novo Usuário não Cadastrado
+#### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -315,7 +316,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 | 6 | Existe rastreablidade? | N | Se necessário desenvolver nova versão, pois esta é a primeira |
 | 7 | A linguaguem é objetiva? | S |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Rich Picture Primeiros Passos de Novo Usuário não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |
 | :------------: | :------------: |
@@ -337,7 +338,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 | Nome do projeto           | [Rich Picture Primeiros Passos de Novo Usuário não Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-nao-cadastrado) |
 | :-----------------------: | :-------------------------------------------------------------------------------------: |
@@ -361,8 +362,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico RichPicture Primeiros Passos de Novo Usuário Não Cadastrado](images/analise/passos_usuario_nao_cadastrado.png)
 
-## IRP 06 - Rich Picture Primeiros Passos de Novo Usuário Cadastrado
-### Inspeção Individual v1.0
+### IRP 06 - Rich Picture Primeiros Passos de Novo Usuário Cadastrado
+#### Inspeção Individual v1.0
 
 |  Número |    Tópico    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -374,7 +375,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |  6 | Existe rastreablidade? | S |  |
 |  7 | A linguagem é objetiva? | S |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Rich Picture Primeiros Passos de Novo Usuário Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-cadastrado) |
 | :------------: | :------------: |
@@ -396,7 +397,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |       9        |        A        |     Sim     | - |
 |      10        |        A        |     Sim     | - |
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 | Nome do projeto           | [Rich Picture Primeiros Passos de Novo Usuário Cadastrado](rich_picture.md#richpicture-primeiros-passos-de-novo-usuario-cadastrado) |
 | :-----------------------: | :-------------------------------------------------------------------------------------: |
@@ -420,7 +421,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico RichPicture Primeiros Passos de Novo Usuário Cadastrado](images/analise/RP_Primeiros_Passos_de_Usuário_Cadastrado.png)
 
-##Gráfico da inspeção dos Rich-Pictures
+### Gráfico da inspeção dos Rich-Pictures
 ![Gráfico da Inspeção dos Rich-Pictures](images/analise/RP.jpg)
 
 ## MODELO DE VERIFICAÇÃO - ARGUMENTAÇÃO
@@ -452,9 +453,9 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 | 10 | Houve consenso? | Conclusão | A |
 
 
-# INSPEÇÕES
-## IAR 01 - Argumentação sobre o tema
-### Inspeção Individual v1.0
+## INSPEÇÕES
+### IAR 01 - Argumentação sobre o tema
+#### Inspeção Individual v1.0
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -466,7 +467,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 | 6 | Modelos de alta complexidade |  S  |  |
 | 7 | Pré-Rastreabilidade | S |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| [Argumentação sobre o tema](argumentacao.md#argumentacao-sobre-o-tema)|
 | :------------: | :------------: |
@@ -489,7 +490,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |      
 |      10       |       A       |        Sim       | - |  
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 |Nome do projeto| [Argumentação sobre o tema](argumentacao.md#argumentacao-sobre-o-tema)|
 | :------------: | :------------: |
@@ -514,8 +515,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 
 ![Gráfico Argumentação Tema](images/analise/tema.jpg)
 
-## IAR 02 - Argumentação sobre o sistema de mensagens
-### Inspeção Individual v1.0
+### IAR 02 - Argumentação sobre o sistema de mensagens
+#### Inspeção Individual v1.0
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -527,7 +528,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 | 6 | Modelos de alta complexidade |  N  | Enriquecer as discussões |
 | 7 | Pré-Rastreabilidade | N |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| Argumentação sobre o sistema de mensagens|
 | :------------: | :------------: |
@@ -549,7 +550,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |      9       |       B       |        Não       | É relevante indicar a data das argumentações |     
 |      10       |       A       |        Sim       | - |    
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 |Nome do projeto| [Argumentação sobre o sistema de mensagens](argumentacao.md#argumentacao-sobre-o-sistema-de-mensagens)|
 | :------------: | :------------: |
@@ -575,8 +576,8 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 ![Gráfico Argumentação Mensagens](images/analise/mensagens.jpg)
 
 
-## IAR 03 - Argumentação sobre os níveis do Brainly
-### Inspeção Individual v1.0
+### IAR 03 - Argumentação sobre os níveis do Brainly
+#### Inspeção Individual v1.0
 
 |  Número |    Critério de avaliação    | Cumpre  | Melhoria |
 |  :----: | :--------: | :---------:  | :------: |
@@ -588,7 +589,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 | 6 | Modelos de alta complexidade |  S  |  |
 | 7 | Pré-Rastreabilidade | N |  |
 
-### Inspeção Individual v2.0
+#### Inspeção Individual v2.0
 
 |Nome do projeto| Argumentação sobre os níveis do Brainly|
 | :------------: | :------------: |
@@ -610,7 +611,7 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 |      9       |       B       |        Não       | É relevante indicar data das argumentações |         
 |      10       |       A       |        Sim       | - |      
 
-### Inspeção Individual v3.0
+#### Inspeção Individual v3.0
 
 |      Nome do projeto      | [Argumentação sobre os níveis do Brainly](argumentacao.md#argumentacao-sobre-os-niveis-do-brainly) |
 | :-----------------------: | :------------------------------------------------------------------------------------------------: |
@@ -637,5 +638,5 @@ Por fim, computou-se um gráfico de radar que diz respeito aos critérios de qua
 ![Gráfico Argumentação Niveis](images/analise/niveis.jpg)
 
 
-##Gráfico da Inspeção das argumentações
+### Gráfico da Inspeção das argumentações
 ![Gráfico da Inspeção das Argumentação](images/analise/Arg.jpg)
