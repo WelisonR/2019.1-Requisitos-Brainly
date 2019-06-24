@@ -57,7 +57,7 @@ pages:
     - Não ao Twich.TV: rastreabilidade_prints/nao_twich.md
     - Votação para escolha do tema: rastreabilidade_prints/votacao_tema.md
     - Votação sistema de mensagem: rastreabilidade_prints/votacao_mensagem.md
-    
+  - SCRIPTS: scripts.md
 
 theme:
   language: 'pt'
