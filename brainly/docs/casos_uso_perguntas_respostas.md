@@ -25,7 +25,7 @@
 | **Fluxo básico** | 1. Usuário pesquisa pela sua dúvida no Brainly;<br/> 2. Se o usuário não encontrar uma tarefa relacionada, usuário faz uma pergunta;<br/> 3. Usuário adiciona a matéria associada à pergunta;<br/> 4. Usuário atribui pontos à questão;<br/>5. Se o usuário estiver satisfeito com a questão ele a submete.|
 | **Fluxos alternativos** | 2.a Usuário encontra a questão desejada;<br/> 5.a Usuário adiciona anexos;<br/>5.b Usuário adiciona equações na ferramenta LaTeX;<br/>5.c Usuário adiciona símbolos matemáticos;<br/>5.d Usuário adiciona texto com diferentes formatações.|
 | **Fluxos de exceções** | [2 - 4] Usuário reinicia a página acidentalmente, ao clicar em fazer pergunta novamente, tudo o que o usuário tinha digitado e escolhido na pergunta anteriormente se mantém;<br/>[2] Usuário digita uma pergunta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
-|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais) |
 
 ### UC02
 
@@ -44,11 +44,11 @@
 
 | UC03 | Realizar comentário |
 | -------------: | :---|
-| **Descrição** | Um usuário com interece de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
+| **Descrição** | Um usuário com interesse de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
 | [Usuário](lexicos10x5f8c4.md#l12660) | Ator que possui acesso às funcionalidade comuns da plataforma, como, fazer perguntas, escrever respostas e comentários, adicionar amigos, entre outras. |
 | [Moderador](lexicos10x5f8c4.md#l12528) | Ator que modera os conteúdos do Brainly, esclarece as políticas da plataforma à comunidade e mantém o nível de qualidade das perguntas, respostas e comentários. |
 | **Pré-condições** | - Ser cadastrado na plataforma Brainly;<br/> - Estar logado;<br/> - Um usuário fazer uma pergunta ([5. UC01](#uc01)) ou um usuário responder uma pergunta ([3. UC02](#uc02)).|
-| **Fluxo básico** | 1. Um usuário com interece de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
+| **Fluxo básico** | 1. Um usuário com interesse de interagir ou realizar um esclarecimento faz um comentário a partir de uma pergunta ou resposta. |
 | **Fluxos alternativos** | 1.a Um usuário faz uma denúncia ([3. UC04](#uc04)) e um moderador faz um comentário. |
 | **Fluxos de exceções** | [1] Usuário da comunidade digita um comentário com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada.|
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
