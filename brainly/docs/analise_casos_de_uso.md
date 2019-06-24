@@ -3,11 +3,11 @@
 ## Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 09/06/2019 | Adiciona modelo de verificação (v1) das espeficações e dos diagramas de caso de uso | Welison Regis, Lieverton Santos |
-| 1.1 | 09/06/2019 | Inspeção de diagrama e especificação - Perguntas e Respostas | Welison Regis |
-| 1.2 | 09/06/2019 | Inspeção de diagrama e especificação - Perguntas e Respostas | Lieverton Silva |
-| 1.3 | 09/06/2019 | Análise de discurso - Perguntas e Respostas | Welison Regis, Lieverton Silva |
-| 1.4 | 10/06/2019 | Adiciona introdução, objetivo, metodologia e referências | Welison Lucas, Lieverton Silva |
+| 0.1 | 09/06/2019 | Adiciona modelo de verificação (v1) das espeficações e dos diagramas de caso de uso | Welison Regis, Lieverton Santos |
+| 0.2 | 09/06/2019 | Inspeção de diagrama e especificação - Perguntas e Respostas | Welison Regis |
+| 0.3 | 09/06/2019 | Inspeção de diagrama e especificação - Perguntas e Respostas | Lieverton Silva |
+| 0.4 | 09/06/2019 | Análise de discurso - Perguntas e Respostas | Welison Regis, Lieverton Silva |
+| 1.0 | 10/06/2019 | Adiciona introdução, objetivo, metodologia e referências | Welison Lucas, Lieverton Silva |
 
 ## INTRODUÇÃO
 O presente documento tem por objetivo apresentar as **inspeções referentes aos diagramas e especificações de casos de uso**, artefatos elaborados no módulo de Modelagem de Requisitos.
@@ -61,7 +61,7 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/perguntas_respostas_diagrama.png) | ![](./images/analise/perguntas_respostas_especificacao.png)
 
-### Gráfico de critério de aceitação
+### Gráficos de critério de aceitação
 
 | Diagrama | Especificação |
 | :------: | :-----------: |
@@ -74,12 +74,24 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/cadastro_diagrama.png) | ![](./images/analise/cadastro_especificacao.png)
 
+### Gráficos de critério de aceitação
+
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/grafico_cadastro_diagrama.jpg) | ![](./images/analise/grafico_cadastro_especificacao.jpg)
+
 ### IUC 03 - Deletar conta
 
 #### Inspeção Individual
 | Diagrama | Especificação |
 | :------: | :-----------: |
 | ![](./images/analise/deletar_conta_diagrama.png) | ![](./images/analise/deletar_conta_especificacao.png)
+
+### Gráficos de critério de aceitação
+
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/grafico_deletar_conta_diagrama.jpg) | ![](./images/analise/grafico_deletar_conta_especificacao.jpg)
 
 ### IUC 04 - Editar perfil
 
@@ -88,12 +100,24 @@ Link para o aúdio da análise de discurso:
 | :------: | :-----------: |
 | ![](./images/analise/editar_perfil_diagrama.png) | ![](./images/analise/editar_perfil_especificacao.png)
 
+### Gráficos de critério de aceitação
+
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/grafico_editar_perfil_diagrama.jpg) | ![](./images/analise/grafico_editar_perfil_especificacao.jpg)
+
 ### IUC 05 - Gamificação
 
 #### Inspeção Individual
 | Diagrama | Especificação |
 | :------: | :-----------: |
 | ![](./images/analise/gamificacao_diagrama.png) | ![](./images/analise/gamificacao_especificacao.png)
+
+### Gráficos de critério de aceitação
+
+| Diagrama | Especificação |
+| :------: | :-----------: |
+| ![](./images/analise/grafico_gamificacao_diagrama.jpg) | ![](./images/analise/grafico_gamificacao_especificacao.jpg)
 
 ## REFERÊNCIAS
 
