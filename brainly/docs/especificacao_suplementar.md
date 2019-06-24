@@ -10,6 +10,7 @@
 | 0.4 | 29/04/2019 | Adiciona tópicos de licenciamento, padrões, interface e suportabilidade | Welison Regis |
 | 0.5 | 29/04/2019 | Adiciona requisitos de confiabilidade | Lieverton |
 | 1.0 | 29/04/2019 | Conclui primeira versão do documento | Lieverton Silva, Welison Regis |
+| 1.1 | 23/06/2019 | Adiciona códigos
 
 ## INTRODUÇÃO
 
@@ -41,7 +42,7 @@ Vide [léxicos](lexicos10x5f8c4.md)
 ### FUNCIONALIDADE
 A documentação das funcionalidades da aplicação Brainly pode ser encontrada [neste endereço](https://welisonr.github.io/2019.1-Requisitos-Brainly/), sendo especialmente recomendado a visualização das funcionalidades com as respectivas priorizações [neste link](./priorizacao.md), além dos casos de uso com as devidas especificações no link de [casos de uso](./casos_uso_perguntas_respostas).
 
-### USABILIDADE
+### ES01 - USABILIDADE
 - Consistência ferramental [(INT1.2)](introspeccao.md)
 - Curva rápida de aprendizagem [(INT3.9)](introspeccao.md) 
 - Versão mobile [(INT3.11)](introspeccao.md) 
@@ -58,7 +59,7 @@ O cadastro na plataforma deve ocorrer de uma maneira rápida e prática, possuin
 #### REQUISITO DE TUTORIAL
 O tutorial do sistema deve ocorrer de maneira fluida, rápida, contínua, sem informações não úteis para um usuário novo e deve ser possível repeti-lo caso o usuário sinta necessidade.
 
-### CONFIABILIDADE
+### ES02 - CONFIABILIDADE
 
 - tempo de respostas [(INT3.6)](introspeccao.md)
 - Condições de advertência [(INT2.10)](introspeccao.md)
@@ -96,7 +97,7 @@ O sistema deve ser atualizado automaticamente nas plataformas Android e IOS, ass
 
 Impedir o vazamento de informações pessoais dos usuários e consequentemente sua venda.
 
-### DESEMPENHO
+### ES03 - DESEMPENHO
 
 - Tempo médio de respostas[(INT3.6)](introspeccao.md)
 - Versão mobile [(INT3.11)](introspeccao.md)
@@ -119,7 +120,7 @@ O cadastro na plataforma deve ocorrer de uma maneira rápida e prática.
 
 O sistema deve excluir perguntas sem respostas após determinado prazo para evitar o acúmulo de informações sem utilidade no banco de dados. 
 
-### SUPORTABILIDADE
+### ES04 - SUPORTABILITY
 
 - Consistência ferramental [(INT1.2)](introspeccao.md)
 - Versão mobile [(INT3.11)](introspeccao.md)
