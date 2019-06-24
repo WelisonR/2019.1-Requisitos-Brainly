@@ -70,7 +70,7 @@ theme:
 
 
 extra_css:
-  - extra.css
+  - style/extra.css
 
 repo_name: 'Brainly'
 repo_url: 'https://github.com/WelisonR/2019.1-Requisitos-Brainly'

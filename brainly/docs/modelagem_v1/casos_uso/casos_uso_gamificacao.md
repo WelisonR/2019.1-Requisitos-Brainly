@@ -13,7 +13,7 @@
 ## Diagrama de Casos de Uso
 
 ![Diagrama de casos de uso: Gamificação v3](../../images/diagramas_casos_uso/gamificacao_v3.png)
-[versoes anteriores](../../casos_de_uso_gamificacao_versoes.md)
+[versoes anteriores](casos_uso_gamificacao_versoes.md)
 
 ## Especificação de Casos de Uso
 
