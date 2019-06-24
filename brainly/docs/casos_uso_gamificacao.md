@@ -11,14 +11,17 @@
 | [2.0](modelagem_v1/casos_uso/casos_uso_gamificacao.md) | 28/04/2019 | Mudança nas especificações de caso de uso de acordo com o novo diagrama de casos de uso | Gustavo Marques e André Lucas |
 | 3.0 | 23/06/2019 | Adição da quarta versão do diagrama de casos de uso de gamificação | Leonardo Medeiros |
 | 3.1 | 23/06/2019 | Adição das especificações de casos de uso | Leonardo Medeiros |
+| 3.2 | 23/06/2019 | Adição do código de identificação do diagrama de caso de uso | João Rodrigues | 
 
-## Diagrama de Casos de Uso
+## UCD01
+
+### Diagrama de Casos de Uso
 
 ![Diagrama de casos de uso: Gamificação v4](images/diagramas_casos_uso/gamificacao_v4.png)
 
-## Especificação de Casos de Uso
+### Especificação de Casos de Uso
 
-### UC01
+#### UC01
 
 | UC01 | Ganhar pontos |
 | -------------: | :---|
@@ -30,7 +33,7 @@
 | **Fluxos de exceções** | [1] Usuário tem os pontos ganhos removidos por um moderador ou administrador, devido ao descumprimento de alguma das regras da plataforma. |
 |  **Requisitos Especiais** | - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspecção). |
 
-### UC02
+#### UC02
 
 | UC02 | Convidar amigos |
 | -------------: | :---|
@@ -42,7 +45,7 @@
 | **Fluxos de exceções** | [1] Amigos que recebem o convite não o aceitam;<br/>[2] Amigos se cadastram sem usar o convite do Usuário. |
 |  **Requisitos Especiais** | - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-### UC03
+#### UC03
 
 | UC03 | Gerar novos Usuários |
 | -------------: | :---|
@@ -54,7 +57,7 @@
 | **Fluxos de exceções** | [1] Novo usuário se cadastra sem usar o convite do outro usuário |
 |  **Requisitos Especiais** | - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-### UC04
+#### UC04
 
 | UC04 | Confirmar email |
 | -------------: | :---|
@@ -66,7 +69,7 @@
 | **Fluxos de exceções** | [1] Usuário cadastra endereço de email errado<br/>[2] Usuário não recebe o email de confirmação<br/>[2] Usuário não tem acesso à conta de email cadastrada. |
 |  **Requisitos Especiais** | - O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md) |
 
-### UC05
+#### UC05
 
 | UC05 | Subir no ranking |
 | -------------: | :---|
@@ -78,7 +81,7 @@
 | **Fluxos de exceções** | [1-3] Usuário tem os pontos ganhos removidos por um moderador ou administrador, devido ao descumprimento de alguma das regras da plataforma. |
 |  **Requisitos Especiais** | - Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma [INT2.7](introspeccao.md);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspecção). |
 
-### UC06
+#### UC06
 
 | UC06 | Subir de nível |
 | -------------: | :---|
@@ -90,7 +93,7 @@
 | **Fluxos de exceções** | [1-3] Usuário tem os pontos ganhos removidos por um moderador ou administrador, devido ao descumprimento de alguma das regras da plataforma. |
 |  **Requisitos Especiais** | - Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma [INT2.7](introspeccao.md);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspecção). |
 
-### UC07
+#### UC07
 
 | UC07 | Realizar pergunta |
 | -------------: | :---|
@@ -101,7 +104,7 @@
 | **Fluxos de exceções** | [2 - 4] Usuário reinicia a página acidentalmente, ao clicar em fazer pergunta novamente, tudo o que o usuário tinha digitado e escolhido na pergunta anteriormente se mantém;<br/>[2] Usuário digita uma pergunta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais) |
 
-### UC08
+#### UC08
 
 | UC08 | Ganhar melhor resposta |
 | -------------: | :---|
@@ -113,7 +116,7 @@
 | **Fluxos de exceções** | [1] A pergunta já recebeu duas respostas;<br/>[3] O dono da pergunta escolhe a outra resposta como a melhor;<br/> [3] Dono da pergunta não marca nenhuma das resposta como a melhor. <br/> [1-3] Usuário tem a resposta removida por um moderador ou administrador, devido ao descumprimento de alguma das regras da plataforma. |
 |  **Requisitos Especiais** | - Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma [INT2.7](introspeccao.md);<br/> - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspecção). |
 
-### UC09
+#### UC09
 
 | UC09 | Ganhar emblemas |
 | -------------: | :---|
@@ -125,7 +128,7 @@
 | **Fluxos de exceções** | [1-2] Usuário tem as tarefas anuladas por um moderador ou administrador, devido ao descumprimento de alguma das regras da plataforma. |
 |  **Requisitos Especiais** | - Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma [INT2.7](introspeccao.md);<br/> - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspecção). |
 
-### UC10
+#### UC10
 
 | UC10 | Responder pergunta |
 | -------------: | :---|
@@ -137,7 +140,7 @@
 | **Fluxos de exceções** | [3] Usuário da comunidade digita uma resposta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A ferramenta que possibilita respostas deve ser consistente entre as plataformas [INT1.2](introspeccao.md);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-### UC11
+#### UC11
 
 | UC11 | Visualizar perguntas |
 | -------------: | :---|
@@ -149,7 +152,7 @@
 | **Fluxos de exceções** | [3] Usuário decide responder a pergunta, mas outros dois usuário já estão a responde-la. |
 |  **Requisitos Especiais** | - Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma [INT2.7](introspeccao.md);<br/> - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-### UC12
+#### UC12
 
 | UC12 | Fazer comentários |
 | -------------: | :---|
@@ -162,7 +165,7 @@
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Os moderadores devem conscientizar os usuários sobre as políticas de conduta da plataforma [INT2.9](introspecção);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspecção). |
 
 
-### UC13
+#### UC13
 
 | UC13 | Iniciar desafio |
 | -------------: | :---|
@@ -174,7 +177,7 @@
 | **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - Deve-se recrutar usuários para a moderação conforme o seu bom desempenho na plataforma [INT2.7](introspeccao.md);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-### UC14
+#### UC14
 
 | UC14 | Concluir desafio |
 | -------------: | :---|

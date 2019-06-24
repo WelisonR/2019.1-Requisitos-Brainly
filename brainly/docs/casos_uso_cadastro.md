@@ -4,18 +4,21 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
-| 1.0 | 29/04/2019 | Adição da especificação de casos de uso | Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, João Rossi |
-| [1.1](modelagem_v1/casos_uso/casos_uso_cadastro.md) | 29/04/2019 | Adição do Diagrama de casos de uso | Ivan Diniz Dobbin,João Matheus, João Rossi, Leonardo Medeiros |
+| 1.0 | 29/04/2019 | Adição da especificação de casos de uso | João Rodrigues, João Rossi, Leonardo Medeiros, Lieverton, Paulo Vítor |
+| [1.1](modelagem_v1/casos_uso/casos_uso_cadastro.md) | 29/04/2019 | Adição do Diagrama de casos de uso | Ivan Diniz Dobbin, João Rodrigues, João Rossi, Leonardo Medeiros |
 | 2.0 | 22/06/2019 | Refatoração do diagrama de casos de uso de Cadastro | Leonardo Medeiros |
 | 2.1 | 22/06/2019 | Adicionas especificações de casos de uso de Cadastro | Leonardo Medeiros |
+| 2.2 | 23/06/2019 | Adição do código de identificação do diagrama de caso de uso | João Rodrigues |
 
-## Diagrama de Casos de Uso
+## UCD03
+
+### Diagrama de Casos de Uso
 
 ![Diagrama de casos de uso: Cadastro v2](images/diagramas_casos_uso/Cadastro_v2.png)
 
-## Especificação de Casos de Uso
+### Especificação de Casos de Uso
 
-### UC01
+#### UC01
 
 | UC01 | Acessar o Brainly |
 | -------------: | :---|
@@ -27,7 +30,7 @@
 | **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC02
+#### UC02
 
 | UC02 | Cadastrar conta |
 | -------------: | :---|
@@ -39,7 +42,7 @@
 | **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Manter o sistema gratuito para atrair mais usuários, utilizando apenas de ads para a monetização [EN1.3](entrevista.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md) |
 
-### UC03
+#### UC03
 
 | UC03 | Entrar com Facebook |
 | -------------: | :---|
@@ -51,7 +54,7 @@
 | **Fluxos de exceções** | [2] Usuário não consegue acessar sua conta do Facebook;<br/> [3] Usuário não concorda em conceder as permissões solicitadas |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing [BR2.13](brainstorm.md);<br/> - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia [BR2.11](brainstorm.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md) |
 
-### UC04
+#### UC04
 
 | UC04 | Usar email |
 | -------------: | :---|
@@ -63,7 +66,7 @@
 | **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing [BR2.13](brainstorm.md);<br/> - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia [BR2.11](brainstorm.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md) |
 
-### UC05
+#### UC05
 
 | UC05 | Digitar email |
 | -------------: | :---|
@@ -75,7 +78,7 @@
 | **Fluxos de exceções** | [1] Usuário insere um email invélido, recebendo uma mensagem de erro, solicitando-o a correção. |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing [BR2.13](brainstorm.md);<br/> - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia [BR2.11](brainstorm.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md) |
 
-### UC06
+#### UC06
 
 | UC06 | Inserir dados |
 | -------------: | :---|
@@ -87,7 +90,7 @@
 | **Fluxos de exceções** | [1] Nome de usuário já está em uso, recebendo uma mensagem de aviso, solicitando alteração;<br/> [2] Senha possui menos de 6 caracteres ou mais de 32, recebendo uma mensagem de aviso, solicitando alteração.
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing [BR2.13](brainstorm.md);<br/> - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia [BR2.11](brainstorm.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md);<br/> - Não utilizar informações de pessoas menores de 16 anos sem autorização [BR2.7](brainstorm.md) |
 
-### UC07
+#### UC07
 
 | UC07 | Verificar idade |
 | -------------: | :---|
@@ -99,7 +102,7 @@
 | **Fluxos de exceções** | [1] Usuário tem mais que 13 anos de idade, sendo levado para o fluxo de cadastro comum.
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing [BR2.13](brainstorm.md);<br/> - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia [BR2.11](brainstorm.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md);<br/> - Não utilizar informações de pessoas menores de 16 anos sem autorização [BR2.7](brainstorm.md) |
 
-### UC08
+#### UC08
 
 | UC08 | Inserir email de um Responsável |
 | -------------: | :---|
@@ -111,7 +114,7 @@
 | **Fluxos de exceções** | [1] Usuário não recebe permissão de um responsável para utilizar a plataforma.
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03);<br/> - Receber permissão total, no registro de usuário, sobre seus dados pessoais para criar trabalhos derivados, usar para publicidade ou marketing [BR2.13](brainstorm.md);<br/> - Poder monitorar e registrar atividades nos serviços da brainly sem autorização prévia [BR2.11](brainstorm.md);<br/> -  O cadastro na plataforma deve ocorrer de uma maneira rápida e prática [AP3.3](analise_protocolo.md);<br/> - Não utilizar informações de pessoas menores de 16 anos sem autorização [BR2.7](brainstorm.md) |
 
-### UC09
+#### UC09
 
 | UC09 | Confirmar email |
 | -------------: | :---|

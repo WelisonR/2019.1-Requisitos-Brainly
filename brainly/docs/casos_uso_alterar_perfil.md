@@ -8,14 +8,17 @@
 | [1.1](modelagem_v1/casos_uso/casos_uso_alterar_perfil.md) | 29/04/2019 | Adição da especificação de casos de uso | Leonardo Medeiros, Ivan Dobbin, João Rossi |
 | 2.0 | 23/06/2019 | Atualização do diagrama | João Rossi |
 | 2.1 | 23/06/2019 | Refatoração das especificações de caso de uso | João Rossi |
+| 2.2 | 23/06/2019 | Adição do código de identificação do diagrama de caso de uso | João Rodrigues |
 
-## Diagrama de Casos de Uso v2
+## UCD04
+
+### Diagrama de Casos de Uso v2
 
 ![Diagrama de casos de uso: Alterar Perfil v2](images/diagramas_casos_uso/Alterar_Perfil.jpg)
 
-## Especificação de Casos de Uso
+### Especificação de Casos de Uso
 
-### UC01
+#### UC01
 
 | UC01 | Editar perfil |
 | -------------: | :---|
@@ -27,7 +30,7 @@
 | **Fluxos de exceções** | [1] Usuário não encontra a página de edição de perfil, no menu principal |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC02
+#### UC02
 
 | UC02 | Alterar preferências de notificações por email |
 | -------------: | :---|
@@ -40,7 +43,7 @@
 |  **Requisitos Especiais** | - O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.12](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
 
 
-### UC03
+#### UC03
 
 | UC03 | Alterar senha |
 | -------------: | :---|
@@ -52,7 +55,7 @@
 | **Fluxos de exceções** | [3] Usuário esquece sua senha atual;<br/> [6] Usuário cancela a operação ao invés de confirmar. |
 |  **Requisitos Especiais** | - O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.12](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - O sistema deve possuir um sistema de segurança mais seguro possível dentro dos conhecimentos de segurança atuais [BR2.10](brainstorm.md#tabela-de-requisitos-nao-funcionais).|
 
-### UC04
+#### UC04
 
 | UC04 | Alterar email |
 | -------------: | :---|
@@ -64,7 +67,7 @@
 | **Fluxos de exceções** | [3] Usuário esquece sua senha atual;<br/> [5] Usuário cancela a operação ao invés de confirmar. |
 |  **Requisitos Especiais** | - O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.12](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - O sistema deve possuir um sistema de segurança mais seguro possível dentro dos conhecimentos de segurança atuais [BR2.10](brainstorm.md#tabela-de-requisitos-nao-funcionais).|
 
-### UC05
+#### UC05
 
 | UC05 | Alterar foto de perfil |
 | -------------: | :---|
@@ -76,7 +79,7 @@
 | **Fluxos de exceções** | [3] Usuário escolhe um arquivo de tipo inválido;<br/> [4] Usuário cancela a operação ao invés de confirmar;<br/> |
 |  **Requisitos Especiais** | - O usuário deve ser responsável por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.12](brainstorm.md#tabela-de-requisitos-nao-funcionais).|
 
-### UC06
+#### UC06
 
 | UC06 | Editar configurações |
 | -------------: | :---|
@@ -88,7 +91,7 @@
 | **Fluxos de exceções** | [1] Usuário não sabe que deve acessar o menu de Configurações para encontrar a opção de Deletar conta |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC07
+#### UC07
 
 | UC07 | Alterar gênero |
 | -------------: | :---|
@@ -100,7 +103,7 @@
 | **Fluxos de exceções** | [2] Usuário cancela a operação ao invés de salvar |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC08
+#### UC08
 
 | UC08 | Aceitar comentários de desconhecidos |
 | -------------: | :---|
@@ -112,7 +115,7 @@
 | **Fluxos de exceções** | [2] Usuário cancela a operação ao invés de salvar |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC09
+#### UC09
 
 | UC09 | Alterar grau de escolaridade |
 | -------------: | :---|
@@ -124,7 +127,7 @@
 | **Fluxos de exceções** | [2] Usuário cancela a operação ao invés de salvar;<br/>  [2] Usuário seleciona uma opção errada.|
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC10
+#### UC10
 
 | UC10 | Alterar nome |
 | -------------: | :---|
@@ -136,7 +139,7 @@
 | **Fluxos de exceções** | [2] Usuário cancela a operação ao invés de salvar;<br/>  [2] Usuário escreve um nome errado.|
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC11
+#### UC11
 
 | UC11 | Mostrar o nível |
 | -------------: | :---|
@@ -148,7 +151,7 @@
 | **Fluxos de exceções** | [2] Usuário cancela a operação ao invés de salva.r |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC12
+#### UC12
 
 | UC12 | Receber pedidos de amizade |
 | -------------: | :---|
@@ -160,7 +163,7 @@
 | **Fluxos de exceções** | [2] Usuário cancela a operação ao invés de salvar. |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC13
+#### UC13
 
 | UC13 | Ganhar emblemas |
 | -------------: | :---|

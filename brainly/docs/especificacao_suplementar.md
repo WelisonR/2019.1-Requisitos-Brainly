@@ -10,7 +10,7 @@
 | 0.4 | 29/04/2019 | Adiciona tópicos de licenciamento, padrões, interface e suportabilidade | Welison Regis |
 | 0.5 | 29/04/2019 | Adiciona requisitos de confiabilidade | Lieverton |
 | 1.0 | 29/04/2019 | Conclui primeira versão do documento | Lieverton Silva, Welison Regis |
-| 1.1 | 23/06/2019 | Adiciona códigos
+| 1.1 | 23/06/2019 | Adiciona códigos de identificação | João Rodrigues |
 
 ## INTRODUÇÃO
 

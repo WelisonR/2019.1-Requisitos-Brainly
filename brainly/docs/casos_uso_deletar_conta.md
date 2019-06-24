@@ -7,14 +7,17 @@
 | [1.0](modelagem_v1/casos_uso/casos_uso_deletar_conta.md) | 29/04/2019 | Adição da especificação de casos de uso e diagrama| Lieverton, Leonardo Medeiros, Paulo Vítor, João Matheus, Ivan Diniz, João Rossi |
 | 2.0 | 22/06/2019 | Adição do diagrama de caso de uso versão 2, baseado na análise | Leonardo Medeiros |
 | 2.1 | 22/06/2019 | Adição das especificações de casos de uso | Leonardo Medeiros |
+| 2.2 | 23/06/2019 | Adição do código de identificação do diagrama de caso de uso | João Rodrigues |
 
-## Diagrama de Casos de Uso
+## UCD05
+
+### Diagrama de Casos de Uso
 
 ![Diagrama de casos de uso: Deletar Conta v2](images/diagramas_casos_uso/Deletar_Conta_v2.png)
 
-## Especificação de Casos de Uso
+### Especificação de Casos de Uso
 
-### UC01
+#### UC01
 
 | UC01 | Acessar o Brainly |
 | -------------: | :---|
@@ -26,7 +29,7 @@
 | **Fluxos de exceções** | [1] Servidores da plataforma estão indisponíveis, logo usuário não terá como acessa-los |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC02
+#### UC02
 
 | UC02 | Editar perfil |
 | -------------: | :---|
@@ -38,7 +41,7 @@
 | **Fluxos de exceções** | [1] Usuário não encontra a página de edição de perfil, no menu principal |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC03
+#### UC03
 
 | UC03 | Editar configurações |
 | -------------: | :---|
@@ -50,7 +53,7 @@
 | **Fluxos de exceções** | [1] Usuário não sabe que deve acessar o menu de Configurações para encontrar a opção de Deletar conta |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC04
+#### UC04
 
 | UC04 | Eliminar conta |
 | -------------: | :---|
@@ -62,7 +65,7 @@
 | **Fluxos de exceções** | [1] Usuário não encontra o botão de eliminar conta |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC05
+#### UC05
 
 | UC05 | Inserir senha e confirmar |
 | -------------: | :---|
@@ -74,7 +77,7 @@
 | **Fluxos de exceções** | [1] Usuário não lembra da senha cadastrada. |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC06
+#### UC06
 
 | UC06 | Usar formulário de contato |
 | -------------: | :---|
@@ -86,7 +89,7 @@
 | **Fluxos de exceções** | [1] Usuário não encontra o formulário a ser preenchido |
 |  **Requisitos Especiais** | - O sistema deve possuir uma versão mobile de fácil acesso e com baixo consumo de bateria/dados [INT3.11](introspeccao.md#int03). |
 
-### UC07
+#### UC07
 
 | UC07 | Deletar a conta |
 | -------------: | :---|
