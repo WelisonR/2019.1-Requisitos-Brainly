@@ -5,18 +5,13 @@
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------:
 | 1.0 | 29/04/2019 | Adição do diagrama de casos de uso | Leonardo Medeiros, Ivan Dobbin |
-| 1.1 | 29/04/2019 | Adição da especificação de casos de uso | Leonardo Medeiros, Ivan Dobbin, João Rossi |
-| 1.2 | 23/06/2019 | Atualização do diagrama | João Rossi |
-
-
-## Diagrama de Casos de Uso v1
-
-![Diagrama de casos de uso: Alterar Perfil v1](images/diagramas_casos_uso/Alterar_Perfil.png)
+| [1.1](modelagem_v1/casos_uso/casos_uso_alterar_perfil.md) | 29/04/2019 | Adição da especificação de casos de uso | Leonardo Medeiros, Ivan Dobbin, João Rossi |
+| 2.0 | 23/06/2019 | Atualização do diagrama | João Rossi |
+| 2.1 | 23/06/2019 | Refatoração das especificações de caso de uso | João Rossi |
 
 ## Diagrama de Casos de Uso v2
 
-![Diagrama de casos de uso: Alterar Perfil v1](images/diagramas_casos_uso/Alterar_Perfil.jpg)
-
+![Diagrama de casos de uso: Alterar Perfil v2](images/diagramas_casos_uso/Alterar_Perfil.jpg)
 
 ## Especificação de Casos de Uso
 
