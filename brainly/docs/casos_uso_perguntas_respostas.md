@@ -1,4 +1,4 @@
-# CASO DE USO - [PERGUNTAS E RESPOSTAS](rich_picture.md#richpicture-perguntas-e-respostas)
+# [PERGUNTAS E RESPOSTAS](rich_picture.md#richpicture-perguntas-e-respostas)
 
 ## Versionamento
 
@@ -8,14 +8,17 @@
 | [1.0](modelagem_v1/casos_uso/casos_uso_perguntas_respostas.md) | 28/04/2019 | Adição da especificação dos casos de uso de perguntas e respostas | Lieverton, João Matheus, Paulo Vitor, João Rossi |
 | 1.1 | 21/06/2019 | Refatora diagrama de caso de uso de perguntas e respostas | Lieverton Silva, Welison Regis |
 | 2.0 | 21/06/2019 | Adiciona 5 especificações de caso de uso de perguntas e respostas | Lieverton Silva, Welison Regis |
+| 2.1 | 23/06/2019 | Adição do código de identificação do diagrama de caso de uso | João Rodrigues |
 
-## Diagrama de Casos de Uso
+## UCD02
+
+### Diagrama de Casos de Uso
 
 ![Diargam de casos de uso: perguntas e respostas](images/diagramas_casos_uso/Perguntas_Respostas.png)
 
-## Especificação de Casos de Uso
+### Especificação de Casos de Uso
 
-### UC01
+#### UC01
 
 | UC01 | Fazer pergunta |
 | -------------: | :---|
@@ -27,7 +30,7 @@
 | **Fluxos de exceções** | [2 - 4] Usuário reinicia a página acidentalmente, ao clicar em fazer pergunta novamente, tudo o que o usuário tinha digitado e escolhido na pergunta anteriormente se mantém;<br/>[2] Usuário digita uma pergunta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção);<br/> - Apagar perguntas que estão sem respostas por muito tempo [BR2.15](brainstorm.md#tabela-de-requisitos-nao-funcionais) |
 
-### UC02
+#### UC02
 
 | UC02 | Responder pergunta |
 | -------------: | :---|
@@ -40,7 +43,7 @@
 | **Fluxos de exceções** | [3] Usuário da comunidade digita uma resposta com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada. |
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - A ferramenta que possibilita respostas deve ser consistente entre as plataformas [INT1.2](introspeccao.md);<br/> - A plataforma deve possuir membros ativos que ajudem a comunidade a crescer e respondam as perguntas de forma rápida e fácil [INT3.6](introspecção). |
 
-### UC03
+#### UC03
 
 | UC03 | Realizar comentário |
 | -------------: | :---|
@@ -53,7 +56,7 @@
 | **Fluxos de exceções** | [1] Usuário da comunidade digita um comentário com menos de 20 caracteres e recebe uma mensagem de erro sem  que sua mensagem seja apagada.|
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
 
-### UC04
+#### UC04
 
 | UC04 | Denunciar irregularidade |
 | -------------: | :---|
@@ -65,7 +68,7 @@
 | **Fluxos de exceções** | - |
 |  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais). |
 
-### UC05
+#### UC05
 
 | UC05 | Advertir infrator |
 | -------------: | :---|
@@ -76,5 +79,4 @@
 | **Fluxo básico** | 1. O moderador visualiza as denúncias no painel de moderação;<br/> 2. O moderador escolhe uma denúncia para avaliar;<br/>3. Se houver irregularidade o moderador exclui o conteúdo indevido. |
 | **Fluxos alternativos** | 2.a O moderador pede a correção do conteúdo. <br/> 3.a O moderador aplica advertência;<br/> 3.b O moderador tira pontos do usuário infrator; <br/> 3.c O moderador comunica o usuário infrator. |
 | **Fluxos de exceções** | [2 3] O moderdarador fica bloqueado devido grande número de ações em um curto período de tempo.|
-|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma
-[INT2.10](introspeccao.md). |
+|  **Requisitos Especiais** | - Responsabilizar o usuário por todos os dados enviados ou transmitidos em conexão com os serviços [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Possuir idade mínima (13) para se registrar na plataforma [BR2.1](brainstorm.md#tabela-de-requisitos-nao-funcionais);<br/> - Para aplicação de punições, deve-se levar em conta a conduta (advertências) do usuário na plataforma [INT2.10](introspeccao.md). |

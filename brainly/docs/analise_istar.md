@@ -3,13 +3,13 @@
 ## Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 09/06/2019 | Adiciona modelo de verificação (v1) | Leonardo Medeiros, Andre Pinto |
-| 1.1 | 09/06/2019 | Adiciona modelo de verificação (v2) | Leonardo Medeiros, Andre Pinto |
-| 1.2 | 09/06/2019 | Adiciona a verificação do modelo i* "realizar pergunta v1.0" por Andre, Leonardo e ambos | Leonardo Medeiros, Andre Pinto |
-| 1.3 | 09/06/2019 | Adiciona a verificação do modelo i* "Brainly - Geral v4.0" por Andre e Leonardo | Leonardo Medeiros, Andre Pinto |
-| 1.4 | 10/06/2019 | Adiciona a verificação do modelo i* "Gamificação v1.0" | Welison Regis |
-| 1.5 | 10/06/2019 | Adiciona rastreabilidade | Welison Regis |
-| 1.6 | 10/06/2019 | Adiciona gráficos | Lieverton Silva |
+| 0.1 | 09/06/2019 | Adiciona modelo de verificação (v1) | Leonardo Medeiros, Andre Pinto |
+| 0.2 | 09/06/2019 | Adiciona modelo de verificação (v2) | Leonardo Medeiros, Andre Pinto |
+| 0.3 | 09/06/2019 | Adiciona a verificação do modelo i* "realizar pergunta v1.0" por Andre, Leonardo e ambos | Leonardo Medeiros, Andre Pinto |
+| 0.4 | 09/06/2019 | Adiciona a verificação do modelo i* "Brainly - Geral v4.0" por Andre e Leonardo | Leonardo Medeiros, Andre Pinto |
+| 0.5 | 10/06/2019 | Adiciona a verificação do modelo i* "Gamificação v1.0" | Welison Regis |
+| 0.6 | 10/06/2019 | Adiciona rastreabilidade | Welison Regis |
+| 1.0 | 10/06/2019 | Adiciona gráficos | Lieverton Silva |
 
 ## INTRODUÇÃO
 
@@ -63,7 +63,7 @@ Sintese: Leonardo e Andre
 
 ![istar_geral_andre_e_leonardo](./images/analise/istar_resposta_andre_e_leonardo.png)
 
-## Gráficos de critério de aceitação
+## Gráfico de critério de aceitação
 
 
 ![](./images/analise/grafico_realizar_resposta.jpg)
@@ -88,3 +88,7 @@ Audio: [Discussao](https://drive.google.com/file/d/1d99E9UCn2FyxWRZsSDSxK52dXiv1
 Rastreabilidade: [i* de Gamificação](./i_star.md#isr05)
 
 ![istar_gamificacao](./images/analise/istar_gamificacao.png)
+
+## Gráfico de critério de aceitação
+
+![](./images/analise/grafico_gamificacao.jpg)
