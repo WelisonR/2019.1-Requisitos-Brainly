@@ -4,8 +4,8 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 31/03/2019 | Argumentação sobre o tema | Lieverton |
-| 1.0 | 31/03/2019 | Argumentação sobre o sistema de mensagens | Welison |
+| 0.1 | 31/03/2019 | Argumentação sobre o tema | Lieverton |
+| 0.2 | 31/03/2019 | Argumentação sobre o sistema de mensagens | Welison |
 | 1.0 | 01/04/2019 | Argumentação sobre os níveis | André Pinto, Leonardo Medeiros, Welison Regis |
 
 ## Argumentação

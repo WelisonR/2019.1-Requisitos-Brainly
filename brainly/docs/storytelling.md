@@ -3,10 +3,10 @@
 ##Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 08/04/2019 | Narração e relatório | Paulo Vitor Rocha |
-| 1.1 | 08/04/2019 | Storytelling 2 | Lieverton Santos |
-| 1.2 | 10/04/2019 | Adicionando código | João Gabriel Rossi |
-| 1.3 | 10/04/ 2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
+| 0.1 | 08/04/2019 | Narração e relatório | Paulo Vitor Rocha |
+| 0.2 | 08/04/2019 | Storytelling 2 | Lieverton Santos |
+| 0.3 | 10/04/2019 | Adicionando código | João Gabriel Rossi |
+| 1.0 | 10/04/ 2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
 
 ##Introdução
 Storytelling consiste em um método que utiliza palavras ou recursos audiovisuais para transmitir uma história. Também é muito usado no contexto da aprendizagem, sendo uma importante forma de transmissão do conhecimento e experiências.

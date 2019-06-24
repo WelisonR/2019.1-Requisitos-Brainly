@@ -3,8 +3,8 @@
 ## Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 08/04/2019 | Introdução e Introspecção 1 | Welison Regis |
-| 2.0 | 09/04/2019 | Introspecção 2 | Welison Regis |
+| 0.1 | 08/04/2019 | Introdução e Introspecção 1 | Welison Regis |
+| 1.0 | 09/04/2019 | Introspecção 2 | Welison Regis |
 
 
 ## Introspecção

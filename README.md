@@ -9,6 +9,7 @@ Repositório destinado à disciplina de Requisitos de Software (2019.1) acerca d
 
 ## <p align="left"><a href="https://welisonr.github.io/2019.1-Requisitos-Brainly/rich_picture/#rich-picture-visao-geral-brainly">Visualizar artefatos online</a></p>
 
+<p align="left">Link para o repositório: <a href="https://github.com/WelisonR/2019.1-Requisitos-Brainly">https://github.com/WelisonR/2019.1-Requisitos-Brainly</a></p>
 
 ## Execução local
 

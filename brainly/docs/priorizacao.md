@@ -3,8 +3,8 @@
 ##Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 10/04/2019 | Adição da análise de requisitos FTF | Leonardo Medeiros, André Pinto, Welison Regis, Lieverton Silva, João Gabriel Rossi |
-| 1.1 | 16/04/2019 | Atualiza tabela de priorização FTF | Welison Regis |
+| 0.1 | 10/04/2019 | Adição da análise de requisitos FTF | Leonardo Medeiros, André Pinto, Welison Regis, Lieverton Silva, João Gabriel Rossi |
+| 1.0 | 16/04/2019 | Atualiza tabela de priorização FTF | Welison Regis |
 
 ##Técnica de priorização First Thing First (FTF)
 

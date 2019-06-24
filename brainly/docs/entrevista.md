@@ -4,11 +4,11 @@
 
 | Versão |   Data    |            Modificação             |       Autor        |
 | :----: | :-------: | :--------------------------------: | :----------------: |
-|  1.0   | 08/04/2019 | Introdução ao modelo de entrevista | João Gabriel Rossi |
-|  1.1   | 08/04/2019 |   Entrevista com usuário júnior    | João Gabriel Rossi |
-|  1.2   | 08/04/2019 |   Entrevista com usuário júnior 2  |Lieverton Santos |
-|  1.3   | 10/04/2019 |   Entrevista com usuário Sênior 1 e adicionando códigos  | João Gabriel Rossi |
-| 1.4 | 10/04/ 2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
+|  0.1   | 08/04/2019 | Introdução ao modelo de entrevista | João Gabriel Rossi |
+|  0.2   | 08/04/2019 |   Entrevista com usuário júnior    | João Gabriel Rossi |
+|  0.3   | 08/04/2019 |   Entrevista com usuário júnior 2  |Lieverton Santos |
+|  0.4   | 10/04/2019 |   Entrevista com usuário Sênior 1 e adicionando códigos  | João Gabriel Rossi |
+| 1.0 | 10/04/ 2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
 
 ## Entrevista como método de levantamento de requisitos
 

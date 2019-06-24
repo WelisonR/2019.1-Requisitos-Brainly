@@ -4,11 +4,11 @@
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 07/04/2019 | Plano de elicitação inicial | João Gabriel Rossi |
-| 1.1 | 08/04/2019 | Adicionando o campo de entrevista | João Gabriel Rossi |
-| 1.2 | 08/04/2019 | Adicionando o campo do Storytelling | Lieverton Snatos |
-| 1.3 | 09/04/2019 | Descreve a metodologia utilizada na introspecção | Welison Regis |
-| 1.4 | 09/04/2019 | Adicionando o campo da Observação | João Rodrigues | 
+| 0.1 | 07/04/2019 | Plano de elicitação inicial | João Gabriel Rossi |
+| 0.2 | 08/04/2019 | Adicionando o campo de entrevista | João Gabriel Rossi |
+| 0.3 | 08/04/2019 | Adicionando o campo do Storytelling | Lieverton Snatos |
+| 0.4 | 09/04/2019 | Descreve a metodologia utilizada na introspecção | Welison Regis |
+| 1.0 | 09/04/2019 | Adicionando o campo da Observação | João Rodrigues | 
 
 ## Objetivo
 O documento tem como intuito definir técnicas a serem aplicadas na fase de elicitação dos requisitos, visando o entendimento do usuário em relação ao software.

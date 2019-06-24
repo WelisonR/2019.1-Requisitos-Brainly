@@ -3,11 +3,11 @@
 ##Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 09/04/2019 | Introdução | Lieverton Santos |
-| 1.1 | 09/04/2019 | Análises de protocolo 1 e 2 | Lieverton Santos |
-| 1.2 | 09/04/2019 | Análise de protocolo 3 | André Pinto |
-| 1.3 | 10/04/ 2019 | Aplicação do MoSCoW nas análises de protocolo 1 e 2 | Lieverton Santos |
-| 1.4 | 16/04/2019 | Análise de protocolo 4 | Welison Regis |
+| 0.1 | 09/04/2019 | Introdução | Lieverton Santos |
+| 0.2 | 09/04/2019 | Análises de protocolo 1 e 2 | Lieverton Santos |
+| 0.3 | 09/04/2019 | Análise de protocolo 3 | André Pinto |
+| 0.4 | 10/04/ 2019 | Aplicação do MoSCoW nas análises de protocolo 1 e 2 | Lieverton Santos |
+| 1.0 | 16/04/2019 | Análise de protocolo 4 | Welison Regis |
 
 ##Análise de Protocolo
 

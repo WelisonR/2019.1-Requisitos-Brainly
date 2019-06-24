@@ -4,11 +4,11 @@
 ## Versionamento
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 1.0 | 08/04/2019 | Introdução e Introspecção 1 | Welison Regis |
-| 2.0 | 09/04/2019 | Introspecção 2 | Welison Regis |
-| 3.0 | 09/04/2019 | Introspecção 3 e MoSCoW | André Pinto |
-| 4.0 | 10/04/ 2019 | Aplicação de MoSCoW nos requisitos | Welison Regis |
-| 5.0 | 16/04/2019 | Introspecção 1 e 2 (v2) após feedback pessoal | Welison Regis |
+| 0.1 | 08/04/2019 | Introdução e Introspecção 1 | Welison Regis |
+| [1.0](elicitacao_v1/introspeccao.md) | 09/04/2019 | Introspecção 2 | Welison Regis |
+| 1.1 | 09/04/2019 | Introspecção 3 e MoSCoW | André Pinto |
+| 1.2 | 10/04/ 2019 | Aplicação de MoSCoW nos requisitos | Welison Regis |
+| 2.0 | 16/04/2019 | Introspecção 1 e 2 (v2) após feedback pessoal | Welison Regis |
 
 ## Introspecção
 Introspecção é uma técnica muito rica e profunda para a elicitação de requisitos. Através desse método, o indivíduo que pretende levantar os requisitos faz observações e descrições do conteúdo (pensamentos, sentimentos) que decorrem da auto-reflexão sobre o serviço e, mediante a isso, é possível entender as propriedades que o sistema deve possuir para que atenda as necessidades do seu público.

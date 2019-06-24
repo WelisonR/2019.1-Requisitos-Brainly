@@ -4,13 +4,13 @@
 
 | Versão |    Data    |             Modificação             |           Autor(es)          |
 | :----: | :--------: | :---------------------------------: | :--------------------------: |
-|  1.0   | 08/04/2019 |        Tabelas de Requisitos        | Paulo Vitor e João Rodrigues |
-|  1.1   | 09/04/2019 |      Complemento de informações     | João Rodrigues e Paulo Vitor |
-|  1.2   | 09/04/2019 |             Refatoração             |        João Rodrigues        |
-|  1.3   | 10/04/2019 |             Adicionando código de requisitos para visualização no FtF            |        João Gabriel Rossi      |
-|  1.4   | 10/04/2019 | Adicionando descrição de cada requisito | Paulo Vitor |
-| 1.5 | 10/04/2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
-| 1.6 | 10/04/2019 | Adicionando descrição de cada requisito restante | Paulo Vitor |
+|  0.1   | 08/04/2019 |        Tabelas de Requisitos        | Paulo Vitor e João Rodrigues |
+|  0.2   | 09/04/2019 |      Complemento de informações     | João Rodrigues e Paulo Vitor |
+|  0.3   | 09/04/2019 |             Refatoração             |        João Rodrigues        |
+|  0.4   | 10/04/2019 |             Adicionando código de requisitos para visualização no FtF            |        João Gabriel Rossi      |
+|  0.5   | 10/04/2019 | Adicionando descrição de cada requisito | Paulo Vitor |
+| 0.6 | 10/04/2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
+| 1.0 | 10/04/2019 | Adicionando descrição de cada requisito restante | Paulo Vitor |
 
 ## Brainstorm
 

@@ -4,8 +4,8 @@
 
 | Versão |   Data    |            Modificação             |       Autor        |
 | :----: | :-------: | :--------------------------------: | :----------------: |
-|  1.0   | 10/04/2019 | Insere script de tabelas - .ods para .md | Welison Regis |
-|  1.0   | 22/04/2019 | Insere script de C&L - Web Crawler | Welison Regis |
+|  0.1   | 24/06/2019 | Insere script de tabelas - .ods para .md | Welison Regis |
+|  1.0   | 24/06/2019 | Insere script de C&L - Web Crawler | Welison Regis |
 
 
 ## Scripts

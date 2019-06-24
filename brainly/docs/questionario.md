@@ -6,10 +6,10 @@
 |  :------: | :------: | :------: | :------: |
 | 0.1 | 08/04/2019 | Questionário geral e usuários do Brainly | Gustavo Marques, Ivan Dobbin |
 | 0.2 | 08/04/2019 | Questionário geral apenas | Ivan Dobbin, Gustavo Marques |
-| 1.0 | 09/04/2019 | Questionário direcionado | Leonardo Medeiros, Ivan Dobbin, Gustavo Marques |
-| 2.0 | 09/04/2019 | Adiciona resultado do questionário e realiza análise | Gustavo Marques, Ivan Dobbin |
-| 2.1 | 10/04/2019 | Altera estrutura de apresentação do questionário | Welison Regis |
-| 2.2 | 10/04/2019 | Adição da tabela e aplicação do MoSCoW nos requisitos elicitados | Gustavo Marques, Ivan Dobbin |
+| 0.3 | 09/04/2019 | Questionário direcionado | Leonardo Medeiros, Ivan Dobbin, Gustavo Marques |
+| 0.4 | 09/04/2019 | Adiciona resultado do questionário e realiza análise | Gustavo Marques, Ivan Dobbin |
+| 0.5 | 10/04/2019 | Altera estrutura de apresentação do questionário | Welison Regis |
+| 1.0 | 10/04/2019 | Adição da tabela e aplicação do MoSCoW nos requisitos elicitados | Gustavo Marques, Ivan Dobbin |
 
 **As perguntas realizadas neste questionário podem ser visualizadas [AQUI](#questionario-aplicado)**.
 

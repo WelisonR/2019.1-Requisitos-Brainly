@@ -4,9 +4,9 @@
 
 | Versão |    Data    |      Modificação     |    Autor(es)   |
 | :----: | :--------: | :------------------: | :------------: |
-|  1.0   | 09/04/2019 | Observação - inicial | João Rodrigues |
-|  1.1   | 10/04/2019 | Adicionando código | João Gabriel Rossi |
-| 1.2 | 10/04/2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
+|  0.1   | 09/04/2019 | Observação - inicial | João Rodrigues |
+|  0.2   | 10/04/2019 | Adicionando código | João Gabriel Rossi |
+| 1.0 | 10/04/2019 | Aplicação do MoSCoW nos requisitos elicitados | Lieverton Santos |
 
 ## Observação
 
