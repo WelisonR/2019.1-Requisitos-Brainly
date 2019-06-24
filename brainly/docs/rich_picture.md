@@ -52,4 +52,4 @@ Um modelo completamente informal, normalmente criado sem um rigor muito técnico
 
 ![Rich picture primeiros passos de novo usuário cadastrado](images/rich_picture/rich_picture_primeiros_passos_usuario_cadastrado.png)
 
-[Versões anteriores](https://welisonr.github.io/2019.1-Requisitos-Brainly/rich_picture_versoes/)
+[Versões anteriores](rich_picture_versoes.md)
